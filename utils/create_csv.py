@@ -1,18 +1,13 @@
 import pandas as pd
 
-from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
-import yaml
 
-SETTINGS_PATH = Path("C:/Users/ste-c/OneDrive/Documents/1001-albums/cfg/setting.yaml")
+from cfg.cfg import Config
 
 
-def save_csv() -> None:
-    with open(SETTINGS_PATH, "r") as steam:
-        csv_settings = yaml.safe_load(stream=steam)
+def save_csv(cfg: Config) -> None:
 
-    excel = pd.read_excel(csv_settings["raw_excel_path"], csv_settings["sheet_name"])
+    excel = pd.read_excel(cfg.data.raw_excel_path, cfg.data.sheet_name)
 
     excel["listened"] = excel["✓"].apply(lambda x: True if x == "✓" else False)
     excel["previous_listened"] = excel.apply(
@@ -24,13 +19,10 @@ def save_csv() -> None:
         ["key", "Album Title", "Artist", "Release Date", "Total Times (s)"]
     ]
     raw_data_csv.to_csv(
-        Path(csv_settings["csv_save_dir"]) / "album_data.csv", index=False
+        Path(cfg.data.csv_save_dir) / f"{cfg.data.album_data_csv_name}.csv", index=False
     )
     personal_data_csv = excel[["key", "listened", "previous_listened", "Comments"]]
     personal_data_csv.to_csv(
-        Path(csv_settings["csv_save_dir"]) / "personal_data.csv", index=False
+        Path(cfg.data.csv_save_dir) / f"{cfg.data.personal_data_csv_name}.csv",
+        index=False,
     )
-
-
-if __name__ == "__main__":
-    save_csv()
