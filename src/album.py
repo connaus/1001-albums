@@ -1,5 +1,11 @@
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timedelta
+
+from pathlib import Path
+from typing import Any
+import pandas as pd
+from cfg.cfg import Config
+import cfg.schema as sch
 
 
 @dataclass
@@ -11,37 +17,43 @@ class Album:
     previous_listened: bool
     listened: bool
     release_date: datetime
+    total_time: timedelta
     comments: str = ""
-    _total_time_s: int | None = None
 
-    @property
-    def total_time_s(self) -> int | None:
-        return self._total_time_s
 
-    @total_time_s.setter
-    def total_time_s(self, x: int) -> None:
-        self._total_time_s = x
+def load_albums(cfg: Config) -> list[Album]:
+    albums = pd.read_csv(
+        Path(cfg.data.csv_save_dir) / f"{cfg.data.album_data_csv_name}.csv"
+    )
+    personal = pd.read_csv(
+        Path(cfg.data.csv_save_dir) / f"{cfg.data.personal_data_csv_name}.csv"
+    )
+    albums[sch.Albums.total_time] = albums[sch.Albums.total_time].fillna(0)
+    albums[sch.Albums.total_time] = albums[sch.Albums.total_time].apply(
+        lambda x: timedelta(seconds=x)
+    )
+    albums.rename(
+        {
+            sch.Albums.key: "album_number",
+            sch.Albums.album_title: "album_title",
+            sch.Albums.artist: "artist",
+            sch.Albums.release_date: "release_date",
+            sch.Albums.total_time: "total_time",
+        },
+        axis=1,
+        inplace=True,
+    )
 
-    @property
-    def total_time_hrs(self) -> int | None:
-        if self.total_time_s is None:
-            return None
-        return self.total_time_s // 3600
+    personal.rename(
+        {
+            sch.PersonalData.key: "album_number",
+            sch.PersonalData.previous_listened: "previous_listened",
+            sch.PersonalData.listened: "listened",
+            sch.PersonalData.comments: "comments",
+        },
+        axis=1,
+        inplace=True,
+    )
 
-    @total_time_hrs.setter
-    def total_time_hrs(self, x: int) -> None:
-        if self.total_time_s is None:
-            self.total_time_s = x * 3600
-        self.total_time_s += x * 3600
-
-    @property
-    def total_time_mins(self) -> int | None:
-        if self.total_time_s is None:
-            return None
-        return (self.total_time_s // 60) - (60 * self.total_time_hrs)  # type: ignore (total_time_hrs only None if total_time_s is also None)
-
-    @total_time_mins.setter
-    def total_time_mins(self, x: int) -> None:
-        if self.total_time_s is None:
-            self.total_time_s = x * 60
-        self.total_time_s += x * 60
+    data = albums.merge(personal, on="album_number")
+    return [Album(**row) for row in data.to_dict("records")]  # type: ignore (arguemnts are of type string, not Hashable)
