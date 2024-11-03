@@ -10,5 +10,5 @@ def main() -> None:
     save_csv(cfg)
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     main()
