@@ -16,7 +16,7 @@ class Album:
     artist: str
     previous_listened: bool
     listened: bool
-    release_date: datetime
+    release_date: int
     total_time: timedelta
     comments: str = ""
 
