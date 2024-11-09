@@ -16,6 +16,13 @@ def albums_previously_listened_to(albums: list[Album]) -> int:
     return len([album for album in albums if album.previous_listened == True])
 
 
+def total_listened_time(albums: list[Album]) -> timedelta:
+    total_time = timedelta()
+    for album in albums:
+        total_time += album.total_time
+    return total_time
+
+
 def total_albums_by_year(albums: list[Album]) -> dict[int, int]:
     d = defaultdict(int)
     for album in albums:
