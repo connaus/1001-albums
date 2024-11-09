@@ -21,9 +21,21 @@ def main() -> None:
         page_title="Hello",
     )
     st.write("## 1001 Albums to Hear Before you Die")
-    left, right = st.columns(2)
-    left.write(f"{ac.albums_listened_to(albums)} / 1001 Albums Heard")
-    right.write(f"Total Listening Time: {ac.total_listened_time(albums)}")
+    left1, right1 = st.columns(2)
+    left1.write(
+        f"Albums Heard Previously\n\n{ac.albums_previously_listened_to(albums)} / 1001"
+    )
+    right1.write(
+        f"Total Previous Listening Time\n\n{ac.previous_listened_time(albums)}"
+    )
+
+    left2, right2 = st.columns(2)
+    left2.write(f"New Albums Heard\n\n{ac.albums_newly_listened_to(albums)} / 1001")
+    right2.write(f"Total Previous Listening Time\n\n{ac.new_listened_time(albums)}")
+
+    left3, right3 = st.columns(2)
+    left3.markdown(f"**Albums Heard**\n\n**{ac.albums_listened_to(albums)} / 1001**")
+    right3.markdown(f"**Total Listening Time**\n\n**{ac.total_listened_time(albums)}**")
     st.sidebar.success("Select a page above.")
 
 

@@ -16,6 +16,36 @@ def albums_previously_listened_to(albums: list[Album]) -> int:
     return len([album for album in albums if album.previous_listened == True])
 
 
+def previous_listened_time(albums: list[Album]) -> timedelta:
+    total_time = timedelta()
+    for album in albums:
+        total_time += (
+            album.total_time if album.previous_listened == True else timedelta(0)
+        )
+    return total_time
+
+
+def albums_newly_listened_to(albums: list[Album]) -> int:
+    return len(
+        [
+            album
+            for album in albums
+            if (album.previous_listened == False) & (album.listened == True)
+        ]
+    )
+
+
+def new_listened_time(albums: list[Album]) -> timedelta:
+    total_time = timedelta()
+    for album in albums:
+        total_time += (
+            album.total_time
+            if (album.previous_listened == False) & (album.listened == True)
+            else timedelta(0)
+        )
+    return total_time
+
+
 def total_listened_time(albums: list[Album]) -> timedelta:
     total_time = timedelta()
     for album in albums:
