@@ -4,8 +4,9 @@ from datetime import timedelta
 from src.album import Album
 
 
-def latest_album_key(albums: list[Album]) -> int:
-    return min([album.album_number for album in albums if album.listened == False])
+def next_album(albums: list[Album]) -> Album:
+    key = min([album.album_number for album in albums if album.listened == False])
+    return [album for album in albums if album.album_number == key][0]
 
 
 def albums_listened_to(albums: list[Album]) -> int:

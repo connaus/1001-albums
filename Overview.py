@@ -4,6 +4,7 @@ import streamlit as st
 from cfg.cfg import load_config
 from src.album import load_albums
 import src.album_calcs as ac
+from utils.create_csv import save_csv
 
 
 def main() -> None:
@@ -15,6 +16,7 @@ def main() -> None:
 
     # TODO: load albums in a single place
     cfg = load_config(SETTING_PATH)
+    save_csv(cfg)
     albums = load_albums(cfg)
 
     st.set_page_config(
@@ -37,6 +39,11 @@ def main() -> None:
     left3.markdown(f"**Albums Heard**\n\n**{ac.albums_listened_to(albums)} / 1001**")
     right3.markdown(f"**Total Listening Time**\n\n**{ac.total_listened_time(albums)}**")
     st.sidebar.success("Select a page above.")
+
+    next_album = ac.next_album(albums)
+    st.write(f"**Next Album**")
+    st.write(f"Title: {next_album.album_title}")
+    st.write(f"Artist: {next_album.artist}")
 
 
 if __name__ == "__main__":
