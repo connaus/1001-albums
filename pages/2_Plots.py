@@ -1,8 +1,4 @@
-from pathlib import Path
-
-
-from cfg.cfg import load_config
-from src.album import load_albums
+from src.album import Album
 
 # import matplotlib.figure as fig
 import matplotlib.pyplot as plt
@@ -10,13 +6,8 @@ import matplotlib.ticker as tkr
 import src.album_calcs as ac
 import streamlit as st
 
-# TODO: read settings in a single place
-SETTING_PATH = Path("C:/Users/ste-c/OneDrive/Documents/1001-albums/cfg/setting.yaml")
 
-# TODO: load albums in a single place
-cfg = load_config(SETTING_PATH)
-albums = load_albums(cfg)
-
+albums: list[Album] = st.session_state.albums
 total = ac.total_albums_by_year(albums)
 listend = ac.listened_albums_by_year(albums)
 listend_time = ac.listened_time_by_year(albums)
