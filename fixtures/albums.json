@@ -1,0 +1,7009 @@
+[
+    {
+        "album_number": 0,
+        "album_title": "In The Wee Small Hours",
+        "artist": "Frank Sinatra",
+        "release_date": 1955,
+        "total_time": 2998
+    },
+    {
+        "album_number": 1,
+        "album_title": "Elvis Presley",
+        "artist": "Elvis Presley",
+        "release_date": 1956,
+        "total_time": 1699
+    },
+    {
+        "album_number": 2,
+        "album_title": "Ellington at Newport '56",
+        "artist": "Duke Ellington",
+        "release_date": 1956,
+        "total_time": 4083
+    },
+    {
+        "album_number": 3,
+        "album_title": "Songs For Swingin' Lovers",
+        "artist": "Frank Sinatra",
+        "release_date": 1956,
+        "total_time": 2687
+    },
+    {
+        "album_number": 4,
+        "album_title": "Tragic Songs Of Life",
+        "artist": "The Louvin Brothers",
+        "release_date": 1956,
+        "total_time": 2164
+    },
+    {
+        "album_number": 5,
+        "album_title": "The Wildest",
+        "artist": "Louis Prima",
+        "release_date": 1956,
+        "total_time": 2519
+    },
+    {
+        "album_number": 6,
+        "album_title": "This is Fats Domino!",
+        "artist": "Fats Domino",
+        "release_date": 1956,
+        "total_time": 1631
+    },
+    {
+        "album_number": 7,
+        "album_title": "Birth of the Cool",
+        "artist": "Miles Davis",
+        "release_date": 1957,
+        "total_time": 1958
+    },
+    {
+        "album_number": 8,
+        "album_title": "Brilliant Corners",
+        "artist": "Thelonious Monk",
+        "release_date": 1957,
+        "total_time": 2570
+    },
+    {
+        "album_number": 9,
+        "album_title": "Here's Little Richard",
+        "artist": "Little Richard",
+        "release_date": 1957,
+        "total_time": 1710
+    },
+    {
+        "album_number": 10,
+        "album_title": "Kenya",
+        "artist": "Machito",
+        "release_date": 1957,
+        "total_time": 2144
+    },
+    {
+        "album_number": 11,
+        "album_title": "Palo Congo",
+        "artist": "Sabu",
+        "release_date": 1957,
+        "total_time": 2451
+    },
+    {
+        "album_number": 12,
+        "album_title": "The 'Chirping' Crickets",
+        "artist": "The Crickets",
+        "release_date": 1957,
+        "total_time": 1559
+    },
+    {
+        "album_number": 13,
+        "album_title": "The Atomic Mr Basie",
+        "artist": "Count Basie",
+        "release_date": 1958,
+        "total_time": 2377
+    },
+    {
+        "album_number": 14,
+        "album_title": "Dance Mania",
+        "artist": "Tito Puente",
+        "release_date": 1958,
+        "total_time": 2293
+    },
+    {
+        "album_number": 15,
+        "album_title": "Jack Takes the Floor",
+        "artist": "Ramblin' Jack Elliott",
+        "release_date": 1958,
+        "total_time": 2635
+    },
+    {
+        "album_number": 16,
+        "album_title": "Lady in Satin",
+        "artist": "Billie Holiday",
+        "release_date": 1958,
+        "total_time": 2676
+    },
+    {
+        "album_number": 17,
+        "album_title": "Live at Mister Kelly's",
+        "artist": "Sarah Vaughan",
+        "release_date": 1958,
+        "total_time": 4360
+    },
+    {
+        "album_number": 18,
+        "album_title": "George Gershwin Songbook",
+        "artist": "Ella Fitzgerald",
+        "release_date": 1959,
+        "total_time": 11700
+    },
+    {
+        "album_number": 19,
+        "album_title": "Gunfighter Ballads And Trail Songs",
+        "artist": "Marty Robbins",
+        "release_date": 1959,
+        "total_time": 2647
+    },
+    {
+        "album_number": 20,
+        "album_title": "Kind of Blue",
+        "artist": "Miles Davis",
+        "release_date": 1959,
+        "total_time": 2745
+    },
+    {
+        "album_number": 21,
+        "album_title": "The Genius of Ray Charles",
+        "artist": "Ray Charles",
+        "release_date": 1959,
+        "total_time": 2312
+    },
+    {
+        "album_number": 22,
+        "album_title": "Time Out",
+        "artist": "Dave Brubeck Quartet",
+        "release_date": 1959,
+        "total_time": 2300
+    },
+    {
+        "album_number": 23,
+        "album_title": "A Date with the Everly Brothers",
+        "artist": "The Everly Bothers",
+        "release_date": 1960,
+        "total_time": 1668
+    },
+    {
+        "album_number": 24,
+        "album_title": "Elvis is Back!",
+        "artist": "Elvis Presley",
+        "release_date": 1960,
+        "total_time": 1906
+    },
+    {
+        "album_number": 25,
+        "album_title": "Joan Baez",
+        "artist": "Joan Baez",
+        "release_date": 1960,
+        "total_time": 3326
+    },
+    {
+        "album_number": 26,
+        "album_title": "Miriam Makeba",
+        "artist": "Miriam Makeba",
+        "release_date": 1960,
+        "total_time": 2145
+    },
+    {
+        "album_number": 27,
+        "album_title": "Muddy Waters at Newport",
+        "artist": "Muddy Waters",
+        "release_date": 1960,
+        "total_time": 2681
+    },
+    {
+        "album_number": 28,
+        "album_title": "Back at the Chicken Shack",
+        "artist": "Jimmy Smith",
+        "release_date": 1961,
+        "total_time": 2628
+    },
+    {
+        "album_number": 29,
+        "album_title": "Sunday at the Village Vanguard",
+        "artist": "Bill Evans",
+        "release_date": 1961,
+        "total_time": 2523
+    },
+    {
+        "album_number": 30,
+        "album_title": "Green Onions",
+        "artist": "Booker T & The MGs",
+        "release_date": 1962,
+        "total_time": 2114
+    },
+    {
+        "album_number": 31,
+        "album_title": "Jazz Samba",
+        "artist": "Stan Getz/Charlie Byrd",
+        "release_date": 1962,
+        "total_time": 1982
+    },
+    {
+        "album_number": 32,
+        "album_title": "Modern Sounds In Country And Western Music",
+        "artist": "Ray Charles",
+        "release_date": 1962,
+        "total_time": 2373
+    },
+    {
+        "album_number": 33,
+        "album_title": "The Freewheelin' Bob Dylan",
+        "artist": "Bob Dylan",
+        "release_date": 1963,
+        "total_time": 2970
+    },
+    {
+        "album_number": 34,
+        "album_title": "A Christmas Gift To You",
+        "artist": "Phil Spector",
+        "release_date": 1963,
+        "total_time": 2060
+    },
+    {
+        "album_number": 35,
+        "album_title": "Live at the Apollo",
+        "artist": "James Brown",
+        "release_date": 1963,
+        "total_time": 1893
+    },
+    {
+        "album_number": 36,
+        "album_title": "Live At The Harlem Square Club",
+        "artist": "Sam Cooke",
+        "release_date": 1963,
+        "total_time": 2193
+    },
+    {
+        "album_number": 37,
+        "album_title": "Night Life",
+        "artist": "Ray Price",
+        "release_date": 1963,
+        "total_time": 2228
+    },
+    {
+        "album_number": 38,
+        "album_title": "The Black Saint and the Sinner Lady",
+        "artist": "Charles Mingus",
+        "release_date": 1963,
+        "total_time": 2365
+    },
+    {
+        "album_number": 39,
+        "album_title": "With The Beatles",
+        "artist": "The Beatles",
+        "release_date": 1963,
+        "total_time": 1983
+    },
+    {
+        "album_number": 40,
+        "album_title": "Getz/Gilberto",
+        "artist": "Stan Getz/Joao Gilberto",
+        "release_date": 1964,
+        "total_time": 2026
+    },
+    {
+        "album_number": 41,
+        "album_title": "A Hard Day's Night",
+        "artist": "The Beatles",
+        "release_date": 1964,
+        "total_time": 1811
+    },
+    {
+        "album_number": 42,
+        "album_title": "Olympia '64",
+        "artist": "Jacques Brel",
+        "release_date": 1964,
+        "total_time": 1698
+    },
+    {
+        "album_number": 43,
+        "album_title": "Rock & Soul",
+        "artist": "Solomon Burke",
+        "release_date": 1964,
+        "total_time": 2105
+    },
+    {
+        "album_number": 44,
+        "album_title": "A Girl Called Dusty",
+        "artist": "Dusty Springfield",
+        "release_date": 1964,
+        "total_time": 1974
+    },
+    {
+        "album_number": 45,
+        "album_title": "The Rolling Stones",
+        "artist": "The Rolling Stones",
+        "release_date": 1964,
+        "total_time": 1976
+    },
+    {
+        "album_number": 46,
+        "album_title": "I've Got A Tiger By The Tail",
+        "artist": "Buck Owens",
+        "release_date": 1965,
+        "total_time": 1699
+    },
+    {
+        "album_number": 47,
+        "album_title": "Live At The Star Club, Hamburg",
+        "artist": "Jerry Lee Lewis",
+        "release_date": 1965,
+        "total_time": 2222
+    },
+    {
+        "album_number": 48,
+        "album_title": "Here Are The Sonics",
+        "artist": "The Sonics",
+        "release_date": 1965,
+        "total_time": 1760
+    },
+    {
+        "album_number": 49,
+        "album_title": "Bringing It All Back Home",
+        "artist": "Bob Dylan",
+        "release_date": 1965,
+        "total_time": 2814
+    },
+    {
+        "album_number": 50,
+        "album_title": "Otis Blue",
+        "artist": "Otis Redding",
+        "release_date": 1965,
+        "total_time": 1970
+    },
+    {
+        "album_number": 51,
+        "album_title": "Today!",
+        "artist": "The Beach Boys",
+        "release_date": 1965,
+        "total_time": 1735
+    },
+    {
+        "album_number": 52,
+        "album_title": "A Love Supreme",
+        "artist": "John Coltrane",
+        "release_date": 1965,
+        "total_time": 1966
+    },
+    {
+        "album_number": 53,
+        "album_title": "Live At The Regal",
+        "artist": "BB King",
+        "release_date": 1965,
+        "total_time": 2100
+    },
+    {
+        "album_number": 54,
+        "album_title": "Rubber Soul",
+        "artist": "The Beatles",
+        "release_date": 1965,
+        "total_time": 2132
+    },
+    {
+        "album_number": 55,
+        "album_title": "Bert Jansch",
+        "artist": "Bert Jansch",
+        "release_date": 1965,
+        "total_time": 2305
+    },
+    {
+        "album_number": 56,
+        "album_title": "Mr Tambourine Man",
+        "artist": "The Byrds",
+        "release_date": 1965,
+        "total_time": 1845
+    },
+    {
+        "album_number": 57,
+        "album_title": "Highway 61 Revisited",
+        "artist": "Bob Dylan",
+        "release_date": 1965,
+        "total_time": 3065
+    },
+    {
+        "album_number": 58,
+        "album_title": "My Generation",
+        "artist": "The Who",
+        "release_date": 1965,
+        "total_time": 2173
+    },
+    {
+        "album_number": 59,
+        "album_title": "Revolver",
+        "artist": "The Beatles",
+        "release_date": 1966,
+        "total_time": 2085
+    },
+    {
+        "album_number": 60,
+        "album_title": "Pet Sounds",
+        "artist": "The Beach Boys",
+        "release_date": 1966,
+        "total_time": 2241
+    },
+    {
+        "album_number": 61,
+        "album_title": "Fred Neil",
+        "artist": "Fred Neil",
+        "release_date": 1966,
+        "total_time": 2339
+    },
+    {
+        "album_number": 62,
+        "album_title": "Fifth Dimension",
+        "artist": "The Byrds",
+        "release_date": 1966,
+        "total_time": 1799
+    },
+    {
+        "album_number": 63,
+        "album_title": "Blonde On Blonde",
+        "artist": "Bob Dylan",
+        "release_date": 1966,
+        "total_time": 4320
+    },
+    {
+        "album_number": 64,
+        "album_title": "Black Monk Time",
+        "artist": "The Monks",
+        "release_date": 1966,
+        "total_time": 1681
+    },
+    {
+        "album_number": 65,
+        "album_title": "Face to Face",
+        "artist": "The Kinks",
+        "release_date": 1966,
+        "total_time": 2311
+    },
+    {
+        "album_number": 66,
+        "album_title": "Mamas And The Papas",
+        "artist": "Mamas And The Papas",
+        "release_date": 1966,
+        "total_time": 2096
+    },
+    {
+        "album_number": 67,
+        "album_title": "Midnight Ride",
+        "artist": "Paul Revere and the Raiders",
+        "release_date": 1966,
+        "total_time": 1658
+    },
+    {
+        "album_number": 68,
+        "album_title": "Freak Out!",
+        "artist": "Frank Zappa and the Mothers of Invention",
+        "release_date": 1966,
+        "total_time": 3600
+    },
+    {
+        "album_number": 69,
+        "album_title": "Aftermath",
+        "artist": "The Rolling Stones",
+        "release_date": 1966,
+        "total_time": 3192
+    },
+    {
+        "album_number": 70,
+        "album_title": "Parsley, Sage, Rosemary and Thyme",
+        "artist": "Simon & Garfunkel",
+        "release_date": 1966,
+        "total_time": 1686
+    },
+    {
+        "album_number": 71,
+        "album_title": "The Psychedelic Sounds of the 13th Floor Elevators",
+        "artist": "The 13th Floor Elevators",
+        "release_date": 1966,
+        "total_time": 2143
+    },
+    {
+        "album_number": 72,
+        "album_title": "Bluesbreakers with Eric Clapton",
+        "artist": "John Mayall's Bluesbreakers",
+        "release_date": 1966,
+        "total_time": 2226
+    },
+    {
+        "album_number": 73,
+        "album_title": "Yardbirds",
+        "artist": "The Yardbirds",
+        "release_date": 1966,
+        "total_time": 2152
+    },
+    {
+        "album_number": 74,
+        "album_title": "Wild is the Wind",
+        "artist": "Nina Simone",
+        "release_date": 1966,
+        "total_time": 2325
+    },
+    {
+        "album_number": 75,
+        "album_title": "Beach Samba",
+        "artist": "Astrud Gilberto",
+        "release_date": 1967,
+        "total_time": 1658
+    },
+    {
+        "album_number": 76,
+        "album_title": "Chelsea Girl",
+        "artist": "Nico",
+        "release_date": 1967,
+        "total_time": 2708
+    },
+    {
+        "album_number": 77,
+        "album_title": "Sgt Pepper's Lonely Hearts Club Band",
+        "artist": "The Beatles",
+        "release_date": 1967,
+        "total_time": 2395
+    },
+    {
+        "album_number": 78,
+        "album_title": "Electric Music For The Mind And Body",
+        "artist": "Country Joe And The Fish",
+        "release_date": 1967,
+        "total_time": 2643
+    },
+    {
+        "album_number": 79,
+        "album_title": "Buffalo Springfield Again",
+        "artist": "Buffalo Springfield",
+        "release_date": 1967,
+        "total_time": 2042
+    },
+    {
+        "album_number": 80,
+        "album_title": "Safe As Milk",
+        "artist": "Captain Beefheart and His Magic Band",
+        "release_date": 1967,
+        "total_time": 2020
+    },
+    {
+        "album_number": 81,
+        "album_title": "Moby Grape",
+        "artist": "Moby Grape",
+        "release_date": 1967,
+        "total_time": 1991
+    },
+    {
+        "album_number": 82,
+        "album_title": "Da Capo",
+        "artist": "Love",
+        "release_date": 1967,
+        "total_time": 2154
+    },
+    {
+        "album_number": 83,
+        "album_title": "Triangle",
+        "artist": "The Beau Brummels",
+        "release_date": 1967,
+        "total_time": 1734
+    },
+    {
+        "album_number": 84,
+        "album_title": "Headquarters",
+        "artist": "The Monkees",
+        "release_date": 1967,
+        "total_time": 1852
+    },
+    {
+        "album_number": 85,
+        "album_title": "Goodbye And Hello",
+        "artist": "Tim Buckley",
+        "release_date": 1967,
+        "total_time": 2590
+    },
+    {
+        "album_number": 86,
+        "album_title": "Forever Changes",
+        "artist": "Love",
+        "release_date": 1967,
+        "total_time": 2570
+    },
+    {
+        "album_number": 87,
+        "album_title": "Disraeli Gears",
+        "artist": "Cream",
+        "release_date": 1967,
+        "total_time": 1986
+    },
+    {
+        "album_number": 88,
+        "album_title": "The Piper at the Gates of Dawn",
+        "artist": "Pink Floyd",
+        "release_date": 1967,
+        "total_time": 2516
+    },
+    {
+        "album_number": 89,
+        "album_title": "The Who Sell Out",
+        "artist": "The Who",
+        "release_date": 1967,
+        "total_time": 2326
+    },
+    {
+        "album_number": 90,
+        "album_title": "The Velvet Underground & Nico",
+        "artist": "The Velvet Underground",
+        "release_date": 1967,
+        "total_time": 2937
+    },
+    {
+        "album_number": 91,
+        "album_title": "Francis Albert Sinatra & Antonio Carlos Jobim",
+        "artist": "Francis Albert Sinatra & Antonio Carlos Jobim",
+        "release_date": 1967,
+        "total_time": 1685
+    },
+    {
+        "album_number": 92,
+        "album_title": "The Doors",
+        "artist": "The Doors",
+        "release_date": 1967,
+        "total_time": 2651
+    },
+    {
+        "album_number": 93,
+        "album_title": "Younger Than Yesterday",
+        "artist": "The Byrds",
+        "release_date": 1967,
+        "total_time": 1707
+    },
+    {
+        "album_number": 94,
+        "album_title": "Groovin'",
+        "artist": "The Young Rascals",
+        "release_date": 1967,
+        "total_time": 2074
+    },
+    {
+        "album_number": 95,
+        "album_title": "Surrealistic Pillow",
+        "artist": "Jefferson Airplane",
+        "release_date": 1967,
+        "total_time": 2020
+    },
+    {
+        "album_number": 96,
+        "album_title": "Something Else by The Kinks",
+        "artist": "The Kinks",
+        "release_date": 1967,
+        "total_time": 2177
+    },
+    {
+        "album_number": 97,
+        "album_title": "Sunshine Superman",
+        "artist": "Donovan",
+        "release_date": 1967,
+        "total_time": 2579
+    },
+    {
+        "album_number": 98,
+        "album_title": "I'm A Lonesome Fugitive",
+        "artist": "Merle Haggard",
+        "release_date": 1967,
+        "total_time": 1865
+    },
+    {
+        "album_number": 99,
+        "album_title": "Are You Experienced?",
+        "artist": "The Jimi Hendrix Experience",
+        "release_date": 1967,
+        "total_time": 2407
+    },
+    {
+        "album_number": 100,
+        "album_title": "I Had Too Much to Dream Last Night",
+        "artist": "The Electric Prunes",
+        "release_date": 1967,
+        "total_time": 1790
+    },
+    {
+        "album_number": 101,
+        "album_title": "Don't Come Home A-Drinkin'",
+        "artist": "Loretta Lynn",
+        "release_date": 1967,
+        "total_time": 1708
+    },
+    {
+        "album_number": 102,
+        "album_title": "The Call of the Valley",
+        "artist": "Shivkumar Sharma/Brijbushan Kabra/Hariprasad Chaurasia",
+        "release_date": 1967,
+        "total_time": 2386
+    },
+    {
+        "album_number": 103,
+        "album_title": "White Light/White Heat",
+        "artist": "The Velvet Underground",
+        "release_date": 1967,
+        "total_time": 2418
+    },
+    {
+        "album_number": 104,
+        "album_title": "Axis: Bold As Love",
+        "artist": "The Jimi Hendrix Experience",
+        "release_date": 1967,
+        "total_time": 2357
+    },
+    {
+        "album_number": 105,
+        "album_title": "I Never Loved a Man the Way That I Love You",
+        "artist": "Aretha Franklin",
+        "release_date": 1967,
+        "total_time": 1971
+    },
+    {
+        "album_number": 106,
+        "album_title": "Beggars Banquet",
+        "artist": "The Rolling Stones",
+        "release_date": 1968,
+        "total_time": 2388
+    },
+    {
+        "album_number": 107,
+        "album_title": "Traffic",
+        "artist": "Traffic",
+        "release_date": 1968,
+        "total_time": 2424
+    },
+    {
+        "album_number": 108,
+        "album_title": "The Hangman's Beautiful Daughter",
+        "artist": "The Incredible String Band",
+        "release_date": 1968,
+        "total_time": 2950
+    },
+    {
+        "album_number": 109,
+        "album_title": "Village Green Preservation Society",
+        "artist": "The Kinks",
+        "release_date": 1968,
+        "total_time": 2326
+    },
+    {
+        "album_number": 110,
+        "album_title": "The Sounds of India",
+        "artist": "Ravi Shankar",
+        "release_date": 1968,
+        "total_time": 3202
+    },
+    {
+        "album_number": 111,
+        "album_title": "Os Mutantes",
+        "artist": "Os Mutantes",
+        "release_date": 1968,
+        "total_time": 2190
+    },
+    {
+        "album_number": 112,
+        "album_title": "Electric Ladyland",
+        "artist": "The Jimi Hendrix Experience",
+        "release_date": 1968,
+        "total_time": 4500
+    },
+    {
+        "album_number": 113,
+        "album_title": "Songs Of Leonard Cohen",
+        "artist": "Leonard Cohen",
+        "release_date": 1968,
+        "total_time": 2494
+    },
+    {
+        "album_number": 114,
+        "album_title": "Johnny Cash at Folsom Prison",
+        "artist": "Johnny Cash",
+        "release_date": 1968,
+        "total_time": 2725
+    },
+    {
+        "album_number": 115,
+        "album_title": "Eli And The Thirteenth Confession",
+        "artist": "Laura Nyro",
+        "release_date": 1968,
+        "total_time": 2775
+    },
+    {
+        "album_number": 116,
+        "album_title": "Aretha: Lady Soul",
+        "artist": "Aretha Franklin",
+        "release_date": 1968,
+        "total_time": 1721
+    },
+    {
+        "album_number": 117,
+        "album_title": "Vincebus Eruptum",
+        "artist": "Blue Cheer",
+        "release_date": 1968,
+        "total_time": 1927
+    },
+    {
+        "album_number": 118,
+        "album_title": "The Notorious Byrd Brothers",
+        "artist": "The Byrds",
+        "release_date": 1968,
+        "total_time": 1708
+    },
+    {
+        "album_number": 119,
+        "album_title": "Cheap Thrills",
+        "artist": "Big Brother and the Holding Company",
+        "release_date": 1968,
+        "total_time": 2231
+    },
+    {
+        "album_number": 120,
+        "album_title": "The United States Of America",
+        "artist": "The United States Of America",
+        "release_date": 1968,
+        "total_time": 2227
+    },
+    {
+        "album_number": 121,
+        "album_title": "Gris Gris",
+        "artist": "Dr John",
+        "release_date": 1968,
+        "total_time": 2000
+    },
+    {
+        "album_number": 122,
+        "album_title": "In-a-gadda-da-vida",
+        "artist": "Iron Butterfly",
+        "release_date": 1968,
+        "total_time": 2170
+    },
+    {
+        "album_number": 123,
+        "album_title": "SF Sorrow",
+        "artist": "The Pretty Things",
+        "release_date": 1968,
+        "total_time": 2459
+    },
+    {
+        "album_number": 124,
+        "album_title": "Bookends",
+        "artist": "Simon & Garfunkel",
+        "release_date": 1968,
+        "total_time": 1767
+    },
+    {
+        "album_number": 125,
+        "album_title": "Ogden's Nut Gone Flake",
+        "artist": "The Small Faces",
+        "release_date": 1968,
+        "total_time": 2307
+    },
+    {
+        "album_number": 126,
+        "album_title": "Music from Big Pink",
+        "artist": "The Band",
+        "release_date": 1968,
+        "total_time": 2477
+    },
+    {
+        "album_number": 127,
+        "album_title": "Truth",
+        "artist": "Jeff Beck Group",
+        "release_date": 1968,
+        "total_time": 2416
+    },
+    {
+        "album_number": 128,
+        "album_title": "Caetano Veloso",
+        "artist": "Caetano Veloso",
+        "release_date": 1968,
+        "total_time": 2096
+    },
+    {
+        "album_number": 129,
+        "album_title": "Scott 2",
+        "artist": "Scott Walker",
+        "release_date": 1968,
+        "total_time": 2604
+    },
+    {
+        "album_number": 130,
+        "album_title": "Odessey And Oracle",
+        "artist": "The Zombies",
+        "release_date": 1968,
+        "total_time": 2110
+    },
+    {
+        "album_number": 131,
+        "album_title": "Astral Weeks",
+        "artist": "Van Morrison",
+        "release_date": 1968,
+        "total_time": 2832
+    },
+    {
+        "album_number": 132,
+        "album_title": "Sweetheart Of The Rodeo",
+        "artist": "The Byrds",
+        "release_date": 1968,
+        "total_time": 1955
+    },
+    {
+        "album_number": 133,
+        "album_title": "The Beatles (White Album)",
+        "artist": "The Beatles",
+        "release_date": 1968,
+        "total_time": 5613
+    },
+    {
+        "album_number": 134,
+        "album_title": "We're Only in it for the Money",
+        "artist": "The Mothers of Invention",
+        "release_date": 1968,
+        "total_time": 2360
+    },
+    {
+        "album_number": 135,
+        "album_title": "Everybody Knows This Is Nowhere",
+        "artist": "Neil Young",
+        "release_date": 1969,
+        "total_time": 2431
+    },
+    {
+        "album_number": 136,
+        "album_title": "Trout Mask Replica",
+        "artist": "Captain Beefheart and His Magic Band",
+        "release_date": 1969,
+        "total_time": 4737
+    },
+    {
+        "album_number": 137,
+        "album_title": "Bayou Country",
+        "artist": "Creedence Clearwater Revival",
+        "release_date": 1969,
+        "total_time": 2045
+    },
+    {
+        "album_number": 138,
+        "album_title": "Crosby, Stills And Nash",
+        "artist": "Crosby, Stills And Nash",
+        "release_date": 1969,
+        "total_time": 2452
+    },
+    {
+        "album_number": 139,
+        "album_title": "Blood, Sweat And Tears",
+        "artist": "Blood, Sweat And Tears",
+        "release_date": 1969,
+        "total_time": 2726
+    },
+    {
+        "album_number": 140,
+        "album_title": "The Gilded Palace of Sin",
+        "artist": "The Flying Burrito Brothers",
+        "release_date": 1969,
+        "total_time": 2222
+    },
+    {
+        "album_number": 141,
+        "album_title": "Johnny Cash at San Quentin",
+        "artist": "Johnny Cash",
+        "release_date": 1969,
+        "total_time": 2045
+    },
+    {
+        "album_number": 142,
+        "album_title": "Green River",
+        "artist": "Creedence Clearwater Revival",
+        "release_date": 1969,
+        "total_time": 1760
+    },
+    {
+        "album_number": 143,
+        "album_title": "Abbey Road",
+        "artist": "The Beatles",
+        "release_date": 1969,
+        "total_time": 2849
+    },
+    {
+        "album_number": 144,
+        "album_title": "Tommy",
+        "artist": "The Who",
+        "release_date": 1969,
+        "total_time": 4440
+    },
+    {
+        "album_number": 145,
+        "album_title": "In A Silent Way",
+        "artist": "Miles Davis",
+        "release_date": 1969,
+        "total_time": 2287
+    },
+    {
+        "album_number": 146,
+        "album_title": "Odessa",
+        "artist": "The Bee Gees",
+        "release_date": 1969,
+        "total_time": 3829
+    },
+    {
+        "album_number": 147,
+        "album_title": "Basket Of Light",
+        "artist": "Pentangle",
+        "release_date": 1969,
+        "total_time": 2464
+    },
+    {
+        "album_number": 148,
+        "album_title": "Let It Bleed",
+        "artist": "The Rolling Stones",
+        "release_date": 1969,
+        "total_time": 2543
+    },
+    {
+        "album_number": 149,
+        "album_title": "Five Leaves Left",
+        "artist": "Nick Drake",
+        "release_date": 1969,
+        "total_time": 2477
+    },
+    {
+        "album_number": 150,
+        "album_title": "Dusty in Memphis",
+        "artist": "Dusty Springfield",
+        "release_date": 1969,
+        "total_time": 1955
+    },
+    {
+        "album_number": 151,
+        "album_title": "From Elvis in Memphis",
+        "artist": "Elvis Presley",
+        "release_date": 1969,
+        "total_time": 2202
+    },
+    {
+        "album_number": 152,
+        "album_title": "The Velvet Underground",
+        "artist": "The Velvet Underground",
+        "release_date": 1969,
+        "total_time": 2633
+    },
+    {
+        "album_number": 153,
+        "album_title": "Happy Trails",
+        "artist": "Quicksilver Messenger Service",
+        "release_date": 1969,
+        "total_time": 3016
+    },
+    {
+        "album_number": 154,
+        "album_title": "Led Zeppelin I",
+        "artist": "Led Zeppelin",
+        "release_date": 1969,
+        "total_time": 2680
+    },
+    {
+        "album_number": 155,
+        "album_title": "The Band",
+        "artist": "The Band",
+        "release_date": 1969,
+        "total_time": 2618
+    },
+    {
+        "album_number": 156,
+        "album_title": "Led Zeppelin II",
+        "artist": "Led Zeppelin",
+        "release_date": 1969,
+        "total_time": 2497
+    },
+    {
+        "album_number": 157,
+        "album_title": "Kick Out The Jams",
+        "artist": "The MC5",
+        "release_date": 1969,
+        "total_time": 2398
+    },
+    {
+        "album_number": 158,
+        "album_title": "Cloud Nine",
+        "artist": "The Temptations",
+        "release_date": 1969,
+        "total_time": 2109
+    },
+    {
+        "album_number": 159,
+        "album_title": "Stand!",
+        "artist": "Sly & The Family Stone",
+        "release_date": 1969,
+        "total_time": 2487
+    },
+    {
+        "album_number": 160,
+        "album_title": "Happy Sad",
+        "artist": "Tim Buckley",
+        "release_date": 1969,
+        "total_time": 2700
+    },
+    {
+        "album_number": 161,
+        "album_title": "Chicago Transit Authority",
+        "artist": "Chicago",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 162,
+        "album_title": "Unhalfbricking",
+        "artist": "Fairport Convention",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 163,
+        "album_title": "Elephant Mountain",
+        "artist": "The Youngbloods",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 164,
+        "album_title": "Hot Buttered Soul",
+        "artist": "Isaac Hayes",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 165,
+        "album_title": "Live/Dead",
+        "artist": "The Grateful Dead",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 166,
+        "album_title": "Arthur - Or the decline and fall of the british empire",
+        "artist": "The Kinks",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 167,
+        "album_title": "In The Court of the Crimson King",
+        "artist": "King Crimson",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 168,
+        "album_title": "Songs From A Room",
+        "artist": "Leonard Cohen",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 169,
+        "album_title": "Liege And Lief",
+        "artist": "Fairport Convention",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 170,
+        "album_title": "Scott 4",
+        "artist": "Scott Walker",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 171,
+        "album_title": "The Stooges",
+        "artist": "The Stooges",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 172,
+        "album_title": "Oar",
+        "artist": "Alexander 'Skip' Spence",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 173,
+        "album_title": "Hot Rats",
+        "artist": "Frank Zappa",
+        "release_date": 1969,
+        "total_time": 0
+    },
+    {
+        "album_number": 174,
+        "album_title": "Abraxas",
+        "artist": "Santana",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 175,
+        "album_title": "After The Goldrush",
+        "artist": "Neil Young",
+        "release_date": 1970,
+        "total_time": 2012
+    },
+    {
+        "album_number": 176,
+        "album_title": "All Things Must Pass",
+        "artist": "George Harrison",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 177,
+        "album_title": "American Beauty",
+        "artist": "The Grateful Dead",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 178,
+        "album_title": "Ananda Shankar",
+        "artist": "Ananda Shankar",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 179,
+        "album_title": "Bitches Brew",
+        "artist": "Miles Davis",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 180,
+        "album_title": "Black Sabbath",
+        "artist": "Black Sabbath",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 181,
+        "album_title": "Bridge Over Troubled Water",
+        "artist": "Simon & Garfunkel",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 182,
+        "album_title": "Bryter Later",
+        "artist": "Nick Drake",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 183,
+        "album_title": "Close To You",
+        "artist": "The Carpenters",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 184,
+        "album_title": "Deep Purple in Rock",
+        "artist": "Deep Purple",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 185,
+        "album_title": "D\u00e9j\u00e0 Vu",
+        "artist": "Crosby, Stills, Nash & Young",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 186,
+        "album_title": "Fun House",
+        "artist": "Iggy Pop & The Stooges",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 187,
+        "album_title": "Gasoline Alley",
+        "artist": "Rod Stewart",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 188,
+        "album_title": "John Barleycorn Must Die",
+        "artist": "Traffic",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 189,
+        "album_title": "John Lennon/Plastic Ono Band",
+        "artist": "John Lennon",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 190,
+        "album_title": "Layla And Other Assorted Lovesongs",
+        "artist": "Derek And The Dominos",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 191,
+        "album_title": "Led Zeppelin III",
+        "artist": "Led Zeppelin",
+        "release_date": 1970,
+        "total_time": 2588
+    },
+    {
+        "album_number": 192,
+        "album_title": "Live at Leeds",
+        "artist": "The Who",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 193,
+        "album_title": "McCartney",
+        "artist": "McCartney",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 194,
+        "album_title": "Moondance",
+        "artist": "Van Morrison",
+        "release_date": 1970,
+        "total_time": 2334
+    },
+    {
+        "album_number": 195,
+        "album_title": "Morrison Hotel",
+        "artist": "The Doors",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 196,
+        "album_title": "Paranoid",
+        "artist": "Black Sabbath",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 197,
+        "album_title": "Stephen Stills",
+        "artist": "Stephen Stills",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 198,
+        "album_title": "Sweet Baby James",
+        "artist": "James Taylor",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 199,
+        "album_title": "Tea for the Tillerman",
+        "artist": "Cat Stevens",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 200,
+        "album_title": "The Madcap Laughs",
+        "artist": "Syd Barrett",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 201,
+        "album_title": "Third",
+        "artist": "Soft Machine",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 202,
+        "album_title": "Twelve Dreams of Doctor Sardonicus",
+        "artist": "Spirit",
+        "release_date": 1970,
+        "total_time": 0
+    },
+    {
+        "album_number": 203,
+        "album_title": "A Nod's As Good As Wink",
+        "artist": "The Faces",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 204,
+        "album_title": "American Pie",
+        "artist": "Don McLean",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 205,
+        "album_title": "Aqualung",
+        "artist": "Jethro Tull",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 206,
+        "album_title": "Blue",
+        "artist": "Joni Mitchell",
+        "release_date": 1971,
+        "total_time": 2175
+    },
+    {
+        "album_number": 207,
+        "album_title": "Coat Of Many Colors",
+        "artist": "Dolly Parton",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 208,
+        "album_title": "Cosmo's Factory",
+        "artist": "Creedence Clearwater Revival",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 209,
+        "album_title": "Electric Warrior",
+        "artist": "T Rex",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 210,
+        "album_title": "Every Picture Tells A Story",
+        "artist": "Rod Stewart",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 211,
+        "album_title": "Fragile",
+        "artist": "Yes",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 212,
+        "album_title": "Histoire de Melody Nelson",
+        "artist": "Serge Gainsbourg",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 213,
+        "album_title": "If Only I Could Remember My Name",
+        "artist": "David Crosby",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 214,
+        "album_title": "Imagine",
+        "artist": "John Lennon",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 215,
+        "album_title": "LA Woman",
+        "artist": "The Doors",
+        "release_date": 1971,
+        "total_time": 2911
+    },
+    {
+        "album_number": 216,
+        "album_title": "Led Zeppelin IV (Four Symbols)",
+        "artist": "Led Zeppelin",
+        "release_date": 1971,
+        "total_time": 2555
+    },
+    {
+        "album_number": 217,
+        "album_title": "Live With Ginger Baker",
+        "artist": "Fela Kuti",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 218,
+        "album_title": "Madman Across The Water",
+        "artist": "Elton John",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 219,
+        "album_title": "Maggot Brain",
+        "artist": "Funkadelic",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 220,
+        "album_title": "Nilsson Schmilsson",
+        "artist": "Harry Nilsson",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 221,
+        "album_title": "Pearl",
+        "artist": "Janis Joplin",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 222,
+        "album_title": "Pictures at an Exhibition",
+        "artist": "Emerson, Lake & Palmer",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 223,
+        "album_title": "Shaft",
+        "artist": "Isaac Hayes",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 224,
+        "album_title": "Songs of Love and Hate",
+        "artist": "Leonard Cohen",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 225,
+        "album_title": "Sticky Fingers",
+        "artist": "The Rolling Stones",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 226,
+        "album_title": "Surf's Up",
+        "artist": "The Beach Boys",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 227,
+        "album_title": "Tago Mago",
+        "artist": "Can",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 228,
+        "album_title": "Tapestry",
+        "artist": "Carole King",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 229,
+        "album_title": "Tarkus",
+        "artist": "Emerson, Lake & Palmer",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 230,
+        "album_title": "Teenage Head",
+        "artist": "The Flamin' Groovies",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 231,
+        "album_title": "The Allman Brothers at Fillmore East",
+        "artist": "The Allman Brothers",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 232,
+        "album_title": "The Yes Album",
+        "artist": "Yes",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 233,
+        "album_title": "There's a Riot Goin' On",
+        "artist": "Sly & The Family Stone",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 234,
+        "album_title": "Trafalgar",
+        "artist": "The Bee Gees",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 235,
+        "album_title": "What's Goin' On",
+        "artist": "Marvin Gaye",
+        "release_date": 1971,
+        "total_time": 2132
+    },
+    {
+        "album_number": 236,
+        "album_title": "Who's Next",
+        "artist": "The Who",
+        "release_date": 1971,
+        "total_time": 0
+    },
+    {
+        "album_number": 237,
+        "album_title": "All Directions",
+        "artist": "The Temptations",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 238,
+        "album_title": "American Gothic",
+        "artist": "David Ackles",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 239,
+        "album_title": "Can't Buy a Thrill",
+        "artist": "Steely Dan",
+        "release_date": 1972,
+        "total_time": 2470
+    },
+    {
+        "album_number": 240,
+        "album_title": "Close to The Edge",
+        "artist": "Yes",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 241,
+        "album_title": "Clube Da Esquina",
+        "artist": "Milton Nascimento",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 242,
+        "album_title": "Exile on Main Street",
+        "artist": "The Rolling Stones",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 243,
+        "album_title": "Harvest",
+        "artist": "Neil Young",
+        "release_date": 1972,
+        "total_time": 2230
+    },
+    {
+        "album_number": 244,
+        "album_title": "Home is Where the Music Is",
+        "artist": "Hugh Masekela",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 245,
+        "album_title": "Hunky Dory",
+        "artist": "David Bowie",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 246,
+        "album_title": "John Prine",
+        "artist": "John Prine",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 247,
+        "album_title": "Let's Stay Together",
+        "artist": "Al Green",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 248,
+        "album_title": "Machine Head",
+        "artist": "Deep Purple",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 249,
+        "album_title": "Marcus Garvey",
+        "artist": "Burning Spear",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 250,
+        "album_title": "No.1 Record",
+        "artist": "Big Star",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 251,
+        "album_title": "Paul Simon",
+        "artist": "Paul Simon",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 252,
+        "album_title": "Pink Moon",
+        "artist": "Nick Drake",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 253,
+        "album_title": "Roxy Music",
+        "artist": "Roxy Music",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 254,
+        "album_title": "Sail Away",
+        "artist": "Randy Newman",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 255,
+        "album_title": "School's Out",
+        "artist": "Alice Cooper",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 256,
+        "album_title": "Slayed?",
+        "artist": "Slade",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 257,
+        "album_title": "Something/Anything?",
+        "artist": "Todd Rundgren",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 258,
+        "album_title": "Superfly",
+        "artist": "Curtis Mayfield",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 259,
+        "album_title": "Talking Book",
+        "artist": "Stevie Wonder",
+        "release_date": 1972,
+        "total_time": 2608
+    },
+    {
+        "album_number": 260,
+        "album_title": "The Eagles",
+        "artist": "The Eagles",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 261,
+        "album_title": "The Slider",
+        "artist": "T Rex",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 262,
+        "album_title": "The World Is A Ghetto",
+        "artist": "War",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 263,
+        "album_title": "Transformer",
+        "artist": "Lou Reed",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 264,
+        "album_title": "Volume 4",
+        "artist": "Black Sabbath",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 265,
+        "album_title": "White Light",
+        "artist": "Gene Clark",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 266,
+        "album_title": "Will The Circle Be Unbroken",
+        "artist": "Nitty Gritty Dirt Band",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 267,
+        "album_title": "Ziggy Stardust and the Spiders from Mars",
+        "artist": "David Bowie",
+        "release_date": 1972,
+        "total_time": 0
+    },
+    {
+        "album_number": 268,
+        "album_title": "3+3",
+        "artist": "The Isley Bros",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 269,
+        "album_title": "A Wizard, A True Star",
+        "artist": "Todd Rundgren",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 270,
+        "album_title": "Aladdin Sane",
+        "artist": "David Bowie",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 271,
+        "album_title": "Band On The Run",
+        "artist": "Paul McCartney & Wings",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 272,
+        "album_title": "Berlin",
+        "artist": "Lou Reed",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 273,
+        "album_title": "Billion Dollar Babies",
+        "artist": "Alice Cooper",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 274,
+        "album_title": "Bongo Rock",
+        "artist": "Michael Viner's Incredible Bongo Band",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 275,
+        "album_title": "Catch A Fire",
+        "artist": "Bob Marley & The Wailers",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 276,
+        "album_title": "Countdown to Ecstasy",
+        "artist": "Steely Dan",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 277,
+        "album_title": "Dark Side of the Moon",
+        "artist": "Pink Floyd",
+        "release_date": 1973,
+        "total_time": 2555
+    },
+    {
+        "album_number": 278,
+        "album_title": "Faust IV",
+        "artist": "Faust",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 279,
+        "album_title": "For Your Pleasure",
+        "artist": "Roxy Music",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 280,
+        "album_title": "Future Days",
+        "artist": "Can",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 281,
+        "album_title": "Goodbye Yellow Brick Road",
+        "artist": "Elton John",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 282,
+        "album_title": "Grevious Angel",
+        "artist": "Gram Parsons",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 283,
+        "album_title": "Honky Tonk Heroes",
+        "artist": "Waylon Jennings",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 284,
+        "album_title": "Larks Tongues In Aspic",
+        "artist": "King Crimson",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 285,
+        "album_title": "Let's Get It On",
+        "artist": "Marvin Gaye",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 286,
+        "album_title": "Made In Japan",
+        "artist": "Deep Purple",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 287,
+        "album_title": "Mott",
+        "artist": "Mott The Hoople",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 288,
+        "album_title": "Next",
+        "artist": "The Sensational Alex Harvey Band",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 289,
+        "album_title": "Innervisions",
+        "artist": "Stevie Wonder",
+        "release_date": 1973,
+        "total_time": 2655
+    },
+    {
+        "album_number": 290,
+        "album_title": "Paris 1919",
+        "artist": "John Cale",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 291,
+        "album_title": "Pronounced Leh-nerd Skin-nerd",
+        "artist": "Lynyrd Skynyrd",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 292,
+        "album_title": "Raw Power",
+        "artist": "Iggy Pop & The Stooges",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 293,
+        "album_title": "Selling England by the Pound",
+        "artist": "Genesis",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 294,
+        "album_title": "Solid Air",
+        "artist": "John Martyn",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 295,
+        "album_title": "Space Ritual",
+        "artist": "Hawkwind",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 296,
+        "album_title": "Stephen Stills",
+        "artist": "Manassas",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 297,
+        "album_title": "The New York Dolls",
+        "artist": "The New York Dolls",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 298,
+        "album_title": "Tres Hombres",
+        "artist": "ZZ Top",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 299,
+        "album_title": "Tubular Bells",
+        "artist": "Mike Oldfield",
+        "release_date": 1973,
+        "total_time": 0
+    },
+    {
+        "album_number": 300,
+        "album_title": "461 Ocean Boulevard",
+        "artist": "Eric Clapton",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 301,
+        "album_title": "Autobahn",
+        "artist": "Kraftwerk",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 302,
+        "album_title": "Bad Company",
+        "artist": "Bad Company",
+        "release_date": 1974,
+        "total_time": 2085
+    },
+    {
+        "album_number": 303,
+        "album_title": "Blood On The Tracks",
+        "artist": "Bob Dylan",
+        "release_date": 1974,
+        "total_time": 3095
+    },
+    {
+        "album_number": 304,
+        "album_title": "Country Life",
+        "artist": "Roxy Music",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 305,
+        "album_title": "Court And Spark",
+        "artist": "Joni Mitchell",
+        "release_date": 1974,
+        "total_time": 2218
+    },
+    {
+        "album_number": 306,
+        "album_title": "Crime Of The Century",
+        "artist": "Supertramp",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 307,
+        "album_title": "Fullfillingness' First Finale",
+        "artist": "Stevie Wonder",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 308,
+        "album_title": "Good Old Boys",
+        "artist": "Randy Newman",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 309,
+        "album_title": "Headhunters",
+        "artist": "Herbie Hancock",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 310,
+        "album_title": "Here Come the Warm Jets",
+        "artist": "Brian Eno",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 311,
+        "album_title": "I Want To See The Bright Lights Tonight",
+        "artist": "Richard & Linda Thompson",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 312,
+        "album_title": "It's Too Late To Stop Now",
+        "artist": "Van Morrison",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 313,
+        "album_title": "Kimono My House",
+        "artist": "Sparks",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 314,
+        "album_title": "No Other",
+        "artist": "Gene Clark",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 315,
+        "album_title": "On the Beach",
+        "artist": "Neil Young",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 316,
+        "album_title": "Pacific Ocean Blue",
+        "artist": "Dennis Wilson",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 317,
+        "album_title": "Phaedra",
+        "artist": "Tangerine Dream",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 318,
+        "album_title": "Pretzel Logic",
+        "artist": "Steely Dan",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 319,
+        "album_title": "Queen II",
+        "artist": "Queen",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 320,
+        "album_title": "Rock Bottom",
+        "artist": "Robert Wyatt",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 321,
+        "album_title": "Sheer Heart Attack",
+        "artist": "Queen",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 322,
+        "album_title": "Sheet Music",
+        "artist": "10cc",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 323,
+        "album_title": "The Grand Tour",
+        "artist": "George Jones",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 324,
+        "album_title": "The Lamb Lies Down On Broadway",
+        "artist": "Genesis",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 325,
+        "album_title": "Winter in America",
+        "artist": "Gill Scott-Heron",
+        "release_date": 1974,
+        "total_time": 0
+    },
+    {
+        "album_number": 326,
+        "album_title": "A Night At The Opera",
+        "artist": "Queen",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 327,
+        "album_title": "Another Green World",
+        "artist": "Brian Eno",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 328,
+        "album_title": "Born to be With You",
+        "artist": "Dion",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 329,
+        "album_title": "Born to Run",
+        "artist": "Bruce Springsteen",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 330,
+        "album_title": "Frampton Comes Alive",
+        "artist": "Peter Frampton",
+        "release_date": 1975,
+        "total_time": 4620
+    },
+    {
+        "album_number": 331,
+        "album_title": "Go Girl Crazy",
+        "artist": "The Dictators",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 332,
+        "album_title": "Greetings from LA",
+        "artist": "Tim Buckley",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 333,
+        "album_title": "Horses",
+        "artist": "Patti Smith",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 334,
+        "album_title": "Inspiration Information",
+        "artist": "Shuggie Otis",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 335,
+        "album_title": "Natty Dread",
+        "artist": "Bob Marley & The Wailers",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 336,
+        "album_title": "Neu! 75",
+        "artist": "Neu!",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 337,
+        "album_title": "Nighthawks at the Diner",
+        "artist": "Tom Waits",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 338,
+        "album_title": "Physical Graffiti",
+        "artist": "Led Zeppelin",
+        "release_date": 1975,
+        "total_time": 4920
+    },
+    {
+        "album_number": 339,
+        "album_title": "Pieces Of The Sky",
+        "artist": "Emmylou Harris",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 340,
+        "album_title": "Redheaded Stranger",
+        "artist": "Willie Nelson",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 341,
+        "album_title": "Shalimar / College Girl",
+        "artist": "R.D.Burman / Bappi Lahiri",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 342,
+        "album_title": "That's The Way Of The World",
+        "artist": "Earth, Wind & Fire",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 343,
+        "album_title": "The Hissing of Summer Lawns",
+        "artist": "Joni Mitchell",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 344,
+        "album_title": "The K\u00f6ln Concert",
+        "artist": "Keith Jarrett",
+        "release_date": 1975,
+        "total_time": 3960
+    },
+    {
+        "album_number": 345,
+        "album_title": "There's No Place Like America Today",
+        "artist": "Curtis Mayfield",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 346,
+        "album_title": "Tonight's the Night",
+        "artist": "Neil Young",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 347,
+        "album_title": "Toys in the Attic",
+        "artist": "Aerosmith",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 348,
+        "album_title": "Wish You Were Here",
+        "artist": "Pink Floyd",
+        "release_date": 1975,
+        "total_time": 2619
+    },
+    {
+        "album_number": 349,
+        "album_title": "Young Americans",
+        "artist": "David Bowie",
+        "release_date": 1975,
+        "total_time": 0
+    },
+    {
+        "album_number": 350,
+        "album_title": "2112",
+        "artist": "Rush",
+        "release_date": 1976,
+        "total_time": 0
+    },
+    {
+        "album_number": 351,
+        "album_title": "Africa/Brasil",
+        "artist": "Jorge Ben",
+        "release_date": 1976,
+        "total_time": 0
+    },
+    {
+        "album_number": 352,
+        "album_title": "Arrival",
+        "artist": "Abba",
+        "release_date": 1976,
+        "total_time": 0
+    },
+    {
+        "album_number": 353,
+        "album_title": "Boston",
+        "artist": "Boston",
+        "release_date": 1976,
+        "total_time": 0
+    },
+    {
+        "album_number": 354,
+        "album_title": "Destroyer",
+        "artist": "Kiss",
+        "release_date": 1976,
+        "total_time": 0
+    },
+    {
+        "album_number": 355,
+        "album_title": "Hejeira",
+        "artist": "Joni Mitchell",
+        "release_date": 1976,
+        "total_time": 3115
+    },
+    {
+        "album_number": 356,
+        "album_title": "Hotel California",
+        "artist": "The Eagles",
+        "release_date": 1976,
+        "total_time": 0
+    },
+    {
+        "album_number": 357,
+        "album_title": "Joan Armatrading",
+        "artist": "Joan Armatrading",
+        "release_date": 1976,
+        "total_time": 0
+    },
+    {
+        "album_number": 358,
+        "album_title": "Legalize It",
+        "artist": "Peter Tosh",
+        "release_date": 1976,
+        "total_time": 0
+    },
+    {
+        "album_number": 359,
+        "album_title": "Mothership Connection",
+        "artist": "Parliament",
+        "release_date": 1976,
+        "total_time": 0
+    },
+    {
+        "album_number": 360,
+        "album_title": "Rocks",
+        "artist": "Aerosmith",
+        "release_date": 1976,
+        "total_time": 0
+    },
+    {
+        "album_number": 361,
+        "album_title": "Songs in the Key of Life",
+        "artist": "Stevie Wonder",
+        "release_date": 1976,
+        "total_time": 6300
+    },
+    {
+        "album_number": 362,
+        "album_title": "Station to Station",
+        "artist": "David Bowie",
+        "release_date": 1976,
+        "total_time": 0
+    },
+    {
+        "album_number": 363,
+        "album_title": "The Ramones",
+        "artist": "The Ramones",
+        "release_date": 1976,
+        "total_time": 0
+    },
+    {
+        "album_number": 364,
+        "album_title": "Aja",
+        "artist": "Steely Dan",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 365,
+        "album_title": "Before & After Science",
+        "artist": "Brian Eno",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 366,
+        "album_title": "C'est Chic",
+        "artist": "Chic Manish",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 367,
+        "album_title": "Exodus",
+        "artist": "Bob Marley & The Wailers",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 368,
+        "album_title": "Heavy Weather",
+        "artist": "Weather Report",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 369,
+        "album_title": "Heroes",
+        "artist": "David Bowie",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 370,
+        "album_title": "I",
+        "artist": "Peter Gabriel",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 371,
+        "album_title": "Low",
+        "artist": "David Bowie",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 372,
+        "album_title": "Lust for Life",
+        "artist": "Iggy Pop",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 373,
+        "album_title": "Music From The Penguin Cafe Orchestra",
+        "artist": "The Penguin Cafe Orchestra",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 374,
+        "album_title": "My Aim Is True",
+        "artist": "Elvis Costello",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 375,
+        "album_title": "Never Mind The Bollocks\u2026",
+        "artist": "The Sex Pistols",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 376,
+        "album_title": "New Boots & Panties",
+        "artist": "Ian Dury & the Blockheads",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 377,
+        "album_title": "One World",
+        "artist": "John Martyn",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 378,
+        "album_title": "Out Of The Blue",
+        "artist": "Electric Light Orchestra",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 379,
+        "album_title": "Oxygene",
+        "artist": "Jean Michel-Jarre",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 380,
+        "album_title": "Pink Flag",
+        "artist": "Wire",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 381,
+        "album_title": "Rattus Norvegicus",
+        "artist": "The Stranglers",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 382,
+        "album_title": "Rumours",
+        "artist": "Fleetwood Mac",
+        "release_date": 1977,
+        "total_time": 2398
+    },
+    {
+        "album_number": 383,
+        "album_title": "Suicide",
+        "artist": "Suicide",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 384,
+        "album_title": "Talking Heads \"77",
+        "artist": "Talking Heads",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 385,
+        "album_title": "The Clash",
+        "artist": "The Clash",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 386,
+        "album_title": "The Idiot",
+        "artist": "Iggy Pop",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 387,
+        "album_title": "The Modern Dance",
+        "artist": "Pere Ubu",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 388,
+        "album_title": "The Modern Lovers",
+        "artist": "Jonathan Richman And The Modern Lovers",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 389,
+        "album_title": "The Stranger",
+        "artist": "Billy Joel",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 390,
+        "album_title": "Tom Petty & the Heartbreakers",
+        "artist": "Tom Petty & the Heartbreakers",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 391,
+        "album_title": "Trans-Europe Express",
+        "artist": "Kraftwerk",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 392,
+        "album_title": "Zombie",
+        "artist": "Fela Kuti",
+        "release_date": 1977,
+        "total_time": 0
+    },
+    {
+        "album_number": 393,
+        "album_title": "All Mod Cons",
+        "artist": "The Jam",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 394,
+        "album_title": "Ambient no.1: Music for Airports",
+        "artist": "Brian Eno",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 395,
+        "album_title": "Another Music In a Different Kitchen",
+        "artist": "Buzzcocks",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 396,
+        "album_title": "At Budokan",
+        "artist": "Cheap Trick",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 397,
+        "album_title": "Bat Out of Hell",
+        "artist": "Meat Loaf",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 398,
+        "album_title": "Darkness on the Edge of Town",
+        "artist": "Bruce Springsteen",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 399,
+        "album_title": "Dire Straits",
+        "artist": "Dire Straits",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 400,
+        "album_title": "DOA",
+        "artist": "Throbbing Gristle",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 401,
+        "album_title": "Dub Housing",
+        "artist": "Pere Ubu",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 402,
+        "album_title": "Duck Stab/Buster & Glen",
+        "artist": "The Residents",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 403,
+        "album_title": "Eternally Yours",
+        "artist": "The Saints",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 404,
+        "album_title": "Germ-Free Adolescents",
+        "artist": "X-Ray Spex",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 405,
+        "album_title": "Hard Again",
+        "artist": "Muddy Waters",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 406,
+        "album_title": "Here, My Dear",
+        "artist": "Marvin Gaye",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 407,
+        "album_title": "Honky Tonk Masquarade",
+        "artist": "Joe Ely",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 408,
+        "album_title": "Live And Dangerous",
+        "artist": "Thin Lizzy",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 409,
+        "album_title": "Marquee Moon",
+        "artist": "Television",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 410,
+        "album_title": "More Songs About Buildings and Food",
+        "artist": "Talking Heads",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 411,
+        "album_title": "One Nation Under A Groove",
+        "artist": "Funkadelic",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 412,
+        "album_title": "Parallel Lines",
+        "artist": "Blondie",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 413,
+        "album_title": "Public Image",
+        "artist": "Public Image",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 414,
+        "album_title": "Q: Are We Not Men? A: We Are Devo!",
+        "artist": "Devo",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 415,
+        "album_title": "Real Life",
+        "artist": "Magazine",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 416,
+        "album_title": "Siembra",
+        "artist": "Ruben Blades & Willie Col\u00f3n",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 417,
+        "album_title": "Stardust",
+        "artist": "Willie Nelson",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 418,
+        "album_title": "The Cars",
+        "artist": "The Cars",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 419,
+        "album_title": "The Man Machine",
+        "artist": "Kraftwerk",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 420,
+        "album_title": "The Only Ones",
+        "artist": "The Only Ones",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 421,
+        "album_title": "The Scream",
+        "artist": "Siouxsie And The Banshees",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 422,
+        "album_title": "Third/Sister Lovers",
+        "artist": "Big Star",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 423,
+        "album_title": "This Year's Model",
+        "artist": "Elvis Costello",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 424,
+        "album_title": "tori amos",
+        "artist": "The Adverts",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 425,
+        "album_title": "Van Halen 1",
+        "artist": "Van Halen",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 426,
+        "album_title": "Vento De Maio",
+        "artist": "Elis Regina",
+        "release_date": 1978,
+        "total_time": 0
+    },
+    {
+        "album_number": 427,
+        "album_title": "Armed Forces",
+        "artist": "Elvis Costello",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 428,
+        "album_title": "Broken English",
+        "artist": "Marianne Faithfull",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 429,
+        "album_title": "Cut",
+        "artist": "The Slits",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 430,
+        "album_title": "Entertainment!",
+        "artist": "Gang Of Four",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 431,
+        "album_title": "Fear of Music",
+        "artist": "Talking Heads",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 432,
+        "album_title": "GI",
+        "artist": "Germs",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 433,
+        "album_title": "Highway to Hell",
+        "artist": "AC/DC",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 434,
+        "album_title": "Live at the Witch Trials",
+        "artist": "The Fall",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 435,
+        "album_title": "London Calling",
+        "artist": "The Clash",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 436,
+        "album_title": "Machine Gun Etiquette",
+        "artist": "The Damned",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 437,
+        "album_title": "Metal Box/Second Edition",
+        "artist": "Public Image",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 438,
+        "album_title": "Movies",
+        "artist": "Holger Czukay",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 439,
+        "album_title": "Off The Wall",
+        "artist": "Michael Jackson",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 440,
+        "album_title": "Pretenders",
+        "artist": "Pretenders",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 441,
+        "album_title": "Quiet Life",
+        "artist": "Japan",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 442,
+        "album_title": "Regatta De Blanc",
+        "artist": "The Police",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 443,
+        "album_title": "Risqu\u00e9",
+        "artist": "Chic",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 444,
+        "album_title": "Rust Never Sleeps",
+        "artist": "Neil Young",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 445,
+        "album_title": "Specials",
+        "artist": "The Specials",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 446,
+        "album_title": "Street Life",
+        "artist": "The Crusaders",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 447,
+        "album_title": "The B-52's",
+        "artist": "The B-52's",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 448,
+        "album_title": "The Pleasure Principle",
+        "artist": "Gary Numan",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 449,
+        "album_title": "The Undertones",
+        "artist": "The Undertones",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 450,
+        "album_title": "The Wall",
+        "artist": "Pink Floyd",
+        "release_date": 1979,
+        "total_time": 4842
+    },
+    {
+        "album_number": 451,
+        "album_title": "Tusk",
+        "artist": "Fleetwood Mac",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 452,
+        "album_title": "Unknown Pleasures",
+        "artist": "Joy Division",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 453,
+        "album_title": "We Are Family",
+        "artist": "Sister Sledge",
+        "release_date": 1979,
+        "total_time": 0
+    },
+    {
+        "album_number": 454,
+        "album_title": "Ace of Spades",
+        "artist": "Mot\u00f6rhead",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 455,
+        "album_title": "Arc Of A Diver",
+        "artist": "Steve Winwood",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 456,
+        "album_title": "Back in Black",
+        "artist": "AC/DC",
+        "release_date": 1980,
+        "total_time": 2528
+    },
+    {
+        "album_number": 457,
+        "album_title": "British Steel",
+        "artist": "Judas Priest",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 458,
+        "album_title": "Closer",
+        "artist": "Joy Division",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 459,
+        "album_title": "Crocodiles",
+        "artist": "Echo & The Bunnymen",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 460,
+        "album_title": "Fresh Fruit for Rotting Vegetables",
+        "artist": "Dead Kennedys",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 461,
+        "album_title": "Group Sex",
+        "artist": "Circle Jerks",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 462,
+        "album_title": "Heartattack and Vine",
+        "artist": "Tom Waits",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 463,
+        "album_title": "Hypnotised",
+        "artist": "The Undertones",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 464,
+        "album_title": "III",
+        "artist": "Peter Gabriel",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 465,
+        "album_title": "Iron Maiden",
+        "artist": "Iron Maiden",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 466,
+        "album_title": "Kilimanjaro",
+        "artist": "Teardrop Explodes",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 467,
+        "album_title": "Killing Joke",
+        "artist": "Killing Joke",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 468,
+        "album_title": "Kings Of The Wild Frontier",
+        "artist": "Adam & The Ants",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 469,
+        "album_title": "More Specials",
+        "artist": "The Specials",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 470,
+        "album_title": "Remain in Light",
+        "artist": "Talking Heads",
+        "release_date": 1980,
+        "total_time": 2403
+    },
+    {
+        "album_number": 471,
+        "album_title": "Searching for the Young Soul Rebels",
+        "artist": "Dexys Midnight Runners",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 472,
+        "album_title": "Seventeen Seconds",
+        "artist": "The Cure",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 473,
+        "album_title": "Signing Off",
+        "artist": "UB40",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 474,
+        "album_title": "Songs The Lord Taught Us",
+        "artist": "The Cramps",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 475,
+        "album_title": "Sound Affects",
+        "artist": "The Jam",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 476,
+        "album_title": "Underwater Moonlight",
+        "artist": "The Soft Boys",
+        "release_date": 1980,
+        "total_time": 0
+    },
+    {
+        "album_number": 477,
+        "album_title": "Beauty And The Beat",
+        "artist": "Go-Go's",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 478,
+        "album_title": "Damaged",
+        "artist": "Black Flag",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 479,
+        "album_title": "Dare",
+        "artist": "Human League",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 480,
+        "album_title": "Fire Of Love",
+        "artist": "The Gun Club",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 481,
+        "album_title": "Juju",
+        "artist": "Siouxsie And The Banshees",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 482,
+        "album_title": "Kollaps",
+        "artist": "Einsturzende",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 483,
+        "album_title": "Mask",
+        "artist": "Bauhaus",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 484,
+        "album_title": "Moving Pictures",
+        "artist": "Rush",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 485,
+        "album_title": "My Life In The Bush Of Ghosts",
+        "artist": "Brian Eno",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 486,
+        "album_title": "No Sleep 'til Hammersmith",
+        "artist": "Mot\u00f6rhead",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 487,
+        "album_title": "Non-Stop Erotic Cabaret",
+        "artist": "Soft Cell",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 488,
+        "album_title": "Penthouse and Pavement",
+        "artist": "Heaven 17",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 489,
+        "album_title": "Talk Talk Talk",
+        "artist": "Psychedelic Furs",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 490,
+        "album_title": "The Poet",
+        "artist": "Bobbie Womack",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 491,
+        "album_title": "The Tom Tom Club",
+        "artist": "The Tom Tom Club",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 492,
+        "album_title": "The Visitors",
+        "artist": "Abba",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 493,
+        "album_title": "Wild Gift",
+        "artist": "X",
+        "release_date": 1981,
+        "total_time": 0
+    },
+    {
+        "album_number": 494,
+        "album_title": "1999",
+        "artist": "Prince",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 495,
+        "album_title": "Black Metal",
+        "artist": "Venom",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 496,
+        "album_title": "Imperial Bedroom",
+        "artist": "Elvis Costello",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 497,
+        "album_title": "Junkyard",
+        "artist": "The Birthday Party",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 498,
+        "album_title": "Nebraska",
+        "artist": "Bruce Springsteen",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 499,
+        "album_title": "New Gold Dream",
+        "artist": "Simple Minds",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 500,
+        "album_title": "Number Of The Beast",
+        "artist": "Iron Maiden",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 501,
+        "album_title": "Pelican West",
+        "artist": "Haircut 100",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 502,
+        "album_title": "Pornography",
+        "artist": "The Cure",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 503,
+        "album_title": "Rip It Up",
+        "artist": "Orange Juice",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 504,
+        "album_title": "Rise & Fall",
+        "artist": "Madness",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 505,
+        "album_title": "Sulk",
+        "artist": "The Associates",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 506,
+        "album_title": "The Dreaming",
+        "artist": "Kate Bush",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 507,
+        "album_title": "The Lexicon of Love",
+        "artist": "ABC",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 508,
+        "album_title": "The Message",
+        "artist": "Grand Master Flash & the Furious Five",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 509,
+        "album_title": "The Nightfly",
+        "artist": "Donald Fagen",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 510,
+        "album_title": "Thriller",
+        "artist": "Michael Jackson",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 511,
+        "album_title": "Too Rye-Ay",
+        "artist": "Dexy's Midnight Runners",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 512,
+        "album_title": "Violent Femmes",
+        "artist": "Violent Femmes",
+        "release_date": 1982,
+        "total_time": 0
+    },
+    {
+        "album_number": 513,
+        "album_title": "Architecture & Morality",
+        "artist": "OMD",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 514,
+        "album_title": "Back to Mystery City",
+        "artist": "Hanoi Rocks",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 515,
+        "album_title": "Colour By Numbers",
+        "artist": "Culture Club",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 516,
+        "album_title": "Duck Rock",
+        "artist": "Malcolm McLaren",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 517,
+        "album_title": "Eliminator",
+        "artist": "ZZ Top",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 518,
+        "album_title": "Hearts and Bones",
+        "artist": "Paul Simon",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 519,
+        "album_title": "Meat Puppets II",
+        "artist": "Meat Puppets",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 520,
+        "album_title": "Murmur",
+        "artist": "REM",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 521,
+        "album_title": "Out Of Step",
+        "artist": "Minor Threat",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 522,
+        "album_title": "Porcupine",
+        "artist": "Echo & The Bunnymen",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 523,
+        "album_title": "Pyromania",
+        "artist": "Def Leppard",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 524,
+        "album_title": "Rio",
+        "artist": "Duran Duran",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 525,
+        "album_title": "Soul Mining",
+        "artist": "The The",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 526,
+        "album_title": "Sweet Dreams",
+        "artist": "Eurythmics",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 527,
+        "album_title": "Swordfishtrombones",
+        "artist": "Tom Waits",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 528,
+        "album_title": "Synchronicity",
+        "artist": "The Police",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 529,
+        "album_title": "War",
+        "artist": "U2",
+        "release_date": 1983,
+        "total_time": 0
+    },
+    {
+        "album_number": 530,
+        "album_title": "1984",
+        "artist": "Van Halen",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 531,
+        "album_title": "A Walk Across The Rooftops",
+        "artist": "The Blue Nile",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 532,
+        "album_title": "Born in the USA",
+        "artist": "Bruce Springsteen",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 533,
+        "album_title": "Caf\u00e9 Bleu",
+        "artist": "Style Council",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 534,
+        "album_title": "Diamond Life",
+        "artist": "Sade",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 535,
+        "album_title": "Double Nickels On The Dime",
+        "artist": "Minutemen",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 536,
+        "album_title": "Immigr\u00e9s",
+        "artist": "Youssou N'Dour",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 537,
+        "album_title": "Let It Be",
+        "artist": "The Replacements",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 538,
+        "album_title": "Ocean Rain",
+        "artist": "Echo & The Bunnymen",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 539,
+        "album_title": "Private Dancer",
+        "artist": "Tina Turner",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 540,
+        "album_title": "Purple Rain",
+        "artist": "Prince and The Revolution",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 541,
+        "album_title": "Rattlesnakes",
+        "artist": "Lloyd Cole And The Commotions",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 542,
+        "album_title": "Run-DMC",
+        "artist": "Run-DMC",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 543,
+        "album_title": "She's So Unusual",
+        "artist": "Cindy Lauper",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 544,
+        "album_title": "Treasure",
+        "artist": "Cocteau Twins",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 545,
+        "album_title": "Welcome to the Pleasuredome",
+        "artist": "Frankie Goes To Hollywood",
+        "release_date": 1984,
+        "total_time": 0
+    },
+    {
+        "album_number": 546,
+        "album_title": "Brothers In Arms",
+        "artist": "Dire Straits",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 547,
+        "album_title": "Cupid and Psyche",
+        "artist": "Scritti Politti",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 548,
+        "album_title": "Don't Stand Me Down",
+        "artist": "Dexys Midnight Runners",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 549,
+        "album_title": "Fear and Whiskey",
+        "artist": "The Mekons",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 550,
+        "album_title": "Hounds of Love",
+        "artist": "Kate Bush",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 551,
+        "album_title": "Hunting High And Low",
+        "artist": "A-Ha",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 552,
+        "album_title": "Low Life",
+        "artist": "New Order",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 553,
+        "album_title": "Meat is Murder",
+        "artist": "The Smiths",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 554,
+        "album_title": "Picture Book",
+        "artist": "Simply Red",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 555,
+        "album_title": "Psychocandy",
+        "artist": "The Jesus & Mary Chain",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 556,
+        "album_title": "Rain Dogs",
+        "artist": "Tom Waits",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 557,
+        "album_title": "Rum, Sodomy and the Lash",
+        "artist": "The Pogues",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 558,
+        "album_title": "Songs from the Big Chair",
+        "artist": "Tears for Fears",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 559,
+        "album_title": "Steve McQueen",
+        "artist": "Prefab Sprout",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 560,
+        "album_title": "Suzanne Vega",
+        "artist": "Suzanne Vega",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 561,
+        "album_title": "This Nation's Saving Grace",
+        "artist": "The Fall",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 562,
+        "album_title": "Water From An Ancient Well",
+        "artist": "Abdullah Ibrahim",
+        "release_date": 1985,
+        "total_time": 0
+    },
+    {
+        "album_number": 563,
+        "album_title": "Atomizer",
+        "artist": "Big Black",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 564,
+        "album_title": "Blood and Chocolate",
+        "artist": "Elvis Costello",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 565,
+        "album_title": "EVOL",
+        "artist": "Sonic Youth",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 566,
+        "album_title": "Graceland",
+        "artist": "Paul Simon",
+        "release_date": 1986,
+        "total_time": 2598
+    },
+    {
+        "album_number": 567,
+        "album_title": "Guitar Town",
+        "artist": "Steve Earle",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 568,
+        "album_title": "I Against I",
+        "artist": "Bad Brains",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 569,
+        "album_title": "Infected",
+        "artist": "The The",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 570,
+        "album_title": "Last fo the True Believers",
+        "artist": "Nanci Griffith",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 571,
+        "album_title": "Licensed to Ill",
+        "artist": "Beastie Boys",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 572,
+        "album_title": "Master of Puppets",
+        "artist": "Metallica",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 573,
+        "album_title": "Peace Sells... But Who's Buying",
+        "artist": "Megadeth",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 574,
+        "album_title": "Planet Rock: The Album",
+        "artist": "Afrika Bambaataa",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 575,
+        "album_title": "Raising Hell",
+        "artist": "Run-DMC",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 576,
+        "album_title": "Rapture",
+        "artist": "Anita Baker",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 577,
+        "album_title": "Reign in Blood",
+        "artist": "Slayer",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 578,
+        "album_title": "Skylarking",
+        "artist": "XTC",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 579,
+        "album_title": "Slippery When Wet",
+        "artist": "Bon Jovi",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 580,
+        "album_title": "So",
+        "artist": "Peter Gabriel",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 581,
+        "album_title": "Talking With The Taxman About Poetry",
+        "artist": "Billy Bragg",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 582,
+        "album_title": "The Queen is Dead",
+        "artist": "The Smiths",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 583,
+        "album_title": "Throwing Muses",
+        "artist": "Throwing Muses",
+        "release_date": 1986,
+        "total_time": 0
+    },
+    {
+        "album_number": 584,
+        "album_title": "Actually",
+        "artist": "Pet Shop Boys",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 585,
+        "album_title": "Among The Living",
+        "artist": "Anthrax",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 586,
+        "album_title": "Appetite for Destruction",
+        "artist": "Guns N' Roses",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 587,
+        "album_title": "Astor Piazzolla",
+        "artist": "The New Tango (with Gary Burton)",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 588,
+        "album_title": "Bad",
+        "artist": "Michael Jackson",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 589,
+        "album_title": "Calenture",
+        "artist": "The Triffids",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 590,
+        "album_title": "Colour of Spring",
+        "artist": "Talk Talk",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 591,
+        "album_title": "Darklands",
+        "artist": "The Jesus & Mary Chain",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 592,
+        "album_title": "Document",
+        "artist": "REM",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 593,
+        "album_title": "Electric",
+        "artist": "The Cult",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 594,
+        "album_title": "Faith",
+        "artist": "George Michael",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 595,
+        "album_title": "Floodland",
+        "artist": "Sisters of Mercy",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 596,
+        "album_title": "Hysteria",
+        "artist": "Def Leppard",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 597,
+        "album_title": "Introducing The Hardline",
+        "artist": "Terence Trent D'Arby",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 598,
+        "album_title": "Locust Abortion Technician",
+        "artist": "Butthole Surfers",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 599,
+        "album_title": "Music For The Masses",
+        "artist": "Depeche Mode",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 600,
+        "album_title": "Opus Dei",
+        "artist": "Laibach",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 601,
+        "album_title": "Scum",
+        "artist": "Napalm Death",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 602,
+        "album_title": "Shaka Zulu",
+        "artist": "Ladysmith Black Mambazo",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 603,
+        "album_title": "Sign o' the Times",
+        "artist": "Prince",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 604,
+        "album_title": "Sister",
+        "artist": "Sonic Youth",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 605,
+        "album_title": "Spy Vs Spy",
+        "artist": "John Zorn",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 606,
+        "album_title": "Strangeways Here We Come",
+        "artist": "The Smiths",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 607,
+        "album_title": "The Joshua Tree",
+        "artist": "U2",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 608,
+        "album_title": "Trio",
+        "artist": "Emmylou Harris, Lisa Rondstadt, Dolly Parton",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 609,
+        "album_title": "Warehouse: Songs & Stories",
+        "artist": "H\u00fcsker D\u00fc",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 610,
+        "album_title": "You're Living All Over Me",
+        "artist": "Dinosaur Jr",
+        "release_date": 1987,
+        "total_time": 0
+    },
+    {
+        "album_number": 611,
+        "album_title": "16 Lover's Lane",
+        "artist": "Go-Betweens",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 612,
+        "album_title": "Buenos Noches from a Lonely Room",
+        "artist": "Dwight Yoakam",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 613,
+        "album_title": "Bug",
+        "artist": "Dinosaur Jr",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 614,
+        "album_title": "Bummed",
+        "artist": "Happy Mondays",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 615,
+        "album_title": "California",
+        "artist": "American Music Club",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 616,
+        "album_title": "Daydream Nation",
+        "artist": "Sonic Youth",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 617,
+        "album_title": "Fisherman's Blues",
+        "artist": "The Waterboys",
+        "release_date": 1988,
+        "total_time": 3277
+    },
+    {
+        "album_number": 618,
+        "album_title": "I'm Your Man",
+        "artist": "Leonard Cohen",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 619,
+        "album_title": "Idlewild",
+        "artist": "Everything But the Girl",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 620,
+        "album_title": "If I Should Fall from Grace with God",
+        "artist": "The Pogues",
+        "release_date": 1988,
+        "total_time": 3103
+    },
+    {
+        "album_number": 621,
+        "album_title": "Isn't Anything",
+        "artist": "My Bloody Valentine",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 622,
+        "album_title": "It Takes a Nation of Millions to Hold Us Back",
+        "artist": "Public Enemy",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 623,
+        "album_title": "Life's Too Good",
+        "artist": "The Sugarcubes",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 624,
+        "album_title": "Nothing's Shocking",
+        "artist": "Jane's Addiction",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 625,
+        "album_title": "Shadowland",
+        "artist": "k.d. lang",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 626,
+        "album_title": "Straight Outta Compton",
+        "artist": "NWA",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 627,
+        "album_title": "Superfuzz Bigmuff",
+        "artist": "Mudhoney",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 628,
+        "album_title": "Surfer Rosa",
+        "artist": "The Pixies",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 629,
+        "album_title": "Tank Battles",
+        "artist": "Dagmar Krause",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 630,
+        "album_title": "The Trinity Sessions",
+        "artist": "Cowboy Junkies",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 631,
+        "album_title": "Tracy Chapman",
+        "artist": "Tracy Chapman",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 632,
+        "album_title": "Truth And Soul",
+        "artist": "Fishbone",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 633,
+        "album_title": "Viva Hate",
+        "artist": "Morrissey",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 634,
+        "album_title": "Vivid",
+        "artist": "Living Colour",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 635,
+        "album_title": "\u2026 And Justice For All",
+        "artist": "Metallica",
+        "release_date": 1988,
+        "total_time": 0
+    },
+    {
+        "album_number": 636,
+        "album_title": "33 days, 17:30:00",
+        "artist": "808 State",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 637,
+        "album_title": "All Hail the Queen",
+        "artist": "Queen Latifah",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 638,
+        "album_title": "Club Classics Vol. One",
+        "artist": "Soul II Soul",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 639,
+        "album_title": "Djam Leeli",
+        "artist": "Baaba Maal & Mansour Seck",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 640,
+        "album_title": "Done By the Forces of Nature",
+        "artist": "Jungle Brothers",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 641,
+        "album_title": "Doolittle",
+        "artist": "The Pixies",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 642,
+        "album_title": "Fromohio",
+        "artist": "Firehose",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 643,
+        "album_title": "Green",
+        "artist": "REM",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 644,
+        "album_title": "L'eau Rouge",
+        "artist": "The Young Gods",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 645,
+        "album_title": "Let Love Rule",
+        "artist": "Lenny Kravitz",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 646,
+        "album_title": "Like a Prayer",
+        "artist": "Madonna",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 647,
+        "album_title": "Moss Side Story",
+        "artist": "Barry Adamson",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 648,
+        "album_title": "Nick of Time",
+        "artist": "Bonnie Raitt",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 649,
+        "album_title": "Paul's Boutique",
+        "artist": "Beastie Boys",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 650,
+        "album_title": "Playing with Fire",
+        "artist": "Spacemen 3",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 651,
+        "album_title": "Pump",
+        "artist": "Aerosmith",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 652,
+        "album_title": "Raw Like Sushi",
+        "artist": "Neneh Cherry",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 653,
+        "album_title": "Rhythm Nation 1814",
+        "artist": "Janet Jackson",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 654,
+        "album_title": "Technique",
+        "artist": "New Order",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 655,
+        "album_title": "The Healer",
+        "artist": "John Lee Hooker",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 656,
+        "album_title": "The Real Thing",
+        "artist": "Faith No More",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 657,
+        "album_title": "The Sensual World",
+        "artist": "Kate Bush",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 658,
+        "album_title": "The Stone Roses",
+        "artist": "The Stone Roses",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 659,
+        "album_title": "Three Feet High and Rising",
+        "artist": "De La Soul",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 660,
+        "album_title": "What's That Noise?",
+        "artist": "Coldcut",
+        "release_date": 1989,
+        "total_time": 0
+    },
+    {
+        "album_number": 661,
+        "album_title": "AmeriKKKa's Most Wanted",
+        "artist": "Ice Cube",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 662,
+        "album_title": "Behaviour",
+        "artist": "Pet Shop Boys",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 663,
+        "album_title": "Bossanova",
+        "artist": "The Pixies",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 664,
+        "album_title": "Disintegration",
+        "artist": "The Cure",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 665,
+        "album_title": "En-Tact",
+        "artist": "The Shamen",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 666,
+        "album_title": "Fear Of A Black Planet",
+        "artist": "Public Enemy",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 667,
+        "album_title": "Goo",
+        "artist": "Sonic Youth",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 668,
+        "album_title": "Heaven or Las Vegas",
+        "artist": "Cocteau Twins",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 669,
+        "album_title": "I Do Not Want What I Haven't Got",
+        "artist": "Sinead O'Connor",
+        "release_date": 1990,
+        "total_time": 3069
+    },
+    {
+        "album_number": 670,
+        "album_title": "Listen Without Prejudice",
+        "artist": "George Michael",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 671,
+        "album_title": "Mama Said Knock You Out",
+        "artist": "LL Cool J",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 672,
+        "album_title": "Nowhere",
+        "artist": "Ride",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 673,
+        "album_title": "People's Instinctive Paths",
+        "artist": "A Tribe Called Quest",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 674,
+        "album_title": "Pills 'n' Thrills 'n' Bellyaches",
+        "artist": "Happy Mondays",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 675,
+        "album_title": "Ragged Glory",
+        "artist": "Neil Young",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 676,
+        "album_title": "Repeater",
+        "artist": "Fugazi",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 677,
+        "album_title": "Ritual De Lo Habitual",
+        "artist": "Jane's Addiction",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 678,
+        "album_title": "Rust In Peace",
+        "artist": "Megadeth",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 679,
+        "album_title": "Sex Packets",
+        "artist": "Digital Underground",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 680,
+        "album_title": "Shake Your Money Maker",
+        "artist": "The Black Crowes",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 681,
+        "album_title": "The La's",
+        "artist": "The La's",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 682,
+        "album_title": "The White Room",
+        "artist": "KLF",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 683,
+        "album_title": "Violator",
+        "artist": "Depeche Mode",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 684,
+        "album_title": "World Clique",
+        "artist": "Deee-Lite",
+        "release_date": 1990,
+        "total_time": 0
+    },
+    {
+        "album_number": 685,
+        "album_title": "Achtung Baby",
+        "artist": "U2",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 686,
+        "album_title": "Apocalypse '91 \u2026 The Enemy Strikes Black",
+        "artist": "Public Enemy",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 687,
+        "album_title": "Arise",
+        "artist": "Sepultura",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 688,
+        "album_title": "Bandwagonesque",
+        "artist": "Teenage Fanclub",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 689,
+        "album_title": "Blood Sugar Sex Magik",
+        "artist": "Red Hot Chili Peppers",
+        "release_date": 1991,
+        "total_time": 4436
+    },
+    {
+        "album_number": 690,
+        "album_title": "Blue Lines",
+        "artist": "Massive Attack",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 691,
+        "album_title": "Cypress Hill",
+        "artist": "Cypress Hill",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 692,
+        "album_title": "Every Good Boy Deserves Fudge",
+        "artist": "Mudhoney",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 693,
+        "album_title": "Foxbase Alpha",
+        "artist": "Saint Etienne",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 694,
+        "album_title": "Haut de Gamme\u2013Koweit Rive Gauche",
+        "artist": "Koffi Olomide",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 695,
+        "album_title": "Loveless",
+        "artist": "My Bloody Valentine",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 696,
+        "album_title": "Metallica",
+        "artist": "Metallica",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 697,
+        "album_title": "Nevermind",
+        "artist": "Nirvana",
+        "release_date": 1991,
+        "total_time": 2556
+    },
+    {
+        "album_number": 698,
+        "album_title": "O.G. Original Gangster",
+        "artist": "Ice-T",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 699,
+        "album_title": "Peggy Suicide",
+        "artist": "Julian Cope",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 700,
+        "album_title": "Rising Above Bedlam",
+        "artist": "Jah Wobble And the Invaders of the Heart",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 701,
+        "album_title": "Screamadelica",
+        "artist": "Primal Scream",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 702,
+        "album_title": "Spiderland",
+        "artist": "Slint",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 703,
+        "album_title": "Step in the Arena",
+        "artist": "Gang Starr",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 704,
+        "album_title": "The Low End Theory",
+        "artist": "A Tribe Called Quest",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 705,
+        "album_title": "Woodface",
+        "artist": "Crowded House",
+        "release_date": 1991,
+        "total_time": 0
+    },
+    {
+        "album_number": 706,
+        "album_title": "A Vulgar Display Of Power",
+        "artist": "Pantera",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 707,
+        "album_title": "Automatic for the People",
+        "artist": "REM",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 708,
+        "album_title": "Bizarre Ride II The Pharcyde",
+        "artist": "The Pharcyde",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 709,
+        "album_title": "Bone Machine",
+        "artist": "Tom Waits",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 710,
+        "album_title": "Connected",
+        "artist": "Stereo MC's",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 711,
+        "album_title": "Copper Blue",
+        "artist": "Sugar",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 712,
+        "album_title": "Devotional Songs",
+        "artist": "Nusrat Fateh Ali Khan & Party",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 713,
+        "album_title": "Dirt",
+        "artist": "Alice in Chains",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 714,
+        "album_title": "Dirty",
+        "artist": "Sonic Youth",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 715,
+        "album_title": "Dry",
+        "artist": "P.J. Harvey",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 716,
+        "album_title": "Henry's Dream",
+        "artist": "Nick Cave & the Bad Seeds",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 717,
+        "album_title": "Hiphoprisy Is The Greatest Luxury",
+        "artist": "Disposable Heroes of Hiphoprisy",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 718,
+        "album_title": "Ing\u00e9nue",
+        "artist": "k.d. lang",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 719,
+        "album_title": "It's A Shame About Ray",
+        "artist": "The Lemonheads",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 720,
+        "album_title": "Lam Toro",
+        "artist": "Baaba Maal",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 721,
+        "album_title": "Lazer Guided Melodies",
+        "artist": "Spiritualized",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 722,
+        "album_title": "Little Earthquakes",
+        "artist": "Tori Amos",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 723,
+        "album_title": "Psalm 69",
+        "artist": "Ministry",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 724,
+        "album_title": "Selected Ambient Works '85\u2013'92",
+        "artist": "Aphex Twin",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 725,
+        "album_title": "Ten",
+        "artist": "Pearl Jam",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 726,
+        "album_title": "Three Years, Five Months, And Two Days In The Life Of...",
+        "artist": "Arrested Development",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 727,
+        "album_title": "Your Arsenal",
+        "artist": "Morrissey",
+        "release_date": 1992,
+        "total_time": 0
+    },
+    {
+        "album_number": 728,
+        "album_title": "Aimee Mann",
+        "artist": "Whatever",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 729,
+        "album_title": "Bubble & Scrape",
+        "artist": "Sebadoh",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 730,
+        "album_title": "Debut",
+        "artist": "Bj\u00f6rk",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 731,
+        "album_title": "Doggy Style",
+        "artist": "Snoop Doggy Dogg",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 732,
+        "album_title": "Emergency on Planet Earth",
+        "artist": "Jamiroquai",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 733,
+        "album_title": "Enter The Wu-Tang",
+        "artist": "Wu-Tang Clan",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 734,
+        "album_title": "Fuzzy",
+        "artist": "Grant Lee Buffalo",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 735,
+        "album_title": "Gentleman",
+        "artist": "The Afghan Whigs",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 736,
+        "album_title": "Giant Steps",
+        "artist": "The Boo Radleys",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 737,
+        "album_title": "In Utero",
+        "artist": "Nirvana",
+        "release_date": 1993,
+        "total_time": 2483
+    },
+    {
+        "album_number": 738,
+        "album_title": "Modern Life is Rubbish",
+        "artist": "Blur",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 739,
+        "album_title": "New Wave",
+        "artist": "Auteurs",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 740,
+        "album_title": "Orbital II",
+        "artist": "Orbital",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 741,
+        "album_title": "Qui Seme Le Vent Recolte Le Tempo",
+        "artist": "MC Solar",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 742,
+        "album_title": "Rage Against The Machine",
+        "artist": "Rage Against The Machine",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 743,
+        "album_title": "Rid Of Me",
+        "artist": "P.J. Harvey",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 744,
+        "album_title": "Siamese Dream",
+        "artist": "Smashing Pumpkins",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 745,
+        "album_title": "Slanted And Enchanted",
+        "artist": "Pavement",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 746,
+        "album_title": "Strange Cargo III",
+        "artist": "William Orbit",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 747,
+        "album_title": "Suede",
+        "artist": "Suede",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 748,
+        "album_title": "The Chronic",
+        "artist": "Dr Dre",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 749,
+        "album_title": "The Infotainment Scan",
+        "artist": "The Fall",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 750,
+        "album_title": "The Predator",
+        "artist": "Ice Cube",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 751,
+        "album_title": "Tuesday Night Music Club",
+        "artist": "Sheryl Crow",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 752,
+        "album_title": "Venus Luxure No1 Baby",
+        "artist": "Girls Against Boys",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 753,
+        "album_title": "Very",
+        "artist": "Pet Shops Boys",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 754,
+        "album_title": "Wild Wood",
+        "artist": "Paul Weller",
+        "release_date": 1993,
+        "total_time": 0
+    },
+    {
+        "album_number": 755,
+        "album_title": "Brutal Youth",
+        "artist": "Elvis Costello",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 756,
+        "album_title": "Crooked Rain, Crooked Rain",
+        "artist": "Pavement",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 757,
+        "album_title": "Definitely Maybe",
+        "artist": "Oasis",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 758,
+        "album_title": "Dog Man Star",
+        "artist": "Suede",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 759,
+        "album_title": "Dookie",
+        "artist": "Green Day",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 760,
+        "album_title": "Dummy",
+        "artist": "Portishead",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 761,
+        "album_title": "Exile in Guyville",
+        "artist": "Liz Phair",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 762,
+        "album_title": "G Love & Special Sauce",
+        "artist": "G Love & Special Sauce",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 763,
+        "album_title": "Haunted Dancehall",
+        "artist": "Sabres Of Paradise",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 764,
+        "album_title": "Ill Communication",
+        "artist": "Beastie Boys",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 765,
+        "album_title": "Illmatic",
+        "artist": "Nas",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 766,
+        "album_title": "Live Through This",
+        "artist": "Hole",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 767,
+        "album_title": "Me Against the World",
+        "artist": "Tupac Shakur",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 768,
+        "album_title": "Music for the Jilted Generation",
+        "artist": "Prodigy",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 769,
+        "album_title": "Parklife",
+        "artist": "Blur",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 770,
+        "album_title": "Protection",
+        "artist": "Massive Attack",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 771,
+        "album_title": "Ready to Die",
+        "artist": "Notorious B.I.G.",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 772,
+        "album_title": "Smash",
+        "artist": "Offspring",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 773,
+        "album_title": "Snivilisation",
+        "artist": "Orbital",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 774,
+        "album_title": "Superunknown",
+        "artist": "Soundgarden",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 775,
+        "album_title": "Talking Timbuktu",
+        "artist": "Ali Farka Toure with Ry Cooder",
+        "release_date": 1994,
+        "total_time": 3599
+    },
+    {
+        "album_number": 776,
+        "album_title": "Teenager of the Year",
+        "artist": "Frank Black",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 777,
+        "album_title": "The Downward Spiral",
+        "artist": "Nine Inch Nails",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 778,
+        "album_title": "The Holy Bible",
+        "artist": "The Manic Street Preachers",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 779,
+        "album_title": "The Sun Rises In The East",
+        "artist": "Jeru The Damaja",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 780,
+        "album_title": "Tical",
+        "artist": "Method Man",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 781,
+        "album_title": "Unplugged",
+        "artist": "Nirvana",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 782,
+        "album_title": "Vauxhall and I",
+        "artist": "Morrissey",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 783,
+        "album_title": "Yank Crime",
+        "artist": "Drive Like Jehu",
+        "release_date": 1994,
+        "total_time": 0
+    },
+    {
+        "album_number": 784,
+        "album_title": "(What's The Story) Morning Glory?",
+        "artist": "Oasis",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 785,
+        "album_title": "A Northern Soul",
+        "artist": "The Verve",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 786,
+        "album_title": "Alien Lanes",
+        "artist": "Guided By Voices",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 787,
+        "album_title": "Brown Sugar",
+        "artist": "D'Angelo",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 788,
+        "album_title": "CrazySexyCool",
+        "artist": "TLC",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 789,
+        "album_title": "Different Class",
+        "artist": "Pulp",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 790,
+        "album_title": "Elastica",
+        "artist": "Elastica",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 791,
+        "album_title": "Exit Planet Dust",
+        "artist": "The Chemical Brothers",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 792,
+        "album_title": "Femi Kuti",
+        "artist": "Femi Kuti",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 793,
+        "album_title": "Foo Fighters",
+        "artist": "Foo Fighters",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 794,
+        "album_title": "Garbage",
+        "artist": "Garbage",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 795,
+        "album_title": "Grace",
+        "artist": "Jeff Buckley",
+        "release_date": 1995,
+        "total_time": 3108
+    },
+    {
+        "album_number": 796,
+        "album_title": "I Should Coco",
+        "artist": "Supergrass",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 797,
+        "album_title": "Jagged Little Pill",
+        "artist": "Alanis Morissette",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 798,
+        "album_title": "Leftism",
+        "artist": "Leftfield",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 799,
+        "album_title": "Liquid Swords",
+        "artist": "Genius/GZA",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 800,
+        "album_title": "Maxinquaye",
+        "artist": "Tricky",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 801,
+        "album_title": "Mellon Collie and the Infinite Sadness",
+        "artist": "Smashing Pumpkins",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 802,
+        "album_title": "Only Built 4 Cuban Linx",
+        "artist": "Raekwon",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 803,
+        "album_title": "Scream, Dracula, Scream!",
+        "artist": "Rocket From The Crypt",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 804,
+        "album_title": "Smoker's Delight",
+        "artist": "Nightmares on Wax",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 805,
+        "album_title": "The Bends",
+        "artist": "Radiohead",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 806,
+        "album_title": "Timeless",
+        "artist": "Goldie",
+        "release_date": 1995,
+        "total_time": 0
+    },
+    {
+        "album_number": 807,
+        "album_title": "1977",
+        "artist": "Ash",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 808,
+        "album_title": "Antichrist Superstar",
+        "artist": "Marilyn Manson",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 809,
+        "album_title": "Beautiful Freak",
+        "artist": "The Eels",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 810,
+        "album_title": "Being There",
+        "artist": "Wilco",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 811,
+        "album_title": "Better Living Through Chemistry",
+        "artist": "Fatboy Slim",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 812,
+        "album_title": "Casanova",
+        "artist": "The Divine Comedy",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 813,
+        "album_title": "Come Find Yourself",
+        "artist": "The Fun Lovin' Criminals",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 814,
+        "album_title": "Dr Octagonecologyst",
+        "artist": "Dr Octagon",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 815,
+        "album_title": "Dust",
+        "artist": "Screaming Trees",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 816,
+        "album_title": "Emperor Tomato Ketchup",
+        "artist": "Stereolab",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 817,
+        "album_title": "Endtroducing...",
+        "artist": "DJ Shadow",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 818,
+        "album_title": "Everything Must Go",
+        "artist": "The Manic Street Preachers",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 819,
+        "album_title": "First Band On The Moon",
+        "artist": "The Cardigans",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 820,
+        "album_title": "Fuzzy Logic",
+        "artist": "Super Furry Animals",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 821,
+        "album_title": "If You're Feeling Sinister",
+        "artist": "Belle & Sebastian",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 822,
+        "album_title": "Logical Progression",
+        "artist": "LTJ Bukem",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 823,
+        "album_title": "Maxwell's Urban Hang Suite",
+        "artist": "Maxwell",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 824,
+        "album_title": "Millions Now Living Will Never Die",
+        "artist": "Tortoise",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 825,
+        "album_title": "Murder Ballads",
+        "artist": "Nick Cave & the Bad Seeds",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 826,
+        "album_title": "Now I Got Worry",
+        "artist": "Jon Spencer Blues Explosion",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 827,
+        "album_title": "Odelay",
+        "artist": "Beck",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 828,
+        "album_title": "Oedipus Schmoedipus",
+        "artist": "Barry Adamson",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 829,
+        "album_title": "Roots",
+        "artist": "Sepultura",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 830,
+        "album_title": "Second Toughest in the Infants",
+        "artist": "Underworld",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 831,
+        "album_title": "Tellin' Stories",
+        "artist": "The Charlatans",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 832,
+        "album_title": "The Score",
+        "artist": "The Fugees",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 833,
+        "album_title": "Tidal",
+        "artist": "Fiona Apple",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 834,
+        "album_title": "Tigermilk",
+        "artist": "Belle & Sebastian",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 835,
+        "album_title": "Walking Wounded",
+        "artist": "Everything But the Girl",
+        "release_date": 1996,
+        "total_time": 0
+    },
+    {
+        "album_number": 836,
+        "album_title": "A Short Album About Love",
+        "artist": "The Divine Comedy",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 837,
+        "album_title": "Blur",
+        "artist": "Blur",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 838,
+        "album_title": "Buena Vista Social Club",
+        "artist": "Buena Vista Social Club",
+        "release_date": 1997,
+        "total_time": 3612
+    },
+    {
+        "album_number": 839,
+        "album_title": "Butterfly",
+        "artist": "Mariah Carey",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 840,
+        "album_title": "Dig Me Out",
+        "artist": "Sleater-Kinney",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 841,
+        "album_title": "Dig Your Own Hole",
+        "artist": "The Chemical Brothers",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 842,
+        "album_title": "Either/Or",
+        "artist": "Elliott Smith",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 843,
+        "album_title": "Homework",
+        "artist": "Daft Punk",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 844,
+        "album_title": "In It For The Money",
+        "artist": "Supergrass",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 845,
+        "album_title": "Ladies And Gentlemen, We Are Floating in Space",
+        "artist": "Spiritualized",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 846,
+        "album_title": "Let's Get Killed",
+        "artist": "David Holmes",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 847,
+        "album_title": "Life Thru A Lens",
+        "artist": "Robbie Williams",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 848,
+        "album_title": "Maverick A Strike",
+        "artist": "Finlay Quaye",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 849,
+        "album_title": "New Forms",
+        "artist": "Roni Size/Reprazent",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 850,
+        "album_title": "OK Computer",
+        "artist": "Radiohead",
+        "release_date": 1997,
+        "total_time": 3201
+    },
+    {
+        "album_number": 851,
+        "album_title": "Schleep",
+        "artist": "Robert Wyatt",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 852,
+        "album_title": "Supa Dupa Fly",
+        "artist": "Missy Elliott",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 853,
+        "album_title": "The Boatman's Call",
+        "artist": "Nick Cave and the Bad Seeds",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 854,
+        "album_title": "The Fat of the Land",
+        "artist": "Prodigy",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 855,
+        "album_title": "Time Out of Mind",
+        "artist": "Bob Dylan",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 856,
+        "album_title": "Urban Hymns",
+        "artist": "The Verve",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 857,
+        "album_title": "Vanishing Point",
+        "artist": "Primal Scream",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 858,
+        "album_title": "When I Was Born For The 7th Time",
+        "artist": "Cornershop",
+        "release_date": 1997,
+        "total_time": 0
+    },
+    {
+        "album_number": 859,
+        "album_title": "Apocalypse Dudes",
+        "artist": "Turbonegro",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 860,
+        "album_title": "Bob Dylan Live 1966 ('Royal Albert Hall' Bootleg)",
+        "artist": "Bob Dylan",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 861,
+        "album_title": "Car Wheels On A Gravel Road",
+        "artist": "Lucinda Williams",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 862,
+        "album_title": "Celebrity Skin",
+        "artist": "Hole",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 863,
+        "album_title": "Clandestino",
+        "artist": "Manu Chao",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 864,
+        "album_title": "Deserter's Songs",
+        "artist": "Mercury Rev",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 865,
+        "album_title": "Devil Without A Cause",
+        "artist": "Kid Rock",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 866,
+        "album_title": "Follow the Leader",
+        "artist": "Korn",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 867,
+        "album_title": "I See A Darkness",
+        "artist": "Bonnie 'Prince' Billy",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 868,
+        "album_title": "Kenza",
+        "artist": "Khaled",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 869,
+        "album_title": "Mermaid Avenue",
+        "artist": "Billy Bragg/Wilco",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 870,
+        "album_title": "Moon Safari",
+        "artist": "Air",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 871,
+        "album_title": "Music Has the Right to Children",
+        "artist": "Boards of Canada",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 872,
+        "album_title": "OK",
+        "artist": "Talvin Singh",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 873,
+        "album_title": "Queens Of The Stone Age",
+        "artist": "Queens Of The Stone Age",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 874,
+        "album_title": "Ray of Light",
+        "artist": "Madonna",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 875,
+        "album_title": "System Of A Down",
+        "artist": "System Of A Down",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 876,
+        "album_title": "The Miseducation Of Lauryn Hill",
+        "artist": "Lauryn Hill",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 877,
+        "album_title": "This is Hardcore",
+        "artist": "Pulp",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 878,
+        "album_title": "White Ladder",
+        "artist": "David Gray",
+        "release_date": 1998,
+        "total_time": 3157
+    },
+    {
+        "album_number": 879,
+        "album_title": "You've Come a Long Way, Baby",
+        "artist": "Fatboy Slim",
+        "release_date": 1998,
+        "total_time": 0
+    },
+    {
+        "album_number": 880,
+        "album_title": "69 Love Songs",
+        "artist": "The Magnetic Fields",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 881,
+        "album_title": "Agaetis Byrjun",
+        "artist": "Sigur Ros",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 882,
+        "album_title": "Apple Venus Vol. 1",
+        "artist": "XTC",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 883,
+        "album_title": "Beyond Skin",
+        "artist": "Nitin Sawhney",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 884,
+        "album_title": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "release_date": 1999,
+        "total_time": 3384
+    },
+    {
+        "album_number": 885,
+        "album_title": "Central Reservation",
+        "artist": "Beth Orton",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 886,
+        "album_title": "Darkdancer",
+        "artist": "Les Rhythmes Digitales",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 887,
+        "album_title": "HMS Fable",
+        "artist": "Shack",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 888,
+        "album_title": "Le Tigre",
+        "artist": "Le Tigre",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 889,
+        "album_title": "Make Yourself",
+        "artist": "Incubus",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 890,
+        "album_title": "Play",
+        "artist": "Moby",
+        "release_date": 1999,
+        "total_time": 3798
+    },
+    {
+        "album_number": 891,
+        "album_title": "Remedy",
+        "artist": "Basement Jaxx",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 892,
+        "album_title": "S&M",
+        "artist": "Metallica",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 893,
+        "album_title": "Slipknot",
+        "artist": "Slipknot",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 894,
+        "album_title": "The Contino Sessions",
+        "artist": "Death in Vegas",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 895,
+        "album_title": "The Man Who",
+        "artist": "Travis",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 896,
+        "album_title": "The Slim Shady LP",
+        "artist": "Eminem",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 897,
+        "album_title": "The Soft Bulletin",
+        "artist": "Flaming Lips",
+        "release_date": 1999,
+        "total_time": 0
+    },
+    {
+        "album_number": 898,
+        "album_title": "All That You Can't Leave Behind",
+        "artist": "U2",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 899,
+        "album_title": "Felt Mountain",
+        "artist": "Goldfrapp",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 900,
+        "album_title": "Figure 8",
+        "artist": "Elliott Smith",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 901,
+        "album_title": "Heartbreaker",
+        "artist": "Ryan Adams",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 902,
+        "album_title": "Kid A",
+        "artist": "Radiohead",
+        "release_date": 2000,
+        "total_time": 2996
+    },
+    {
+        "album_number": 903,
+        "album_title": "Like Water For Chocolate",
+        "artist": "Common",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 904,
+        "album_title": "Lost Souls",
+        "artist": "The Doves",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 905,
+        "album_title": "Mama's Gun",
+        "artist": "Erykah Badu",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 906,
+        "album_title": "Nixon",
+        "artist": "Lambchop",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 907,
+        "album_title": "Parachutes",
+        "artist": "Coldplay",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 908,
+        "album_title": "Punishing Kiss",
+        "artist": "Ute Lemper",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 909,
+        "album_title": "Red Dirt Girl",
+        "artist": "Emmylou Harris",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 910,
+        "album_title": "Since I Left You",
+        "artist": "The Avalanches",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 911,
+        "album_title": "Stankonia",
+        "artist": "Outkast",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 912,
+        "album_title": "Stories From The City, Stories From The Sea",
+        "artist": "PJ Harvey",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 913,
+        "album_title": "Tanto Tempo",
+        "artist": "Bebel Gilberto",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 914,
+        "album_title": "The Hour Of Bewilderbeast",
+        "artist": "Badly Drawn Boy",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 915,
+        "album_title": "The Marshall Mathers LP",
+        "artist": "Eminem",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 916,
+        "album_title": "The Virgin Suicides",
+        "artist": "Air",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 917,
+        "album_title": "Welcome to the Aftterfuture",
+        "artist": "Mike Ladd",
+        "release_date": 2000,
+        "total_time": 0
+    },
+    {
+        "album_number": 918,
+        "album_title": "Bright Flight",
+        "artist": "Silver Jews",
+        "release_date": 2001,
+        "total_time": 0
+    },
+    {
+        "album_number": 919,
+        "album_title": "Gold",
+        "artist": "Ryan Adams",
+        "release_date": 2001,
+        "total_time": 0
+    },
+    {
+        "album_number": 920,
+        "album_title": "Is This It",
+        "artist": "The Strokes",
+        "release_date": 2001,
+        "total_time": 0
+    },
+    {
+        "album_number": 921,
+        "album_title": "La Revancha del Tango",
+        "artist": "Gotan Project",
+        "release_date": 2001,
+        "total_time": 0
+    },
+    {
+        "album_number": 922,
+        "album_title": "Melody A.M.",
+        "artist": "Royksopp",
+        "release_date": 2001,
+        "total_time": 0
+    },
+    {
+        "album_number": 923,
+        "album_title": "Rings Around the World",
+        "artist": "Super Furry Animals",
+        "release_date": 2001,
+        "total_time": 0
+    },
+    {
+        "album_number": 924,
+        "album_title": "Southern Rock Opera",
+        "artist": "Drive-By Truckers",
+        "release_date": 2001,
+        "total_time": 0
+    },
+    {
+        "album_number": 925,
+        "album_title": "The Blueprint",
+        "artist": "Jay-Z",
+        "release_date": 2001,
+        "total_time": 0
+    },
+    {
+        "album_number": 926,
+        "album_title": "Time (The Revelator)",
+        "artist": "Gillian Welch",
+        "release_date": 2001,
+        "total_time": 0
+    },
+    {
+        "album_number": 927,
+        "album_title": "Vespertine",
+        "artist": "Bj\u00f6rk",
+        "release_date": 2001,
+        "total_time": 0
+    },
+    {
+        "album_number": 928,
+        "album_title": "White Blood Cells",
+        "artist": "The White Stripes",
+        "release_date": 2001,
+        "total_time": 2425
+    },
+    {
+        "album_number": 929,
+        "album_title": "A Rush of Blood to the Head",
+        "artist": "Coldplay",
+        "release_date": 2002,
+        "total_time": 3248
+    },
+    {
+        "album_number": 930,
+        "album_title": "Come Away With Me",
+        "artist": "Norah Jones",
+        "release_date": 2002,
+        "total_time": 0
+    },
+    {
+        "album_number": 931,
+        "album_title": "Yankee Hotel Foxtrot",
+        "artist": "Wilco",
+        "release_date": 2002,
+        "total_time": 0
+    },
+    {
+        "album_number": 932,
+        "album_title": "Phrenology",
+        "artist": "The Roots",
+        "release_date": 2002,
+        "total_time": 0
+    },
+    {
+        "album_number": 933,
+        "album_title": "Power in Numbers",
+        "artist": "Jurassic 5",
+        "release_date": 2002,
+        "total_time": 0
+    },
+    {
+        "album_number": 934,
+        "album_title": "Sea Change",
+        "artist": "Beck",
+        "release_date": 2002,
+        "total_time": 0
+    },
+    {
+        "album_number": 935,
+        "album_title": "The Last Broadcast",
+        "artist": "The Doves",
+        "release_date": 2002,
+        "total_time": 0
+    },
+    {
+        "album_number": 936,
+        "album_title": "The Rising",
+        "artist": "Bruce Springsteen",
+        "release_date": 2002,
+        "total_time": 0
+    },
+    {
+        "album_number": 937,
+        "album_title": "Under Construction",
+        "artist": "Missy Elliott",
+        "release_date": 2002,
+        "total_time": 0
+    },
+    {
+        "album_number": 938,
+        "album_title": "Yoshimi Battles the Pink Robots",
+        "artist": "The Flaming Lips",
+        "release_date": 2002,
+        "total_time": 0
+    },
+    {
+        "album_number": 939,
+        "album_title": "Boy in da Corner",
+        "artist": "Dizzee Rascal",
+        "release_date": 2003,
+        "total_time": 0
+    },
+    {
+        "album_number": 940,
+        "album_title": "De-loused at the Crematorium",
+        "artist": "The Mars Volta",
+        "release_date": 2003,
+        "total_time": 0
+    },
+    {
+        "album_number": 941,
+        "album_title": "Elephant",
+        "artist": "The White Stripes",
+        "release_date": 2003,
+        "total_time": 2996
+    },
+    {
+        "album_number": 942,
+        "album_title": "Fever To Tell",
+        "artist": "Yeah Yeah Yeahs",
+        "release_date": 2003,
+        "total_time": 0
+    },
+    {
+        "album_number": 943,
+        "album_title": "Speakerboxxx/The Love Below",
+        "artist": "Outkast",
+        "release_date": 2003,
+        "total_time": 0
+    },
+    {
+        "album_number": 944,
+        "album_title": "A Grand Don't Come For Free",
+        "artist": "The Streets",
+        "release_date": 2004,
+        "total_time": 0
+    },
+    {
+        "album_number": 945,
+        "album_title": "Abattoir Blues/The Lyre Of Orpheus",
+        "artist": "Nick Cave And The Bad Seeds",
+        "release_date": 2004,
+        "total_time": 0
+    },
+    {
+        "album_number": 946,
+        "album_title": "American Idiot",
+        "artist": "Green Day",
+        "release_date": 2004,
+        "total_time": 0
+    },
+    {
+        "album_number": 947,
+        "album_title": "Cee-Lo Green Is The Soul Machine",
+        "artist": "Cee-Lo",
+        "release_date": 2004,
+        "total_time": 0
+    },
+    {
+        "album_number": 948,
+        "album_title": "Destroy Rock & Roll",
+        "artist": "Mylo",
+        "release_date": 2004,
+        "total_time": 0
+    },
+    {
+        "album_number": 949,
+        "album_title": "Franz Ferdinand",
+        "artist": "Franz Ferdinand",
+        "release_date": 2004,
+        "total_time": 2329
+    },
+    {
+        "album_number": 950,
+        "album_title": "Funeral",
+        "artist": "Arcade Fire",
+        "release_date": 2004,
+        "total_time": 0
+    },
+    {
+        "album_number": 951,
+        "album_title": "Rejoicing in the Hands",
+        "artist": "Devendra Banhart",
+        "release_date": 2004,
+        "total_time": 0
+    },
+    {
+        "album_number": 952,
+        "album_title": "The College Dropout",
+        "artist": "Kanye West",
+        "release_date": 2004,
+        "total_time": 0
+    },
+    {
+        "album_number": 953,
+        "album_title": "Want Two",
+        "artist": "Rufus Wainwright",
+        "release_date": 2004,
+        "total_time": 0
+    },
+    {
+        "album_number": 954,
+        "album_title": "Be",
+        "artist": "Common",
+        "release_date": 2005,
+        "total_time": 0
+    },
+    {
+        "album_number": 955,
+        "album_title": "Cole's Cornes",
+        "artist": "Richard Hawley",
+        "release_date": 2005,
+        "total_time": 0
+    },
+    {
+        "album_number": 956,
+        "album_title": "Illinois",
+        "artist": "Sufjan Stevens",
+        "release_date": 2005,
+        "total_time": 0
+    },
+    {
+        "album_number": 957,
+        "album_title": "Back to Black",
+        "artist": "Amy Winehouse",
+        "release_date": 2006,
+        "total_time": 0
+    },
+    {
+        "album_number": 958,
+        "album_title": "Fishscale",
+        "artist": "Ghostface Killah",
+        "release_date": 2006,
+        "total_time": 0
+    },
+    {
+        "album_number": 959,
+        "album_title": "Food & Liqour",
+        "artist": "Lupe Fiasco",
+        "release_date": 2006,
+        "total_time": 0
+    },
+    {
+        "album_number": 960,
+        "album_title": "Savane",
+        "artist": "Ali Farka Tour\u00e9",
+        "release_date": 2006,
+        "total_time": 0
+    },
+    {
+        "album_number": 961,
+        "album_title": "Whatever People Say I Am",
+        "artist": "Arctic Monkeys",
+        "release_date": 2006,
+        "total_time": 0
+    },
+    {
+        "album_number": 962,
+        "album_title": "Ys",
+        "artist": "Joanna Newsom",
+        "release_date": 2006,
+        "total_time": 0
+    },
+    {
+        "album_number": 963,
+        "album_title": "Cross",
+        "artist": "Justice",
+        "release_date": 2007,
+        "total_time": 0
+    },
+    {
+        "album_number": 964,
+        "album_title": "In Rainbows",
+        "artist": "Radiohead",
+        "release_date": 2007,
+        "total_time": 0
+    },
+    {
+        "album_number": 965,
+        "album_title": "Kala",
+        "artist": "MIA",
+        "release_date": 2007,
+        "total_time": 0
+    },
+    {
+        "album_number": 966,
+        "album_title": "The Sound of Silver",
+        "artist": "LCD Soundsystem",
+        "release_date": 2007,
+        "total_time": 0
+    },
+    {
+        "album_number": 967,
+        "album_title": "Dear Science",
+        "artist": "TV on the Radio",
+        "release_date": 2008,
+        "total_time": 0
+    },
+    {
+        "album_number": 968,
+        "album_title": "Fleet Foxes",
+        "artist": "Fleet Foxes",
+        "release_date": 2008,
+        "total_time": 0
+    },
+    {
+        "album_number": 969,
+        "album_title": "The Seldom Seen Kid",
+        "artist": "Elbow",
+        "release_date": 2008,
+        "total_time": 0
+    },
+    {
+        "album_number": 970,
+        "album_title": "The Renaissance",
+        "artist": "Q-Tip",
+        "release_date": 2008,
+        "total_time": 0
+    },
+    {
+        "album_number": 971,
+        "album_title": "Third",
+        "artist": "Portishead",
+        "release_date": 2008,
+        "total_time": 0
+    },
+    {
+        "album_number": 972,
+        "album_title": "It's Blitz",
+        "artist": "Yeah Yeah Yeahs",
+        "release_date": 2009,
+        "total_time": 0
+    },
+    {
+        "album_number": 973,
+        "album_title": "Merriweather Post Pavilion",
+        "artist": "Animal Collective",
+        "release_date": 2009,
+        "total_time": 0
+    },
+    {
+        "album_number": 974,
+        "album_title": "Two Dancers",
+        "artist": "Wild Beasts",
+        "release_date": 2009,
+        "total_time": 0
+    },
+    {
+        "album_number": 975,
+        "album_title": "xx",
+        "artist": "The xx",
+        "release_date": 2009,
+        "total_time": 0
+    },
+    {
+        "album_number": 976,
+        "album_title": "Brothers",
+        "artist": "The Black Keys",
+        "release_date": 2010,
+        "total_time": 0
+    },
+    {
+        "album_number": 977,
+        "album_title": "Halcyon Digest",
+        "artist": "Deerhunter",
+        "release_date": 2010,
+        "total_time": 0
+    },
+    {
+        "album_number": 978,
+        "album_title": "My Beautiful Dark Twisted Fantasy",
+        "artist": "Kanye West",
+        "release_date": 2010,
+        "total_time": 0
+    },
+    {
+        "album_number": 979,
+        "album_title": "Queen of Denmark",
+        "artist": "John Grant",
+        "release_date": 2010,
+        "total_time": 0
+    },
+    {
+        "album_number": 980,
+        "album_title": "Teen Dream",
+        "artist": "Beach House",
+        "release_date": 2010,
+        "total_time": 0
+    },
+    {
+        "album_number": 981,
+        "album_title": "The ArchAndroid",
+        "artist": "Janelle Monae",
+        "release_date": 2010,
+        "total_time": 0
+    },
+    {
+        "album_number": 982,
+        "album_title": "Let England Shake",
+        "artist": "P.J Harvey",
+        "release_date": 2011,
+        "total_time": 0
+    },
+    {
+        "album_number": 983,
+        "album_title": "White Denim",
+        "artist": "D",
+        "release_date": 2011,
+        "total_time": 0
+    },
+    {
+        "album_number": 984,
+        "album_title": "good kid, m.A.A.d city",
+        "artist": "Kendrick Lamar",
+        "release_date": 2012,
+        "total_time": 0
+    },
+    {
+        "album_number": 985,
+        "album_title": "In Our Heads",
+        "artist": "Hot Chip",
+        "release_date": 2012,
+        "total_time": 0
+    },
+    {
+        "album_number": 986,
+        "album_title": "Channel Orange",
+        "artist": "Frank Ocean",
+        "release_date": 2012,
+        "total_time": 0
+    },
+    {
+        "album_number": 987,
+        "album_title": "Blunderbuss",
+        "artist": "Jack White",
+        "release_date": 2012,
+        "total_time": 0
+    },
+    {
+        "album_number": 988,
+        "album_title": "Django Django",
+        "artist": "Django Django",
+        "release_date": 2012,
+        "total_time": 0
+    },
+    {
+        "album_number": 989,
+        "album_title": "m b v",
+        "artist": "My Bloody Valentine",
+        "release_date": 2013,
+        "total_time": 0
+    },
+    {
+        "album_number": 990,
+        "album_title": "Yeezus",
+        "artist": "Kanye West",
+        "release_date": 2013,
+        "total_time": 0
+    },
+    {
+        "album_number": 991,
+        "album_title": "The Next Day",
+        "artist": "David Bowie",
+        "release_date": 2013,
+        "total_time": 0
+    },
+    {
+        "album_number": 992,
+        "album_title": "The Bones Of What You Believe",
+        "artist": "Chvrches",
+        "release_date": 2013,
+        "total_time": 0
+    },
+    {
+        "album_number": 993,
+        "album_title": "Beyonc\u00e9",
+        "artist": "Beyonc\u00e9",
+        "release_date": 2013,
+        "total_time": 0
+    },
+    {
+        "album_number": 994,
+        "album_title": "1989",
+        "artist": "Taylor Swift",
+        "release_date": 2014,
+        "total_time": 0
+    },
+    {
+        "album_number": 995,
+        "album_title": "LP1",
+        "artist": "FKA Twigs",
+        "release_date": 2014,
+        "total_time": 0
+    },
+    {
+        "album_number": 996,
+        "album_title": "Lost in the Dreams",
+        "artist": "The War on Drugs",
+        "release_date": 2014,
+        "total_time": 0
+    },
+    {
+        "album_number": 997,
+        "album_title": "25",
+        "artist": "Adele",
+        "release_date": 2015,
+        "total_time": 0
+    },
+    {
+        "album_number": 998,
+        "album_title": "Vulnicura",
+        "artist": "Bjork",
+        "release_date": 2015,
+        "total_time": 0
+    },
+    {
+        "album_number": 999,
+        "album_title": "Music in Exile",
+        "artist": "Songhoy Blues",
+        "release_date": 2015,
+        "total_time": 0
+    },
+    {
+        "album_number": 1000,
+        "album_title": "Blackstar",
+        "artist": "David Bowie",
+        "release_date": 2016,
+        "total_time": 0
+    }
+]
