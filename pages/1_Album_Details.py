@@ -1,5 +1,8 @@
+import json
+from pathlib import Path
 import streamlit as st
 
+from cfg.cfg import Config, load_config
 from src.album import Album
 
 
@@ -12,6 +15,17 @@ def update_album_key(update_value=0) -> Album:
     elif st.session_state.key > 1000:
         st.session_state.key = 1000
     return st.session_state.albums[st.session_state.key]
+
+
+def save_album_details(cfg: Config) -> None:
+    albums: list[Album] = st.session_state.albums
+    with open(Path(cfg.data.album_data_json_path), "w") as f:
+        json.dump(
+            [album.album_details() for album in albums],
+            fp=f,
+            sort_keys=True,
+            indent=4,
+        )
 
 
 album = update_album_key(0)

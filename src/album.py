@@ -1,8 +1,8 @@
 from dataclasses import dataclass
-from datetime import datetime, timedelta
+from datetime import timedelta
 
+import json
 from pathlib import Path
-from typing import Any
 import pandas as pd
 from cfg.cfg import Config
 import cfg.schema as sch
@@ -19,6 +19,15 @@ class Album:
     release_date: int
     total_time: timedelta
     comments: str = ""
+
+    def album_details(self) -> dict[str, str | float]:
+        return {
+            "album_number": self.album_number,
+            "album_title": self.album_title,
+            "artist": self.artist,
+            "release_date": self.release_date,
+            "total_time": self.total_time.seconds,
+        }
 
 
 def load_albums(cfg: Config) -> list[Album]:

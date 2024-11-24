@@ -8,6 +8,7 @@ import yaml
 class Data:
 
     album_data_csv_name: str
+    album_data_json_path: str
     csv_save_dir: str
     personal_data_csv_name: str
     raw_excel_path: str
