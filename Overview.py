@@ -2,22 +2,24 @@ from pathlib import Path
 import streamlit as st
 
 from cfg.cfg import load_config
-from src.album import load_albums
+from src.album import Album, load_albums
 import src.album_calcs as ac
-from utils.create_csv import save_csv
+
+SETTING_PATH = Path("C:/Users/ste-c/OneDrive/Documents/1001-albums/cfg/setting.yaml")
+
+
+def set_albums() -> list[Album]:
+    if "albums" in st.session_state:
+        return st.session_state.albums
+    cfg = load_config(SETTING_PATH)
+    albums = load_albums(cfg)
+    st.session_state.albums = albums
+    return albums
 
 
 def main() -> None:
 
-    # TODO: read settings in a single place
-    SETTING_PATH = Path(
-        "C:/Users/ste-c/OneDrive/Documents/1001-albums/cfg/setting.yaml"
-    )
-
-    # TODO: load albums in a single place
-    cfg = load_config(SETTING_PATH)
-    save_csv(cfg)
-    albums = load_albums(cfg)
+    albums = set_albums()
 
     st.set_page_config(
         page_title="Hello",

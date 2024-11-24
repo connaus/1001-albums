@@ -1,10 +1,6 @@
-from pathlib import Path
 import streamlit as st
 
-from cfg.cfg import load_config
-from src.album import Album, load_albums
-
-SETTING_PATH = Path("C:/Users/ste-c/OneDrive/Documents/1001-albums/cfg/setting.yaml")
+from src.album import Album
 
 
 def update_album_key(update_value=0) -> Album:
@@ -15,12 +11,9 @@ def update_album_key(update_value=0) -> Album:
         st.session_state.key = 0
     elif st.session_state.key > 1000:
         st.session_state.key = 1000
-    return albums[st.session_state.key]
+    return st.session_state.albums[st.session_state.key]
 
 
-# TODO: this will re-load the albums on every click, which is surely slow
-cfg = load_config(SETTING_PATH)
-albums = load_albums(cfg)
 album = update_album_key(0)
 left, _, right = st.columns(3)
 if left.button("Previous", use_container_width=True):
