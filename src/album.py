@@ -17,37 +17,44 @@ class Album:
     previous_listened: bool
     listened: bool
     release_date: int
-    total_time: timedelta
+    total_time_s: int
     comments: str = ""
 
-    def album_details(self) -> dict[str, str | float]:
+    @property
+    def total_time(self) -> timedelta:
+        return timedelta(seconds=self.total_time_s)
+
+    def album_details(self) -> dict[str, str | int]:
         return {
             "album_number": self.album_number,
             "album_title": self.album_title,
             "artist": self.artist,
             "release_date": self.release_date,
-            "total_time": self.total_time.seconds,
+            "total_time_s": self.total_time_s,
         }
 
 
 def load_albums(cfg: Config) -> list[Album]:
+    # albums = pd.read_json(Path(cfg.data.album_data_json_path), orient="records")
     albums = pd.read_csv(
         Path(cfg.data.csv_save_dir) / f"{cfg.data.album_data_csv_name}.csv"
     )
     personal = pd.read_csv(
         Path(cfg.data.csv_save_dir) / f"{cfg.data.personal_data_csv_name}.csv"
     )
-    albums[sch.Albums.total_time] = albums[sch.Albums.total_time].fillna(0)
-    albums[sch.Albums.total_time] = albums[sch.Albums.total_time].apply(
-        lambda x: timedelta(seconds=x)
-    )
+    albums[sch.AlbumExcelColumns.total_time] = albums[
+        sch.AlbumExcelColumns.total_time
+    ].fillna(0)
+    albums[sch.AlbumExcelColumns.total_time] = albums[
+        sch.AlbumExcelColumns.total_time
+    ].apply(lambda x: timedelta(seconds=x))
     albums.rename(
         {
-            sch.Albums.key: "album_number",
-            sch.Albums.album_title: "album_title",
-            sch.Albums.artist: "artist",
-            sch.Albums.release_date: "release_date",
-            sch.Albums.total_time: "total_time",
+            sch.AlbumExcelColumns.key: "album_number",
+            sch.AlbumExcelColumns.album_title: "album_title",
+            sch.AlbumExcelColumns.artist: "artist",
+            sch.AlbumExcelColumns.release_date: "release_date",
+            sch.AlbumExcelColumns.total_time: "total_time",
         },
         axis=1,
         inplace=True,
@@ -55,10 +62,10 @@ def load_albums(cfg: Config) -> list[Album]:
 
     personal.rename(
         {
-            sch.PersonalData.key: "album_number",
-            sch.PersonalData.previous_listened: "previous_listened",
-            sch.PersonalData.listened: "listened",
-            sch.PersonalData.comments: "comments",
+            sch.PersonalExcelColumns.key: "album_number",
+            sch.PersonalExcelColumns.previous_listened: "previous_listened",
+            sch.PersonalExcelColumns.listened: "listened",
+            sch.PersonalExcelColumns.comments: "comments",
         },
         axis=1,
         inplace=True,

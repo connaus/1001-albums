@@ -11,6 +11,8 @@ class Data:
     album_data_json_path: str
     csv_save_dir: str
     personal_data_csv_name: str
+    personal_data_json_path: str
+
     raw_excel_path: str
     sheet_name: str
 
