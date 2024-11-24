@@ -34,7 +34,7 @@ if left.button("Previous", use_container_width=True):
     album = update_album_key(-1)
 if right.button("Next", use_container_width=True):
     album = update_album_key(1)
-st.markdown(f"# Album {album.album_number + 1}")
+st.markdown(f"# Album {album.album_number}")
 st.markdown(f"# {album.album_title}")
 st.markdown(f"{album.artist}")
 st.markdown(f"{album.total_time}")

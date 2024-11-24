@@ -58,6 +58,7 @@ def convert_excel_to_json(cfg: Config) -> None:
             sch.AlbumExcelColumns.release_date: sch.Album.release_date,
             sch.AlbumExcelColumns.total_time: sch.Album.total_time,
         },
+        axis=1,
         inplace=True,
     )
     with open(Path(cfg.data.album_data_json_path), "w") as f:
@@ -79,6 +80,7 @@ def convert_excel_to_json(cfg: Config) -> None:
             sch.PersonalExcelColumns.previous_listened: sch.PersonalData.previous_listened,
             sch.PersonalExcelColumns.comments: sch.PersonalData.comments,
         },
+        axis=1,
         inplace=True,
     )
     with open(cfg.data.personal_data_json_path, "w") as f:
