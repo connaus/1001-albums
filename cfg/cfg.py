@@ -28,8 +28,3 @@ def load_config(settings_path: Path) -> Config:
         data_settings = yaml.safe_load(stream=steam)
 
     return Config(data=Data(**data_settings))
-
-
-def update_albums() -> None:
-    cfg = load_config(SETTING_PATH)
-    albums = load_albums(cfg)

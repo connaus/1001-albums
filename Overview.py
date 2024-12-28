@@ -1,7 +1,7 @@
 from pathlib import Path
 import streamlit as st
 
-from cfg.cfg import load_config
+from cfg.cfg import Config, load_config
 from src.album import Album, load_albums
 import src.album_calcs as ac
 
@@ -11,14 +11,14 @@ SETTING_PATH = Path("C:/Users/ste-c/OneDrive/Documents/1001-albums/cfg/setting.y
 def set_albums() -> list[Album]:
     if "albums" in st.session_state:
         return st.session_state.albums
-    cfg = load_config(SETTING_PATH)
-    albums = load_albums(cfg)
+    albums = load_albums(st.session_state.config)
     st.session_state.albums = albums
     return albums
 
 
 def main() -> None:
 
+    st.session_state.config = load_config(SETTING_PATH)
     albums = set_albums()
 
     st.set_page_config(

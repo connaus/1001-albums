@@ -30,11 +30,19 @@ class Album:
 
     def album_details(self) -> dict[str, str | int]:
         return {
-            "album_number": self.album_number,
+            "key": self.key,
             "album_title": self.album_title,
             "artist": self.artist,
             "release_date": self.release_date,
             "total_time_s": self.total_time_s,
+        }
+
+    def personal_details(self) -> dict[str, str | int | bool]:
+        return {
+            "key": self.key,
+            "listened": self.listened,
+            "previous_listened": self.previous_listened,
+            "comments": self.comments,
         }
 
 
