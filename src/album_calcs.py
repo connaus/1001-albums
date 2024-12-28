@@ -5,6 +5,7 @@ from src.album import Album
 
 
 def next_album(albums: list[Album]) -> Album:
+    """find the next album that needs to be listened to"""
     key = min([album.album_number for album in albums if album.listened == False])
     return [album for album in albums if album.album_number == key][0]
 

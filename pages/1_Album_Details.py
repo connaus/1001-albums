@@ -1,13 +1,13 @@
 import json
 from pathlib import Path
 import streamlit as st
-
+import src.album_calcs as ac
 from src.album import Album
 
 
 def update_album_key(update_value=0) -> Album:
     if "key" not in st.session_state:
-        st.session_state.key = 0
+        st.session_state.key = ac.next_album(st.session_state.albums).key
     st.session_state.key += update_value
     if st.session_state.key < 0:
         st.session_state.key = 0
