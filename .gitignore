@@ -2,4 +2,5 @@ cfg/setting.yaml
 /cfg/personal_data.csv
 *.pyc
 /.vscode
-/scratch.py
+/scratch*.py
+/fixtures/personal_data.json

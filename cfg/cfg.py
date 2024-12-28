@@ -8,8 +8,11 @@ import yaml
 class Data:
 
     album_data_csv_name: str
+    album_data_json_path: str
     csv_save_dir: str
     personal_data_csv_name: str
+    personal_data_json_path: str
+
     raw_excel_path: str
     sheet_name: str
 
@@ -25,8 +28,3 @@ def load_config(settings_path: Path) -> Config:
         data_settings = yaml.safe_load(stream=steam)
 
     return Config(data=Data(**data_settings))
-
-
-def update_albums() -> None:
-    cfg = load_config(SETTING_PATH)
-    albums = load_albums(cfg)
