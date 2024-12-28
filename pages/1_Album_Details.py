@@ -53,6 +53,7 @@ if right.button(
 def save_album_comment():
     album.comments = st.session_state.album_comment
     save_album_details()
+    saved_comment.write(":green[Comment Saved!]")
 
 
 def save_album_number():
@@ -66,6 +67,9 @@ def save_album_number():
     st.session_state.albums = albums
     save_album_details()
     st.session_state.key = current_album.key
+    num_status.write("")
+    num_status.write("")
+    num_status.write(":green[Position Updated!]")
 
 
 def save_album_length():
@@ -76,6 +80,9 @@ def save_album_length():
     total_seconds = (3600 * h) + (60 * m) + s
     album.total_time_s = total_seconds
     save_album_details()
+    time_status.write("")
+    time_status.write("")
+    time_status.write(":green[Length Updated!]")
 
 
 # album title
@@ -83,7 +90,7 @@ st.markdown(f"# {album.album_title}")
 st.markdown(f"{album.artist}")
 
 # album number
-title, value, buff = st.columns([2, 1, 1])
+title, value, num_status = st.columns([2, 1, 1])
 title.markdown(f"# Album Number")
 value.write("")
 value.write("")
@@ -97,7 +104,7 @@ album_number = value.text_input(
 )
 
 ## album time
-title, value, buff = st.columns([2, 1, 1])
+title, value, time_status = st.columns([2, 1, 1])
 h, s1, m, s2, s = value.columns([3, 1, 3, 1, 3])
 title.markdown(f"# Album Length")
 h.write("")
@@ -139,8 +146,10 @@ s.text_input(
 st.markdown("# Comment")
 st.text_area(
     " ",
-    f"{album.comments}",
+    value=f"{album.comments}",
+    placeholder="Write your comment here",
     label_visibility="collapsed",
     on_change=save_album_comment,
     key="album_comment",
 )
+saved_comment, _ = st.columns([1, 1])
