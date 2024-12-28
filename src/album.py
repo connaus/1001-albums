@@ -24,6 +24,11 @@ class Album:
     def album_number(self) -> int:
         return self.key + 1
 
+    @album_number.setter
+    def album_number(self, x: int) -> None:
+        x = int(x)
+        self.key = x - 1
+
     @property
     def total_time(self) -> timedelta:
         return timedelta(seconds=self.total_time_s)

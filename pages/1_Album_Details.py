@@ -50,13 +50,22 @@ if right.button(
     album = update_album_key(1)
 
 
-def save_abum_comment():
+def save_album_comment():
     album.comments = st.session_state.album_comment
     save_album_details()
 
 
 def save_album_number():
-    print(st.session_state.album_number)
+    current_album = st.session_state.albums.pop(album.key)
+    current_album.album_number = st.session_state.album_number
+    st.session_state.albums.insert(current_album.key, current_album)
+    albums: list[Album] = []
+    for i, a in enumerate(st.session_state.albums):
+        a.key = i
+        albums.append(a)
+    st.session_state.albums = albums
+    save_album_details()
+    st.session_state.key = current_album.key
 
 
 # if st.session_state.page_state == PageState.EDIT:
@@ -77,7 +86,7 @@ st.text_area(
     " ",
     f"{album.comments}",
     label_visibility="collapsed",
-    on_change=save_abum_comment,
+    on_change=save_album_comment,
     key="album_comment",
 )
 
