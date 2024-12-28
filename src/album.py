@@ -33,6 +33,29 @@ class Album:
     def total_time(self) -> timedelta:
         return timedelta(seconds=self.total_time_s)
 
+    @total_time.setter
+    def total_time(self, x: timedelta):
+        self.total_time_s = x.seconds
+
+    @property
+    def hours(self) -> int:
+        """returns the number of hours that the album lasts for"""
+        return self.total_time.seconds // 3600
+
+    @property
+    def minutes(self) -> int:
+        """returns the number of minutes past the hour that the album lasts for
+        will always be less than 60"""
+        m = self.total_time.seconds - (3600 * self.hours)
+        return m // 60
+
+    @property
+    def seconds(self) -> int:
+        """returns the number of seconds past the minute that the album lasts for
+        will always be less than 60"""
+        s = self.total_time.seconds - (3600 * self.hours) - (60 * self.minutes)
+        return s
+
     def album_details(self) -> dict[str, str | int]:
         return {
             "key": self.key,
