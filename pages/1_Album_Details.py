@@ -103,6 +103,14 @@ def update_prev_listened_status():
     save_album_details()
 
 
+def update_listen_again():
+    album.listen_again = st.session_state.listen_again
+    save_album_details()
+    relisten_status.write("")
+    relisten_status.write("")
+    relisten_status.write(":green[Selection Saved!]")
+
+
 # album title
 title, cb1, cb2 = st.columns([3, 1, 2])
 
@@ -128,7 +136,7 @@ title, value, num_status = st.columns([2, 1, 1])
 title.markdown(f"# Album Number")
 value.write("")
 value.write("")
-album_number = value.text_input(
+value.text_input(
     " ",
     value=f"{album.album_number}",
     max_chars=4,
@@ -201,3 +209,22 @@ st.text_area(
     key="album_comment",
 )
 saved_comment, _ = st.columns([1, 1])
+
+# album year
+title, value, relisten_status = st.columns([2, 1, 1])
+title.markdown(f"# Listen Again?")
+options_index = {"Yes": 0, "Maybe": 1, "No": 2}
+if album.listen_again is not None:
+    index = options_index.get(album.listen_again, None)
+else:
+    index = 1
+value.write("")
+value.write("")
+value.selectbox(
+    " ",
+    options=("Yes", "Maybe", "No"),
+    index=index,
+    label_visibility="collapsed",
+    on_change=update_listen_again,
+    key="listen_again",
+)
