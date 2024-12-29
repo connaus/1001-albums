@@ -72,6 +72,14 @@ def save_album_number():
     num_status.write(":green[Position Updated!]")
 
 
+def update_release_date():
+    album.release_date = st.session_state.release_date
+    save_album_details()
+    year_status.write("")
+    year_status.write("")
+    year_status.write(":green[Release Date Updated!]")
+
+
 def save_album_length():
     h = int(st.session_state.hours)
     m = int(st.session_state.minutes)
@@ -127,6 +135,20 @@ album_number = value.text_input(
     label_visibility="collapsed",
     on_change=save_album_number,
     key="album_number",
+)
+
+# album year
+title, value, year_status = st.columns([2, 1, 1])
+title.markdown(f"# Release Year")
+value.write("")
+value.write("")
+value.text_input(
+    " ",
+    value=f"{album.release_date}",
+    max_chars=4,
+    label_visibility="collapsed",
+    on_change=update_release_date,
+    key="release_date",
 )
 
 ## album time
