@@ -85,8 +85,34 @@ def save_album_length():
     time_status.write(":green[Length Updated!]")
 
 
+def update_listened_status():
+    album.listened = st.session_state.listened
+    save_album_details()
+
+
+def update_prev_listened_status():
+    album.previous_listened = st.session_state.previous_listened
+    save_album_details()
+
+
 # album title
-st.markdown(f"# {album.album_title}")
+title, cb1, cb2 = st.columns([3, 1, 2])
+
+cb1.write("")
+cb1.write("")
+cb1.checkbox(
+    "Listened", value=album.listened, key="listened", on_change=update_listened_status
+)
+cb2.write("")
+cb2.write("")
+cb2.checkbox(
+    "Previously Listened",
+    value=album.previous_listened,
+    key="previous_listened",
+    on_change=update_prev_listened_status,
+)
+
+title.markdown(f"# {album.album_title.strip()}")
 st.markdown(f"{album.artist}")
 
 # album number
