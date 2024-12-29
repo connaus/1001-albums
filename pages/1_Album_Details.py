@@ -72,6 +72,14 @@ def save_album_number():
     num_status.write(":green[Position Updated!]")
 
 
+def update_release_date():
+    album.release_date = st.session_state.release_date
+    save_album_details()
+    year_status.write("")
+    year_status.write("")
+    year_status.write(":green[Release Date Updated!]")
+
+
 def save_album_length():
     h = int(st.session_state.hours)
     m = int(st.session_state.minutes)
@@ -93,6 +101,14 @@ def update_listened_status():
 def update_prev_listened_status():
     album.previous_listened = st.session_state.previous_listened
     save_album_details()
+
+
+def update_listen_again():
+    album.listen_again = st.session_state.listen_again
+    save_album_details()
+    relisten_status.write("")
+    relisten_status.write("")
+    relisten_status.write(":green[Selection Saved!]")
 
 
 # album title
@@ -120,13 +136,27 @@ title, value, num_status = st.columns([2, 1, 1])
 title.markdown(f"# Album Number")
 value.write("")
 value.write("")
-album_number = value.text_input(
+value.text_input(
     " ",
     value=f"{album.album_number}",
     max_chars=4,
     label_visibility="collapsed",
     on_change=save_album_number,
     key="album_number",
+)
+
+# album year
+title, value, year_status = st.columns([2, 1, 1])
+title.markdown(f"# Release Year")
+value.write("")
+value.write("")
+value.text_input(
+    " ",
+    value=f"{album.release_date}",
+    max_chars=4,
+    label_visibility="collapsed",
+    on_change=update_release_date,
+    key="release_date",
 )
 
 ## album time
@@ -179,3 +209,22 @@ st.text_area(
     key="album_comment",
 )
 saved_comment, _ = st.columns([1, 1])
+
+# album year
+title, value, relisten_status = st.columns([2, 1, 1])
+title.markdown(f"# Listen Again?")
+options_index = {"Yes": 0, "Maybe": 1, "No": 2}
+if album.listen_again is not None:
+    index = options_index.get(album.listen_again, None)
+else:
+    index = 1
+value.write("")
+value.write("")
+value.selectbox(
+    " ",
+    options=("Yes", "Maybe", "No"),
+    index=index,
+    label_visibility="collapsed",
+    on_change=update_listen_again,
+    key="listen_again",
+)

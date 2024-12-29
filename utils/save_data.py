@@ -56,7 +56,7 @@ def convert_excel_to_json(cfg: Config) -> None:
             sch.AlbumExcelColumns.album_title: sch.Album.album_title,
             sch.AlbumExcelColumns.artist: sch.Album.artist,
             sch.AlbumExcelColumns.release_date: sch.Album.release_date,
-            sch.AlbumExcelColumns.total_time: sch.Album.total_time,
+            sch.AlbumExcelColumns.total_time: sch.Album.total_time_s,
         },
         axis=1,
         inplace=True,
@@ -71,6 +71,7 @@ def convert_excel_to_json(cfg: Config) -> None:
             sch.PersonalExcelColumns.listened,
             sch.PersonalExcelColumns.previous_listened,
             sch.PersonalExcelColumns.comments,
+            sch.PersonalExcelColumns.listen_again,
         ]
     ]
     personal_data_csv.rename(
@@ -79,6 +80,7 @@ def convert_excel_to_json(cfg: Config) -> None:
             sch.PersonalExcelColumns.listened: sch.PersonalData.listened,
             sch.PersonalExcelColumns.previous_listened: sch.PersonalData.previous_listened,
             sch.PersonalExcelColumns.comments: sch.PersonalData.comments,
+            sch.PersonalExcelColumns.listen_again: sch.PersonalData.listen_again,
         },
         axis=1,
         inplace=True,
