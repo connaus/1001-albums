@@ -16,7 +16,7 @@ class Album(StrEnum):
     album_title = "album_title"
     artist = "artist"
     release_date = "release_date"
-    total_time = "total_time_s"
+    total_time_s = "total_time_s"
 
 
 class PersonalExcelColumns(StrEnum):
@@ -25,6 +25,7 @@ class PersonalExcelColumns(StrEnum):
     listened = "listened"
     previous_listened = "previous_listened"
     comments = "Comments"
+    listen_again = "Listen again?"
 
 
 class PersonalData(StrEnum):
@@ -33,3 +34,4 @@ class PersonalData(StrEnum):
     listened = "listened"
     previous_listened = "previous_listened"
     comments = "comments"
+    listen_again = "listen_again"

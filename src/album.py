@@ -1,7 +1,6 @@
 from dataclasses import dataclass
 from datetime import timedelta
 
-import json
 from pathlib import Path
 import pandas as pd
 from cfg.cfg import Config
@@ -19,6 +18,7 @@ class Album:
     release_date: int
     total_time_s: int
     comments: str = ""
+    listen_again: str | None = None
 
     @property
     def album_number(self) -> int:
@@ -58,26 +58,27 @@ class Album:
 
     def album_details(self) -> dict[str, str | int]:
         return {
-            "key": self.key,
-            "album_title": self.album_title,
-            "artist": self.artist,
-            "release_date": self.release_date,
-            "total_time_s": self.total_time_s,
+            sch.Album.key: self.key,
+            sch.Album.album_title: self.album_title,
+            sch.Album.artist: self.artist,
+            sch.Album.release_date: self.release_date,
+            sch.Album.total_time_s: self.total_time_s,
         }
 
-    def personal_details(self) -> dict[str, str | int | bool]:
+    def personal_details(self) -> dict[str, str | int | bool | None]:
         return {
-            "key": self.key,
-            "listened": self.listened,
-            "previous_listened": self.previous_listened,
-            "comments": self.comments,
+            sch.PersonalData.key: self.key,
+            sch.PersonalData.listened: self.listened,
+            sch.PersonalData.previous_listened: self.previous_listened,
+            sch.PersonalData.comments: self.comments,
+            sch.PersonalData.listen_again: self.listen_again,
         }
 
 
 def load_albums(cfg: Config) -> list[Album]:
     albums = pd.read_json(Path(cfg.data.album_data_json_path), orient="records")
     personal = pd.read_json(Path(cfg.data.personal_data_json_path), orient="records")
-    albums[sch.Album.total_time] = albums[sch.Album.total_time].fillna(0)
+    albums[sch.Album.total_time_s] = albums[sch.Album.total_time_s].fillna(0)
 
     data = albums.merge(personal, on=sch.Album.key)
     return [Album(**row) for row in data.to_dict("records")]  # type: ignore (arguemnts are of type string, not Hashable)
