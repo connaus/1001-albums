@@ -99,6 +99,41 @@ def time_listened_by_year() -> pd.DataFrame:
     return listend_df
 
 
+def artists_heard() -> pd.DataFrame:
+    """returns a dataframe of the form {Year, Status, Albums}. Status is one of "Previously Heard", "Listened", "Unlistened"
+    the year is unique"""
+    d = defaultdict(list)
+    for album in st.session_state.albums:
+        d["Artist"].append(album.artist)
+        if album.listened:
+            status = "Listened"
+        else:
+            status = "Unlistened"
+        d["Status"].append(status)
+        d["Albums"].append(1)
+
+    df = pd.DataFrame(d)
+    df = df.pivot_table(
+        index="Artist", columns="Status", values="Albums", aggfunc="sum"
+    )
+    df.fillna(0, inplace=True)
+    df["total_albums"] = df.sum(axis=1)
+    df["perc_listened"] = df["Listened"] / df["total_albums"]
+
+    def artist_status(x):
+        if x == 1:
+            return "Finished"
+        elif x == 0:
+            return "Not Started"
+        else:
+            return "In Progress"
+
+    df["Status"] = df.apply(lambda x: artist_status(x["perc_listened"]), axis=1)
+    df["Artist Count"] = 1
+    df = df.groupby("Status").sum().reset_index()
+    return df
+
+
 def listened_albums_by_year(albums: list[Album]) -> dict[int, int]:
     d = {year: 0 for year in set([album.release_date for album in albums])}
     for album in albums:

@@ -13,7 +13,7 @@ def drop_down():
     selection.write("")
     selection.selectbox(
         " ",
-        options=("Albums Listened", "Time Listened by Year"),
+        options=("Albums Listened", "Time Listened by Year", "Artists Heard"),
         index=0,
         label_visibility="collapsed",
         # on_change=plot_selector,
@@ -29,6 +29,11 @@ def albums_listened():
         color="Status",
         barmode="stack",
         title="Album Status by Year",
+        color_discrete_map={
+            "Unlistened": "darkgrey",
+            "Listened": "green",
+            "Previously Heard": "greenyellow",
+        },
     )
     st.plotly_chart(fig)
 
@@ -47,6 +52,25 @@ def time_listened_by_year():
     st.plotly_chart(fig)
 
 
+def artists_heard():
+    df = ac.artists_heard()
+    fig = px.pie(
+        df,
+        values="Artist Count",
+        names="Status",
+        title="Artists Listened to",
+        hole=0.3,
+        color="Status",
+        color_discrete_map={
+            "Not Started": "darkgrey",
+            "Finished": "green",
+            "In Progress": "greenyellow",
+        },
+    )
+
+    st.plotly_chart(fig)
+
+
 def plot_selector():
     drop_down()
     plot_type = st.session_state.plot_types
@@ -54,6 +78,8 @@ def plot_selector():
         albums_listened()
     elif plot_type == "Time Listened by Year":
         time_listened_by_year()
+    elif plot_type == "Artists Heard":
+        artists_heard()
 
 
 plot_selector()
