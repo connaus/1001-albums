@@ -16,6 +16,11 @@ def update_album_key(update_value=0) -> Album:
     return st.session_state.albums[st.session_state.key]
 
 
+def get_album_by_number() -> None:
+    st.session_state.key = int(st.session_state.album_number_selection) - 1
+    # return st.session_state.albums[st.session_state.key]
+
+
 def save_album_details() -> None:
     albums: list[Album] = st.session_state.albums
     with open(Path(st.session_state.config.data.album_data_json_path), "w") as f:
@@ -36,12 +41,21 @@ def save_album_details() -> None:
 
 album = update_album_key(0)
 
-left, right = st.columns(2)
+left, centre, right = st.columns([4, 1, 4])
 if left.button(
     "Previous",
     use_container_width=True,
 ):
     album = update_album_key(-1)
+
+centre.text_input(
+    " ",
+    value=f"{album.album_number}",
+    on_change=get_album_by_number,
+    max_chars=4,
+    key="album_number_selection",
+    label_visibility="collapsed",
+)
 
 if right.button(
     "Next",
