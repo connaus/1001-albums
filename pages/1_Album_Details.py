@@ -133,6 +133,46 @@ def update_listen_again():
     relisten_status.write(":green[Selection Saved!]")
 
 
+def update_musicians(musician_keys: list[str]) -> None:
+    album.musicians = []
+    for key in musician_keys:
+        musician: str = st.session_state.get(key).strip()  # type: ignore
+        if musician not in album.musicians:
+            album.musicians.append(musician)
+    save_album_details()
+    musician_status.write(":green[Saved!]")
+
+
+def update_producers(producer_keys: list[str]) -> None:
+    album.producers = []
+    for key in producer_keys:
+        producer: str = st.session_state.get(key).strip()  # type: ignore
+        if producer not in album.producers:
+            album.producers.append(producer)
+    save_album_details()
+    producer_status.write(":green[Saved!]")
+
+
+def update_writers(writer_keys: list[str]) -> None:
+    album.writers = []
+    for key in writer_keys:
+        writer: str = st.session_state.get(key).strip()  # type: ignore
+        if writer not in album.writers:
+            album.writers.append(writer)
+    save_album_details()
+    writer_status.write(":green[Saved!]")
+
+
+def update_arrangers(arranger_keys: list[str]) -> None:
+    album.arrangers = []
+    for key in arranger_keys:
+        arranger: str = st.session_state.get(key).strip()  # type: ignore
+        if arranger not in album.arrangers:
+            album.arrangers.append(arranger)
+    save_album_details()
+    arranger_status.write(":green[Saved!]")
+
+
 # album title
 title, cb1, cb2 = st.columns([3, 1, 2])
 
@@ -266,3 +306,108 @@ value.selectbox(
     on_change=update_listen_again,
     key="listen_again",
 )
+
+
+# Musicians
+st.markdown("# Musicians")
+musician_keys = []
+## existing values
+for i, name in enumerate(album.musicians):
+    musicians_key = f"musicians_{i}"
+    musician_keys.append(musicians_key)
+    st.text_input(
+        " ",
+        value=name,
+        key=musicians_key,
+        on_change=lambda: update_musicians(musician_keys),
+        label_visibility="collapsed",
+    )
+## new values
+musicians_key = f"musicians_{len(album.musicians)}"
+musician_keys.append(musicians_key)
+st.text_input(
+    " ",
+    value="",
+    key=f"musicians_{len(album.musicians)}",
+    on_change=lambda: update_musicians(musician_keys),
+    label_visibility="collapsed",
+)
+musician_status, _ = st.columns([1, 1])
+
+# Producers
+st.markdown("# Producers")
+producer_keys = []
+## existing values
+for i, name in enumerate(album.producers):
+    producers_key = f"producers_{i}"
+    producer_keys.append(producers_key)
+    st.text_input(
+        " ",
+        value=name,
+        key=producers_key,
+        on_change=lambda: update_producers(producer_keys),
+        label_visibility="collapsed",
+    )
+## new values
+producers_key = f"producers_{len(album.producers)}"
+producer_keys.append(producers_key)
+st.text_input(
+    " ",
+    value="",
+    key=f"producers_{len(album.producers)}",
+    on_change=lambda: update_producers(producer_keys),
+    label_visibility="collapsed",
+)
+producer_status, _ = st.columns([1, 1])
+
+# Writers
+st.markdown("# Writers")
+writer_keys = []
+## existing values
+for i, name in enumerate(album.writers):
+    writers_key = f"writers_{i}"
+    writer_keys.append(writers_key)
+    st.text_input(
+        " ",
+        value=name,
+        key=writers_key,
+        on_change=lambda: update_writers(writer_keys),
+        label_visibility="collapsed",
+    )
+## new values
+writers_key = f"writers_{len(album.writers)}"
+writer_keys.append(writers_key)
+st.text_input(
+    " ",
+    value="",
+    key=f"writers_{len(album.writers)}",
+    on_change=lambda: update_writers(writer_keys),
+    label_visibility="collapsed",
+)
+writer_status, _ = st.columns([1, 1])
+
+# Arrangers
+st.markdown("# Arrangers")
+arranger_keys = []
+## existing values
+for i, name in enumerate(album.arrangers):
+    arrangers_key = f"arrangers_{i}"
+    arranger_keys.append(arrangers_key)
+    st.text_input(
+        " ",
+        value=name,
+        key=arrangers_key,
+        on_change=lambda: update_arrangers(arranger_keys),
+        label_visibility="collapsed",
+    )
+## new values
+arrangers_key = f"arrangers_{len(album.arrangers)}"
+arranger_keys.append(arrangers_key)
+st.text_input(
+    " ",
+    value="",
+    key=f"arrangers_{len(album.arrangers)}",
+    on_change=lambda: update_arrangers(arranger_keys),
+    label_visibility="collapsed",
+)
+arranger_status, _ = st.columns([1, 1])
