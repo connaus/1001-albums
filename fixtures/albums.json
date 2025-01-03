@@ -1,15 +1,22 @@
 [
     {
         "album_title": "In The Wee Small Hours",
-        "arrangers": [],
+        "arrangers": [
+            "Nelson Riddle"
+        ],
         "artist": "Frank Sinatra",
         "genres": [],
         "key": 0,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Frank Sinatra"
+        ],
+        "producers": [
+            "Voyle Gilmore",
+            "John Palladino"
+        ],
         "release_date": 1955,
         "total_time_s": 2998,
-        "tracks": 1,
+        "tracks": 16,
         "writers": []
     },
     {
