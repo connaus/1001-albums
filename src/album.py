@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import timedelta
 
 from pathlib import Path
@@ -19,6 +19,10 @@ class Album:
     total_time_s: int
     comments: str = ""
     listen_again: str | None = None
+    musicians: list[str] = field(default_factory=list)
+    producers: list[str] = field(default_factory=list)
+    writers: list[str] = field(default_factory=list)
+    arrangers: list[str] = field(default_factory=list)
 
     @property
     def album_number(self) -> int:
@@ -56,13 +60,17 @@ class Album:
         s = self.total_time.seconds - (3600 * self.hours) - (60 * self.minutes)
         return s
 
-    def album_details(self) -> dict[str, str | int]:
+    def album_details(self) -> dict[str, str | int | list[str]]:
         return {
             sch.Album.key: self.key,
             sch.Album.album_title: self.album_title,
             sch.Album.artist: self.artist,
             sch.Album.release_date: self.release_date,
             sch.Album.total_time_s: self.total_time_s,
+            sch.Album.musicians: self.musicians,
+            sch.Album.producers: self.producers,
+            sch.Album.writers: self.writers,
+            sch.Album.arrangers: self.arrangers,
         }
 
     def personal_details(self) -> dict[str, str | int | bool | None]:

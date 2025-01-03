@@ -17,6 +17,10 @@ class Album(StrEnum):
     artist = "artist"
     release_date = "release_date"
     total_time_s = "total_time_s"
+    musicians = "musicians"
+    producers = "producers"
+    writers = "writers"
+    arrangers = "arrangers"
 
 
 class PersonalExcelColumns(StrEnum):
