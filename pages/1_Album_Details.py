@@ -133,10 +133,24 @@ def update_listen_again():
     relisten_status.write(":green[Selection Saved!]")
 
 
+def update_genres(genre_keys: list[str]) -> None:
+    album.genres = []
+    for key in genre_keys:
+        genre: str = st.session_state.get(key).strip()  # type: ignore
+        if genre == "":
+            continue
+        if genre not in album.genres:
+            album.genres.append(genre)
+    save_album_details()
+    genre_status.write(":green[Saved!]")
+
+
 def update_musicians(musician_keys: list[str]) -> None:
     album.musicians = []
     for key in musician_keys:
         musician: str = st.session_state.get(key).strip()  # type: ignore
+        if musician == "":
+            continue
         if musician not in album.musicians:
             album.musicians.append(musician)
     save_album_details()
@@ -147,6 +161,8 @@ def update_producers(producer_keys: list[str]) -> None:
     album.producers = []
     for key in producer_keys:
         producer: str = st.session_state.get(key).strip()  # type: ignore
+        if producer == "":
+            continue
         if producer not in album.producers:
             album.producers.append(producer)
     save_album_details()
@@ -157,6 +173,8 @@ def update_writers(writer_keys: list[str]) -> None:
     album.writers = []
     for key in writer_keys:
         writer: str = st.session_state.get(key).strip()  # type: ignore
+        if writer == "":
+            continue
         if writer not in album.writers:
             album.writers.append(writer)
     save_album_details()
@@ -167,6 +185,8 @@ def update_arrangers(arranger_keys: list[str]) -> None:
     album.arrangers = []
     for key in arranger_keys:
         arranger: str = st.session_state.get(key).strip()  # type: ignore
+        if arranger == "":
+            continue
         if arranger not in album.arrangers:
             album.arrangers.append(arranger)
     save_album_details()
@@ -307,9 +327,35 @@ value.selectbox(
     key="listen_again",
 )
 
+# genres
+st.markdown("# Genre(s)")
+st.markdown("### From Wikipedia")
+genre_keys = []
+## existing values
+for i, name in enumerate(album.genres):
+    genres_key = f"genres_{i}"
+    genre_keys.append(genres_key)
+    st.text_input(
+        " ",
+        value=name,
+        key=genres_key,
+        on_change=lambda: update_genres(genre_keys),
+        label_visibility="collapsed",
+    )
+## new values
+genres_key = f"genres_{len(album.genres)}"
+genre_keys.append(genres_key)
+st.text_input(
+    " ",
+    value="",
+    key=f"genres_{len(album.genres)}",
+    on_change=lambda: update_genres(genre_keys),
+    label_visibility="collapsed",
+)
+genre_status, _ = st.columns([1, 1])
 
 # Musicians
-st.markdown("# Musicians")
+st.markdown("# Musician(s)")
 musician_keys = []
 ## existing values
 for i, name in enumerate(album.musicians):
@@ -335,7 +381,7 @@ st.text_input(
 musician_status, _ = st.columns([1, 1])
 
 # Producers
-st.markdown("# Producers")
+st.markdown("# Producer(s)")
 producer_keys = []
 ## existing values
 for i, name in enumerate(album.producers):
@@ -361,7 +407,7 @@ st.text_input(
 producer_status, _ = st.columns([1, 1])
 
 # Writers
-st.markdown("# Writers")
+st.markdown("# Writer(s)")
 writer_keys = []
 ## existing values
 for i, name in enumerate(album.writers):
@@ -387,7 +433,7 @@ st.text_input(
 writer_status, _ = st.columns([1, 1])
 
 # Arrangers
-st.markdown("# Arrangers")
+st.markdown("# Arranger(s)")
 arranger_keys = []
 ## existing values
 for i, name in enumerate(album.arrangers):
