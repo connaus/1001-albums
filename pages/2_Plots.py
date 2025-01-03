@@ -1,32 +1,85 @@
-from src.album import Album
-
-# import matplotlib.figure as fig
-import matplotlib.pyplot as plt
-import matplotlib.ticker as tkr
 import src.album_calcs as ac
 import streamlit as st
+import plotly.express as px
+import plotly.graph_objects as go
+import pandas as pd
 
 
-albums: list[Album] = st.session_state.albums
-total = ac.total_albums_by_year(albums)
-listend = ac.listened_albums_by_year(albums)
-listend_time = ac.listened_time_by_year(albums)
-
-fig, axs = plt.subplots(1, 2)
-ax1, ax2 = axs
-
-labels = ("Total Albums", "Listened Albums")
-ax1.bar(x=list(total.keys()), height=list(total.values()))
-ax1.plot(list(listend.keys()), list(listend.values()), "ro-", markersize=3)
-ax1.set_title("Albums per Year")
-
-
-def format_seconds(seconds: float, _) -> str:
-    return f"{int(seconds // 3600)}"
+def drop_down():
+    title, selection = st.columns(2)
+    title.markdown(f"# Select Plots:")
+    # options_index = {"Albums Listened": 0, "Time Listened by Year": 1}
+    selection.write("")
+    selection.write("")
+    selection.selectbox(
+        " ",
+        options=("Albums Listened", "Time Listened by Year", "Artists Heard"),
+        index=0,
+        label_visibility="collapsed",
+        # on_change=plot_selector,
+        key="plot_types",
+    )
 
 
-ax2.plot(list(listend_time.keys()), list(listend_time.values()), "o-", markersize=3)
-ax2.yaxis.set_major_formatter(format_seconds)
-ax2.set_title("Time Listened")
-ax2.yaxis.set_major_locator(tkr.MultipleLocator(base=3600))
-st.write(fig)
+def albums_listened():
+    fig = px.bar(
+        ac.album_listened_status_by_year(),
+        x="Year",
+        y="Albums",
+        color="Status",
+        barmode="stack",
+        title="Album Status by Year",
+        color_discrete_map={
+            "Unlistened": "darkgrey",
+            "Listened": "green",
+            "Previously Heard": "greenyellow",
+        },
+    )
+    st.plotly_chart(fig)
+
+
+def time_listened_by_year():
+    df = ac.time_listened_by_year()
+    fig = px.line(
+        df,
+        x="Year",
+        y=df["Time"] + pd.to_datetime("1970/01/01"),
+        title="Time Listened by Year",
+        markers=True,
+    )
+    figure = go.Figure(data=fig)
+    figure.update_layout(yaxis_tickformat="%H:%M.%f")
+    st.plotly_chart(fig)
+
+
+def artists_heard():
+    df = ac.artists_heard()
+    fig = px.pie(
+        df,
+        values="Artist Count",
+        names="Status",
+        title="Artists Listened to",
+        hole=0.3,
+        color="Status",
+        color_discrete_map={
+            "Not Started": "darkgrey",
+            "Finished": "green",
+            "In Progress": "greenyellow",
+        },
+    )
+
+    st.plotly_chart(fig)
+
+
+def plot_selector():
+    drop_down()
+    plot_type = st.session_state.plot_types
+    if plot_type == "Albums Listened":
+        albums_listened()
+    elif plot_type == "Time Listened by Year":
+        time_listened_by_year()
+    elif plot_type == "Artists Heard":
+        artists_heard()
+
+
+plot_selector()
