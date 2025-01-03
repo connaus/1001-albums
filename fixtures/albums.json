@@ -5,7 +5,9 @@
             "Nelson Riddle"
         ],
         "artist": "Frank Sinatra",
-        "genres": [],
+        "genres": [
+            "Vocal Jazz"
+        ],
         "key": 0,
         "musicians": [
             "Frank Sinatra"
@@ -23,13 +25,31 @@
         "album_title": "Elvis Presley",
         "arrangers": [],
         "artist": "Elvis Presley",
-        "genres": [],
+        "genres": [
+            "Rock and Roll",
+            "Rockabilly"
+        ],
         "key": 1,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Elvis Presley",
+            "Scotty Moore",
+            "Chet Atkins",
+            "Floyd Cramer",
+            "Shorty Long",
+            "Bill Black",
+            "D. J. Fontana",
+            "Johnny Bernerno",
+            "Gordon Stoker",
+            "Ben Speer",
+            "Doug Poindexter"
+        ],
+        "producers": [
+            "Sam Phillips",
+            "Stephen H. Sholes"
+        ],
         "release_date": 1956,
         "total_time_s": 1699,
-        "tracks": 1,
+        "tracks": "12",
         "writers": []
     },
     {
@@ -46,9 +66,9 @@
         "writers": []
     },
     {
-        "album_title": "Songs For Swingin' Lovers",
+        "album_title": "Tragic Songs Of Life",
         "arrangers": [],
-        "artist": "Frank Sinatra",
+        "artist": "The Louvin Brothers",
         "genres": [],
         "key": 3,
         "musicians": [],
@@ -59,15 +79,15 @@
         "writers": []
     },
     {
-        "album_title": "Tragic Songs Of Life",
+        "album_title": "Songs For Swingin' Lovers",
         "arrangers": [],
-        "artist": "The Louvin Brothers",
+        "artist": "Frank Sinatra",
         "genres": [],
         "key": 4,
         "musicians": [],
         "producers": [],
         "release_date": 1956,
-        "total_time_s": 2164,
+        "total_time_s": 2687,
         "tracks": 1,
         "writers": []
     },
