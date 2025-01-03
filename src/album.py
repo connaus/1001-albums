@@ -19,6 +19,8 @@ class Album:
     total_time_s: int
     comments: str = ""
     listen_again: str | None = None
+    tracks: int = 1
+    genres: list[str] = field(default_factory=list)
     musicians: list[str] = field(default_factory=list)
     producers: list[str] = field(default_factory=list)
     writers: list[str] = field(default_factory=list)
@@ -67,6 +69,8 @@ class Album:
             sch.Album.artist: self.artist,
             sch.Album.release_date: self.release_date,
             sch.Album.total_time_s: self.total_time_s,
+            sch.Album.tracks: self.tracks,
+            sch.Album.genres: self.genres,
             sch.Album.musicians: self.musicians,
             sch.Album.producers: self.producers,
             sch.Album.writers: self.writers,

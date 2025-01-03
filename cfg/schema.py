@@ -17,6 +17,8 @@ class Album(StrEnum):
     artist = "artist"
     release_date = "release_date"
     total_time_s = "total_time_s"
+    tracks = "tracks"
+    genres = "genres"
     musicians = "musicians"
     producers = "producers"
     writers = "writers"
