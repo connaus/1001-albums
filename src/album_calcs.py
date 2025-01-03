@@ -52,7 +52,7 @@ def new_listened_time(albums: list[Album]) -> timedelta:
 def total_listened_time(albums: list[Album]) -> timedelta:
     total_time = timedelta()
     for album in albums:
-        total_time += album.total_time
+        total_time += album.total_time if (album.listened == True) else timedelta(0)
     return total_time
 
 
@@ -70,10 +70,10 @@ def album_listened_status_by_year() -> pd.DataFrame:
     d = defaultdict(list)
     for album in st.session_state.albums:
         d["Year"].append(album.release_date)
-        if album.previous_listened:
-            status = "Previously Heard"
-        elif album.listened:
+        if album.listened:
             status = "Listened"
+        elif album.previous_listened:
+            status = "Previously Heard"
         else:
             status = "Unlistened"
         d["Status"].append(status)
@@ -120,7 +120,7 @@ def artists_heard() -> pd.DataFrame:
     df["total_albums"] = df.sum(axis=1)
     df["perc_listened"] = df["Listened"] / df["total_albums"]
 
-    def artist_status(x):
+    def artist_status(x: float) -> str:
         if x == 1:
             return "Finished"
         elif x == 0:

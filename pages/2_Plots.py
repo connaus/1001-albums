@@ -12,7 +12,6 @@ from src.network_graph import NetworkGraph
 def drop_down():
     title, selection = st.columns(2)
     title.markdown(f"# Select Plots:")
-    # options_index = {"Albums Listened": 0, "Time Listened by Year": 1}
     selection.write("")
     selection.write("")
     selection.selectbox(
@@ -25,7 +24,6 @@ def drop_down():
         ),
         index=0,
         label_visibility="collapsed",
-        # on_change=plot_selector,
         key="plot_types",
     )
 
