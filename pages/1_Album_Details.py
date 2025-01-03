@@ -107,6 +107,14 @@ def save_album_length():
     time_status.write(":green[Length Updated!]")
 
 
+def update_tracks():
+    album.tracks = st.session_state.tracks
+    save_album_details()
+    track_status.write("")
+    track_status.write("")
+    track_status.write(":green[Tracks Updated!]")
+
+
 def update_listened_status():
     album.listened = st.session_state.listened
     save_album_details()
@@ -213,6 +221,22 @@ s.text_input(
     on_change=save_album_length,
     key="seconds",
 )
+
+# tracks
+title, value, track_status = st.columns([2, 1, 1])
+title.markdown(f"# Tracks")
+value.write("")
+value.write("")
+value.text_input(
+    " ",
+    value=f"{album.tracks}",
+    max_chars=4,
+    label_visibility="collapsed",
+    on_change=update_tracks,
+    key="tracks",
+)
+
+# Comments
 st.markdown("# Comment")
 st.text_area(
     " ",
