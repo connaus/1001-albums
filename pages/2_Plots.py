@@ -1,8 +1,11 @@
+from src.album import Album
 import src.album_calcs as ac
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
+
+from src.network_graph import network_plot
 
 
 def drop_down():
@@ -13,7 +16,12 @@ def drop_down():
     selection.write("")
     selection.selectbox(
         " ",
-        options=("Albums Listened", "Time Listened by Year", "Artists Heard"),
+        options=(
+            "Albums Listened",
+            "Time Listened by Year",
+            "Artists Heard",
+            "Network Graph",
+        ),
         index=0,
         label_visibility="collapsed",
         # on_change=plot_selector,
@@ -71,6 +79,24 @@ def artists_heard():
     st.plotly_chart(fig)
 
 
+def network_graph() -> None:
+    albums = st.session_state.albums
+    nodes = list(
+        {person for album in albums for person in album.personnel(writers=True)}
+    )
+    nodes.sort()
+
+    connections = list(
+        {
+            connection
+            for album in albums
+            for connection in album.connections(writers=True)
+        }
+    )
+
+    network_plot(nodes=nodes, connections=connections)
+
+
 def plot_selector():
     drop_down()
     plot_type = st.session_state.plot_types
@@ -80,6 +106,8 @@ def plot_selector():
         time_listened_by_year()
     elif plot_type == "Artists Heard":
         artists_heard()
+    elif plot_type == "Network Graph":
+        network_graph()
 
 
 plot_selector()
