@@ -72,8 +72,20 @@ class Album:
             p += self.writers
         if producers:
             p += self.producers
+        p = list(set(p))
         p.sort()
         return p
+
+    def personnel_role(self, person: str) -> str:
+        if person in self.musicians:
+            return "musician"
+        if person in self.producers:
+            return "producer"
+        if person in self.arrangers:
+            return "arranger"
+        if person in self.writers:
+            return "writer"
+        return "Unknown"
 
     def album_details(self) -> dict[str, str | int | list[str]]:
         return {

@@ -82,7 +82,7 @@ def artists_heard():
 
 def network_graph() -> None:
     """plotting the network graph, showing all the connections between people who have worked on albums"""
-    albums = st.session_state.albums
+    albums: list[Album] = st.session_state.albums
     nodes = []
     marker_symbol = []
     marker_colour = []
@@ -119,11 +119,11 @@ def network_graph() -> None:
             connection_type.append(role)
 
     network_plot(
-        nodes=nodes,
-        connections=connections,
-        marker_symbol=marker_symbol,
-        marker_colour=marker_colour,
-        connection_type=connection_type,
+        # nodes=nodes,
+        # connections=connections,
+        # marker_symbol=marker_symbol,
+        # marker_colour=marker_colour,
+        # connection_type=connection_type,
     )
 
 

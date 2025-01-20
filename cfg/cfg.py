@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 import yaml
@@ -18,13 +18,32 @@ class Data:
 
 
 @dataclass
+class NetworkGraph:
+
+    album_symbol: str = "square"
+    album_colour: str = "deepskyblue"
+    connection_colourmap: dict[str, str] = field(
+        default_factory=lambda: {
+            "musician": "#636EFA",
+            "arranger": "#EF553B",
+            "writer": "#00CC96",
+            "producer": "#AB63FA",
+            "unknown": "brown",
+        }
+    )
+    person_symbol: str = "circle"
+    person_colour: str = "grey"
+
+
+@dataclass
 class Config:
 
     data: Data
+    network_graph: NetworkGraph
 
 
 def load_config(settings_path: Path) -> Config:
     with open(settings_path, "r") as steam:
         data_settings = yaml.safe_load(stream=steam)
 
-    return Config(data=Data(**data_settings))
+    return Config(data=Data(**data_settings), network_graph=NetworkGraph())
