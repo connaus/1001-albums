@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from datetime import timedelta
-
+from itertools import combinations
 from pathlib import Path
 import pandas as pd
 from cfg.cfg import Config
@@ -61,6 +61,31 @@ class Album:
         will always be less than 60"""
         s = self.total_time.seconds - (3600 * self.hours) - (60 * self.minutes)
         return s
+
+    def personnel(
+        self, arrangers: bool = True, writers: bool = True, producers: bool = True
+    ) -> list[str]:
+        p = [*self.musicians]
+        if arrangers:
+            p += self.arrangers
+        if writers:
+            p += self.writers
+        if producers:
+            p += self.producers
+        p = list(set(p))
+        p.sort()
+        return p
+
+    def personnel_role(self, person: str) -> str:
+        if person in self.musicians:
+            return "musician"
+        if person in self.producers:
+            return "producer"
+        if person in self.arrangers:
+            return "arranger"
+        if person in self.writers:
+            return "writer"
+        return "Unknown"
 
     def album_details(self) -> dict[str, str | int | list[str]]:
         return {

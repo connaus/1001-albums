@@ -1,8 +1,13 @@
+from collections import defaultdict
+from cfg.cfg import Config
+from src.album import Album
 import src.album_calcs as ac
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
+
+from src.network_graph import NetworkGraph
 
 
 def drop_down():
@@ -13,7 +18,12 @@ def drop_down():
     selection.write("")
     selection.selectbox(
         " ",
-        options=("Albums Listened", "Time Listened by Year", "Artists Heard"),
+        options=(
+            "Albums Listened",
+            "Time Listened by Year",
+            "Artists Heard",
+            "Network Graph",
+        ),
         index=0,
         label_visibility="collapsed",
         # on_change=plot_selector,
@@ -71,6 +81,137 @@ def artists_heard():
     st.plotly_chart(fig)
 
 
+def network_graph() -> None:
+    """plotting the network graph, showing all the connections between people who have worked on albums"""
+    config: Config = st.session_state.config
+    network_graph = NetworkGraph()
+    G = network_graph.graph
+
+    edge_traces = []
+
+    def role_from_title(person: str, album_title: str) -> str:
+        album = [
+            album
+            for album in network_graph.all_personnel[person]
+            if album.album_title == album_title
+        ][0]
+        return album.personnel_role(person)
+
+    for _, edge in enumerate(G.edges()):
+        album_title, person = edge
+        x0, y0 = G.nodes[album_title]["pos"]
+        x1, y1 = G.nodes[person]["pos"]
+
+        role = role_from_title(person, album_title)
+        edge_traces.append(
+            go.Scatter(
+                x=[x0, x1],
+                y=[y0, y1],
+                line=dict(
+                    width=3, color=config.network_graph.connection_colourmap[role]
+                ),
+                hoverinfo="none",
+                showlegend=False,
+                mode="lines",
+            )
+        )
+
+    # add album nodes
+    album_trace = go.Scatter(
+        x=[],
+        y=[],
+        text=[],
+        mode="markers",
+        marker_symbol=config.network_graph.album_symbol,
+        marker_color=config.network_graph.album_colour,
+        showlegend=True,
+        hoverinfo="text",
+        marker=dict(
+            showscale=True,
+            colorscale="RdBu",
+            reversescale=True,
+            color=[],
+            size=10,
+            colorbar=dict(
+                thickness=10,
+                title="Year of Release",
+                xanchor="left",
+                titleside="right",
+            ),
+            line=dict(width=0),
+        ),
+    )
+
+    colors = []
+    for album in network_graph.albums:
+        node = album.album_title
+        x, y = G.nodes[node]["pos"]
+        album_trace["x"] += tuple([x])  # type: ignore
+        album_trace["y"] += tuple([y])  # type: ignore
+        colors.append(album.release_date)
+    album_trace.marker.color = colors  # type: ignore
+
+    # add people nodes
+    person_trace = go.Scatter(
+        x=[],
+        y=[],
+        text=[],
+        mode="markers",
+        marker_symbol=config.network_graph.person_symbol,
+        marker_color=config.network_graph.person_colour,
+        hoverinfo="text",
+        showlegend=False,
+        marker=dict(
+            colorscale="RdBu",
+            reversescale=True,
+            color=[],
+            size=5,
+            line=dict(width=0),
+        ),
+    )
+
+    for node in network_graph.linking_people:
+        x, y = G.nodes[node]["pos"]
+        person_trace["x"] += tuple([x])  # type: ignore
+        person_trace["y"] += tuple([y])  # type: ignore
+
+    album_info = {
+        album.album_title: album.release_date for album in network_graph.albums
+    }
+    for _, adjacencies in enumerate(G.adjacency()):
+        node, adj = adjacencies
+        if node in album_info:
+            node_info = (
+                node + f" ({album_info[node]})<br># of connections: " + str(len(adj))
+            )
+            album_trace["text"] += tuple([node_info])  # type: ignore
+        elif node in network_graph.linking_people:
+            node_info = node
+            for album_title in adj:
+                role = role_from_title(node, album_title)
+                colour = config.network_graph.connection_colourmap[role]
+                node_info += (
+                    f"<br>{album_title}: <span style='color:{colour}'>{role}</span>."
+                )
+            person_trace["text"] += tuple([node_info])  # type: ignore
+
+    fig = go.Figure(
+        data=[*edge_traces, album_trace, person_trace],
+        layout=go.Layout(
+            title="<br>Test Plot",
+            titlefont=dict(size=16),
+            showlegend=False,
+            coloraxis_showscale=True,
+            hovermode="closest",
+            margin=dict(b=20, l=5, r=5, t=40),
+            xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+            yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+        ),
+    )
+
+    st.plotly_chart(fig)
+
+
 def plot_selector():
     drop_down()
     plot_type = st.session_state.plot_types
@@ -80,6 +221,8 @@ def plot_selector():
         time_listened_by_year()
     elif plot_type == "Artists Heard":
         artists_heard()
+    elif plot_type == "Network Graph":
+        network_graph()
 
 
 plot_selector()
