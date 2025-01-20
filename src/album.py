@@ -75,13 +75,6 @@ class Album:
         p.sort()
         return p
 
-    def connections(
-        self, arrangers: bool = True, writers: bool = True, producers: bool = True
-    ) -> list[tuple[str, str]]:
-        return [
-            c for c in combinations(self.personnel(arrangers, writers, producers), 2)
-        ]
-
     def album_details(self) -> dict[str, str | int | list[str]]:
         return {
             sch.Album.key: self.key,

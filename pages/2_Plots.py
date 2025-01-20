@@ -1,3 +1,4 @@
+from collections import defaultdict
 from src.album import Album
 import src.album_calcs as ac
 import streamlit as st
@@ -80,21 +81,50 @@ def artists_heard():
 
 
 def network_graph() -> None:
+    """plotting the network graph, showing all the connections between people who have worked on albums"""
     albums = st.session_state.albums
-    nodes = list(
-        {person for album in albums for person in album.personnel(writers=True)}
-    )
-    nodes.sort()
+    nodes = []
+    marker_symbol = []
+    marker_colour = []
+    all_personnel = defaultdict(list)
+    for album in albums:
+        if not album.personnel(writers=True):
+            continue
+        nodes.append(album.album_title)
+        marker_symbol.append("square")
+        marker_colour.append("deepskyblue")
+        for person in album.personnel(writers=True):
+            if person in album.musicians:
+                role = "musician"
+            elif person in album.arrangers:
+                role = "arranger"
+            elif person in album.writers:
+                role = "writer"
+            elif person in album.producers:
+                role = "producer"
+            else:
+                role = "Unknown"
+            all_personnel[person].append((album.album_title, role))
+    linking_people = [
+        person for person in all_personnel if len(set(all_personnel[person])) > 1
+    ]
+    nodes.extend(linking_people)
+    marker_symbol.extend(["circle" for _ in range(len(linking_people))])
+    marker_colour.extend(["darkgrey" for _ in range(len(linking_people))])
+    connections = []
+    connection_type = []
+    for person in linking_people:
+        for album, role in all_personnel[person]:
+            connections.append((person, album))
+            connection_type.append(role)
 
-    connections = list(
-        {
-            connection
-            for album in albums
-            for connection in album.connections(writers=True)
-        }
+    network_plot(
+        nodes=nodes,
+        connections=connections,
+        marker_symbol=marker_symbol,
+        marker_colour=marker_colour,
+        connection_type=connection_type,
     )
-
-    network_plot(nodes=nodes, connections=connections)
 
 
 def plot_selector():
