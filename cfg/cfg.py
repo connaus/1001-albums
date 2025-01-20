@@ -18,7 +18,7 @@ class Data:
 
 
 @dataclass
-class NetworkGraph:
+class NetworkGraphSettings:
 
     album_symbol: str = "square"
     album_colour: str = "deepskyblue"
@@ -39,11 +39,11 @@ class NetworkGraph:
 class Config:
 
     data: Data
-    network_graph: NetworkGraph
+    network_graph: NetworkGraphSettings
 
 
 def load_config(settings_path: Path) -> Config:
     with open(settings_path, "r") as steam:
         data_settings = yaml.safe_load(stream=steam)
 
-    return Config(data=Data(**data_settings), network_graph=NetworkGraph())
+    return Config(data=Data(**data_settings), network_graph=NetworkGraphSettings())
