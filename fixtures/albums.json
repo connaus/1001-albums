@@ -1139,7 +1139,7 @@
             "Herb Ellis",
             "Barney Kessel",
             "Joe Comfort",
-            "Ralph Peña",
+            "Ralph Pe\u00f1a",
             "Alvin Stoller",
             "Mel Lewis",
             "Bill Richmond",
@@ -1199,14 +1199,36 @@
         "album_title": "Gunfighter Ballads And Trail Songs",
         "arrangers": [],
         "artist": "Marty Robbins",
-        "genres": [],
+        "genres": [
+            "Country",
+            "Western"
+        ],
         "key": 19,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Marty Robbins",
+            "Grady Martin",
+            "Jack Pruett",
+            "Bob Moore",
+            "Louis Dunn",
+            "Chuck Glaser",
+            "Jim Glaser",
+            "Tompall Glaser",
+            "Bobby Sykes"
+        ],
+        "producers": [
+            "Don Law"
+        ],
         "release_date": 1959,
         "total_time_s": 2647,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Bob Nolan",
+            "David Kapp",
+            "James Low",
+            "Art Wolpert",
+            "Curley Fletcher",
+            "Carson Robison"
+        ]
     },
     {
         "album_title": "Kind of Blue",
@@ -3795,22 +3817,46 @@
         ],
         "release_date": 1971,
         "total_time_s": 2575,
-        "tracks": "11",
+        "tracks": 11,
         "writers": [
             "Jennie Anderson"
         ]
     },
     {
-        "album_title": "A Nod's As Good As Wink",
+        "album_title": "If Only I Could Remember My Name",
         "arrangers": [],
-        "artist": "The Faces",
-        "genres": [],
+        "artist": "David Crosby",
+        "genres": [
+            "Psychedelic folk",
+            "Freak Folk",
+            "Folk Rock"
+        ],
         "key": 205,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "David Crosby",
+            "Graham Nash",
+            "Jerry Garcia",
+            "Neil Young",
+            "Jorma Kaukonen",
+            "Laura Allan",
+            "Gregg Rolie",
+            "Phil Lesh",
+            "Jack Casady",
+            "Bill Kreutzmann",
+            "Michael Shrieve",
+            "Mickey Hart",
+            "Joni Mitchell",
+            "David Freiberg",
+            "Paul Kantner",
+            "Grace Slick"
+        ],
+        "producers": [
+            "Stephen Barncard",
+            "Henry Lewy"
+        ],
         "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2268,
+        "tracks": 9,
         "writers": []
     },
     {
@@ -3827,11 +3873,24 @@
         "writers": []
     },
     {
+        "album_title": "A Nod's As Good As Wink",
+        "arrangers": [],
+        "artist": "The Faces",
+        "genres": [],
+        "key": 207,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1971,
+        "total_time_s": 0,
+        "tracks": 1,
+        "writers": []
+    },
+    {
         "album_title": "Blue",
         "arrangers": [],
         "artist": "Joni Mitchell",
         "genres": [],
-        "key": 207,
+        "key": 208,
         "musicians": [],
         "producers": [],
         "release_date": 1971,
@@ -3844,7 +3903,7 @@
         "arrangers": [],
         "artist": "Dolly Parton",
         "genres": [],
-        "key": 208,
+        "key": 209,
         "musicians": [],
         "producers": [],
         "release_date": 1971,
@@ -3857,7 +3916,7 @@
         "arrangers": [],
         "artist": "T Rex",
         "genres": [],
-        "key": 209,
+        "key": 210,
         "musicians": [],
         "producers": [],
         "release_date": 1971,
@@ -3870,7 +3929,7 @@
         "arrangers": [],
         "artist": "Rod Stewart",
         "genres": [],
-        "key": 210,
+        "key": 211,
         "musicians": [],
         "producers": [],
         "release_date": 1971,
@@ -3883,7 +3942,7 @@
         "arrangers": [],
         "artist": "Yes",
         "genres": [],
-        "key": 211,
+        "key": 212,
         "musicians": [],
         "producers": [],
         "release_date": 1971,
@@ -3895,19 +3954,6 @@
         "album_title": "Histoire de Melody Nelson",
         "arrangers": [],
         "artist": "Serge Gainsbourg",
-        "genres": [],
-        "key": 212,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "If Only I Could Remember My Name",
-        "arrangers": [],
-        "artist": "David Crosby",
         "genres": [],
         "key": 213,
         "musicians": [],

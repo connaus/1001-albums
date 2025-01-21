@@ -35,7 +35,7 @@ def main() -> None:
 
     left2, right2 = st.columns(2)
     left2.write(f"New Albums Heard\n\n{ac.albums_newly_listened_to(albums)} / 1001")
-    right2.write(f"Total Previous Listening Time\n\n{ac.new_listened_time(albums)}")
+    right2.write(f"Total New Listening Time\n\n{ac.new_listened_time(albums)}")
 
     left3, right3 = st.columns(2)
     left3.markdown(f"**Albums Heard**\n\n**{ac.albums_listened_to(albums)} / 1001**")

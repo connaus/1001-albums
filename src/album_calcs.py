@@ -11,12 +11,36 @@ def next_album(albums: list[Album]) -> Album:
     return [album for album in albums if album.album_number == key][0]
 
 
-def albums_listened_to(albums: list[Album]) -> int:
+def num_albums_listened_to(albums: list[Album]) -> int:
     return len([album for album in albums if album.listened == True])
+
+
+def albums_listened_to() -> list[Album]:
+    return [album for album in st.session_state.albums if album.listened == True]
 
 
 def albums_previously_listened_to(albums: list[Album]) -> int:
     return len([album for album in albums if album.previous_listened == True])
+
+
+def annual_averages() -> pd.DataFrame:
+    data = []
+    albums: list[Album] = st.session_state.albums
+    for album in albums:
+        data.append(
+            {
+                "Year": album.release_date,
+                "length": album.total_time,
+                "tracks": album.tracks,
+                "count": 1,
+            }
+        )
+    df = pd.DataFrame(data)
+    df = df.groupby("Year").sum().reset_index()
+    df["Average Length"] = df["length"] / df["count"]
+    df["Average Tracks"] = df["tracks"] / df["count"]
+    df["Average Track Length"] = df["length"] / df["tracks"]
+    return df
 
 
 def previous_listened_time(albums: list[Album]) -> timedelta:
@@ -52,7 +76,7 @@ def new_listened_time(albums: list[Album]) -> timedelta:
 def total_listened_time(albums: list[Album]) -> timedelta:
     total_time = timedelta()
     for album in albums:
-        total_time += album.total_time
+        total_time += album.total_time if (album.listened == True) else timedelta(0)
     return total_time
 
 
@@ -70,10 +94,10 @@ def album_listened_status_by_year() -> pd.DataFrame:
     d = defaultdict(list)
     for album in st.session_state.albums:
         d["Year"].append(album.release_date)
-        if album.previous_listened:
-            status = "Previously Heard"
-        elif album.listened:
+        if album.listened:
             status = "Listened"
+        elif album.previous_listened:
+            status = "Previously Heard"
         else:
             status = "Unlistened"
         d["Status"].append(status)
@@ -120,7 +144,7 @@ def artists_heard() -> pd.DataFrame:
     df["total_albums"] = df.sum(axis=1)
     df["perc_listened"] = df["Listened"] / df["total_albums"]
 
-    def artist_status(x):
+    def artist_status(x: float) -> str:
         if x == 1:
             return "Finished"
         elif x == 0:
