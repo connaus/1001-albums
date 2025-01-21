@@ -11,12 +11,36 @@ def next_album(albums: list[Album]) -> Album:
     return [album for album in albums if album.album_number == key][0]
 
 
-def albums_listened_to(albums: list[Album]) -> int:
+def num_albums_listened_to(albums: list[Album]) -> int:
     return len([album for album in albums if album.listened == True])
+
+
+def albums_listened_to() -> list[Album]:
+    return [album for album in st.session_state.albums if album.listened == True]
 
 
 def albums_previously_listened_to(albums: list[Album]) -> int:
     return len([album for album in albums if album.previous_listened == True])
+
+
+def annual_averages() -> pd.DataFrame:
+    data = []
+    albums: list[Album] = st.session_state.albums
+    for album in albums:
+        data.append(
+            {
+                "Year": album.release_date,
+                "length": album.total_time,
+                "tracks": album.tracks,
+                "count": 1,
+            }
+        )
+    df = pd.DataFrame(data)
+    df = df.groupby("Year").sum().reset_index()
+    df["Average Length"] = df["length"] / df["count"]
+    df["Average Tracks"] = df["tracks"] / df["count"]
+    df["Average Track Length"] = df["length"] / df["tracks"]
+    return df
 
 
 def previous_listened_time(albums: list[Album]) -> timedelta:

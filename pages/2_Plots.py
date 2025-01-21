@@ -1,4 +1,4 @@
-from collections import defaultdict
+from enum import StrEnum
 from cfg.cfg import Config
 import src.album_calcs as ac
 import streamlit as st
@@ -9,6 +9,14 @@ import pandas as pd
 from src.network_graph import NetworkGraph
 
 
+class Graphs(StrEnum):
+    ALBUMS_LISTENED = "Albums Listened"
+    TIME_LISTENED_BY_YEAR = "Time Listened by Year"
+    ARTISTS_HEARD = "Artists Heard"
+    ALBUM_AVERAGES = "Album Averages"
+    NETWORK_GRAPH = "Network Graph"
+
+
 def drop_down():
     title, selection = st.columns(2)
     title.markdown(f"# Select Plots:")
@@ -16,12 +24,7 @@ def drop_down():
     selection.write("")
     selection.selectbox(
         " ",
-        options=(
-            "Albums Listened",
-            "Time Listened by Year",
-            "Artists Heard",
-            "Network Graph",
-        ),
+        options=Graphs,
         index=0,
         label_visibility="collapsed",
         key="plot_types",
@@ -76,6 +79,39 @@ def artists_heard():
     )
 
     st.plotly_chart(fig)
+
+
+def album_averages() -> None:
+    """plotting the average length of album by year
+    averages are in terms of length / album, tracks / album and length / track"""
+
+    data = ac.annual_averages()
+    avg_length_fig = px.line(
+        data,
+        x="Year",
+        y=data["Average Length"] + pd.to_datetime("1970/01/01"),
+        title="Average Album Length",
+        markers=True,
+    )
+    st.plotly_chart(avg_length_fig)
+
+    avg_tracks_fig = px.line(
+        data,
+        x="Year",
+        y=data["Average Tracks"],
+        title="Average Tracks per Album",
+        markers=True,
+    )
+    st.plotly_chart(avg_tracks_fig)
+
+    avg_track_length_fig = px.line(
+        data,
+        x="Year",
+        y=data["Average Track Length"] + pd.to_datetime("1970/01/01"),
+        title="Average Track Length",
+        markers=True,
+    )
+    st.plotly_chart(avg_track_length_fig)
 
 
 def network_graph() -> None:
@@ -261,14 +297,14 @@ def network_graph() -> None:
 def plot_selector():
     drop_down()
     plot_type = st.session_state.plot_types
-    if plot_type == "Albums Listened":
-        albums_listened()
-    elif plot_type == "Time Listened by Year":
-        time_listened_by_year()
-    elif plot_type == "Artists Heard":
-        artists_heard()
-    elif plot_type == "Network Graph":
-        network_graph()
+    plot_funcs = {
+        Graphs.ALBUMS_LISTENED: albums_listened,
+        Graphs.TIME_LISTENED_BY_YEAR: time_listened_by_year,
+        Graphs.ARTISTS_HEARD: artists_heard,
+        Graphs.ALBUM_AVERAGES: album_averages,
+        Graphs.NETWORK_GRAPH: network_graph,
+    }
+    plot_funcs[plot_type]()
 
 
 plot_selector()
