@@ -1,4 +1,5 @@
 from collections import defaultdict
+import pandas as pd
 import streamlit as st
 import networkx as nx
 import plotly.graph_objects as go
@@ -39,6 +40,24 @@ class NetworkGraph:
         return self._linking_people
 
     @property
+    def album_connections(self) -> pd.DataFrame:
+        """returns a dataframe with three columns:
+        Album: This is an album that is connected to al least one other album
+        Connected Album: an album with at least one person connecting the two albums
+        Count: This is 1"""
+        connections = nx.to_dict_of_lists(self.graph)
+        conns: list[list[str | int]] = []
+        for album in self.albums:
+            joined_albums: set[str] = set()
+            for person in connections[album.album_title]:
+                albums = [a for a in connections[person] if a != album.album_title]
+                joined_albums.update(albums)
+            for connecting_album in joined_albums:
+                conns.append([album.album_title, connecting_album, 1])
+        df = pd.DataFrame(conns, columns=["Album", "Connecting Album", "Count"])
+        return df
+
+    @property
     def graph(self) -> nx.Graph:
         G = nx.Graph()
 
@@ -70,123 +89,3 @@ class NetworkGraph:
             G.nodes[n]["pos"] = p
 
         return G
-
-    # edge_traces = []
-
-    # def role_from_title(person: str, album_title: str) -> str:
-    #     album = [
-    #         album for album in all_personnel[person] if album.album_title == album_title
-    #     ][0]
-    #     return album.personnel_role(person)
-
-    # for i, edge in enumerate(G.edges()):
-    #     album_title, person = edge
-    #     x0, y0 = G.nodes[album_title]["pos"]
-    #     x1, y1 = G.nodes[person]["pos"]
-
-    #     role = role_from_title(person, album_title)
-    #     edge_traces.append(
-    #         go.Scatter(
-    #             x=[x0, x1],
-    #             y=[y0, y1],
-    #             line=dict(
-    #                 width=3, color=config.network_graph.connection_colourmap[role]
-    #             ),
-    #             hoverinfo="none",
-    #             showlegend=False,
-    #             mode="lines",
-    #         )
-    #     )
-
-    # # add album nodes
-    # album_trace = go.Scatter(
-    #     x=[],
-    #     y=[],
-    #     text=[],
-    #     mode="markers",
-    #     marker_symbol=config.network_graph.album_symbol,
-    #     marker_color=config.network_graph.album_colour,
-    #     showlegend=True,
-    #     hoverinfo="text",
-    #     marker=dict(
-    #         showscale=True,
-    #         colorscale="RdBu",
-    #         reversescale=True,
-    #         color=[],
-    #         size=10,
-    #         colorbar=dict(
-    #             thickness=10,
-    #             title="Year of Release",
-    #             xanchor="left",
-    #             titleside="right",
-    #         ),
-    #         line=dict(width=0),
-    #     ),
-    # )
-
-    # colors = []
-    # for album in albums:
-    #     node = album.album_title
-    #     x, y = G.nodes[node]["pos"]
-    #     album_trace["x"] += tuple([x])  # type: ignore
-    #     album_trace["y"] += tuple([y])  # type: ignore
-    #     colors.append(album.release_date)
-    # album_trace.marker.color = colors  # type: ignore
-
-    # # add people nodes
-    # person_trace = go.Scatter(
-    #     x=[],
-    #     y=[],
-    #     text=[],
-    #     mode="markers",
-    #     marker_symbol=config.network_graph.person_symbol,
-    #     marker_color=config.network_graph.person_colour,
-    #     hoverinfo="text",
-    #     showlegend=False,
-    #     marker=dict(
-    #         colorscale="RdBu",
-    #         reversescale=True,
-    #         color=[],
-    #         size=5,
-    #         line=dict(width=0),
-    #     ),
-    # )
-
-    # for node in linking_people:
-    #     x, y = G.nodes[node]["pos"]
-    #     person_trace["x"] += tuple([x])  # type: ignore
-    #     person_trace["y"] += tuple([y])  # type: ignore
-
-    # album_info = {album.album_title: album.release_date for album in albums}
-    # for _, adjacencies in enumerate(G.adjacency()):
-    #     node, adj = adjacencies
-    #     if node in album_info:
-    #         node_info = (
-    #             node + f" ({album_info[node]})<br># of connections: " + str(len(adj))
-    #         )
-    #         album_trace["text"] += tuple([node_info])  # type: ignore
-    #     elif node in linking_people:
-    #         node_info = node
-    #         for album_title in adj:
-    #             role = role_from_title(node, album_title)
-    #             colour = config.network_graph.connection_colourmap[role]
-    #             node_info += (
-    #                 f"<br>{album_title}: <span style='color:{colour}'>{role}</span>."
-    #             )
-    #         person_trace["text"] += tuple([node_info])  # type: ignore
-
-    # fig = go.Figure(
-    #     data=[*edge_traces, album_trace, person_trace],
-    #     layout=go.Layout(
-    #         title="<br>Test Plot",
-    #         titlefont=dict(size=16),
-    #         showlegend=False,
-    #         coloraxis_showscale=True,
-    #         hovermode="closest",
-    #         margin=dict(b=20, l=5, r=5, t=40),
-    #         xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-    #         yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-    #     ),
-    # )
-
-    # st.plotly_chart(fig)
