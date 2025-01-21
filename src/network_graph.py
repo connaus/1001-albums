@@ -1,4 +1,5 @@
 from collections import defaultdict
+import pandas as pd
 import streamlit as st
 import networkx as nx
 import plotly.graph_objects as go
@@ -37,6 +38,24 @@ class NetworkGraph:
             if len(self.all_personnel[person]) > 1
         ]
         return self._linking_people
+
+    @property
+    def album_connections(self) -> pd.DataFrame:
+        """returns a dataframe with three columns:
+        Album: This is an album that is connected to al least one other album
+        Connected Album: an album with at least one person connecting the two albums
+        Count: This is 1"""
+        connections = nx.to_dict_of_lists(self.graph)
+        conns: list[list[str | int]] = []
+        for album in self.albums:
+            joined_albums: set[str] = set()
+            for person in connections[album.album_title]:
+                albums = [a for a in connections[person] if a != album.album_title]
+                joined_albums.update(albums)
+            for connecting_album in joined_albums:
+                conns.append([album.album_title, connecting_album, 1])
+        df = pd.DataFrame(conns, columns=["Album", "Connecting Album", "Count"])
+        return df
 
     @property
     def graph(self) -> nx.Graph:

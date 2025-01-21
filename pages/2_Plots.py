@@ -239,6 +239,26 @@ def network_graph() -> None:
 
     st.plotly_chart(bar)
 
+    data = network_graph.album_connections
+    df = data[["Album", "Count"]].groupby("Album").count()
+    df = df.sort_values(["Count"], ascending=False)
+    album_order = df.index.tolist()[:30]
+    data = data[data["Album"].isin(album_order)]
+    album_bar = px.bar(
+        data,
+        x="Count",
+        y="Album",
+        title="Top 30 Albums with the Most Connections",
+        orientation="h",
+        hover_data=["Album", "Connecting Album"],
+        category_orders={
+            "Album": album_order,
+        },
+        height=800,
+    )
+
+    st.plotly_chart(album_bar)
+
 
 def plot_selector():
     drop_down()
