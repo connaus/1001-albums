@@ -1,6 +1,5 @@
 from collections import defaultdict
 from cfg.cfg import Config
-from src.album import Album
 import src.album_calcs as ac
 import streamlit as st
 import plotly.express as px
@@ -178,6 +177,8 @@ def network_graph() -> None:
     album_info = {
         album.album_title: album.release_date for album in network_graph.albums
     }
+    # person_info: dict[str, list[tuple[str, str]]] = defaultdict(list)
+    person_info: list[list[str]] = []
     for _, adjacencies in enumerate(G.adjacency()):
         node, adj = adjacencies
         if node in album_info:
@@ -193,12 +194,13 @@ def network_graph() -> None:
                 node_info += (
                     f"<br>{album_title}: <span style='color:{colour}'>{role}</span>."
                 )
+                person_info.append([node, album_title, role])
             person_trace["text"] += tuple([node_info])  # type: ignore
 
     fig = go.Figure(
         data=[*edge_traces, album_trace, person_trace],
         layout=go.Layout(
-            title="<br>Test Plot",
+            title="<br>Network Graph",
             titlefont=dict(size=16),
             showlegend=False,
             coloraxis_showscale=True,
@@ -210,6 +212,32 @@ def network_graph() -> None:
     )
 
     st.plotly_chart(fig)
+
+    data = pd.DataFrame(
+        [[p, a, r, 1] for p, a, r in person_info],
+        columns=["Person", "Album", "Role", "Count"],
+    )
+    df = data[["Person", "Count"]].groupby("Person").count()
+    df = df.sort_values(["Count"], ascending=False)
+    person_order = df.index.tolist()[:30]
+    data = data[data["Person"].isin(person_order)]
+    bar = px.bar(
+        data,
+        x="Count",
+        y="Person",
+        color="Role",
+        title="Top 30 People with the Most Connections",
+        color_discrete_map=config.network_graph.connection_colourmap,
+        orientation="h",
+        hover_data=["Person", "Album", "Role"],
+        category_orders={
+            "Person": person_order,
+            "Role": ["musician", "producer", "arranger", "writer", "unknown"],
+        },
+        height=800,
+    )
+
+    st.plotly_chart(bar)
 
 
 def plot_selector():
