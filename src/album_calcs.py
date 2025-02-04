@@ -108,6 +108,15 @@ def album_listened_status_by_year() -> pd.DataFrame:
     return listend_df
 
 
+def running_albums_listened_by_year() -> pd.DataFrame:
+    df = album_listened_status_by_year()
+    df = df[df["Status"] == "Listened"]
+    df.drop("Status", axis=1, inplace=True)
+    df.sort_values("Year", inplace=True)
+    df["Albums"] = df["Albums"].cumsum()
+    return df
+
+
 def time_listened_by_year() -> pd.DataFrame:
     """returns a dataframe of the form {Year, Status, Albums}. Status is one of "Previously Heard", "Listened", "Unlistened"
     the year is unique"""

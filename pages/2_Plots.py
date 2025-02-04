@@ -47,6 +47,15 @@ def albums_listened():
     )
     st.plotly_chart(fig)
 
+    running = px.line(
+        ac.running_albums_listened_by_year(),
+        x="Year",
+        y="Albums",
+        title="Cumulative Albums Heard",
+        markers=True,
+    )
+    st.plotly_chart(running)
+
 
 def time_listened_by_year():
     df = ac.time_listened_by_year()
