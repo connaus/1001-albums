@@ -70,6 +70,16 @@ def time_listened_by_year():
     figure.update_layout(yaxis_tickformat="%H:%M.%f")
     st.plotly_chart(fig)
 
+    df2 = ac.running_time_listened_by_year()
+    running = px.line(
+        df2,
+        x="Year",
+        y=df2["Time"] + pd.to_datetime("1970/01/01"),
+        title="Cumulative Albums Heard",
+        markers=True,
+    )
+    st.plotly_chart(running)
+
 
 def artists_heard():
     df = ac.artists_heard()
