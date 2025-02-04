@@ -228,7 +228,8 @@ def network_graph() -> None:
         person_trace["y"] += tuple([y])  # type: ignore
 
     album_info = {
-        album.album_title: album.release_date for album in network_graph.albums
+        album.album_title: (album.release_date, album.artist)
+        for album in network_graph.albums
     }
     # person_info: dict[str, list[tuple[str, str]]] = defaultdict(list)
     person_info: list[list[str]] = []
@@ -236,7 +237,9 @@ def network_graph() -> None:
         node, adj = adjacencies
         if node in album_info:
             node_info = (
-                node + f" ({album_info[node]})<br># of connections: " + str(len(adj))
+                node
+                + f" ({album_info[node][0]})<br><i>{album_info[node][1]}<i><br># of connections: "
+                + str(len(adj))
             )
             album_trace["text"] += tuple([node_info])  # type: ignore
         elif node in network_graph.linking_people:
