@@ -13,6 +13,7 @@ class Graphs(StrEnum):
     ALBUMS_LISTENED = "Albums Listened"
     TIME_LISTENED_BY_YEAR = "Time Listened by Year"
     ARTISTS_HEARD = "Artists Heard"
+    GENRES = "Genres"
     ALBUM_AVERAGES = "Album Averages"
     NETWORK_GRAPH = "Network Graph"
 
@@ -98,6 +99,26 @@ def artists_heard():
     )
 
     st.plotly_chart(fig)
+
+
+def genres() -> None:
+    data = ac.genres_by_year()
+    fig = px.area(
+        data,
+        x="Year",
+        y="Count",
+        color="Genre",
+        title="Genre Popularity by Year (Count)",
+    )
+    st.plotly_chart(fig)
+    perc_fig = px.area(
+        data,
+        x="Year",
+        y="Percentage",
+        color="Genre",
+        title="Genre Popularity by Year (%)",
+    )
+    st.plotly_chart(perc_fig)
 
 
 def album_averages() -> None:
@@ -323,6 +344,7 @@ def plot_selector():
         Graphs.ALBUMS_LISTENED: albums_listened,
         Graphs.TIME_LISTENED_BY_YEAR: time_listened_by_year,
         Graphs.ARTISTS_HEARD: artists_heard,
+        Graphs.GENRES: genres,
         Graphs.ALBUM_AVERAGES: album_averages,
         Graphs.NETWORK_GRAPH: network_graph,
     }

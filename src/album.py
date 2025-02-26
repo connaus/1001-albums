@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from datetime import timedelta
-from itertools import combinations
 from pathlib import Path
 import pandas as pd
 from cfg.cfg import Config
