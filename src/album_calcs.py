@@ -62,6 +62,20 @@ def albums_newly_listened_to(albums: list[Album]) -> int:
     )
 
 
+def genres_by_year() -> pd.DataFrame:
+    albums: list[Album] = st.session_state.albums
+    data = []
+    for album in albums:
+        for genre in album.genres:
+            data.append({"Year": album.release_date, "Genre": genre, "Count": 1})
+    df = pd.DataFrame(data)
+    df = df.groupby(["Year", "Genre"]).sum().reset_index()
+    year_total = df[["Year", "Count"]].groupby("Year").sum().reset_index()
+    df = df.merge(year_total, on="Year", suffixes=("", "_total"))
+    df["Percentage"] = df["Count"] / df["Count_total"]
+    return df
+
+
 def new_listened_time(albums: list[Album]) -> timedelta:
     total_time = timedelta()
     for album in albums:
@@ -108,6 +122,15 @@ def album_listened_status_by_year() -> pd.DataFrame:
     return listend_df
 
 
+def running_albums_listened_by_year() -> pd.DataFrame:
+    df = album_listened_status_by_year()
+    df = df[df["Status"] == "Listened"]
+    df.drop("Status", axis=1, inplace=True)
+    df.sort_values("Year", inplace=True)
+    df["Albums"] = df["Albums"].cumsum()
+    return df
+
+
 def time_listened_by_year() -> pd.DataFrame:
     """returns a dataframe of the form {Year, Status, Albums}. Status is one of "Previously Heard", "Listened", "Unlistened"
     the year is unique"""
@@ -121,6 +144,15 @@ def time_listened_by_year() -> pd.DataFrame:
     listend_df = pd.DataFrame(d)
     listend_df = listend_df.groupby(["Year"]).sum().reset_index()
     return listend_df
+
+
+def running_time_listened_by_year() -> pd.DataFrame:
+    df = time_listened_by_year()
+    # df = df[df["Status"] == "Listened"]
+    # df.drop("Status", axis=1, inplace=True)
+    df.sort_values("Year", inplace=True)
+    df["Time"] = df["Time"].cumsum()
+    return df
 
 
 def artists_heard() -> pd.DataFrame:

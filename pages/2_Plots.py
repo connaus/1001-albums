@@ -6,13 +6,14 @@ import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 
-from src.network_graph import NetworkGraph
+from src.network_graph import NetworkGraph, Group
 
 
 class Graphs(StrEnum):
     ALBUMS_LISTENED = "Albums Listened"
     TIME_LISTENED_BY_YEAR = "Time Listened by Year"
     ARTISTS_HEARD = "Artists Heard"
+    GENRES = "Genres"
     ALBUM_AVERAGES = "Album Averages"
     NETWORK_GRAPH = "Network Graph"
 
@@ -47,6 +48,15 @@ def albums_listened():
     )
     st.plotly_chart(fig)
 
+    running = px.line(
+        ac.running_albums_listened_by_year(),
+        x="Year",
+        y="Albums",
+        title="Cumulative Albums Heard",
+        markers=True,
+    )
+    st.plotly_chart(running)
+
 
 def time_listened_by_year():
     df = ac.time_listened_by_year()
@@ -60,6 +70,16 @@ def time_listened_by_year():
     figure = go.Figure(data=fig)
     figure.update_layout(yaxis_tickformat="%H:%M.%f")
     st.plotly_chart(fig)
+
+    df2 = ac.running_time_listened_by_year()
+    running = px.line(
+        df2,
+        x="Year",
+        y=df2["Time"] + pd.to_datetime("1970/01/01"),
+        title="Cumulative Albums Heard",
+        markers=True,
+    )
+    st.plotly_chart(running)
 
 
 def artists_heard():
@@ -79,6 +99,26 @@ def artists_heard():
     )
 
     st.plotly_chart(fig)
+
+
+def genres() -> None:
+    data = ac.genres_by_year()
+    fig = px.area(
+        data,
+        x="Year",
+        y="Count",
+        color="Genre",
+        title="Genre Popularity by Year (Count)",
+    )
+    st.plotly_chart(fig)
+    perc_fig = px.area(
+        data,
+        x="Year",
+        y="Percentage",
+        color="Genre",
+        title="Genre Popularity by Year (%)",
+    )
+    st.plotly_chart(perc_fig)
 
 
 def album_averages() -> None:
@@ -122,26 +162,29 @@ def network_graph() -> None:
 
     edge_traces = []
 
-    def role_from_title(person: str, album_title: str) -> str:
-        album = [
-            album
-            for album in network_graph.all_personnel[person]
-            if album.album_title == album_title
-        ][0]
-        return album.personnel_role(person)
+    # def role_from_title(person: str, album_title: str) -> str:
+    #     album = [
+    #         album
+    #         for album in network_graph.all_personnel[person]
+    #         if album.album_title == album_title
+    #     ][0]
+    #     return album.personnel_role(person)
 
     for _, edge in enumerate(G.edges()):
-        album_title, person = edge
+        album_title, group_name = edge
         x0, y0 = G.nodes[album_title]["pos"]
-        x1, y1 = G.nodes[person]["pos"]
+        x1, y1 = G.nodes[group_name]["pos"]
 
-        role = role_from_title(person, album_title)
+        group = [
+            group for group in network_graph.linking_groups if group.name == group_name
+        ][0]
+        role = group.album_role(album_title)
         edge_traces.append(
             go.Scatter(
                 x=[x0, x1],
                 y=[y0, y1],
                 line=dict(
-                    width=3, color=config.network_graph.connection_colourmap[role]
+                    width=1, color=config.network_graph.connection_colourmap[role]
                 ),
                 hoverinfo="none",
                 showlegend=False,
@@ -203,27 +246,37 @@ def network_graph() -> None:
         ),
     )
 
-    for node in network_graph.linking_people:
-        x, y = G.nodes[node]["pos"]
+    for group in network_graph.linking_groups:
+        x, y = G.nodes[group.name]["pos"]
         person_trace["x"] += tuple([x])  # type: ignore
         person_trace["y"] += tuple([y])  # type: ignore
 
     album_info = {
-        album.album_title: album.release_date for album in network_graph.albums
+        album.album_title: (album.release_date, album.artist)
+        for album in network_graph.albums
     }
     # person_info: dict[str, list[tuple[str, str]]] = defaultdict(list)
     person_info: list[list[str]] = []
     for _, adjacencies in enumerate(G.adjacency()):
         node, adj = adjacencies
+        # check if the node is an album
         if node in album_info:
             node_info = (
-                node + f" ({album_info[node]})<br># of connections: " + str(len(adj))
+                node
+                + f" ({album_info[node][0]})<br><i>{album_info[node][1]}<i><br># of connections: "
+                + str(len(adj))
             )
             album_trace["text"] += tuple([node_info])  # type: ignore
-        elif node in network_graph.linking_people:
+        elif node in [group.name for group in network_graph.linking_groups]:
+            group = network_graph.group_from_name(node)
             node_info = node
+            if len(group.people) > 1:
+                node_info += f" ({len(group.people)} people)"
+                if len(group.people) < 6:
+                    for person in group.people:
+                        node_info += f"<br>{person.name}"
             for album_title in adj:
-                role = role_from_title(node, album_title)
+                role = group.album_role(album_title)
                 colour = config.network_graph.connection_colourmap[role]
                 node_info += (
                     f"<br>{album_title}: <span style='color:{colour}'>{role}</span>."
@@ -301,6 +354,7 @@ def plot_selector():
         Graphs.ALBUMS_LISTENED: albums_listened,
         Graphs.TIME_LISTENED_BY_YEAR: time_listened_by_year,
         Graphs.ARTISTS_HEARD: artists_heard,
+        Graphs.GENRES: genres,
         Graphs.ALBUM_AVERAGES: album_averages,
         Graphs.NETWORK_GRAPH: network_graph,
     }
