@@ -95,10 +95,10 @@ class Album:
             sch.Album.total_time_s: self.total_time_s,
             sch.Album.tracks: int(self.tracks),
             sch.Album.genres: self.genres,
-            sch.Album.musicians: list(set(self.musicians)),
-            sch.Album.producers: list(set(self.producers)),
-            sch.Album.writers: list(set(self.writers)),
-            sch.Album.arrangers: list(set(self.arrangers)),
+            sch.Album.musicians: sorted(list(set(self.musicians))),
+            sch.Album.producers: sorted(list(set(self.producers))),
+            sch.Album.writers: sorted(list(set(self.writers))),
+            sch.Album.arrangers: sorted(list(set(self.arrangers))),
         }
 
     def personal_details(self) -> dict[str, str | int | bool | None]:
