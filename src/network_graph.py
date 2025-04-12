@@ -67,6 +67,7 @@ class NetworkGraph:
         ]
         self._all_personnel: list[Person] = []
         self._linking_groups: list[Group] | None = None
+        self._graph: nx.Graph | None = None
 
     @property
     def all_personnel(self) -> list[Person]:
@@ -123,6 +124,12 @@ class NetworkGraph:
 
     @property
     def graph(self) -> nx.Graph:
+        if self._graph is not None:
+            return self._graph
+        return self.create_graph()
+
+    def create_graph(self) -> nx.Graph:
+        """creates a networkx graph of the albums and linking groups"""
         G = nx.Graph()
 
         nodes = [album.album_title for album in self.albums]
@@ -142,5 +149,5 @@ class NetworkGraph:
 
         for n, p in pos.items():
             G.nodes[n]["pos"] = p
-
+        self._graph = G
         return G
