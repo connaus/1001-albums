@@ -165,7 +165,7 @@
         ]
     },
     {
-        "album_title": "Elvis Presley",
+        "album_title": "Elvis Presley (album)",
         "arrangers": [],
         "artist": "Elvis Presley",
         "genres": [
@@ -748,7 +748,7 @@
             "Joe Newman",
             "Mario Bauz\u00e1",
             "Francis Williams",
-            "\u201cDoc\u201d Cheatham",
+            "\"Doc\" Cheatham",
             "Paul Cohen",
             "Paquito Davilla",
             "Santo Russo",
@@ -756,7 +756,7 @@
             "Eddie Bert",
             "Bart Varsalona",
             "Rex Peer",
-            "Julian \u201cCannonball\u201d Adderley,",
+            "Julian \"Cannonball\" Adderley",
             "Jos\u00e9 Madera",
             "Ray Santoz Jr.,",
             "Leslie Johnakins,",
@@ -765,7 +765,7 @@
             "Jos\u00e9 Mangual",
             "Ubaldo Nieto",
             "C\u00e1ndido Camero",
-            "Carlos \u201cPatato\u201d Vald\u00e9s"
+            "Carlos \"Patato\" Vald\u00e9s"
         ],
         "producers": [
             "Ralph Seijo"
@@ -788,11 +788,11 @@
         ],
         "key": 11,
         "musicians": [
-            "Louis \u201cSab\u00fa\u201d Mart\u00ednez",
+            "Louis \"Sab\u00fa\" Mart\u00ednez",
             "Arsenio Rodr\u00edguez",
-            "Ra\u00fal \u201cCaesar\u201d Travieso",
-            "Israel Mois\u00e9s \u201cQuique\u201d Travieso",
-            "Ray \u201cMosquito\u201d Romero",
+            "Ra\u00fal \"Caesar\" Travieso",
+            "Israel Mois\u00e9s \"Quique\" Travieso",
+            "Ray \"Mosquito\" Romero",
             "Evaristo Bar\u00f3",
             "Willie Cap\u00f3",
             "Sarah Bar\u00f3"
@@ -934,7 +934,8 @@
         ],
         "key": 15,
         "musicians": [
-            "Ramblin' Jack Elliott"
+            "Ramblin' Jack Elliott",
+            "Woody Guthrie"
         ],
         "producers": [
             "Bill Leader",
@@ -1234,673 +1235,1869 @@
         "album_title": "Kind of Blue",
         "arrangers": [],
         "artist": "Miles Davis",
-        "genres": [],
+        "genres": [
+            "Modal Jazz"
+        ],
         "key": 20,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Miles Davis",
+            "Julian \"Cannonball\" Adderley",
+            "John Coltrane",
+            "Bill Evans",
+            "Wynton Kelly",
+            "Paul Chambers",
+            "Jimmy Cobb"
+        ],
+        "producers": [
+            "Irving Townsend"
+        ],
         "release_date": 1959,
         "total_time_s": 2745,
-        "tracks": 1,
+        "tracks": 5,
         "writers": []
     },
     {
         "album_title": "The Genius of Ray Charles",
-        "arrangers": [],
+        "arrangers": [
+            "Ernie Wilkins",
+            "Ralph Burns",
+            "Johnny Acea",
+            "Al Cohn",
+            "Quincy Jones"
+        ],
         "artist": "Ray Charles",
-        "genres": [],
+        "genres": [
+            "Swingin' Pop",
+            "Traditional Pop",
+            "Rhythm and Blues"
+        ],
         "key": 21,
-        "musicians": [],
+        "musicians": [
+            "Ray Charles",
+            "Clark Terry",
+            "Ernie Royal",
+            "Joe Newman",
+            "Snooky Young",
+            "Marcus Belgrave",
+            "John Hunt",
+            "Melba Liston",
+            "Quentin Jackson",
+            "Thomas Mitchell",
+            "Al Grey",
+            "Frank Wess",
+            "Marshal Royal",
+            "Paul Gonsalves",
+            "Zoot Sims",
+            "Billy Mitchell",
+            "David \"Fathead\" Newman",
+            "Allen Hanlon",
+            "Wendell Marshall",
+            "Ted Sommer",
+            "Bob Brookmeyer",
+            "Harry Lookofsky"
+        ],
         "producers": [],
         "release_date": 1959,
         "total_time_s": 2312,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Sam Theard",
+            "Fleecie Moore",
+            "Gus Kahn",
+            "Isham Jones",
+            "Irving Berlin",
+            "Percy Mayfield",
+            "Charles Joseph Morris",
+            "Einar Aaron Swan",
+            "Walter Hirsch",
+            "Fred Rose",
+            "Lil Hardin Armstrong",
+            "Don Raye",
+            "Bud Allen",
+            "Buddy Johnson",
+            "Charles Brown",
+            "Oscar Moore",
+            "Joe Greene",
+            "Grant Clarke",
+            "Harry Akst",
+            "Johnny Mercer",
+            "Harold Arlen"
+        ]
     },
     {
         "album_title": "Time Out",
         "arrangers": [],
         "artist": "Dave Brubeck Quartet",
-        "genres": [],
+        "genres": [
+            "West Coast Jazz"
+        ],
         "key": 22,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Dave Brubeck",
+            "Paul Desmond",
+            "Eugene Wright",
+            "Joe Morello"
+        ],
+        "producers": [
+            "Teo Macero",
+            "Pat Maher",
+            "Fred Plaut"
+        ],
         "release_date": 1959,
         "total_time_s": 2300,
-        "tracks": 1,
+        "tracks": 10,
         "writers": []
     },
     {
         "album_title": "A Date with the Everly Brothers",
         "arrangers": [],
         "artist": "The Everly Bothers",
-        "genres": [],
+        "genres": [
+            "Country",
+            "Pop"
+        ],
         "key": 23,
-        "musicians": [],
+        "musicians": [
+            "Don Everly",
+            "Phil Everly"
+        ],
         "producers": [],
         "release_date": 1960,
         "total_time_s": 1668,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Mel Tillis",
+            "Jimmy Reed",
+            "Felice Bryant",
+            "Boudleaux Bryant",
+            "Albert Collins",
+            "Little Richard"
+        ]
     },
     {
         "album_title": "Elvis is Back!",
         "arrangers": [],
         "artist": "Elvis Presley",
-        "genres": [],
+        "genres": [
+            "Rock and Roll",
+            "Pop",
+            "R&B",
+            "Blues",
+            "Rock"
+        ],
         "key": 24,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Elvis Presley",
+            "Scotty Moore",
+            "Hank Garland",
+            "Bob Moore",
+            "Floyd Cramer",
+            "D. J. Fontana",
+            "Buddy Harman",
+            "The Jordanaires",
+            "Boots Randolph",
+            "Charlie Hodge"
+        ],
+        "producers": [
+            "Steve Sholes",
+            "Chet Atkins"
+        ],
         "release_date": 1960,
         "total_time_s": 1906,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Otis Blackwell",
+            "John Davenport",
+            "Eddie Cooley",
+            "Beverly Ross",
+            "Sam Bobrick",
+            "Bennie Benjamin",
+            "Raymond Leveen",
+            "Louis C. Singer",
+            "Jerry Leiber",
+            "Mike Stoller",
+            "Stan Kesler",
+            "David Jones",
+            "Theodore Williams Jr.",
+            "Lincoln Chase",
+            "Fred Wise",
+            "Ben Weisman",
+            "Bill Rice",
+            "Thomas Wayne",
+            "Jesse Stone",
+            "Lowell Fulson"
+        ]
     },
     {
-        "album_title": "Joan Baez",
-        "arrangers": [],
+        "album_title": "Joan Baez (album)",
+        "arrangers": [
+            "David Gude"
+        ],
         "artist": "Joan Baez",
-        "genres": [],
+        "genres": [
+            "Folk"
+        ],
         "key": 25,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Fred Hellerman",
+            "Joan Baez"
+        ],
+        "producers": [
+            "Maynard Solomon"
+        ],
         "release_date": 1960,
-        "total_time_s": 3326,
-        "tracks": 1,
-        "writers": []
+        "total_time_s": 2762,
+        "tracks": 13,
+        "writers": [
+            "Sholom Secunda",
+            "Aaron Zeitlin",
+            "Arthur Kevess",
+            "Teddi Schwartz"
+        ]
     },
     {
-        "album_title": "Miriam Makeba",
+        "album_title": "Miriam Makeba (Album)",
         "arrangers": [],
         "artist": "Miriam Makeba",
-        "genres": [],
+        "genres": [
+            "World Music",
+            "African Music"
+        ],
         "key": 26,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Miriam Makeba",
+            "Perry Lopez",
+            "The Belafonte Folk Singers"
+        ],
+        "producers": [
+            "Bob Bollard"
+        ],
         "release_date": 1960,
         "total_time_s": 2145,
-        "tracks": 1,
+        "tracks": 14,
         "writers": []
     },
     {
         "album_title": "Muddy Waters at Newport",
         "arrangers": [],
         "artist": "Muddy Waters",
-        "genres": [],
+        "genres": [
+            "Chicago Blues"
+        ],
         "key": 27,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Muddy Waters",
+            "Otis Spann",
+            "Pat Hare",
+            "James Cotton",
+            "Andrew Stephens",
+            "Francis Clay"
+        ],
+        "producers": [
+            "Leonard Chess"
+        ],
         "release_date": 1960,
         "total_time_s": 2681,
-        "tracks": 1,
-        "writers": []
+        "tracks": 9,
+        "writers": [
+            "James Oden",
+            "Willie Dixon",
+            "Big Bill Broonzy",
+            "Langston Hughes"
+        ]
     },
     {
         "album_title": "Back at the Chicken Shack",
         "arrangers": [],
         "artist": "Jimmy Smith",
-        "genres": [],
+        "genres": [
+            "Jazz",
+            "Soul Jazz",
+            "Hard Bob"
+        ],
         "key": 28,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1961,
+        "musicians": [
+            "Jimmy Smith",
+            "Stanley Turrentine",
+            "Kenny Burrell",
+            "Donald Bailey"
+        ],
+        "producers": [
+            "Alfred Lion",
+            "Rudy Van Gelder"
+        ],
+        "release_date": 1960,
         "total_time_s": 2628,
-        "tracks": 1,
-        "writers": []
+        "tracks": 4,
+        "writers": [
+            "Oscar Hammerstein II",
+            "Sigmund Romberg",
+            "Stanley Turrentine"
+        ]
     },
     {
         "album_title": "Sunday at the Village Vanguard",
         "arrangers": [],
         "artist": "Bill Evans",
-        "genres": [],
+        "genres": [
+            "Jazz"
+        ],
         "key": 29,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Bill Evans",
+            "Scott LaFaro",
+            "Paul Motian"
+        ],
+        "producers": [
+            "Orrin Keepnews"
+        ],
         "release_date": 1961,
         "total_time_s": 2523,
-        "tracks": 1,
-        "writers": []
+        "tracks": 6,
+        "writers": [
+            "George Gershwin",
+            "Miles Davis",
+            "Sammy Fain",
+            "Cole Porter"
+        ]
     },
     {
         "album_title": "Green Onions",
         "arrangers": [],
         "artist": "Booker T & The MGs",
-        "genres": [],
+        "genres": [
+            "R&B",
+            "Soul",
+            "Rock"
+        ],
         "key": 30,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Booker T. Jones",
+            "Steve Cropper",
+            "Lewis Steinberg",
+            "Al Jackson Jr."
+        ],
+        "producers": [
+            "Jim Stewart"
+        ],
         "release_date": 1962,
         "total_time_s": 2114,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "David Clowney",
+            "Paul Winley",
+            "Ray Charles",
+            "Renald Richard",
+            "Phil Medley",
+            "Bert Berns",
+            "Acker Bilk",
+            "Doc Pomus",
+            "Smokey Robinson",
+            "Dee Clark",
+            "Kal Mann",
+            "Cornell Muldrow",
+            "Sidney Wyche",
+            "Bob Dorough",
+            "Ben Tucker"
+        ]
     },
     {
         "album_title": "Jazz Samba",
         "arrangers": [],
         "artist": "Stan Getz/Charlie Byrd",
-        "genres": [],
+        "genres": [
+            "Bossa Nova",
+            "Samba-Jazz"
+        ],
         "key": 31,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Stan Getz",
+            "Charlie Byrd",
+            "Gene Byrd",
+            "Keter Betts",
+            "Buddy Deppenschmidt",
+            "Bill Reichenbach Sr."
+        ],
+        "producers": [
+            "Creed Taylor"
+        ],
         "release_date": 1962,
         "total_time_s": 1982,
-        "tracks": 1,
-        "writers": []
+        "tracks": 7,
+        "writers": [
+            "Ant\u00f4nio Carlos Jobim",
+            "Newton Mendon\u00e7a",
+            "Jayme Silva",
+            "Baden Powell",
+            "Billy Blanco",
+            "Ary Barroso"
+        ]
     },
     {
         "album_title": "Modern Sounds In Country And Western Music",
-        "arrangers": [],
+        "arrangers": [
+            "Gil Fuller",
+            "Marty Paich",
+            "Gerald Wilson"
+        ],
         "artist": "Ray Charles",
-        "genres": [],
+        "genres": [
+            "Country",
+            "Rhythm and Blues",
+            "Countrypolitan",
+            "Pop",
+            "Soul",
+            "Western"
+        ],
         "key": 32,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Ray Charles",
+            "Hank Crawford"
+        ],
+        "producers": [
+            "Sid Feller"
+        ],
         "release_date": 1962,
         "total_time_s": 2373,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Boudleaux Bryant",
+            "Felice Bryant",
+            "Eddy Arnold",
+            "Cindy Walker",
+            "Curley Williams",
+            "Eddy Arnold",
+            "Zeke Clements",
+            "Ted Daffan",
+            "Jimmie Davis",
+            "Floyd Tillman",
+            "Jimmie Davis",
+            "Hank Williams",
+            "Don Gibson"
+        ]
     },
     {
         "album_title": "The Freewheelin' Bob Dylan",
         "arrangers": [],
         "artist": "Bob Dylan",
-        "genres": [],
+        "genres": [
+            "Folk",
+            "Blues"
+        ],
         "key": 33,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Bob Dylan",
+            "Howie Collins",
+            "Leonard Gaskin",
+            "Bruce Langhorne",
+            "Herbie Lovelle",
+            "Dick Wellstood"
+        ],
+        "producers": [
+            "John Hammond",
+            "Tom Wilson"
+        ],
         "release_date": 1963,
         "total_time_s": 2970,
-        "tracks": 1,
-        "writers": []
+        "tracks": 13,
+        "writers": [
+            "Henry Thomas"
+        ]
     },
     {
         "album_title": "A Christmas Gift To You",
         "arrangers": [],
         "artist": "Phil Spector",
-        "genres": [],
+        "genres": [
+            "Christmas",
+            "Pop"
+        ],
         "key": 34,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Darlene Love",
+            "Nedra Talley",
+            "Veronica Bennett",
+            "Estelle Bennett",
+            "Fanita James",
+            "Bobby Sheen",
+            "Patricia Wright",
+            "Dolores Kenniebrew",
+            "Dolores Brooks",
+            "Barbara Alston",
+            "Hal Blaine",
+            "Lou Blackburn",
+            "Jimmy Bond",
+            "Sonny Bono",
+            "Frank Capp",
+            "Roy Caton",
+            "Steve Douglas",
+            "Al De Lory",
+            "Barney Kessel",
+            "Jay Migliori",
+            "Jack Nitzsche",
+            "Bill Pitman",
+            "Ray Pohlman",
+            "Don Randi",
+            "Irv Rubins",
+            "Leon Russell",
+            "Tommy Tedesco",
+            "Nino Tempo",
+            "Johnny Vidor"
+        ],
+        "producers": [
+            "Phil Spector",
+            "Larry Levine"
+        ],
         "release_date": 1963,
         "total_time_s": 2060,
-        "tracks": 1,
-        "writers": []
+        "tracks": 13,
+        "writers": [
+            "Irving Berlin",
+            "Steve Nelson",
+            "Walter Rollins",
+            "A. Emmett Adams",
+            "Douglas Furber",
+            "J. Fred Coots",
+            "Haven Gillespie",
+            "Leroy Anderson",
+            "Mitchell Parish",
+            "Carl Sigman",
+            "Peter DeRose",
+            "Tommie Connor",
+            "Johnny Marks",
+            "Felix Bernard",
+            "Dick Smith",
+            "Leon Jessel",
+            "Ellie Greenwich",
+            "Jeff Barry",
+            "Phil Spector",
+            "Gene Autry",
+            "Oakley Haldeman",
+            "Josef Mohr",
+            "Franz X. Gruber"
+        ]
     },
     {
         "album_title": "Live at the Apollo",
         "arrangers": [],
         "artist": "James Brown",
-        "genres": [],
+        "genres": [
+            "R&B",
+            "Soul"
+        ],
         "key": 35,
-        "musicians": [],
+        "musicians": [
+            "James Brown",
+            "Bobby Byrd",
+            "Bobby Bennett",
+            "Lloyd Stallworth",
+            "Lewis Hamlin",
+            "Hubert Perry",
+            "Clayton Fillyau",
+            "Les Buie",
+            "Lucas \"Fats\" Gonder",
+            "Clifford MacMillan",
+            "St. Clair Pinckney",
+            "Al \"Brisco\" Clark",
+            "William Burgess",
+            "Dickie Wells",
+            "Roscoe Patrick",
+            "Teddy Washington"
+        ],
         "producers": [],
         "release_date": 1963,
         "total_time_s": 1893,
-        "tracks": 1,
+        "tracks": 8,
         "writers": []
     },
     {
         "album_title": "Live At The Harlem Square Club",
         "arrangers": [],
         "artist": "Sam Cooke",
-        "genres": [],
+        "genres": [
+            "R&B",
+            "Soul"
+        ],
         "key": 36,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Sam Cooke",
+            "Clifton White",
+            "Cornell Dupree",
+            "Jimmy Lewis",
+            "Albert \"June\" Gardner",
+            "George Stubbs",
+            "King Curtis",
+            "Tate Houston"
+        ],
+        "producers": [
+            "Bob Simpson",
+            "Anthony Salvatore",
+            "Steve Rosenthal"
+        ],
         "release_date": 1963,
         "total_time_s": 2193,
-        "tracks": 1,
-        "writers": []
+        "tracks": 9,
+        "writers": [
+            "Deke Watson",
+            "William Best"
+        ]
     },
     {
         "album_title": "Night Life",
         "arrangers": [],
         "artist": "Ray Price",
-        "genres": [],
+        "genres": [
+            "Country",
+            "Honky-Tonk"
+        ],
         "key": 37,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Ray Price",
+            "Willie Nelson",
+            "Johnny Paycheck",
+            "Buddy Emmons",
+            "Floyd Cramer"
+        ],
+        "producers": [
+            "Don Law",
+            "Frank Jones"
+        ],
         "release_date": 1963,
         "total_time_s": 2228,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Walt Breeland",
+            "Paul Buskirk",
+            "Carl Belew",
+            "Kenny Sowder",
+            "W.S. Stevenson",
+            "Arlie Carter",
+            "William Warren",
+            "Charlie Rich",
+            "Hank Thompson",
+            "Wayne P. Walker",
+            "Irene Stanton",
+            "Bette Thomasson",
+            "Hank Cochran",
+            "Eddie Kirkland",
+            "Don Stewart Davis",
+            "Danny Dill"
+        ]
     },
     {
         "album_title": "The Black Saint and the Sinner Lady",
-        "arrangers": [],
+        "arrangers": [
+            "Bob Hammer"
+        ],
         "artist": "Charles Mingus",
-        "genres": [],
+        "genres": [
+            "Avant-Garde Jazz",
+            "Third Stream",
+            "Experimental Big Band"
+        ],
         "key": 38,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Charles Mingus",
+            "Jerome Richardson",
+            "Charlie Mariano",
+            "Dick Hafer",
+            "Rolf Ericson",
+            "Richard Williams",
+            "Quentin Jackson",
+            "Don Butterfield",
+            "Jaki Byard",
+            "Jay Berliner",
+            "Dannie Richmond"
+        ],
+        "producers": [
+            "Bob Thiele",
+            "Bob Simpson"
+        ],
         "release_date": 1963,
         "total_time_s": 2365,
-        "tracks": 1,
+        "tracks": 4,
         "writers": []
     },
     {
         "album_title": "With The Beatles",
         "arrangers": [],
         "artist": "The Beatles",
-        "genres": [],
+        "genres": [
+            "Merseybeat",
+            "Rock and Roll",
+            "Pop",
+            "R&B"
+        ],
         "key": 39,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "John Lennon",
+            "Paul McCartney",
+            "George Harrison",
+            "Ringo Starr",
+            "George Martin"
+        ],
+        "producers": [
+            "George Martin",
+            "Norman Smith"
+        ],
         "release_date": 1963,
         "total_time_s": 1983,
-        "tracks": 1,
-        "writers": []
+        "tracks": 14,
+        "writers": [
+            "Meredith Willson",
+            "Georgia Dobbins",
+            "William Garrett",
+            "Freddie Gorman",
+            "Brian Holland",
+            "Robert Bateman",
+            "Chuck Berry",
+            "Smokey Robinson",
+            "Richard Drapkin",
+            "Janie Bradford",
+            "Berry Gordy"
+        ]
     },
     {
         "album_title": "Getz/Gilberto",
         "arrangers": [],
         "artist": "Stan Getz/Joao Gilberto",
-        "genres": [],
+        "genres": [
+            "Jazz",
+            "Bossa Nova"
+        ],
         "key": 40,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Stan Getz",
+            "Jo\u00e3o Gilberto",
+            "Ant\u00f4nio Carlos Jobim",
+            "Sebasti\u00e3o Neto",
+            "Milton Banana",
+            "Astrud Gilberto"
+        ],
+        "producers": [
+            "Creed Taylor"
+        ],
         "release_date": 1964,
         "total_time_s": 2026,
-        "tracks": 1,
-        "writers": []
+        "tracks": 8,
+        "writers": [
+            "Vinicius de Moraes",
+            "Norman Gimbel",
+            "Ant\u00f4nio Almeida",
+            "Dorival Caymmi",
+            "Ary Barroso",
+            "Newton Mendon\u00e7a",
+            "Gene Lees"
+        ]
     },
     {
         "album_title": "A Hard Day's Night",
         "arrangers": [],
         "artist": "The Beatles",
-        "genres": [],
+        "genres": [
+            "Rock",
+            "Pop Rock",
+            "Pop"
+        ],
         "key": 41,
-        "musicians": [],
+        "musicians": [
+            "John Lennon",
+            "Paul McCartney",
+            "George Harrison",
+            "Ringo Starr",
+            "George Martin"
+        ],
         "producers": [],
         "release_date": 1964,
         "total_time_s": 1811,
-        "tracks": 1,
+        "tracks": 12,
         "writers": []
     },
     {
         "album_title": "Olympia '64",
-        "arrangers": [],
+        "arrangers": [
+            "Fran\u00e7ois Rauber"
+        ],
         "artist": "Jacques Brel",
         "genres": [],
         "key": 42,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Jacques Brel"
+        ],
+        "producers": [
+            "Jean-Marie Gu\u00e9rin"
+        ],
         "release_date": 1964,
         "total_time_s": 1698,
-        "tracks": 1,
-        "writers": []
+        "tracks": 8,
+        "writers": [
+            "G\u00e9rard Jouannest",
+            "Jean Corti"
+        ]
     },
     {
         "album_title": "Rock & Soul",
         "arrangers": [],
         "artist": "Solomon Burke",
-        "genres": [],
+        "genres": [
+            "Soul"
+        ],
         "key": 43,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Solomon Burke"
+        ],
+        "producers": [
+            "Bert Berns",
+            "Phil Ichle",
+            "Tom Dowd",
+            "Jerry Wexler"
+        ],
         "release_date": 1964,
         "total_time_s": 2105,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Wes Farrell",
+            "Bert Russell",
+            "Joseph Martin",
+            "Winfield Scott",
+            "Robert Bateman",
+            "Wilson Pickett",
+            "Sonny Sanders",
+            "Woody Guthrie",
+            "James Mitchell",
+            "Virgil Stewart",
+            "Don Covay",
+            "Horace Ott",
+            "Bert Berns",
+            "Jerry Leiber",
+            "Mike Stoller",
+            "Nugetre",
+            "Sonny Burke",
+            "Bert Russell",
+            "Audrey Allison",
+            "Joe Allison"
+        ]
     },
     {
         "album_title": "A Girl Called Dusty",
-        "arrangers": [],
+        "arrangers": [
+            "Ivor Raymonde"
+        ],
         "artist": "Dusty Springfield",
-        "genres": [],
+        "genres": [
+            "Pop"
+        ],
         "key": 44,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Dusty Springfield",
+            "The Breakaways"
+        ],
+        "producers": [
+            "Johnny Franz",
+            "Keith Grant"
+        ],
         "release_date": 1964,
         "total_time_s": 1974,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Luther Dixon",
+            "Willie Denson",
+            "John Madara",
+            "David White",
+            "Earl King",
+            "Lamont Dozier",
+            "Brian Holland",
+            "Edward Holland Jr.",
+            "Fred Ebb",
+            "John Kander",
+            "Inez Foxx",
+            "Charlie Foxx",
+            "Burt Bacharach",
+            "Hal David",
+            "Frank Augustus",
+            "Bob Elgin",
+            "Clarence Lewis Jr.",
+            "Gerry Goffin",
+            "Carole King",
+            "Ray Charles"
+        ]
     },
     {
         "album_title": "The Rolling Stones",
         "arrangers": [],
         "artist": "The Rolling Stones",
-        "genres": [],
+        "genres": [
+            "Blues Rock",
+            "British R&B"
+        ],
         "key": 45,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Mick Jagger",
+            "Keith Richards",
+            "Brian Jones",
+            "Bill Wyman",
+            "Charlie Watts",
+            "Allan Clarke",
+            "Graham Nash",
+            "Gene Pitney",
+            "Phil Spector",
+            "Ian Stewart"
+        ],
+        "producers": [
+            "Eric Easton",
+            "Andrew Loog Oldham"
+        ],
         "release_date": 1964,
         "total_time_s": 1976,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Bobby Troup",
+            "Willie Dixon",
+            "Jimmy Reed",
+            "Ellas McDaniel",
+            "Nanker Phelge",
+            "Nanker Phelge",
+            "Phil Spector",
+            "James Moore",
+            "Chuck Berry",
+            "Brian Holland",
+            "Lamont Dozier",
+            "Eddie Holland",
+            "Ted Jarrett",
+            "Rufus Thomas"
+        ]
     },
     {
         "album_title": "I've Got A Tiger By The Tail",
         "arrangers": [],
         "artist": "Buck Owens",
-        "genres": [],
+        "genres": [
+            "Country",
+            "Rockabilly"
+        ],
         "key": 46,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Buck Owens",
+            "Don Rich",
+            "Doyle Holly",
+            "Tom Brumley",
+            "Willie Cantu",
+            "Mel King",
+            "Bob Morris",
+            "Jay McDonald",
+            "Jelly Sanders"
+        ],
+        "producers": [
+            "Ken Nelson"
+        ],
         "release_date": 1965,
         "total_time_s": 1699,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Harlan Howard",
+            "Red Simpson",
+            "Bonnie Owens",
+            "Fuzzy Owen",
+            "Bob Wills",
+            "Chuck Berry"
+        ]
     },
     {
         "album_title": "Live At The Star Club, Hamburg",
         "arrangers": [],
         "artist": "Jerry Lee Lewis",
-        "genres": [],
+        "genres": [
+            "Rock and Roll"
+        ],
         "key": 47,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Jerry Lee Lewis",
+            "Johnny Allen",
+            "Pete Shannon Harris",
+            "Barry Jenkins"
+        ],
+        "producers": [
+            "Siggi Loch"
+        ],
         "release_date": 1965,
         "total_time_s": 2222,
-        "tracks": 1,
-        "writers": []
+        "tracks": 13,
+        "writers": [
+            "Claude Demetrius",
+            "Ron Hargrave",
+            "Janie Bradford",
+            "Berry Gordy",
+            "Carl Perkins",
+            "Ray Charles",
+            "Otis Blackwell",
+            "Jack Hammer",
+            "Bumps Blackwell",
+            "John Marascalco",
+            "Hank Williams",
+            "Jerry Leiber",
+            "Mike Stoller",
+            "Enotris Johnson",
+            "Bumps Blackwell",
+            "Richard Penniman",
+            "Sunny David",
+            "Dave Williams"
+        ]
     },
     {
         "album_title": "Here Are The Sonics",
         "arrangers": [],
         "artist": "The Sonics",
-        "genres": [],
+        "genres": [
+            "Garage Rock",
+            "Rock and Roll",
+            "Proto-Punk"
+        ],
         "key": 48,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Gerry Roslie",
+            "Andy Parypa",
+            "Larry Parypa",
+            "Rob Lind",
+            "Bob Bennett"
+        ],
+        "producers": [
+            "Buck Ornsby",
+            "Kent Morrill",
+            "Kearney Barton"
+        ],
         "release_date": 1965,
         "total_time_s": 1760,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Berry Gordy",
+            "Chuck Berry",
+            "Roslie",
+            "John Greek",
+            "Kent Morrill",
+            "Rick Dangel",
+            "Richard Berry",
+            "Janie Bradford",
+            "Rufus Thomas",
+            "Lew Herman",
+            "John Marascalco",
+            "Robert Blackwell"
+        ]
     },
     {
         "album_title": "Bringing It All Back Home",
         "arrangers": [],
         "artist": "Bob Dylan",
-        "genres": [],
+        "genres": [
+            "Folk Rock",
+            "Folk",
+            "Blues"
+        ],
         "key": 49,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Bob Dylan",
+            "Steve Boone",
+            "Al Gorgoni",
+            "Bobby Gregg",
+            "Paul Griffin",
+            "John P. Hammond",
+            "Bruce Langhorne",
+            "Bill Lee",
+            "Joseph Macho Jr.",
+            "Frank Owens",
+            "Kenny Rankin",
+            "John Sebastian"
+        ],
+        "producers": [
+            "Tom Wilson"
+        ],
         "release_date": 1965,
         "total_time_s": 2814,
-        "tracks": 1,
+        "tracks": 11,
         "writers": []
     },
     {
         "album_title": "Otis Blue",
         "arrangers": [],
         "artist": "Otis Redding",
-        "genres": [],
+        "genres": [
+            "Soul",
+            "R&B",
+            "Blues",
+            "Rock",
+            "Southern Soul"
+        ],
         "key": 50,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Otis Redding",
+            "Booker T. Jones",
+            "Isaac Hayes",
+            "Steve Cropper",
+            "Donald Dunn",
+            "Al Jackson Jr.",
+            "Wayne Jackson",
+            "Gene \"Bowlegs\" Miller",
+            "Andrew Love",
+            "Floyd Newman",
+            "William Bell",
+            "Earl Sims"
+        ],
+        "producers": [
+            "Tom Dowd",
+            "Jim Stewart"
+        ],
         "release_date": 1965,
         "total_time_s": 1970,
-        "tracks": 1,
-        "writers": []
+        "tracks": 11,
+        "writers": [
+            "Sam Cooke",
+            "Bert Berns",
+            "Solomon Burke",
+            "Babe Chivian",
+            "Joe Martin",
+            "Jerry Butler",
+            "Smokey Robinson",
+            "Ronald White",
+            "Lou Adler",
+            "Herb Alpert",
+            "B.B. King",
+            "Mick Jagger",
+            "Keith Richards",
+            "William Bell"
+        ]
     },
     {
         "album_title": "Today!",
         "arrangers": [],
         "artist": "The Beach Boys",
-        "genres": [],
+        "genres": [
+            "Chamber Pop",
+            "Orchestral Rock"
+        ],
         "key": 51,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Al Jardine",
+            "Mike Love",
+            "Brian Wilson",
+            "Carl Wilson",
+            "Dennis Wilson",
+            "Earl Leaf",
+            "Russ Titelman",
+            "Ron Swallow",
+            "Marilyn Wilson",
+            "Hal Blaine",
+            "Glen Campbell",
+            "Peter Christ",
+            "Steve Douglas",
+            "David Duke",
+            "John Gray",
+            "Carl Fortina",
+            "Plas Johnson",
+            "Carol Kaye",
+            "Barney Kessel",
+            "Larry Knechtel",
+            "Carrol Lewis",
+            "Jack Nimitz",
+            "Jay Migliori",
+            "Earl Palmer",
+            "Don Randi",
+            "Bill Pitman",
+            "Ray Pohlman",
+            "Billy Lee Riley",
+            "Leon Russell",
+            "Billy Strange",
+            "Tommy Tedesco",
+            "Julius Wechter",
+            "Jerry Williams"
+        ],
+        "producers": [
+            "Chuck Britz",
+            "Larry Levine"
+        ],
         "release_date": 1965,
         "total_time_s": 1735,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Bobby Freeman"
+        ]
     },
     {
         "album_title": "A Love Supreme",
         "arrangers": [],
         "artist": "John Coltrane",
-        "genres": [],
+        "genres": [
+            "Modal jazz",
+            "Post-Bop",
+            "Spiritual Jazz"
+        ],
         "key": 52,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "John Coltrane",
+            "Jimmy Garrison",
+            "Elvin Jones",
+            "McCoy Tyner"
+        ],
+        "producers": [
+            "Bob Thiele",
+            "Rudy Van Gelder"
+        ],
         "release_date": 1965,
         "total_time_s": 1966,
-        "tracks": 1,
+        "tracks": 9,
         "writers": []
     },
     {
         "album_title": "Live At The Regal",
         "arrangers": [],
         "artist": "BB King",
-        "genres": [],
+        "genres": [
+            "Blues"
+        ],
         "key": 53,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "B.B. King",
+            "Leo Lauchie",
+            "Duke Jethro",
+            "Sonny Freeman",
+            "Bobby Forte",
+            "Johnny Board",
+            "Kenny \"Kenneth\" Sands"
+        ],
+        "producers": [
+            "Johnny Pate"
+        ],
         "release_date": 1965,
         "total_time_s": 2100,
-        "tracks": 1,
-        "writers": []
+        "tracks": 10,
+        "writers": [
+            "Memphis Slim",
+            "Riley King",
+            "Jules Taub",
+            "John Lee Hooker",
+            "Jane Feather",
+            "Joe Josea",
+            "Maxwell Davis",
+            "Davis Plumber",
+            "Charlie Singleton"
+        ]
     },
     {
         "album_title": "Rubber Soul",
         "arrangers": [],
         "artist": "The Beatles",
-        "genres": [],
+        "genres": [
+            "Folk Rock",
+            "Rock",
+            "Pop"
+        ],
         "key": 54,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "John Lennon",
+            "Paul McCartney",
+            "George Harrison",
+            "Ringo Starr",
+            "George Martin",
+            "Mal Evans"
+        ],
+        "producers": [
+            "Norman Smith"
+        ],
         "release_date": 1965,
         "total_time_s": 2132,
-        "tracks": 1,
+        "tracks": 14,
         "writers": []
     },
     {
-        "album_title": "Bert Jansch",
+        "album_title": "Bert Jansch (Album)",
         "arrangers": [],
         "artist": "Bert Jansch",
-        "genres": [],
+        "genres": [
+            "Folk"
+        ],
         "key": 55,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Bert Jansch"
+        ],
+        "producers": [
+            "Bill Leader"
+        ],
         "release_date": 1965,
         "total_time_s": 2305,
-        "tracks": 1,
-        "writers": []
+        "tracks": 15,
+        "writers": [
+            "Davey Graham"
+        ]
     },
     {
         "album_title": "Mr Tambourine Man",
         "arrangers": [],
         "artist": "The Byrds",
-        "genres": [],
+        "genres": [
+            "Folk Rock",
+            "Jangle Pop"
+        ],
         "key": 56,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Jim McGuinn",
+            "Gene Clark",
+            "David Crosby",
+            "Chris Hillman",
+            "Michael Clarke",
+            "Jerry Cole",
+            "Bill Pitman",
+            "Larry Knechtel",
+            "Leon Russell",
+            "Hal Blaine"
+        ],
+        "producers": [
+            "Terry Melcher"
+        ],
         "release_date": 1965,
         "total_time_s": 1845,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Bob Dylan",
+            "Idris Davies",
+            "Pete Seeger",
+            "Jackie DeShannon",
+            "Ross Parker",
+            "Hughie Charles"
+        ]
     },
     {
         "album_title": "Highway 61 Revisited",
         "arrangers": [],
         "artist": "Bob Dylan",
-        "genres": [],
+        "genres": [
+            "Folk Rock",
+            "Blues Rock",
+            "Rock and Roll"
+        ],
         "key": 57,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Bob Dylan",
+            "Mike Bloomfield",
+            "Charlie McCoy",
+            "Al Kooper",
+            "Paul Griffin",
+            "Frank Owens",
+            "Harvey Brooks",
+            "Russ Savakus",
+            "Joe Macho, Jr.",
+            "Bobby Gregg",
+            "Sam Lay",
+            "Bruce Langhorne"
+        ],
+        "producers": [
+            "Bob Johnston",
+            "Tom Wilson"
+        ],
         "release_date": 1965,
         "total_time_s": 3065,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "My Generation",
-        "arrangers": [],
-        "artist": "The Who",
-        "genres": [],
-        "key": 58,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1965,
-        "total_time_s": 2173,
-        "tracks": 1,
+        "tracks": 9,
         "writers": []
     },
     {
         "album_title": "Revolver",
         "arrangers": [],
         "artist": "The Beatles",
-        "genres": [],
-        "key": 59,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1966,
+        "genres": [
+            "Rock",
+            "Pop",
+            "Psychedelia",
+            "R&B"
+        ],
+        "key": 58,
+        "musicians": [
+            "John Lennon",
+            "Paul McCartney",
+            "George Harrison",
+            "Ringo Starr",
+            "Anil Bhagwat",
+            "Alan Civil",
+            "George Martin",
+            "Mal Evans",
+            "Neil Aspinall",
+            "Brian Jones",
+            "Pattie Boyd",
+            "Marianne Faithfull",
+            "Alf Bicknell",
+            "Tony Gilbert ",
+            "Sidney Sax",
+            "John Sharpe",
+            "Jurgen Hess",
+            "Stephen Shingles",
+            "John Underwood ",
+            "Derek Simpson",
+            "Norman Jones",
+            "Eddie Thornton",
+            "Ian Hamer",
+            "Les Condon",
+            "Peter Coe",
+            "Alan Branscombe"
+        ],
+        "producers": [
+            "Geoff Emerick"
+        ],
+        "release_date": 1965,
         "total_time_s": 2085,
-        "tracks": 1,
+        "tracks": 14,
         "writers": []
+    },
+    {
+        "album_title": "My Generation",
+        "arrangers": [],
+        "artist": "The Who",
+        "genres": [
+            "Mod Pop",
+            "Garage Rock",
+            "R&B",
+            "Power Pop"
+        ],
+        "key": 59,
+        "musicians": [
+            "Roger Daltrey",
+            "Pete Townshend",
+            "John Entwistle",
+            "Keith Moon",
+            "Nicky Hopkins"
+        ],
+        "producers": [
+            "Shel Talmy"
+        ],
+        "release_date": 1965,
+        "total_time_s": 2173,
+        "tracks": 12,
+        "writers": [
+            "James Brown",
+            "Johnny Terry",
+            "Bo Diddley"
+        ]
     },
     {
         "album_title": "Pet Sounds",
         "arrangers": [],
         "artist": "The Beach Boys",
-        "genres": [],
+        "genres": [
+            "Progressive Pop",
+            "Chamber Pop",
+            "Psychedelic Pop",
+            "Art Rock"
+        ],
         "key": 60,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Al Jardine",
+            "Bruce Johnston",
+            "Mike Love",
+            "Brian Wilson",
+            "Carl Wilson",
+            "Dennis Wilson",
+            "Steve Korthof",
+            "Terry Melcher",
+            "Marilyn Wilson",
+            "Chuck Berghofer",
+            "Hal Blaine",
+            "Glen Campbell",
+            "Frank Capp",
+            "Al Casey",
+            "Roy Caton",
+            "Jerry Cole",
+            "Gary L. Coleman",
+            "Mike Deasy",
+            "Al De Lory",
+            "Steve Douglas",
+            "Carl Fortina",
+            "Ritchie Frost",
+            "Jim Gordon",
+            "Bill Green",
+            "Leonard Hartman",
+            "Jim Horn",
+            "Paul Horn",
+            "Jules Jacob",
+            "Plas Johnson",
+            "Carol Kaye",
+            "Barney Kessel",
+            "Bobby Klein",
+            "Larry Knechtel",
+            "Frank Marocco",
+            "Gail Martin",
+            "Nick Martinis",
+            "Mike Melvoin",
+            "Jay Migliori",
+            "Tommy Morgan",
+            "Jack Nimitz",
+            "Bill Pitman",
+            "Ray Pohlman",
+            "Don Randi",
+            "Alan Robinson",
+            "Lyle Ritz",
+            "Billy Strange",
+            "Ernie Tack",
+            "Paul Tanner",
+            "Tommy Tedesco",
+            "Jerry Williams",
+            "Julius Wechter",
+            "Arnold Belnick",
+            "Norman Botnick",
+            "Joseph DiFiore",
+            "Justin DiTullio",
+            "Jesse Erlich",
+            "James Getzoff",
+            "Harry Hyams",
+            "William Kurasch",
+            "Leonard Malarsky",
+            "Jerome Reisler",
+            "Joseph Saxon",
+            "Ralph Schaeffer",
+            "Sid Sharp",
+            "Darrel Terwilliger",
+            "Tibor Zelig"
+        ],
+        "producers": [
+            "Bruce Botnick",
+            "Chuck Britz",
+            "H. Bowen David",
+            "Larry Levine"
+        ],
         "release_date": 1966,
         "total_time_s": 2241,
-        "tracks": 1,
-        "writers": []
+        "tracks": 13,
+        "writers": [
+            "Tony Asher",
+            "Terry Sachen"
+        ]
     },
     {
         "album_title": "Fred Neil",
         "arrangers": [],
         "artist": "Fred Neil",
-        "genres": [],
+        "genres": [
+            "Folk Rock"
+        ],
         "key": 61,
         "musicians": [],
-        "producers": [],
+        "producers": [
+            "Nick Venet"
+        ],
         "release_date": 1966,
         "total_time_s": 2339,
         "tracks": 1,
-        "writers": []
+        "writers": [
+            "Elizabeth Cotten"
+        ]
     },
     {
         "album_title": "Fifth Dimension",
         "arrangers": [],
         "artist": "The Byrds",
-        "genres": [],
+        "genres": [
+            "Folk Rock",
+            "Psychedelic Rock",
+            "Raga Rock"
+        ],
         "key": 62,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Jim McGuinn",
+            "David Crosby",
+            "Chris Hillman",
+            "Michael Clarke",
+            "Gene Clark",
+            "Van Dyke Parks"
+        ],
+        "producers": [
+            "Allen Stanton"
+        ],
         "release_date": 1966,
         "total_time_s": 1799,
-        "tracks": 1,
-        "writers": []
+        "tracks": 11,
+        "writers": [
+            "N\u00e2z\u0131m Hikmet",
+            "Billy Roberts"
+        ]
     },
     {
         "album_title": "Blonde On Blonde",
         "arrangers": [],
         "artist": "Bob Dylan",
-        "genres": [],
+        "genres": [
+            "Folk Rock",
+            "Blues Rock",
+            "Country Rock",
+            "Rock and Roll"
+        ],
         "key": 63,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Bob Dylan",
+            "Robbie Robertson",
+            "Al Kooper",
+            "Bill Aikins",
+            "Wayne Butler",
+            "Kenneth Buttrey",
+            "Rick Danko",
+            "Bobby Gregg",
+            "Paul Griffin",
+            "Jerry Kennedy",
+            "Charlie McCoy",
+            "Wayne Moss",
+            "Hargus \"Pig\" Robbins",
+            "Henry Strzelecki",
+            "Joe South"
+        ],
+        "producers": [
+            "Bob Johnston"
+        ],
         "release_date": 1966,
         "total_time_s": 4320,
-        "tracks": 1,
+        "tracks": 14,
         "writers": []
     },
     {
         "album_title": "Black Monk Time",
         "arrangers": [],
         "artist": "The Monks",
-        "genres": [],
+        "genres": [
+            "Garage Rock",
+            "Proto-Punk"
+        ],
         "key": 64,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Gary Burger",
+            "Larry Clark",
+            "Roger Johnston",
+            "Eddie Shaw",
+            "Dave Day"
+        ],
+        "producers": [
+            "Jimmy Bowien"
+        ],
         "release_date": 1966,
         "total_time_s": 1681,
-        "tracks": 1,
+        "tracks": 12,
         "writers": []
     },
     {
         "album_title": "Face to Face",
         "arrangers": [],
         "artist": "The Kinks",
-        "genres": [],
+        "genres": [
+            "Rock",
+            "Baroque Pop",
+            "Garage Pop",
+            "Art Pop"
+        ],
         "key": 65,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Ray Davies",
+            "Dave Davies",
+            "Pete Quaife",
+            "Mick Avory",
+            "John Dalton",
+            "Rasa Davies",
+            "Nicky Hopkins"
+        ],
+        "producers": [
+            "Shel Talmy",
+            "Alan MacKenzie",
+            "Alan O'Duffy"
+        ],
         "release_date": 1966,
         "total_time_s": 2311,
-        "tracks": 1,
+        "tracks": 14,
         "writers": []
     },
     {
         "album_title": "Mamas And The Papas",
-        "arrangers": [],
+        "arrangers": [
+            "Jimmie Haskell",
+            "Gene Page"
+        ],
         "artist": "Mamas And The Papas",
-        "genres": [],
+        "genres": [
+            "Sunshine Pop"
+        ],
         "key": 66,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Denny Doherty",
+            "Cass Elliot",
+            "John Phillips",
+            "Michelle Phillips",
+            "Jill Gibson",
+            "Hal Blaine",
+            "Larry Knechtel",
+            "Joe Osborn",
+            "\"Doctor\" Eric Hord",
+            "Tommy Tedesco",
+            "P. F. Sloan",
+            "Peter Pilafian",
+            "Ray Manzarek"
+        ],
+        "producers": [
+            "Lou Adler",
+            "Dayton \"Bones\" Howe",
+            "Henry Lewy"
+        ],
         "release_date": 1966,
         "total_time_s": 2096,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Richard Rodgers",
+            "Lorenz Hart",
+            "Marvin Gaye",
+            "William \"Mickey\" Stevenson",
+            "Ivy Jo Hunter"
+        ]
     },
     {
         "album_title": "Midnight Ride",
         "arrangers": [],
         "artist": "Paul Revere and the Raiders",
-        "genres": [],
+        "genres": [
+            "Rock and Roll"
+        ],
         "key": 67,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Mark Lindsay",
+            "Paul Revere",
+            "Drake Levin",
+            "Phil \"Fang\" Volk",
+            "Mike \"Smitty\" Smith"
+        ],
+        "producers": [
+            "Terry Melcher"
+        ],
         "release_date": 1966,
         "total_time_s": 1658,
         "tracks": 1,
-        "writers": []
+        "writers": [
+            "Cynthia Weil",
+            "Barry Mann",
+            "Tommy Boyce",
+            "Bobby Hart"
+        ]
     },
     {
         "album_title": "Freak Out!",
         "arrangers": [],
         "artist": "Frank Zappa and the Mothers of Invention",
-        "genres": [],
+        "genres": [
+            "Experimental Rock"
+        ],
         "key": 68,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Frank Zappa",
+            "Jimmy Carl Black",
+            "Ray Collins",
+            "Roy Estrada",
+            "Elliot Ingber",
+            "Gene Estes",
+            "Eugene Di Novi",
+            "Neil Levang",
+            "John Rotella",
+            "Carol Kaye",
+            "Kurt Reher",
+            "Raymond Kelley",
+            "Paul Bergstrom",
+            "Emmet Sargeant",
+            "Joseph Saxon",
+            "Edwin V. Beach",
+            "Arthur Maebe",
+            "George Price",
+            "Roy Caton",
+            "Virgil Evans",
+            "David Wells",
+            "Motorhead Sherwood",
+            "Kim Fowley",
+            "Mac Rebennack",
+            "Paul Butterfield",
+            "Les McCann",
+            "Jeannie Vassoir"
+        ],
+        "producers": [
+            "Tom Wilson",
+            "Val Valentin",
+            "Ami Hadani"
+        ],
         "release_date": 1966,
         "total_time_s": 3600,
-        "tracks": 1,
+        "tracks": 14,
         "writers": []
     },
     {
         "album_title": "Aftermath",
         "arrangers": [],
         "artist": "The Rolling Stones",
-        "genres": [],
+        "genres": [
+            "Hard Rock",
+            "Pop Rock",
+            "Blues Rock",
+            "Art Rock"
+        ],
         "key": 69,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Mick Jagger",
+            "Keith Richards",
+            "Brian Jones",
+            "Bill Wyman",
+            "Charlie Watts",
+            "Jack Nitzsche",
+            "Ian Stewart"
+        ],
+        "producers": [
+            "Andrew Loog Oldham",
+            "Dave Hassinger"
+        ],
         "release_date": 1966,
         "total_time_s": 3192,
-        "tracks": 1,
+        "tracks": 14,
         "writers": []
     },
     {
         "album_title": "Parsley, Sage, Rosemary and Thyme",
         "arrangers": [],
         "artist": "Simon & Garfunkel",
-        "genres": [],
+        "genres": [
+            "Folk Rock"
+        ],
         "key": 70,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Paul Simon",
+            "Art Garfunkel",
+            "Hal Blaine",
+            "Joe South",
+            "Carol Kaye",
+            "John Meszar",
+            "Larry Knechtel",
+            "Joe Morello",
+            "Eugene Wright",
+            "Charlie O'Donnell"
+        ],
+        "producers": [
+            "Bob Johnston",
+            "Roy Halee"
+        ],
         "release_date": 1966,
         "total_time_s": 1686,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Bruce Woodley"
+        ]
     },
     {
         "album_title": "The Psychedelic Sounds of the 13th Floor Elevators",
         "arrangers": [],
         "artist": "The 13th Floor Elevators",
-        "genres": [],
+        "genres": [
+            "Psychedelic rock",
+            "Garage Rock",
+            "Acid Rock",
+            "R&B"
+        ],
         "key": 71,
         "musicians": [],
-        "producers": [],
+        "producers": [
+            "Lelan Rogers",
+            "Gordon Bynum",
+            "Bob Sullivan"
+        ],
         "release_date": 1966,
         "total_time_s": 2143,
         "tracks": 1,
@@ -1910,88 +3107,284 @@
         "album_title": "Bluesbreakers with Eric Clapton",
         "arrangers": [],
         "artist": "John Mayall's Bluesbreakers",
-        "genres": [],
+        "genres": [
+            "Blues Rock",
+            "Blues"
+        ],
         "key": 72,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "John Mayall",
+            "Eric Clapton",
+            "John McVie",
+            "Hughie Flint",
+            "Alan Skidmore",
+            "Johnny Almond",
+            "Derek Healey"
+        ],
+        "producers": [
+            "Gus Dudgeon",
+            "Mike Vernon"
+        ],
         "release_date": 1966,
         "total_time_s": 2226,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Otis Rush",
+            "Freddie King",
+            "Sonny Thompson",
+            "Ray Charles",
+            "Mose Allison",
+            "Robert Johnson",
+            "Memphis Slim",
+            "Little Walter"
+        ]
     },
     {
         "album_title": "Yardbirds",
         "arrangers": [],
         "artist": "The Yardbirds",
-        "genres": [],
+        "genres": [
+            "Psychedelic Rock",
+            "Blues Rock"
+        ],
         "key": 73,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Keith Relf",
+            "Jeff Beck",
+            "Chris Dreja",
+            "Paul Samwell-Smith",
+            "Jim McCarty"
+        ],
+        "producers": [
+            "Simon Napier-Bell"
+        ],
         "release_date": 1966,
         "total_time_s": 2152,
-        "tracks": 1,
+        "tracks": 12,
         "writers": []
     },
     {
         "album_title": "Wild is the Wind",
         "arrangers": [],
         "artist": "Nina Simone",
-        "genres": [],
+        "genres": [
+            "Jazz",
+            "Blues",
+            "Folk",
+            "R&B"
+        ],
         "key": 74,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Nina Simone"
+        ],
+        "producers": [
+            "Hal Mooney"
+        ],
         "release_date": 1966,
         "total_time_s": 2325,
-        "tracks": 1,
-        "writers": []
+        "tracks": 11,
+        "writers": [
+            "Bennie Benjamin",
+            "Sol Marcus",
+            "Horace Ott",
+            "Wade Brown Jr.",
+            "James Shelton",
+            "Van McCoy",
+            "Dimitri Tiomkin",
+            "Ned Washington",
+            "Ralph Rainger",
+            "Leo Robin"
+        ]
     },
     {
         "album_title": "Beach Samba",
         "arrangers": [],
         "artist": "Astrud Gilberto",
-        "genres": [],
+        "genres": [
+            "Folk-Pop",
+            "Bossa Nova",
+            "Samba",
+            "Easy Listening"
+        ],
         "key": 75,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Astrud Gilberto",
+            "Marcello Gilberto",
+            "Eumir Deodato",
+            "Don Sebesky",
+            "Ron Carter",
+            "Jule Ruggiro",
+            "Seymour Barab",
+            "Maurice Bialkin",
+            "Maurice Brown",
+            "Charles McCracken",
+            "George Ricci",
+            "Harvey Shapiro",
+            "Alan Shulman",
+            "Marcos Valle",
+            "Grady Tate",
+            "Ray Alonge",
+            "James Buffington",
+            "Earl Chapin",
+            "Tony Miranda",
+            "Toots Thielemans",
+            "Barry Galbraith",
+            "Margaret Ross",
+            "George Devens",
+            "Benny Aronov",
+            "Alan Douglas",
+            "Jack Jennings",
+            "Dom Um Rom\u00e3o",
+            "Warren Bernhardt",
+            "Wayne Andre",
+            "Warren Covington",
+            "Urbie Green",
+            "Tony Studd",
+            "Bernie Glow",
+            "Jimmy Nottingham",
+            "Ernie Royal",
+            "Marvin Stamm",
+            "John Barber",
+            "Harold Coletta",
+            "Richard Dickler",
+            "Dave Mankovitz",
+            "David Schwartz",
+            "Arnold Eidus",
+            "Harry Katzman",
+            "Leo Kruczek",
+            "George Ockner",
+            "Gene Orloff",
+            "Phil Bodner",
+            "Bill Hammond",
+            "Hubert Laws",
+            "Seldon Powell",
+            "Stanley Webb"
+        ],
+        "producers": [
+            "Creed Taylor"
+        ],
         "release_date": 1967,
         "total_time_s": 1658,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Gayle Caldwell",
+            "Tim Hardin",
+            "Norman Gimbel",
+            "Carlos Pingarilho",
+            "Marcos Valle",
+            "Chico Buarque",
+            "Bob Russell",
+            "Luiz Bonf\u00e1",
+            "Eumir Deodato",
+            "Mack Gordon",
+            "Harry Warren",
+            "Geraldo Cunha",
+            "Pery Ribeiro",
+            "Ned Washington",
+            "Victor Young",
+            "Patti Jacob",
+            "Steve Boone",
+            "John Sebastian"
+        ]
     },
     {
         "album_title": "Chelsea Girl",
         "arrangers": [],
         "artist": "Nico",
-        "genres": [],
+        "genres": [
+            "Folk Rock",
+            "Baroque Pop",
+            "Avant-Pop",
+            "Art Rock",
+            "Experimental Rock"
+        ],
         "key": 76,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Nico",
+            "Jackson Browne",
+            "Lou Reed",
+            "John Cale",
+            "Sterling Morrison"
+        ],
+        "producers": [
+            "om Wilson"
+        ],
         "release_date": 1967,
         "total_time_s": 2708,
-        "tracks": 1,
-        "writers": []
+        "tracks": 10,
+        "writers": [
+            "Tim Hardin",
+            "Jackson Browne",
+            "Gregory Copeland",
+            "John Cale",
+            "Lou Reed",
+            "Sterling Morrison",
+            "Bob Dylan"
+        ]
     },
     {
         "album_title": "Sgt Pepper's Lonely Hearts Club Band",
-        "arrangers": [],
+        "arrangers": [
+            "Mike Leander"
+        ],
         "artist": "The Beatles",
-        "genres": [],
+        "genres": [
+            "Rock",
+            "Pop",
+            "Psychedelia",
+            "Art Rock"
+        ],
         "key": 77,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "John Lennon",
+            "Paul McCartney",
+            "George Harrison",
+            "Ringo Starr",
+            "Sounds Inc.",
+            "Neil Aspinall",
+            "Mal Evans",
+            "George Martin",
+            "Neill Sanders",
+            "James W. Buck",
+            "John Burden",
+            "Tony Randall",
+            "Sheila Bromberg",
+            "Natwar Soni",
+            "Joshi Gajjar",
+            "Amrit Gajjar",
+            "Buddhadev Kansara",
+            "Robert Burns",
+            "Henry MacKenzie",
+            "Frank Reidy"
+        ],
+        "producers": [
+            "George Martin",
+            "Geoff Emerick"
+        ],
         "release_date": 1967,
         "total_time_s": 2395,
-        "tracks": 1,
+        "tracks": 13,
         "writers": []
     },
     {
         "album_title": "Electric Music For The Mind And Body",
         "arrangers": [],
         "artist": "Country Joe And The Fish",
-        "genres": [],
+        "genres": [
+            "Acid Rock",
+            "Psychedelic Rock"
+        ],
         "key": 78,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Country Joe McDonald",
+            "Barry Melton",
+            "David Cohen",
+            "Bruce Barthol",
+            "Gary \"Chicken\" Hirsh"
+        ],
+        "producers": [
+            "Samuel Charters"
+        ],
         "release_date": 1967,
         "total_time_s": 2643,
         "tracks": 1,
@@ -2001,118 +3394,332 @@
         "album_title": "Buffalo Springfield Again",
         "arrangers": [],
         "artist": "Buffalo Springfield",
-        "genres": [],
+        "genres": [
+            "Folk Rock",
+            "Psychedelia",
+            "Country Folk",
+            "HArd Rock"
+        ],
         "key": 79,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Stephen Stills",
+            "Neil Young",
+            "Richie Furay",
+            "Bruce Palmer",
+            "Dewey Martin",
+            "Russ Titelman",
+            "Doug Hastings",
+            "Chris Sarns",
+            "James Burton",
+            "Charlie Chin",
+            "Jack Nitzsche",
+            "Don Randi",
+            "Jim Fielder",
+            "Bobby West",
+            "Carol Kaye",
+            "Harvey Newmark",
+            "Jim Gordon",
+            "Hal Blaine",
+            "Jim Horn",
+            "The American Soul Train",
+            "Merry Clayton",
+            "Brenda Holloway",
+            "Patrice Holloway",
+            "Gloria Jones",
+            "Sherlie Matthews",
+            "Gracia Nitzsche"
+        ],
+        "producers": [
+            "Brian Stone",
+            "Charles Greene",
+            "Ahmet Ertegun",
+            "Jack Nitzsche",
+            "Jim Messina",
+            "Dewey Martin"
+        ],
         "release_date": 1967,
         "total_time_s": 2042,
-        "tracks": 1,
+        "tracks": 10,
         "writers": []
     },
     {
         "album_title": "Safe As Milk",
         "arrangers": [],
         "artist": "Captain Beefheart and His Magic Band",
-        "genres": [],
+        "genres": [
+            "Blues Rock",
+            "Garage Rock",
+            "R&B",
+            "Acid Rock",
+            "Folk Rock"
+        ],
         "key": 80,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Don Van Vliet",
+            "Alex St. Clair Snouffer",
+            "Ry Cooder",
+            "Jerry Handley",
+            "John French",
+            "Samuel Hoffman",
+            "Milt Holland",
+            "Taj Mahal",
+            "Russ Titelman"
+        ],
+        "producers": [
+            "Richard Perry",
+            "Bob Krasnow",
+            "Hank Cicalo"
+        ],
         "release_date": 1967,
         "total_time_s": 2020,
         "tracks": 1,
-        "writers": []
+        "writers": [
+            "Herb Bermann"
+        ]
     },
     {
         "album_title": "Moby Grape",
         "arrangers": [],
         "artist": "Moby Grape",
-        "genres": [],
+        "genres": [
+            "Psychedelic Rock",
+            "Power Pop",
+            "Country Rock"
+        ],
         "key": 81,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Peter Lewis",
+            "Jerry Miller",
+            "Bob Mosley",
+            "Skip Spence",
+            "Don Stevenson"
+        ],
+        "producers": [
+            "David Rubinson"
+        ],
         "release_date": 1967,
         "total_time_s": 1991,
-        "tracks": 1,
+        "tracks": 13,
         "writers": []
     },
     {
         "album_title": "Da Capo",
         "arrangers": [],
         "artist": "Love",
-        "genres": [],
+        "genres": [
+            "Psychedelia",
+            "Hard Rock",
+            "Jazz Rock",
+            "Garage Rock"
+        ],
         "key": 82,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Arthur Lee",
+            "John Echols",
+            "Bryan MacLean",
+            "Ken Forssi",
+            "Alban \"Snoopy\" Pfisterer",
+            "Tjay Cantrelli",
+            "Michael Stuart-Ware"
+        ],
+        "producers": [
+            "Paul A. Rothchild",
+            "Jac Holzman"
+        ],
         "release_date": 1967,
         "total_time_s": 2154,
-        "tracks": 1,
+        "tracks": 7,
         "writers": []
     },
     {
         "album_title": "Triangle",
         "arrangers": [],
         "artist": "The Beau Brummels",
-        "genres": [],
+        "genres": [
+            "Folk Rock",
+            "Country Rock",
+            "Psychedelic Pop",
+            "Psychedelic Rock"
+        ],
         "key": 83,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Ron Elliott",
+            "Ron Meagher",
+            "Sal Valentino",
+            "Van Dyke Parks",
+            "Carol Kaye",
+            "James Burton",
+            "Donnie Lanier",
+            "Jim Gordon",
+            "The Blossoms",
+            "Gene Garf",
+            "Lou Klass",
+            "Shari Zippert",
+            "David Duke",
+            "George Hyde",
+            "Gale Robinson",
+            "Jesse Ehrlich",
+            "Raymond Kelley",
+            "Dick Hyde"
+        ],
+        "producers": [
+            "Lenny Waronker"
+        ],
         "release_date": 1967,
         "total_time_s": 1734,
-        "tracks": 1,
-        "writers": []
+        "tracks": 11,
+        "writers": [
+            "Bob Durand",
+            "Merle Travis",
+            "Randy Newman"
+        ]
     },
     {
         "album_title": "Headquarters",
         "arrangers": [],
         "artist": "The Monkees",
-        "genres": [],
+        "genres": [
+            "Pop rock"
+        ],
         "key": 84,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Michael Nesmith",
+            "Peter Tork",
+            "Micky Dolenz",
+            "Davy Jones",
+            "Chip Douglas",
+            "Jerry Yester",
+            "Vincent DeRosa",
+            "Frederick Seykora",
+            "John London"
+        ],
+        "producers": [
+            "Chip Douglas",
+            "Hank Cicalo"
+        ],
         "release_date": 1967,
         "total_time_s": 1852,
-        "tracks": 1,
-        "writers": []
+        "tracks": 14,
+        "writers": [
+            "Tommy Boyce",
+            "Bobby Hart",
+            "Barry Mann",
+            "Cynthia Weil",
+            "Joey Richards",
+            "Diane Hildebrand",
+            "Jack Keller"
+        ]
     },
     {
         "album_title": "Goodbye And Hello",
         "arrangers": [],
         "artist": "Tim Buckley",
-        "genres": [],
+        "genres": [
+            "Psychedelic Folk",
+            "Psychedelic Pop",
+            "Baroque Pop",
+            "Soft Rock"
+        ],
         "key": 85,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Tim Buckley",
+            "Jerry Yester",
+            "Lee Underwood",
+            "John Farsha",
+            "Brian Hartzler",
+            "Jim Fielder",
+            "Jimmy Bond",
+            "Don Randi",
+            "Henry Diltz",
+            "Carter C.C. Collins",
+            "Dave Guard",
+            "Eddie Hoh",
+            "Jim Gordon"
+        ],
+        "producers": [
+            "Jac Holzman",
+            "Bruce Botnick",
+            "Jerry Yester",
+            "Jac Holzman"
+        ],
         "release_date": 1967,
         "total_time_s": 2590,
-        "tracks": 1,
+        "tracks": 10,
         "writers": []
     },
     {
         "album_title": "Forever Changes",
-        "arrangers": [],
+        "arrangers": [
+            "Neil Young",
+            "David Angel"
+        ],
         "artist": "Love",
-        "genres": [],
+        "genres": [
+            "Folk Rock",
+            "Orchestral Pop",
+            "Psychedelic Pop",
+            "Baroque Pop"
+        ],
         "key": 86,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Arthur Lee",
+            "Bryan MacLean",
+            "Johnny Echols",
+            "Ken Forssi",
+            "Michael Stuart-Ware",
+            "Carol Kaye",
+            "Don Randi",
+            "Billy Strange",
+            "Hal Blaine",
+            "Robert Barene",
+            "Arnold Belnick",
+            "James Getzoff",
+            "Marshall Sosson",
+            "Darrel Terwilliger",
+            "Norman Botnick",
+            "Jesse Ehrlich",
+            "Chuck Berghofer",
+            "Bud Brisbois",
+            "Roy Caton",
+            "Ollie Mitchell",
+            "Richard Leith"
+        ],
+        "producers": [
+            "Bruce Botnick"
+        ],
         "release_date": 1967,
         "total_time_s": 2570,
-        "tracks": 1,
+        "tracks": 11,
         "writers": []
     },
     {
         "album_title": "Disraeli Gears",
         "arrangers": [],
         "artist": "Cream",
-        "genres": [],
+        "genres": [
+            "Psychedelic Rock",
+            "Blues Rock",
+            "Hard Rock"
+        ],
         "key": 87,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Jack Bruce",
+            "Eric Clapton",
+            "Ginger Baker"
+        ],
+        "producers": [
+            "Felix Pappalardi",
+            "Tom Dowd"
+        ],
         "release_date": 1967,
         "total_time_s": 1986,
-        "tracks": 1,
-        "writers": []
+        "tracks": 11,
+        "writers": [
+            "Gail Collins",
+            "Pete Brown",
+            "Martin Sharp",
+            "Blind Joe Reynolds"
+        ]
     },
     {
         "album_title": "The Piper at the Gates of Dawn",
@@ -2120,181 +3727,517 @@
         "artist": "Pink Floyd",
         "genres": [],
         "key": 88,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Syd Barrett",
+            "Roger Waters",
+            "Rick Wright",
+            "Nick Mason",
+            "Peter Jenner"
+        ],
+        "producers": [
+            "Norman Smith",
+            "Peter Bown"
+        ],
         "release_date": 1967,
         "total_time_s": 2516,
-        "tracks": 1,
+        "tracks": 11,
         "writers": []
     },
     {
         "album_title": "The Who Sell Out",
         "arrangers": [],
         "artist": "The Who",
-        "genres": [],
+        "genres": [
+            "Psychedelic Pop",
+            "Power Pop",
+            "Art Pop",
+            "Mod Pop"
+        ],
         "key": 89,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Roger Daltrey",
+            "Pete Townshend",
+            "John Entwistle",
+            "Keith Moon",
+            "Al Kooper",
+            "Speedy Keen"
+        ],
+        "producers": [
+            "Kit Lambert",
+            "Damon Lyon-Shaw"
+        ],
         "release_date": 1967,
         "total_time_s": 2326,
-        "tracks": 1,
+        "tracks": 13,
         "writers": []
     },
     {
         "album_title": "The Velvet Underground & Nico",
         "arrangers": [],
         "artist": "The Velvet Underground",
-        "genres": [],
+        "genres": [
+            "Art Rock",
+            "Experimental Rock",
+            "Proto-Punk",
+            "Psychedelic Rock",
+            "Avant-Pop",
+            "Garage Rock"
+        ],
         "key": 90,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "John Cale",
+            "Sterling Morrison",
+            "Lou Reed",
+            "Maureen Tucker",
+            "Nico"
+        ],
+        "producers": [
+            "Andy Warhol",
+            "Tom Wilson"
+        ],
         "release_date": 1967,
         "total_time_s": 2937,
-        "tracks": 1,
+        "tracks": 11,
         "writers": []
     },
     {
         "album_title": "Francis Albert Sinatra & Antonio Carlos Jobim",
-        "arrangers": [],
+        "arrangers": [
+            "Claus Ogerman"
+        ],
         "artist": "Francis Albert Sinatra & Antonio Carlos Jobim",
-        "genres": [],
+        "genres": [
+            "Bossa nova"
+        ],
         "key": 91,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Frank Sinatra",
+            "Ant\u00f4nio Carlos Jobim",
+            "Dick Noel",
+            "Bud Shank",
+            "Buddy Collette",
+            "Arthur Gleghorn",
+            "Nathan Ross",
+            "Israel Baker",
+            "Bernard Kundell",
+            "Anatol Kaminsky",
+            "Thelma Beach",
+            "Bonnie Douglas",
+            "Arnold Belnick",
+            "Emo Neufeld",
+            "Ralph Schaeffer",
+            "James Getzoff",
+            "Nino Rosso",
+            "Kurt Reher",
+            "Elizabeth Greenschpoon",
+            "Ray Kramer",
+            "Bill Miller",
+            "Al Viola",
+            "Ralph Pena",
+            "Irving Cottler",
+            "Colin Bailey",
+            "Dick Noel",
+            "Bud Shank",
+            "Buddy Collette",
+            "Arthur Gleghorn",
+            "Nathan Ross",
+            "Israel Baker",
+            "Bernard Kundell",
+            "Anatol Kaminsky",
+            "Thelma Beach",
+            "Bonnie Douglas",
+            "Arnold Belnick",
+            "Emo Neufeld",
+            "Ralph Schaeffer",
+            "James Getzoff",
+            "Nino Rosso",
+            "Kurt Reher",
+            "Elizabeth Greenschpoon",
+            "Ray Kramer",
+            "Bill Miller",
+            "Al Viola",
+            "Ralph Pena",
+            "Irving Cottler",
+            "Colin Bailey",
+            "Oliver Mitchell",
+            "Roy Caton",
+            "Dick Noel",
+            "Arthur Gleghorn",
+            "Ronny Lang",
+            "Bud Shank",
+            "Nathan Ross",
+            "Thelma Beach",
+            "Bernard Kundell",
+            "Israel Baker",
+            "William Kurasch",
+            "Arnold Belnick",
+            "Bonnie Douglas",
+            "Emo Neufeld",
+            "James Getzoff",
+            "Ralph Schaeffer",
+            "Harry Bluestone",
+            "Anatol Kaminsky",
+            "Nino Rosso",
+            "Ray Kramer",
+            "Armand Kaproff",
+            "Elizabeth Greenschpoon",
+            "Bill Miller",
+            "Donald Owens",
+            "Al Viola",
+            "Glen Campbell",
+            "Alvin Casey",
+            "Ralph Pena",
+            "Carol Kaye",
+            "Dom Um Rom\u00e3o",
+            "Irving Cottler",
+            "Hal Blaine",
+            "Eddie Brackett Jr.",
+            "Victor Feldman"
+        ],
+        "producers": [
+            "Sonny Burke"
+        ],
         "release_date": 1967,
         "total_time_s": 1685,
-        "tracks": 1,
-        "writers": []
+        "tracks": 10,
+        "writers": [
+            "Norman Gimbel",
+            "Vin\u00edcius de Moraes",
+            "Ray Gilbert",
+            "Alo\u00edsio de Oliveira",
+            "Irving Berlin",
+            "Gene Lees",
+            "Newton Mendon\u00e7a",
+            "Cole Porter",
+            "Robert C. Wright",
+            "George Forrest"
+        ]
     },
     {
-        "album_title": "The Doors",
+        "album_title": "The Doors (album)",
         "arrangers": [],
         "artist": "The Doors",
-        "genres": [],
+        "genres": [
+            "Psychedelic Rock",
+            "Art Rock",
+            "Psychedelia"
+        ],
         "key": 92,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Jim Morrison",
+            "Ray Manzarek",
+            "Robby Krieger",
+            "John Densmore",
+            "Larry Knechtel"
+        ],
+        "producers": [
+            "Paul A. Rothchild",
+            "Bruce Botnick"
+        ],
         "release_date": 1967,
         "total_time_s": 2651,
-        "tracks": 1,
-        "writers": []
+        "tracks": 11,
+        "writers": [
+            "Paul A. Rothchild",
+            "Kurt Weill",
+            "Willie Dixon"
+        ]
     },
     {
         "album_title": "Younger Than Yesterday",
         "arrangers": [],
         "artist": "The Byrds",
-        "genres": [],
+        "genres": [
+            "Rock",
+            "Folk Rock",
+            "Psychedelic rock",
+            "Country Rock",
+            "Raga Rock"
+        ],
         "key": 93,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Jim McGuinn",
+            "David Crosby",
+            "Chris Hillman",
+            "Michael Clarke",
+            "Hugh Masekela",
+            "Hotep Idris Galeta",
+            "Jay Migliori",
+            "Vern Gosdin",
+            "Clarence White",
+            "Daniel \"Big Black\" Rey"
+        ],
+        "producers": [
+            "Gary Usher"
+        ],
         "release_date": 1967,
         "total_time_s": 1707,
-        "tracks": 1,
-        "writers": []
+        "tracks": 11,
+        "writers": [
+            "Robert J. Hippard",
+            "Bob Dylan"
+        ]
     },
     {
         "album_title": "Groovin'",
         "arrangers": [],
         "artist": "The Young Rascals",
-        "genres": [],
+        "genres": [
+            "Blue-eyed soul"
+        ],
         "key": 94,
-        "musicians": [],
+        "musicians": [
+            "Felix Cavaliere",
+            "Eddie Brigati",
+            "Gene Cornish",
+            "Dino Danelli",
+            "David Brigati",
+            "Hubert Laws",
+            "Chuck Rainey"
+        ],
         "producers": [],
         "release_date": 1967,
         "total_time_s": 2074,
-        "tracks": 1,
-        "writers": []
+        "tracks": 11,
+        "writers": [
+            "Ronald Miller",
+            "Brian Wells"
+        ]
     },
     {
         "album_title": "Surrealistic Pillow",
         "arrangers": [],
         "artist": "Jefferson Airplane",
-        "genres": [],
+        "genres": [
+            "Folk Rock",
+            "Acid Rock",
+            "Psychedelic Rock",
+            "Blues Rock"
+        ],
         "key": 95,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Marty Balin",
+            "Jack Casady",
+            "Spencer Dryden",
+            "Paul Kantner",
+            "Jorma Kaukonen",
+            "Grace Slick",
+            "Signe Toly Anderson",
+            "Skip Spence",
+            "Jerry Garcia"
+        ],
+        "producers": [
+            "Rick Jarrard"
+        ],
         "release_date": 1967,
         "total_time_s": 2020,
-        "tracks": 1,
-        "writers": []
+        "tracks": 11,
+        "writers": [
+            "Darby Slick"
+        ]
     },
     {
         "album_title": "Something Else by The Kinks",
         "arrangers": [],
         "artist": "The Kinks",
-        "genres": [],
+        "genres": [
+            "Pop",
+            "Art Pop",
+            "Rock",
+            "Psychedelia",
+            "Folk",
+            "Music Hall"
+        ],
         "key": 96,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Ray Davies",
+            "Dave Davies",
+            "Pete Quaife",
+            "Mick Avory",
+            "The Mike Cotton Sound",
+            "Rasa Davies",
+            "Nicky Hopkins",
+            "David Whitaker"
+        ],
+        "producers": [
+            "Shel Talmy",
+            "Alan MacKenzie",
+            "Alan O'Duffy"
+        ],
         "release_date": 1967,
         "total_time_s": 2177,
-        "tracks": 1,
+        "tracks": 13,
         "writers": []
     },
     {
         "album_title": "Sunshine Superman",
         "arrangers": [],
         "artist": "Donovan",
-        "genres": [],
+        "genres": [
+            "Psychedelia",
+            "Folk",
+            "Psychedelic Folk",
+            "Raga Rock"
+        ],
         "key": 97,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Donovan",
+            "Bobby Ray",
+            "Eddie Hoh",
+            "Shawn Phillips",
+            "Lenny Maitlin",
+            "Cyrus Faryar",
+            "Peter Pilifian",
+            "John Carr",
+            "Jimmy Page",
+            "Eric Ford",
+            "John Cameron",
+            "Spike Heatley",
+            "Bobby Orr",
+            "Tony Carr"
+        ],
+        "producers": [
+            "Mickie Most"
+        ],
         "release_date": 1967,
         "total_time_s": 2579,
-        "tracks": 1,
+        "tracks": 10,
         "writers": []
     },
     {
         "album_title": "I'm A Lonesome Fugitive",
         "arrangers": [],
         "artist": "Merle Haggard",
-        "genres": [],
+        "genres": [
+            "Country"
+        ],
         "key": 98,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Merle Haggard",
+            "Roy Nichols",
+            "Ralph Mooney",
+            "George French",
+            "Jerry Ward",
+            "Eddie Burris",
+            "Lewis Talley",
+            "Billy Mize",
+            "Bonnie Owens",
+            "James Burton",
+            "Glen Campbell",
+            "Glen D. Hardin",
+            "Jim Gordon"
+        ],
+        "producers": [
+            "Ken Nelson"
+        ],
         "release_date": 1967,
         "total_time_s": 1865,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Liz Anderson",
+            "Casey Anderson",
+            "Jelly Sanders",
+            "Jerry Ward",
+            "Jimmie Rodgers",
+            "Tommy Collins"
+        ]
     },
     {
         "album_title": "Are You Experienced?",
         "arrangers": [],
         "artist": "The Jimi Hendrix Experience",
-        "genres": [],
+        "genres": [
+            "Psychedelic Rock",
+            "Hard Rock",
+            "Acid Rock",
+            "Blues"
+        ],
         "key": 99,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Jimi Hendrix",
+            "Noel Redding",
+            "Mitch Mitchell",
+            "The Breakaways"
+        ],
+        "producers": [
+            "Chas Chandler",
+            "Dave Siddle",
+            "Eddie Kramer",
+            "Mike Ross"
+        ],
         "release_date": 1967,
         "total_time_s": 2407,
-        "tracks": 1,
+        "tracks": 11,
         "writers": []
     },
     {
         "album_title": "I Had Too Much to Dream Last Night",
-        "arrangers": [],
+        "arrangers": [
+            "Perry Botkin Jr."
+        ],
         "artist": "The Electric Prunes",
-        "genres": [],
+        "genres": [
+            "Psychedelic Rock",
+            "Garage Rock"
+        ],
         "key": 100,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "James Lowe",
+            "Ken Williams",
+            "James \"Weasel\" Spagnola",
+            "Mark Tulin",
+            "Preston Ritter"
+        ],
+        "producers": [
+            "David Hassinger",
+            "Richie Podolor",
+            "Bill Cooper"
+        ],
         "release_date": 1967,
         "total_time_s": 1790,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Nancie Mantz",
+            "Annette Tucker",
+            "Al Dubin",
+            "Harry Warren",
+            "Jill Jones"
+        ]
     },
     {
         "album_title": "Don't Come Home A-Drinkin'",
         "arrangers": [],
         "artist": "Loretta Lynn",
-        "genres": [],
+        "genres": [
+            "Country"
+        ],
         "key": 101,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Harold Bradley",
+            "Owen Bradley",
+            "David Briggs",
+            "Hal Buksbaum",
+            "Fred Carter Jr.",
+            "Floyd Cramer",
+            "Ray Edenton",
+            "Buddy Harman",
+            "Junior Huskey",
+            "The Jordanaires",
+            "Loretta Lynn",
+            "Grady Martin",
+            "Johnny Russell",
+            "Hal Rugg",
+            "Joe Zinkan"
+        ],
+        "producers": [
+            "Owen Bradley"
+        ],
         "release_date": 1967,
         "total_time_s": 1708,
-        "tracks": 1,
-        "writers": []
+        "tracks": 12,
+        "writers": [
+            "Peggy Sue Wells"
+        ]
     },
     {
         "album_title": "The Call of the Valley",
@@ -2453,11 +4396,24 @@
         "writers": []
     },
     {
+        "album_title": "Everybody Knows This Is Nowhere",
+        "arrangers": [],
+        "artist": "Neil Young",
+        "genres": [],
+        "key": 114,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1969,
+        "total_time_s": 2431,
+        "tracks": 1,
+        "writers": []
+    },
+    {
         "album_title": "Johnny Cash at Folsom Prison",
         "arrangers": [],
         "artist": "Johnny Cash",
         "genres": [],
-        "key": 114,
+        "key": 115,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2470,11 +4426,11 @@
         "arrangers": [],
         "artist": "Laura Nyro",
         "genres": [],
-        "key": 115,
+        "key": 116,
         "musicians": [],
         "producers": [],
-        "release_date": 1968,
-        "total_time_s": 2775,
+        "release_date": 1969,
+        "total_time_s": 2431,
         "tracks": 1,
         "writers": []
     },
@@ -2483,7 +4439,7 @@
         "arrangers": [],
         "artist": "Aretha Franklin",
         "genres": [],
-        "key": 116,
+        "key": 117,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2496,7 +4452,7 @@
         "arrangers": [],
         "artist": "Blue Cheer",
         "genres": [],
-        "key": 117,
+        "key": 118,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2509,7 +4465,7 @@
         "arrangers": [],
         "artist": "The Byrds",
         "genres": [],
-        "key": 118,
+        "key": 119,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2522,7 +4478,7 @@
         "arrangers": [],
         "artist": "Big Brother and the Holding Company",
         "genres": [],
-        "key": 119,
+        "key": 120,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2535,7 +4491,7 @@
         "arrangers": [],
         "artist": "The United States Of America",
         "genres": [],
-        "key": 120,
+        "key": 121,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2548,7 +4504,7 @@
         "arrangers": [],
         "artist": "Dr John",
         "genres": [],
-        "key": 121,
+        "key": 122,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2561,7 +4517,7 @@
         "arrangers": [],
         "artist": "Iron Butterfly",
         "genres": [],
-        "key": 122,
+        "key": 123,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2574,7 +4530,7 @@
         "arrangers": [],
         "artist": "The Pretty Things",
         "genres": [],
-        "key": 123,
+        "key": 124,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2587,7 +4543,7 @@
         "arrangers": [],
         "artist": "Simon & Garfunkel",
         "genres": [],
-        "key": 124,
+        "key": 125,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2600,7 +4556,7 @@
         "arrangers": [],
         "artist": "The Small Faces",
         "genres": [],
-        "key": 125,
+        "key": 126,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2613,7 +4569,7 @@
         "arrangers": [],
         "artist": "The Band",
         "genres": [],
-        "key": 126,
+        "key": 127,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2626,7 +4582,7 @@
         "arrangers": [],
         "artist": "Jeff Beck Group",
         "genres": [],
-        "key": 127,
+        "key": 128,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2639,7 +4595,7 @@
         "arrangers": [],
         "artist": "Caetano Veloso",
         "genres": [],
-        "key": 128,
+        "key": 129,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2652,7 +4608,7 @@
         "arrangers": [],
         "artist": "Scott Walker",
         "genres": [],
-        "key": 129,
+        "key": 130,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2665,7 +4621,7 @@
         "arrangers": [],
         "artist": "The Zombies",
         "genres": [],
-        "key": 130,
+        "key": 131,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2678,7 +4634,7 @@
         "arrangers": [],
         "artist": "Van Morrison",
         "genres": [],
-        "key": 131,
+        "key": 132,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2691,7 +4647,7 @@
         "arrangers": [],
         "artist": "The Byrds",
         "genres": [],
-        "key": 132,
+        "key": 133,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2704,7 +4660,7 @@
         "arrangers": [],
         "artist": "The Beatles",
         "genres": [],
-        "key": 133,
+        "key": 134,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
@@ -2717,24 +4673,11 @@
         "arrangers": [],
         "artist": "The Mothers of Invention",
         "genres": [],
-        "key": 134,
+        "key": 135,
         "musicians": [],
         "producers": [],
         "release_date": 1968,
         "total_time_s": 2360,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Everybody Knows This Is Nowhere",
-        "arrangers": [],
-        "artist": "Neil Young",
-        "genres": [],
-        "key": 135,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1969,
-        "total_time_s": 2431,
         "tracks": 1,
         "writers": []
     },
@@ -3860,687 +5803,1679 @@
         "writers": []
     },
     {
-        "album_title": "American Pie",
+        "album_title": "There's a Riot Goin' On",
         "arrangers": [],
-        "artist": "Don McLean",
-        "genres": [],
+        "artist": "Sly & The Family Stone",
+        "genres": [
+            "Psychedelic funk",
+            "Avant-Soul",
+            "Avant-Pop",
+            "Deep Funk"
+        ],
         "key": 206,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Sly Stone",
+            "Rose Stone",
+            "Billy Preston",
+            "Jerry Martini",
+            "Cynthia Robinson",
+            "Freddie Stone",
+            "Ike Turner",
+            "Bobby Womack",
+            "Larry Graham",
+            "Greg Errico",
+            "Gerry Gibson",
+            "Vet Stewart",
+            "Mary McCreary",
+            "Elva Mouton"
+        ],
+        "producers": [
+            "Chris Hinshaw",
+            "Jack Ashkinazy",
+            "James Conniff",
+            "James Greene",
+            "Robert Gratts",
+            "Willie Greer",
+            "Rich Tilles"
+        ],
         "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2869,
+        "tracks": 12,
         "writers": []
     },
     {
-        "album_title": "A Nod's As Good As Wink",
-        "arrangers": [],
-        "artist": "The Faces",
-        "genres": [],
+        "album_title": "What's Goin' On",
+        "arrangers": [
+            "David Van De Pitte"
+        ],
+        "artist": "Marvin Gaye",
+        "genres": [
+            "Soul"
+        ],
         "key": 207,
-        "musicians": [],
+        "musicians": [
+            "Marvin Gaye",
+            "Jackie Hicks",
+            "Marlene Barrow",
+            "Louvain Demps",
+            "Mel Farr",
+            "Charlie Sanders",
+            "Lem Barney",
+            "Dave Bing",
+            "Bobby Rogers",
+            "Elgie Stover",
+            "Kenneth Stover",
+            "Gordon Staples",
+            "Zinovi Bistritzky",
+            "Beatriz Budinzky",
+            "Richard Margitza",
+            "Virginia Halfmann",
+            "Felix Resnick",
+            "Alvin Score",
+            "Lillian Downs",
+            "James Waring",
+            "Edouard Kesner",
+            "Meyer Shapiro",
+            "David Ireland",
+            "Nathan Gordon",
+            "Italo Babini",
+            "Thaddeus Markiewicz",
+            "Edward Korkigan",
+            "Max Janowsky",
+            "Carole Crosby",
+            "Dayna Hardwick",
+            "William Perich",
+            "Larry Nozero",
+            "Angelo Carlisi",
+            "George Benson",
+            "Tate Houston",
+            "John Trudell",
+            "Maurice Davis",
+            "Nilesh Pawar",
+            "Carl Raetz",
+            "Eli Fountain",
+            "Wild Bill Moore",
+            "Marvin Gaye",
+            "Johnny Griffith",
+            "Earl Van Dyke",
+            "Jack Brokensha",
+            "Joe Messina",
+            "Robert White",
+            "James Jamerson",
+            "Bob Babbitt",
+            "Chet Forest",
+            "Jack Ashford",
+            "Eddie \"Bongo\" Brown",
+            "Earl DeRouen",
+            "Bobbye Hall"
+        ],
         "producers": [],
         "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
+        "total_time_s": 2132,
+        "tracks": 9,
+        "writers": [
+            "Al Cleveland",
+            "Renaldo \"Obie\" Benson",
+            "James Nyx Jr.",
+            "Anna Gaye",
+            "Elgie Stover",
+            "Earl DeRouen"
+        ]
     },
     {
-        "album_title": "Blue",
-        "arrangers": [],
-        "artist": "Joni Mitchell",
-        "genres": [],
+        "album_title": "Trafalgar",
+        "arrangers": [
+            "Bill Shepherd"
+        ],
+        "artist": "The Bee Gees",
+        "genres": [
+            "Pop",
+            "Soft Rock"
+        ],
         "key": 208,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Barry Gibb",
+            "Robin Gibb",
+            "Maurice Gibb",
+            "Geoff Bridgford",
+            "Alan Kendall"
+        ],
+        "producers": [
+            "Robert Stigwood",
+            "Bryan Scott"
+        ],
         "release_date": 1971,
-        "total_time_s": 2175,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Coat Of Many Colors",
-        "arrangers": [],
-        "artist": "Dolly Parton",
-        "genres": [],
-        "key": 209,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Electric Warrior",
-        "arrangers": [],
-        "artist": "T Rex",
-        "genres": [],
-        "key": 210,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Every Picture Tells A Story",
-        "arrangers": [],
-        "artist": "Rod Stewart",
-        "genres": [],
-        "key": 211,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Fragile",
-        "arrangers": [],
-        "artist": "Yes",
-        "genres": [],
-        "key": 212,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Histoire de Melody Nelson",
-        "arrangers": [],
-        "artist": "Serge Gainsbourg",
-        "genres": [],
-        "key": 213,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Imagine",
-        "arrangers": [],
-        "artist": "John Lennon",
-        "genres": [],
-        "key": 214,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "LA Woman",
-        "arrangers": [],
-        "artist": "The Doors",
-        "genres": [],
-        "key": 215,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 2911,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Led Zeppelin IV (Four Symbols)",
-        "arrangers": [],
-        "artist": "Led Zeppelin",
-        "genres": [],
-        "key": 216,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 2555,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Live With Ginger Baker",
-        "arrangers": [],
-        "artist": "Fela Kuti",
-        "genres": [],
-        "key": 217,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Madman Across The Water",
-        "arrangers": [],
-        "artist": "Elton John",
-        "genres": [],
-        "key": 218,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Maggot Brain",
-        "arrangers": [],
-        "artist": "Funkadelic",
-        "genres": [],
-        "key": 219,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Nilsson Schmilsson",
-        "arrangers": [],
-        "artist": "Harry Nilsson",
-        "genres": [],
-        "key": 220,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Pearl",
-        "arrangers": [],
-        "artist": "Janis Joplin",
-        "genres": [],
-        "key": 221,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Pictures at an Exhibition",
-        "arrangers": [],
-        "artist": "Emerson, Lake & Palmer",
-        "genres": [],
-        "key": 222,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Shaft",
-        "arrangers": [],
-        "artist": "Isaac Hayes",
-        "genres": [],
-        "key": 223,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Songs of Love and Hate",
-        "arrangers": [],
-        "artist": "Leonard Cohen",
-        "genres": [],
-        "key": 224,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Sticky Fingers",
-        "arrangers": [],
-        "artist": "The Rolling Stones",
-        "genres": [],
-        "key": 225,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Surf's Up",
-        "arrangers": [],
-        "artist": "The Beach Boys",
-        "genres": [],
-        "key": 226,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Tago Mago",
-        "arrangers": [],
-        "artist": "Can",
-        "genres": [],
-        "key": 227,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Tapestry",
-        "arrangers": [],
-        "artist": "Carole King",
-        "genres": [],
-        "key": 228,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Tarkus",
-        "arrangers": [],
-        "artist": "Emerson, Lake & Palmer",
-        "genres": [],
-        "key": 229,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Teenage Head",
-        "arrangers": [],
-        "artist": "The Flamin' Groovies",
-        "genres": [],
-        "key": 230,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "The Allman Brothers at Fillmore East",
-        "arrangers": [],
-        "artist": "The Allman Brothers",
-        "genres": [],
-        "key": 231,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2828,
+        "tracks": 12,
         "writers": []
     },
     {
         "album_title": "The Yes Album",
         "arrangers": [],
         "artist": "Yes",
-        "genres": [],
-        "key": 232,
-        "musicians": [],
-        "producers": [],
+        "genres": [
+            "Progressive Rock"
+        ],
+        "key": 209,
+        "musicians": [
+            "Jon Anderson",
+            "Chris Squire",
+            "Steve Howe",
+            "Tony Kaye",
+            "Bill Bruford",
+            "Colin Goldring"
+        ],
+        "producers": [
+            "Eddie Offord"
+        ],
         "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "There's a Riot Goin' On",
-        "arrangers": [],
-        "artist": "Sly & The Family Stone",
-        "genres": [],
-        "key": 233,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Trafalgar",
-        "arrangers": [],
-        "artist": "The Bee Gees",
-        "genres": [],
-        "key": 234,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "What's Goin' On",
-        "arrangers": [],
-        "artist": "Marvin Gaye",
-        "genres": [],
-        "key": 235,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1971,
-        "total_time_s": 2132,
-        "tracks": 1,
+        "total_time_s": 2498,
+        "tracks": 6,
         "writers": []
     },
     {
         "album_title": "Who's Next",
         "arrangers": [],
         "artist": "The Who",
-        "genres": [],
-        "key": 236,
-        "musicians": [],
-        "producers": [],
+        "genres": [
+            "Hard Rock",
+            "Arena Rock"
+        ],
+        "key": 210,
+        "musicians": [
+            "Roger Daltrey",
+            "Pete Townshend",
+            "John Entwistle",
+            "Keith Moon",
+            "Dave Arbus",
+            "Nicky Hopkins"
+        ],
+        "producers": [
+            "Glyn Johns",
+            "Doug Sax",
+            "Chris Stamp"
+        ],
         "release_date": 1971,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2625,
+        "tracks": 9,
         "writers": []
     },
     {
-        "album_title": "All Directions",
+        "album_title": "Tapestry",
         "arrangers": [],
-        "artist": "The Temptations",
-        "genres": [],
-        "key": 237,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
+        "artist": "Carole King",
+        "genres": [
+            "Soft Rock",
+            "Pop"
+        ],
+        "key": 211,
+        "musicians": [
+            "Carole King",
+            "Ralph Schuckett",
+            "James Taylor",
+            "Danny \"Kootch\" Kortchmar",
+            "Perry Steinberg",
+            "Charles Larkey",
+            "Russ Kunkel",
+            "Joel O'Brien",
+            "Curtis Amy",
+            "Barry Socher",
+            "David Campbell",
+            "Terry King",
+            "Merry Clayton",
+            "Julia Tillman",
+            "Joni Mitchell"
+        ],
+        "producers": [
+            "Vic Anesini",
+            "Lou Adler",
+            "Hank Cicalo"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2671,
+        "tracks": 12,
+        "writers": [
+            "Toni Stern",
+            "Gerry Goffin",
+            "Jerry Wexler"
+        ]
     },
     {
-        "album_title": "American Gothic",
+        "album_title": "Shaft",
         "arrangers": [],
-        "artist": "David Ackles",
-        "genres": [],
-        "key": 238,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "artist": "Isaac Hayes",
+        "genres": [
+            "Progressive Soul"
+        ],
+        "key": 212,
+        "musicians": [
+            "Isaac Hayes",
+            "Johnny Allen",
+            "Pat Lewis",
+            "Rose Williams",
+            "Telma Hopkins",
+            "Lester Snell",
+            "Michael Toles",
+            "Charles Pitts",
+            "James Alexander",
+            "Willie Hall",
+            "Gary Jones",
+            "Richard \"Johnny\" Davis",
+            "John Fonville"
+        ],
+        "producers": [
+            "Ron Capone",
+            "Henry Bush",
+            "Bobby Manuel"
+        ],
+        "release_date": 1971,
+        "total_time_s": 4169,
+        "tracks": 15,
         "writers": []
     },
     {
-        "album_title": "Can't Buy a Thrill",
+        "album_title": "The Allman Brothers at Fillmore East",
         "arrangers": [],
-        "artist": "Steely Dan",
-        "genres": [],
-        "key": 239,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 2470,
-        "tracks": 1,
+        "artist": "The Allman Brothers",
+        "genres": [
+            "Blues Rock",
+            "Southern Rock"
+        ],
+        "key": 213,
+        "musicians": [
+            "Duane Allman",
+            "Gregg Allman",
+            "Dickey  Betts",
+            "Berry Oakley",
+            "Jai Johanny Johanson",
+            "Butch Trucks",
+            "Thom Doucette",
+            "Jim Santi"
+        ],
+        "producers": [
+            "Tom Dowd",
+            "Bruce Malamut",
+            "Aaron Baron",
+            "Sam Whiteside",
+            "Larry Dahlstrom",
+            "Dennis M. Drake"
+        ],
+        "release_date": 1971,
+        "total_time_s": 4680,
+        "tracks": 7,
+        "writers": [
+            "Blind Willie McTell",
+            "Clarence Lewis",
+            "Bobby Robinson",
+            "Elmore James",
+            "T-Bone Walker",
+            "Willie Cobbs"
+        ]
+    },
+    {
+        "album_title": "Sticky Fingers",
+        "arrangers": [
+            "Paul Buckmaster"
+        ],
+        "artist": "The Rolling Stones",
+        "genres": [
+            "Hard Rock",
+            "Roots Rock",
+            "Rock and Roll",
+            "Country Rock"
+        ],
+        "key": 214,
+        "musicians": [
+            "Mick Jagger",
+            "Keith Richards",
+            "Mick Taylor",
+            "Bill Wyman",
+            "Charlie Watts",
+            "Ry Cooder",
+            "Jim Dickinson",
+            "Rocky Dijon",
+            "Nicky Hopkins",
+            "Bobby Keys",
+            "Jimmy Miller",
+            "Jack Nitzsche",
+            "Billy Preston",
+            "Jim Price",
+            "Ian Stewart"
+        ],
+        "producers": [
+            "Jimmy Miller ",
+            "Glyn Johns",
+            "Andy Johns",
+            "Chris Kimsey",
+            "Jimmy Johnson",
+            "Doug Sax"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2775,
+        "tracks": 10,
+        "writers": [
+            "Fred McDowell",
+            "Gary Davis",
+            "Marianne Faithfull"
+        ]
+    },
+    {
+        "album_title": "Imagine",
+        "arrangers": [],
+        "artist": "John Lennon",
+        "genres": [
+            "Rock"
+        ],
+        "key": 215,
+        "musicians": [
+            "John Lennon",
+            "George Harrison",
+            "Nicky Hopkins",
+            "Klaus Voormann",
+            "Alan White",
+            "Jim Keltner",
+            "Jim Gordon",
+            "Ted Turner",
+            "Rod Linton",
+            "Joey Molland",
+            "Tom Evans",
+            "Andy Davis",
+            "Steve Brendell",
+            "John Tout",
+            "King Curtis",
+            "John Barham",
+            "Mike Pinder"
+        ],
+        "producers": [
+            "Yoko Ono",
+            "Phil Spector",
+            "Jack Douglas"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2369,
+        "tracks": 10,
         "writers": []
     },
     {
-        "album_title": "Close to The Edge",
+        "album_title": "Surf's Up",
+        "arrangers": [],
+        "artist": "The Beach Boys",
+        "genres": [
+            "Progressive Pop",
+            "Psychedelic Pop"
+        ],
+        "key": 216,
+        "musicians": [
+            "Al Jardine",
+            "Bruce Johnston",
+            "Mike Love",
+            "Brian Wilson",
+            "Carl Wilson",
+            "Dennis Wilson",
+            "Ed Carter",
+            "Daryl Dragon",
+            "Dennis Dragon",
+            "Mike Kowalski",
+            "Blondie Chaplin",
+            "Bill DeSimone",
+            "Kathy Dragon",
+            "Van Dyke Parks",
+            "Jack Rieley",
+            "Diane Rovell",
+            "Marilyn Wilson",
+            "Gary Winfrey",
+            "Arthur Brieglab",
+            "Jimmy Bond",
+            "Frank Capp",
+            "Al Casey",
+            "Roy Caton",
+            "Al De Lory",
+            "David Duke",
+            "Glenn Ferris",
+            "Sam Freed",
+            "David Frisina",
+            "George Hyde",
+            "Anatol Kaminsky",
+            "Nathan Kaproff",
+            "George Kast",
+            "Carol Kaye",
+            "Charles Lloyd",
+            "Sal Marquez",
+            "Roger Neumann",
+            "Nick Pellico",
+            "Joel Peskin",
+            "Mike Price",
+            "Claude Sherry",
+            "Woody Theus"
+        ],
+        "producers": [
+            "Stephen Desper"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2020,
+        "tracks": 10,
+        "writers": [
+            "Jerry Leiber",
+            "Mike Stoller"
+        ]
+    },
+    {
+        "album_title": "Fragile",
         "arrangers": [],
         "artist": "Yes",
-        "genres": [],
-        "key": 240,
-        "musicians": [],
+        "genres": [
+            "Progressive Rock"
+        ],
+        "key": 217,
+        "musicians": [
+            "Jon Anderson",
+            "Steve Howe",
+            "Chris Squire",
+            "Rick Wakeman",
+            "Bill Bruford"
+        ],
+        "producers": [
+            "Eddy Offord"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2428,
+        "tracks": 9,
+        "writers": [
+            "Johannes Brahms"
+        ]
+    },
+    {
+        "album_title": "LA Woman",
+        "arrangers": [],
+        "artist": "The Doors",
+        "genres": [
+            "Blues Rock",
+            "Psychedelic Rock"
+        ],
+        "key": 218,
+        "musicians": [
+            "Jim Morrison",
+            "Ray Manzarek",
+            "Robby Krieger",
+            "John Densmore",
+            "Jerry Scheff",
+            "Marc Benno"
+        ],
+        "producers": [
+            "Bruce Botnick"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2911,
+        "tracks": 10,
+        "writers": [
+            "John Lee Hooker"
+        ]
+    },
+    {
+        "album_title": "Tago Mago",
+        "arrangers": [],
+        "artist": "Can",
+        "genres": [
+            "Krautrock",
+            "Psychedelic Rock",
+            "Experimental Rock",
+            "Avant-Funk"
+        ],
+        "key": 219,
+        "musicians": [
+            "Damo Suzuki",
+            "Holger Czukay",
+            "Michael Karoli",
+            "Jaki Liebezeit",
+            "Irmin Schmidt"
+        ],
         "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "release_date": 1971,
+        "total_time_s": 4407,
+        "tracks": 7,
         "writers": []
     },
     {
-        "album_title": "Clube Da Esquina",
+        "album_title": "Madman Across The Water",
+        "arrangers": [
+            "Paul Buckmaster"
+        ],
+        "artist": "Elton John",
+        "genres": [
+            "Progressive Rock"
+        ],
+        "key": 220,
+        "musicians": [
+            "Elton John",
+            "Brian Dee",
+            "Rick Wakeman",
+            "Jack Emblow",
+            "Diana Lewis",
+            "Caleb Quaye",
+            "B. J. Cole",
+            "Davey Johnstone",
+            "Chris Spedding",
+            "David Glover",
+            "Brian Odgers",
+            "Herbie Flowers",
+            "Chris Laurence",
+            "Dee Murray",
+            "Roger Pope",
+            "Barry Morgan",
+            "Terry Cox",
+            "Nigel Olsson",
+            "Ray Cooper",
+            "David Katz",
+            "Tony Burrows",
+            "Roger Cook",
+            "Lesley Duncan",
+            "Barry St. John",
+            "Terry Steele",
+            "Liza Strike",
+            "Sue and Sunny",
+            "Cantores em Ecclesia Choir",
+            "Robert Kirby"
+        ],
+        "producers": [
+            "Gus Dudgeon",
+            "Robin Geoffrey Cable"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2717,
+        "tracks": 9,
+        "writers": [
+            "Bernie Taupin"
+        ]
+    },
+    {
+        "album_title": "Coat Of Many Colors",
         "arrangers": [],
-        "artist": "Milton Nascimento",
-        "genres": [],
-        "key": 241,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "artist": "Dolly Parton",
+        "genres": [
+            "Country"
+        ],
+        "key": 221,
+        "musicians": [
+            "David Briggs",
+            "Jerry Carrigan",
+            "Pete Drake",
+            "Bobby Dyson",
+            "Bob Ferguson",
+            "Johnny Gimble",
+            "Dave Kirby",
+            "Les Leverett",
+            "Mack Magaha",
+            "George McCormick",
+            "The Nashville Edition",
+            "Dolly Parton",
+            "Hargus Robbins",
+            "Billy Sanford",
+            "Jerry Shook",
+            "Buddy Spicher",
+            "Buck Trent"
+        ],
+        "producers": [
+            "Bob Ferguson",
+            "Roy Shockley",
+            "Al Pachucki"
+        ],
+        "release_date": 1971,
+        "total_time_s": 1641,
+        "tracks": 10,
+        "writers": [
+            "Porter Wagoner"
+        ]
+    },
+    {
+        "album_title": "American Pie",
+        "arrangers": [
+            "Lee Hays"
+        ],
+        "artist": "Don McLean",
+        "genres": [
+            "Folk",
+            "Folk Rock"
+        ],
+        "key": 222,
+        "musicians": [
+            "Don McLean",
+            "Warren Bernhardt",
+            "Ray Colcord",
+            "Tom Flye",
+            "Ed Freeman",
+            "Paul Griffin",
+            "Mike Mainieri",
+            "Roy Markowitz",
+            "Gene Orloff",
+            "Bob Rothstein",
+            "David Spinozza",
+            "West Forty Fourth Street Rhythm and Noise Choir"
+        ],
+        "producers": [
+            "Ed Freeman"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2181,
+        "tracks": 10,
+        "writers": [
+            "Philip Hayes"
+        ]
+    },
+    {
+        "album_title": "Tarkus",
+        "arrangers": [],
+        "artist": "Emerson, Lake & Palmer",
+        "genres": [
+            "Progressive Rock"
+        ],
+        "key": 223,
+        "musicians": [
+            "Keith Emerson",
+            "Greg Lake",
+            "Carl Palmer"
+        ],
+        "producers": [
+            "Eddy Offord"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2334,
+        "tracks": 7,
         "writers": []
     },
     {
-        "album_title": "Exile on Main Street",
+        "album_title": "Led Zeppelin IV (Four Symbols)",
         "arrangers": [],
-        "artist": "The Rolling Stones",
-        "genres": [],
-        "key": 242,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "artist": "Led Zeppelin",
+        "genres": [
+            "Hard Rock",
+            "Heavy Metal"
+        ],
+        "key": 224,
+        "musicians": [
+            "Robert Plant",
+            "Jimmy Page",
+            "John Paul Jones",
+            "John Bonham",
+            "Sandy Denny",
+            "Ian Stewart"
+        ],
+        "producers": [
+            "Peter Grant",
+            "George Chkiantz",
+            "Andy Johns"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2555,
+        "tracks": 8,
+        "writers": [
+            "Memphis Minnie"
+        ]
+    },
+    {
+        "album_title": "Histoire de Melody Nelson",
+        "arrangers": [
+            "Jean-Claude Vannier",
+            "Jean-Claude Charvier"
+        ],
+        "artist": "Serge Gainsbourg",
+        "genres": [
+            "French Pop",
+            "Avant-Funk"
+        ],
+        "key": 225,
+        "musicians": [
+            "Serge Gainsbourg",
+            "Alan Parker",
+            "Vic Flick",
+            "Big Jim Sullivan",
+            "Dave Richmond",
+            "Roger Coulam",
+            "Jane Birkin",
+            "Dougie Wright",
+            "Jean-Luc Ponty"
+        ],
+        "producers": [
+            "Jean-Claude Desmarty"
+        ],
+        "release_date": 1971,
+        "total_time_s": 1690,
+        "tracks": 7,
         "writers": []
     },
     {
-        "album_title": "Harvest",
+        "album_title": "Every Picture Tells A Story",
         "arrangers": [],
-        "artist": "Neil Young",
-        "genres": [],
-        "key": 243,
-        "musicians": [],
+        "artist": "Rod Stewart",
+        "genres": [
+            "Folk Rock",
+            "Roots Rock"
+        ],
+        "key": 226,
+        "musicians": [
+            "Rod Stewart",
+            "Ronnie Wood",
+            "Martin Quittenton",
+            "Ray Jackson",
+            "Sam Mitchell",
+            "Andy Pyle",
+            "Ronnie Lane",
+            "Danny Thompson",
+            "Dick Powell",
+            "Ian McLagan",
+            "Pete Sears",
+            "Long John Baldry",
+            "Maggie Bell",
+            "Madeline Bell and friends",
+            "Micky Waller",
+            "Kenney Jones",
+            "Spike Heatley"
+        ],
         "producers": [],
-        "release_date": 1972,
-        "total_time_s": 2230,
-        "tracks": 1,
+        "release_date": 1971,
+        "total_time_s": 2452,
+        "tracks": 9,
+        "writers": [
+            "Theodore Anderson",
+            "Bob Dylan",
+            "Arthur Crudup",
+            "Norman Whitfield",
+            "Eddie Holland",
+            "Cornelius Grant"
+        ]
+    },
+    {
+        "album_title": "Pictures at an Exhibition",
+        "arrangers": [],
+        "artist": "Emerson, Lake & Palmer",
+        "genres": [
+            "Progressive Rock",
+            "Symphonic Rock",
+            "Classical Crossover",
+            "Art Rock"
+        ],
+        "key": 227,
+        "musicians": [
+            "Keith Emerson",
+            "Greg Lake",
+            "Carl Palmer"
+        ],
+        "producers": [
+            "Eddy Offord",
+            "Joseph M. Palmaccio"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2286,
+        "tracks": 12,
+        "writers": [
+            "Modest Mussorgsky",
+            "Pyotr Tchaikovsky",
+            "Kim Fowley"
+        ]
+    },
+    {
+        "album_title": "Songs of Love and Hate",
+        "arrangers": [
+            "Paul Buckmaster"
+        ],
+        "artist": "Leonard Cohen",
+        "genres": [
+            "Contemporary folk"
+        ],
+        "key": 228,
+        "musicians": [
+            "Leonard Cohen",
+            "Ron Cornelius",
+            "Charlie Daniels",
+            "Elkin \"Bubba\" Fowler",
+            "Bob Johnston",
+            "Corlynn Hanney",
+            "Susan Mussmano",
+            "Michael Sahl"
+        ],
+        "producers": [
+            "Bob Johnston"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2674,
+        "tracks": 8,
         "writers": []
     },
     {
-        "album_title": "Home is Where the Music Is",
+        "album_title": "Blue",
         "arrangers": [],
-        "artist": "Hugh Masekela",
-        "genres": [],
-        "key": 244,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "artist": "Joni Mitchell",
+        "genres": [
+            "Folk",
+            "Folk Rock"
+        ],
+        "key": 229,
+        "musicians": [
+            "Joni Mitchell",
+            "James Taylor",
+            "Russ Kunkel",
+            "Stephen Stills",
+            "Sneaky Pete Kleinow"
+        ],
+        "producers": [
+            "Henry Lewy"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2175,
+        "tracks": 10,
+        "writers": []
+    },
+    {
+        "album_title": "Maggot Brain",
+        "arrangers": [],
+        "artist": "Funkadelic",
+        "genres": [
+            "Psychedelic Funk",
+            "Funk Rock",
+            "R&B",
+            "Acis Rock",
+            "Psychedelic Soul"
+        ],
+        "key": 230,
+        "musicians": [
+            "Bernie Worrell",
+            "Eddie Hazel",
+            "Tawl Ross",
+            "Billy Nelson",
+            "Tiki Fulwood",
+            "George Clinton",
+            "Raymond Davis",
+            "Fuzzy Haskins",
+            "Calvin Simon",
+            "Grady Thomas",
+            "Garry Shider",
+            "Pat Lewis",
+            "Diane Lewis",
+            "Rose Williams"
+        ],
+        "producers": [
+            "Armen Boladian"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2213,
+        "tracks": 7,
+        "writers": [
+            "Ernest Harris",
+            "Clarence Haskins",
+            "Bernard Worrell",
+            "Lucious Ross",
+            "Ramon Fulwood"
+        ]
+    },
+    {
+        "album_title": "Pearl",
+        "arrangers": [],
+        "artist": "Janis Joplin",
+        "genres": [
+            "Blues Rock",
+            "Soul Blues"
+        ],
+        "key": 231,
+        "musicians": [
+            "Janis Joplin",
+            "Richard Bell",
+            "Ken Pearson",
+            "John Till",
+            "Brad Campbell",
+            "Clark Pierson",
+            "Bobby Womack",
+            "Bobbye Hall",
+            "Phil Badella",
+            "John Cooke",
+            "Vince Mitchell",
+            "Sandra Crouch"
+        ],
+        "producers": [
+            "Paul A. Rothchild",
+            "Phil Macy"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2039,
+        "tracks": 10,
+        "writers": []
+    },
+    {
+        "album_title": "Live With Ginger Baker",
+        "arrangers": [],
+        "artist": "Fela Kuti",
+        "genres": [
+            "Afrobeat"
+        ],
+        "key": 232,
+        "musicians": [
+            "Fela Kuti",
+            "Ginger Baker",
+            "Tunde Williams",
+            "Eddie Faychum",
+            "Igo Chiko",
+            "Lekan Animashaun",
+            "Peter Animashaun",
+            "Maurice Ekpo",
+            "Tony Allen",
+            "Henry Koffi",
+            "Friday Jumbo",
+            "Akwesi Korranting",
+            "Tony Abayomi",
+            "Isaac Olaleye"
+        ],
+        "producers": [
+            "Jeff Jarratt"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2810,
+        "tracks": 4,
+        "writers": []
+    },
+    {
+        "album_title": "A Nod's As Good As Wink",
+        "arrangers": [],
+        "artist": "The Faces",
+        "genres": [
+            "Pop",
+            "Folk",
+            "Rock"
+        ],
+        "key": 233,
+        "musicians": [
+            "Rod Stewart",
+            "Ronnie Lane",
+            "Ronnie Wood",
+            "Ian McLagan",
+            "Kenney Jones",
+            "Harry Fowler"
+        ],
+        "producers": [
+            "Glyn Johns"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2171,
+        "tracks": 9,
+        "writers": [
+            "Chuck Berry"
+        ]
+    },
+    {
+        "album_title": "Teenage Head",
+        "arrangers": [],
+        "artist": "The Flamin' Groovies",
+        "genres": [
+            "Garage Rock",
+            "Rock and Roll"
+        ],
+        "key": 234,
+        "musicians": [
+            "Gene Clark",
+            "Jesse Ed Davis",
+            "John Selk",
+            "Chris Ethridge",
+            "Gary Mallaber",
+            "Mike Utley",
+            "Ben Sidran"
+        ],
+        "producers": [
+            "Richard Robinson"
+        ],
+        "release_date": 1971,
+        "total_time_s": 1845,
+        "tracks": 9,
+        "writers": [
+            "Randy Newman",
+            "Robert Johnson"
+        ]
+    },
+    {
+        "album_title": "White Light",
+        "arrangers": [],
+        "artist": "Gene Clark",
+        "genres": [
+            "Folk Rock",
+            "Country Rock"
+        ],
+        "key": 235,
+        "musicians": [
+            "Gene Clark",
+            "Jesse Ed Davis",
+            "John Selk",
+            "Chris Ethridge",
+            "Gary Mallaber",
+            "Mike Utley",
+            "Ben Sidran",
+            "Bobbye Hall"
+        ],
+        "producers": [
+            "Joe Zagarino"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2098,
+        "tracks": 9,
+        "writers": [
+            "Bob Dylan",
+            "Richard Manuel"
+        ]
+    },
+    {
+        "album_title": "John Prine",
+        "arrangers": [],
+        "artist": "John Prine",
+        "genres": [
+            "Folk",
+            "Country"
+        ],
+        "key": 236,
+        "musicians": [
+            "John Prine",
+            "Reggie Young",
+            "Leo LeBlanc",
+            "John Christopher",
+            "Bobby Emmons",
+            "Bobby Wood",
+            "Mike Leech",
+            "Gene Chrisman",
+            "Steve Goodman",
+            "Dave Prine",
+            "Neil Rosengarden",
+            "Noel Gilbert",
+            "Hayward Bishop"
+        ],
+        "producers": [
+            "Arif Mardin",
+            "Stan Kesler"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2680,
+        "tracks": 13,
+        "writers": []
+    },
+    {
+        "album_title": "Nilsson Schmilsson",
+        "arrangers": [
+            "Paul Buckmaster"
+        ],
+        "artist": "Harry Nilsson",
+        "genres": [
+            "Pop",
+            "Rock"
+        ],
+        "key": 237,
+        "musicians": [
+            "Harry Nilsson",
+            "Jim Gordon",
+            "Klaus Voormann",
+            "Chris Spedding",
+            "Herbie Flowers",
+            "John Uribe",
+            "Henry Krein",
+            "Richard Perry",
+            "Jim Price",
+            "Jim Keltner",
+            "Roger Coulam",
+            "Bobby Keys",
+            "Gary Wright",
+            "Roger Pope",
+            "Bill Linnane",
+            "Caleb Quaye",
+            "Ian Duck",
+            "Jim Webb",
+            "George Tipton"
+        ],
+        "producers": [
+            "Richard Perry",
+            "Robin Geoffrey",
+            "Richie Schmitt",
+            "Phil Brown"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2121,
+        "tracks": 10,
+        "writers": [
+            "Leo Hickman",
+            "Louis Jordan",
+            "Dallas Bartley",
+            "Tom Evans",
+            "Pete Ham",
+            "Shirley Goodman",
+            "Leonard Lee"
+        ]
+    },
+    {
+        "album_title": "Electric Warrior",
+        "arrangers": [],
+        "artist": "T Rex",
+        "genres": [
+            "Glam Rock",
+            "Hard Rock"
+        ],
+        "key": 238,
+        "musicians": [
+            "Marc Bolan",
+            "Mickey Finn",
+            "Steve Currie",
+            "Bill Legend",
+            "Howard Kaylan",
+            "Mark Volman",
+            "Rick Wakeman",
+            "Ian McDonald",
+            "Burt Collins"
+        ],
+        "producers": [
+            "Tony Visconti",
+            "Roy Thomas Baker"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2375,
+        "tracks": 11,
         "writers": []
     },
     {
         "album_title": "Hunky Dory",
         "arrangers": [],
         "artist": "David Bowie",
-        "genres": [],
-        "key": 245,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
+        "genres": [
+            "Art Pop",
+            "Pop Rock"
+        ],
+        "key": 239,
+        "musicians": [
+            "David Bowie",
+            "Mick Ronson",
+            "Trevor Bolder",
+            "Mick Woodmansey",
+            "Rick Wakeman",
+            "Ken Scott"
+        ],
+        "producers": [
+            "Ken Scott"
+        ],
+        "release_date": 1971,
+        "total_time_s": 2511,
+        "tracks": 11,
+        "writers": [
+            "Biff Rose",
+            "Paul Williams"
+        ]
     },
     {
-        "album_title": "John Prine",
+        "album_title": "Sail Away",
         "arrangers": [],
-        "artist": "John Prine",
-        "genres": [],
-        "key": 246,
-        "musicians": [],
-        "producers": [],
+        "artist": "Randy Newman",
+        "genres": [
+            "Orchestral Pop",
+            "Rock"
+        ],
+        "key": 240,
+        "musicians": [
+            "Randy Newman",
+            "Ry Cooder",
+            "Russ Titelman",
+            "Jim Keltner",
+            "Gene Parsons",
+            "Earl Palmer",
+            "Chris Ethridge",
+            "Wilton Felder",
+            "Jimmy Bond",
+            "Milt Holland",
+            "Louis Kaufman",
+            "Abe Most"
+        ],
+        "producers": [
+            "Lenny Waronker",
+            "Russ Titelman",
+            "Lee Herschberg",
+            "Bruce Botnick",
+            "Bob Kovach",
+            "Donn Landee",
+            "Harold \"Lanky\" Linstrot"
+        ],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Let's Stay Together",
-        "arrangers": [],
-        "artist": "Al Green",
-        "genres": [],
-        "key": 247,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 1807,
+        "tracks": 12,
         "writers": []
     },
     {
         "album_title": "Machine Head",
         "arrangers": [],
         "artist": "Deep Purple",
-        "genres": [],
-        "key": 248,
-        "musicians": [],
-        "producers": [],
+        "genres": [
+            "Hard Rock",
+            "Heavy Metal",
+            "Blues Rock"
+        ],
+        "key": 241,
+        "musicians": [
+            "Ritchie Blackmore",
+            "Ian Gillan",
+            "Roger Glover",
+            "Jon Lord",
+            "Ian Paice"
+        ],
+        "producers": [
+            "Martin Birch",
+            "Jeremy \"Bear\" Gee"
+        ],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Marcus Garvey",
-        "arrangers": [],
-        "artist": "Burning Spear",
-        "genres": [],
-        "key": 249,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2266,
+        "tracks": 7,
         "writers": []
     },
     {
         "album_title": "No.1 Record",
         "arrangers": [],
         "artist": "Big Star",
-        "genres": [],
-        "key": 250,
-        "musicians": [],
-        "producers": [],
+        "genres": [
+            "Power Pop",
+            "Hard Rock",
+            "Folk Rock",
+            "Southern Rock"
+        ],
+        "key": 242,
+        "musicians": [
+            "Chris Bell",
+            "Alex Chilton",
+            "Andy Hummel",
+            "Jody Stephens",
+            "Terry Manning"
+        ],
+        "producers": [
+            "John Fry"
+        ],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2223,
+        "tracks": 12,
         "writers": []
     },
     {
-        "album_title": "Paul Simon",
+        "album_title": "Volume 4",
         "arrangers": [],
-        "artist": "Paul Simon",
-        "genres": [],
-        "key": 251,
-        "musicians": [],
-        "producers": [],
+        "artist": "Black Sabbath",
+        "genres": [
+            "Heavy metal"
+        ],
+        "key": 243,
+        "musicians": [
+            "Ozzy Osbourne",
+            "Tony Iommi",
+            "Geezer Butler",
+            "Bill Ward"
+        ],
+        "producers": [
+            "Patrick Meehan",
+            "Colin Caldwell",
+            "Vic Smith"
+        ],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2568,
+        "tracks": 10,
         "writers": []
     },
     {
-        "album_title": "Pink Moon",
+        "album_title": "Can't Buy a Thrill",
         "arrangers": [],
-        "artist": "Nick Drake",
-        "genres": [],
-        "key": 252,
-        "musicians": [],
-        "producers": [],
+        "artist": "Steely Dan",
+        "genres": [
+            "Jazz Rock",
+            "Pop Rock",
+            "Soft Rock"
+        ],
+        "key": 244,
+        "musicians": [
+            "Jeff \"Skunk\" Baxter",
+            "Walter Becker",
+            "Denny Dias",
+            "Donald Fagen",
+            "Jim Hodder",
+            "David Palmer",
+            "Elliott Randall",
+            "Victor Feldman",
+            "Jerome Richardson",
+            "Snooky Young",
+            "Clydie King",
+            "Sherlie Matthews",
+            "Venetta Fields"
+        ],
+        "producers": [
+            "Gary Katz",
+            "Roger Nichols",
+            "Doug Sax"
+        ],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2470,
+        "tracks": 10,
         "writers": []
     },
     {
-        "album_title": "Roxy Music",
+        "album_title": "Harvest",
         "arrangers": [],
-        "artist": "Roxy Music",
-        "genres": [],
-        "key": 253,
-        "musicians": [],
-        "producers": [],
+        "artist": "Neil Young",
+        "genres": [
+            "Folk Rock",
+            "Country Rock"
+        ],
+        "key": 245,
+        "musicians": [
+            "Neil Young",
+            "Teddy Irwin",
+            "John Harris",
+            "James McMahon",
+            "James Taylor",
+            "Linda Ronstadt",
+            "David Crosby",
+            "Stephen Stills",
+            "Graham Nash",
+            "London Symphony Orchestra",
+            "David Meecham",
+            "Ben Keith",
+            "Jack Nitzsche",
+            "Tim Drummond",
+            "Kenny Buttrey"
+        ],
+        "producers": [
+            "Elliot Mazer",
+            "Henry Lewy",
+            "Jack Nitzsche"
+        ],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2230,
+        "tracks": 10,
         "writers": []
     },
     {
-        "album_title": "Sail Away",
-        "arrangers": [],
-        "artist": "Randy Newman",
-        "genres": [],
-        "key": 254,
-        "musicians": [],
-        "producers": [],
+        "album_title": "Superfly",
+        "arrangers": [
+            "Johnny Pate"
+        ],
+        "artist": "Curtis Mayfield",
+        "genres": [
+            "Psychedelic Soul",
+            "Funk",
+            "Progressive Soul",
+            "Cinematic Soul"
+        ],
+        "key": 246,
+        "musicians": [
+            "Curtis Mayfield",
+            "Phil Upchurch",
+            "Joseph Lucky Scott",
+            "Master Henry Gibson",
+            "Tyrone McCullen",
+            "Morris Jennings",
+            "Craig McMullen",
+            "Harry \"Slip\" Lepp"
+        ],
+        "producers": [
+            "Roger Anfinsen"
+        ],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "School's Out",
-        "arrangers": [],
-        "artist": "Alice Cooper",
-        "genres": [],
-        "key": 255,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2219,
+        "tracks": 9,
         "writers": []
     },
     {
         "album_title": "Slayed?",
         "arrangers": [],
         "artist": "Slade",
-        "genres": [],
-        "key": 256,
-        "musicians": [],
-        "producers": [],
+        "genres": [
+            "Glam Rock",
+            "Hard Rock"
+        ],
+        "key": 247,
+        "musicians": [
+            "Noddy Holder",
+            "Dave Hill",
+            "Jim Lea",
+            "Don Powell"
+        ],
+        "producers": [
+            "Chas Chandler"
+        ],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2066,
+        "tracks": 10,
+        "writers": [
+            "Janis Joplin",
+            "Leonard Lee"
+        ]
+    },
+    {
+        "album_title": "Made In Japan",
+        "arrangers": [],
+        "artist": "Deep Purple",
+        "genres": [
+            "Hard Rock",
+            "Heavy Metal"
+        ],
+        "key": 248,
+        "musicians": [
+            "Ian Gillan",
+            "Ritchie Blackmore",
+            "Roger Glover",
+            "Jon Lord",
+            "Ian Paice"
+        ],
+        "producers": [
+            "Martin Birch"
+        ],
+        "release_date": 1972,
+        "total_time_s": 4604,
+        "tracks": 7,
         "writers": []
+    },
+    {
+        "album_title": "Close to The Edge",
+        "arrangers": [],
+        "artist": "Yes",
+        "genres": [
+            "Progressive Rock"
+        ],
+        "key": 249,
+        "musicians": [
+            "Jon Anderson",
+            "Steve Howe",
+            "Chris Squire",
+            "Rick Wakeman",
+            "Bill Bruford"
+        ],
+        "producers": [
+            "Eddie Offord"
+        ],
+        "release_date": 1972,
+        "total_time_s": 2271,
+        "tracks": 3,
+        "writers": []
+    },
+    {
+        "album_title": "Transformer",
+        "arrangers": [],
+        "artist": "Lou Reed",
+        "genres": [
+            "Glam Rock",
+            "Pop Rock"
+        ],
+        "key": 250,
+        "musicians": [
+            "Lou Reed",
+            "Mick Ronson",
+            "David Bowie",
+            "Herbie Flowers",
+            "John Halsey",
+            "Trevor Bolder",
+            "Ronnie Ross",
+            "Thunderthighs",
+            "Klaus Voormann",
+            "Barry DeSouza",
+            "Ritchie Dharma"
+        ],
+        "producers": [
+            "Ken Scott"
+        ],
+        "release_date": 1972,
+        "total_time_s": 2211,
+        "tracks": 11,
+        "writers": []
+    },
+    {
+        "album_title": "Home is Where the Music Is",
+        "arrangers": [],
+        "artist": "Hugh Masekela",
+        "genres": [
+            "Jazz",
+            "Afrobeat"
+        ],
+        "key": 251,
+        "musicians": [
+            "Hugh Masekela",
+            "Larry Willis",
+            "Dudu Pukwana",
+            "Eddie Gomez",
+            "Makhaya Ntshoko"
+        ],
+        "producers": [
+            "Stewart Levine",
+            "Caiphus Semenya",
+            "Rik Pekkonen"
+        ],
+        "release_date": 1972,
+        "total_time_s": 4593,
+        "tracks": 10,
+        "writers": [
+            "Sekou Toure",
+            "Miriam Makeba",
+            "Larry Willis",
+            "Kippie Moeketsi"
+        ]
+    },
+    {
+        "album_title": "Clube Da Esquina",
+        "arrangers": [
+            "Eumir Deodato"
+        ],
+        "artist": "Milton Nascimento",
+        "genres": [
+            "MPB",
+            "Baroque Pop",
+            "Folk",
+            "Jazz Pop"
+        ],
+        "key": 252,
+        "musicians": [
+            "Milton Nascimento",
+            "L\u00f4 Borges",
+            "Wagner Tiso",
+            "Beto Guedes",
+            "Rubinho",
+            "Robertinho Silva",
+            "Tavito",
+            "Toninho Horta",
+            "Luiz Alves",
+            "Nelson Angelo",
+            "Paulinho Braga",
+            "Luiz Gonzaga Jr.",
+            "Alaide Costa"
+        ],
+        "producers": [
+            "Milton Miranda",
+            "Lindolfo Gaya"
+        ],
+        "release_date": 1972,
+        "total_time_s": 3862,
+        "tracks": 21,
+        "writers": [
+            "Ronaldo Bastos",
+            "Fernando Brant",
+            "Carmelo Larrea",
+            "Airton Amorim",
+            "Monsueto Menezes"
+        ]
     },
     {
         "album_title": "Something/Anything?",
         "arrangers": [],
         "artist": "Todd Rundgren",
-        "genres": [],
-        "key": 257,
-        "musicians": [],
+        "genres": [
+            "Rock",
+            "Power Pop",
+            "Psychedelia",
+            "Avant-Pop"
+        ],
+        "key": 253,
+        "musicians": [
+            "Todd Rundgren",
+            "Todd Rundgren",
+            "Rick Valente",
+            "Randy Read",
+            "Collie Read",
+            "Stockman",
+            "Mark Klingman",
+            "Rick Derringer",
+            "John Siegler",
+            "John Siomos",
+            "Randy Brecker",
+            "Michael Brecker",
+            "Barry Rogers",
+            "Hope Ruff",
+            "Richard Corey",
+            "Vicki Robinson",
+            "Dennis Cooley",
+            "Cecilia Norfleet",
+            "Todd Rundgren",
+            "Amos Garrett",
+            "Ben Keith",
+            "Jim Colgrove",
+            "Billy Mundi",
+            "Todd Rundgren",
+            "Mark Klingman",
+            "Robbie Kogale",
+            "Stu Woods",
+            "John Siomos",
+            "Randy Brecker",
+            "Michael Brecker",
+            "Barry Rogers",
+            "Hope Ruff",
+            "Richard Corey",
+            "Vicki Robinson",
+            "Dennis Cooley",
+            "Cecilia Norfleet",
+            "Todd Rundgren",
+            "Mark Klingman",
+            "Ralph Walsh",
+            "Bugsy Maugh",
+            "Billy Mundi",
+            "Serge Katzen",
+            "Gene Dinwiddie",
+            "Todd Rundgren",
+            "Mark Klingman",
+            "Robbie Kogale",
+            "Stu Woods",
+            "John Siomos",
+            "Hope Ruff",
+            "Richard Corey",
+            "Todd Rundgren",
+            "Rick Vito",
+            "Charlie Schoning",
+            "Tony Sales",
+            "Hunt Sales",
+            "Jim Horn",
+            "John Kelson",
+            "Brook Baxes",
+            "Anthony Carrubba",
+            "Henry Fanton",
+            "Edward Olmos"
+        ],
         "producers": [],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 5433,
+        "tracks": 25,
         "writers": []
     },
     {
-        "album_title": "Superfly",
+        "album_title": "Will The Circle Be Unbroken",
         "arrangers": [],
-        "artist": "Curtis Mayfield",
+        "artist": "Nitty Gritty Dirt Band",
         "genres": [],
-        "key": 258,
+        "key": 254,
         "musicians": [],
         "producers": [],
         "release_date": 1972,
@@ -4553,7 +7488,7 @@
         "arrangers": [],
         "artist": "Stevie Wonder",
         "genres": [],
-        "key": 259,
+        "key": 255,
         "musicians": [],
         "producers": [],
         "release_date": 1972,
@@ -4562,11 +7497,11 @@
         "writers": []
     },
     {
-        "album_title": "The Eagles",
+        "album_title": "Stephen Stills",
         "arrangers": [],
-        "artist": "The Eagles",
+        "artist": "Manassas",
         "genres": [],
-        "key": 260,
+        "key": 256,
         "musicians": [],
         "producers": [],
         "release_date": 1972,
@@ -4579,6 +7514,58 @@
         "arrangers": [],
         "artist": "T Rex",
         "genres": [],
+        "key": 257,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1972,
+        "total_time_s": 0,
+        "tracks": 1,
+        "writers": []
+    },
+    {
+        "album_title": "American Gothic",
+        "arrangers": [],
+        "artist": "David Ackles",
+        "genres": [],
+        "key": 258,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1972,
+        "total_time_s": 0,
+        "tracks": 1,
+        "writers": []
+    },
+    {
+        "album_title": "The Eagles",
+        "arrangers": [],
+        "artist": "The Eagles",
+        "genres": [],
+        "key": 259,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1972,
+        "total_time_s": 0,
+        "tracks": 1,
+        "writers": []
+    },
+    {
+        "album_title": "Greetings from LA",
+        "arrangers": [],
+        "artist": "Tim Buckley",
+        "genres": [],
+        "key": 260,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1972,
+        "total_time_s": 0,
+        "tracks": 1,
+        "writers": []
+    },
+    {
+        "album_title": "Pink Moon",
+        "arrangers": [],
+        "artist": "Nick Drake",
+        "genres": [],
         "key": 261,
         "musicians": [],
         "producers": [],
@@ -4588,9 +7575,9 @@
         "writers": []
     },
     {
-        "album_title": "The World Is A Ghetto",
+        "album_title": "Paul Simon",
         "arrangers": [],
-        "artist": "War",
+        "artist": "Paul Simon",
         "genres": [],
         "key": 262,
         "musicians": [],
@@ -4601,9 +7588,9 @@
         "writers": []
     },
     {
-        "album_title": "Transformer",
+        "album_title": "Roxy Music",
         "arrangers": [],
-        "artist": "Lou Reed",
+        "artist": "Roxy Music",
         "genres": [],
         "key": 263,
         "musicians": [],
@@ -4614,9 +7601,9 @@
         "writers": []
     },
     {
-        "album_title": "Volume 4",
+        "album_title": "School's Out",
         "arrangers": [],
-        "artist": "Black Sabbath",
+        "artist": "Alice Cooper",
         "genres": [],
         "key": 264,
         "musicians": [],
@@ -4627,24 +7614,11 @@
         "writers": []
     },
     {
-        "album_title": "White Light",
+        "album_title": "All Directions",
         "arrangers": [],
-        "artist": "Gene Clark",
+        "artist": "The Temptations",
         "genres": [],
         "key": 265,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Will The Circle Be Unbroken",
-        "arrangers": [],
-        "artist": "Nitty Gritty Dirt Band",
-        "genres": [],
-        "key": 266,
         "musicians": [],
         "producers": [],
         "release_date": 1972,
@@ -4657,6 +7631,19 @@
         "arrangers": [],
         "artist": "David Bowie",
         "genres": [],
+        "key": 266,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1972,
+        "total_time_s": 0,
+        "tracks": 1,
+        "writers": []
+    },
+    {
+        "album_title": "The World Is A Ghetto",
+        "arrangers": [],
+        "artist": "War",
+        "genres": [],
         "key": 267,
         "musicians": [],
         "producers": [],
@@ -4666,11 +7653,50 @@
         "writers": []
     },
     {
+        "album_title": "Let's Stay Together",
+        "arrangers": [],
+        "artist": "Al Green",
+        "genres": [],
+        "key": 268,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1972,
+        "total_time_s": 0,
+        "tracks": 1,
+        "writers": []
+    },
+    {
+        "album_title": "Exile on Main Street",
+        "arrangers": [],
+        "artist": "The Rolling Stones",
+        "genres": [],
+        "key": 269,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1972,
+        "total_time_s": 0,
+        "tracks": 1,
+        "writers": []
+    },
+    {
+        "album_title": "Marcus Garvey",
+        "arrangers": [],
+        "artist": "Burning Spear",
+        "genres": [],
+        "key": 270,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1975,
+        "total_time_s": 0,
+        "tracks": 1,
+        "writers": []
+    },
+    {
         "album_title": "3+3",
         "arrangers": [],
         "artist": "The Isley Bros",
         "genres": [],
-        "key": 268,
+        "key": 271,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4683,20 +7709,7 @@
         "arrangers": [],
         "artist": "Todd Rundgren",
         "genres": [],
-        "key": 269,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1973,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Aladdin Sane",
-        "arrangers": [],
-        "artist": "David Bowie",
-        "genres": [],
-        "key": 270,
+        "key": 272,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4709,7 +7722,20 @@
         "arrangers": [],
         "artist": "Paul McCartney & Wings",
         "genres": [],
-        "key": 271,
+        "key": 273,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1973,
+        "total_time_s": 0,
+        "tracks": 1,
+        "writers": []
+    },
+    {
+        "album_title": "Aladdin Sane",
+        "arrangers": [],
+        "artist": "David Bowie",
+        "genres": [],
+        "key": 274,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4722,7 +7748,7 @@
         "arrangers": [],
         "artist": "Lou Reed",
         "genres": [],
-        "key": 272,
+        "key": 275,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4735,7 +7761,7 @@
         "arrangers": [],
         "artist": "Alice Cooper",
         "genres": [],
-        "key": 273,
+        "key": 276,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4748,7 +7774,7 @@
         "arrangers": [],
         "artist": "Michael Viner's Incredible Bongo Band",
         "genres": [],
-        "key": 274,
+        "key": 277,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4761,7 +7787,7 @@
         "arrangers": [],
         "artist": "Bob Marley & The Wailers",
         "genres": [],
-        "key": 275,
+        "key": 278,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4774,7 +7800,7 @@
         "arrangers": [],
         "artist": "Steely Dan",
         "genres": [],
-        "key": 276,
+        "key": 279,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4787,7 +7813,7 @@
         "arrangers": [],
         "artist": "Pink Floyd",
         "genres": [],
-        "key": 277,
+        "key": 280,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4800,7 +7826,7 @@
         "arrangers": [],
         "artist": "Faust",
         "genres": [],
-        "key": 278,
+        "key": 281,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4813,7 +7839,7 @@
         "arrangers": [],
         "artist": "Roxy Music",
         "genres": [],
-        "key": 279,
+        "key": 282,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4826,7 +7852,7 @@
         "arrangers": [],
         "artist": "Can",
         "genres": [],
-        "key": 280,
+        "key": 283,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4839,7 +7865,7 @@
         "arrangers": [],
         "artist": "Elton John",
         "genres": [],
-        "key": 281,
+        "key": 284,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4852,7 +7878,7 @@
         "arrangers": [],
         "artist": "Gram Parsons",
         "genres": [],
-        "key": 282,
+        "key": 285,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4865,7 +7891,7 @@
         "arrangers": [],
         "artist": "Waylon Jennings",
         "genres": [],
-        "key": 283,
+        "key": 286,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4878,7 +7904,7 @@
         "arrangers": [],
         "artist": "King Crimson",
         "genres": [],
-        "key": 284,
+        "key": 287,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4891,20 +7917,7 @@
         "arrangers": [],
         "artist": "Marvin Gaye",
         "genres": [],
-        "key": 285,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1973,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Made In Japan",
-        "arrangers": [],
-        "artist": "Deep Purple",
-        "genres": [],
-        "key": 286,
+        "key": 288,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4917,7 +7930,7 @@
         "arrangers": [],
         "artist": "Mott The Hoople",
         "genres": [],
-        "key": 287,
+        "key": 289,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4930,7 +7943,7 @@
         "arrangers": [],
         "artist": "The Sensational Alex Harvey Band",
         "genres": [],
-        "key": 288,
+        "key": 290,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4943,7 +7956,7 @@
         "arrangers": [],
         "artist": "Stevie Wonder",
         "genres": [],
-        "key": 289,
+        "key": 291,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4956,7 +7969,7 @@
         "arrangers": [],
         "artist": "John Cale",
         "genres": [],
-        "key": 290,
+        "key": 292,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4969,7 +7982,7 @@
         "arrangers": [],
         "artist": "Lynyrd Skynyrd",
         "genres": [],
-        "key": 291,
+        "key": 293,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4982,7 +7995,7 @@
         "arrangers": [],
         "artist": "Iggy Pop & The Stooges",
         "genres": [],
-        "key": 292,
+        "key": 294,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -4995,7 +8008,7 @@
         "arrangers": [],
         "artist": "Genesis",
         "genres": [],
-        "key": 293,
+        "key": 295,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -5008,7 +8021,7 @@
         "arrangers": [],
         "artist": "John Martyn",
         "genres": [],
-        "key": 294,
+        "key": 296,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -5021,20 +8034,7 @@
         "arrangers": [],
         "artist": "Hawkwind",
         "genres": [],
-        "key": 295,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1973,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Stephen Stills",
-        "arrangers": [],
-        "artist": "Manassas",
-        "genres": [],
-        "key": 296,
+        "key": 297,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -5047,7 +8047,7 @@
         "arrangers": [],
         "artist": "The New York Dolls",
         "genres": [],
-        "key": 297,
+        "key": 298,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -5060,7 +8060,7 @@
         "arrangers": [],
         "artist": "ZZ Top",
         "genres": [],
-        "key": 298,
+        "key": 299,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -5073,7 +8073,7 @@
         "arrangers": [],
         "artist": "Mike Oldfield",
         "genres": [],
-        "key": 299,
+        "key": 300,
         "musicians": [],
         "producers": [],
         "release_date": 1973,
@@ -5086,7 +8086,7 @@
         "arrangers": [],
         "artist": "Eric Clapton",
         "genres": [],
-        "key": 300,
+        "key": 301,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5099,7 +8099,7 @@
         "arrangers": [],
         "artist": "Kraftwerk",
         "genres": [],
-        "key": 301,
+        "key": 302,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5112,7 +8112,7 @@
         "arrangers": [],
         "artist": "Bad Company",
         "genres": [],
-        "key": 302,
+        "key": 303,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5125,7 +8125,7 @@
         "arrangers": [],
         "artist": "Bob Dylan",
         "genres": [],
-        "key": 303,
+        "key": 304,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5138,7 +8138,7 @@
         "arrangers": [],
         "artist": "Roxy Music",
         "genres": [],
-        "key": 304,
+        "key": 305,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5151,7 +8151,7 @@
         "arrangers": [],
         "artist": "Joni Mitchell",
         "genres": [],
-        "key": 305,
+        "key": 306,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5164,7 +8164,7 @@
         "arrangers": [],
         "artist": "Supertramp",
         "genres": [],
-        "key": 306,
+        "key": 307,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5177,7 +8177,7 @@
         "arrangers": [],
         "artist": "Stevie Wonder",
         "genres": [],
-        "key": 307,
+        "key": 308,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5190,7 +8190,7 @@
         "arrangers": [],
         "artist": "Randy Newman",
         "genres": [],
-        "key": 308,
+        "key": 309,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5203,7 +8203,7 @@
         "arrangers": [],
         "artist": "Herbie Hancock",
         "genres": [],
-        "key": 309,
+        "key": 310,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5216,7 +8216,7 @@
         "arrangers": [],
         "artist": "Brian Eno",
         "genres": [],
-        "key": 310,
+        "key": 311,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5229,7 +8229,7 @@
         "arrangers": [],
         "artist": "Richard & Linda Thompson",
         "genres": [],
-        "key": 311,
+        "key": 312,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5242,7 +8242,7 @@
         "arrangers": [],
         "artist": "Van Morrison",
         "genres": [],
-        "key": 312,
+        "key": 313,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5255,7 +8255,7 @@
         "arrangers": [],
         "artist": "Sparks",
         "genres": [],
-        "key": 313,
+        "key": 314,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5268,7 +8268,7 @@
         "arrangers": [],
         "artist": "Gene Clark",
         "genres": [],
-        "key": 314,
+        "key": 315,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5281,7 +8281,7 @@
         "arrangers": [],
         "artist": "Neil Young",
         "genres": [],
-        "key": 315,
+        "key": 316,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5294,7 +8294,7 @@
         "arrangers": [],
         "artist": "Dennis Wilson",
         "genres": [],
-        "key": 316,
+        "key": 317,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5307,7 +8307,7 @@
         "arrangers": [],
         "artist": "Tangerine Dream",
         "genres": [],
-        "key": 317,
+        "key": 318,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5320,7 +8320,7 @@
         "arrangers": [],
         "artist": "Steely Dan",
         "genres": [],
-        "key": 318,
+        "key": 319,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5333,7 +8333,7 @@
         "arrangers": [],
         "artist": "Queen",
         "genres": [],
-        "key": 319,
+        "key": 320,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5346,7 +8346,7 @@
         "arrangers": [],
         "artist": "Robert Wyatt",
         "genres": [],
-        "key": 320,
+        "key": 321,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5359,7 +8359,7 @@
         "arrangers": [],
         "artist": "Queen",
         "genres": [],
-        "key": 321,
+        "key": 322,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5372,7 +8372,7 @@
         "arrangers": [],
         "artist": "10cc",
         "genres": [],
-        "key": 322,
+        "key": 323,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5385,7 +8385,7 @@
         "arrangers": [],
         "artist": "George Jones",
         "genres": [],
-        "key": 323,
+        "key": 324,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5398,7 +8398,7 @@
         "arrangers": [],
         "artist": "Genesis",
         "genres": [],
-        "key": 324,
+        "key": 325,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5411,7 +8411,7 @@
         "arrangers": [],
         "artist": "Gill Scott-Heron",
         "genres": [],
-        "key": 325,
+        "key": 326,
         "musicians": [],
         "producers": [],
         "release_date": 1974,
@@ -5424,7 +8424,7 @@
         "arrangers": [],
         "artist": "Queen",
         "genres": [],
-        "key": 326,
+        "key": 327,
         "musicians": [],
         "producers": [],
         "release_date": 1975,
@@ -5437,7 +8437,7 @@
         "arrangers": [],
         "artist": "Brian Eno",
         "genres": [],
-        "key": 327,
+        "key": 328,
         "musicians": [],
         "producers": [],
         "release_date": 1975,
@@ -5450,7 +8450,7 @@
         "arrangers": [],
         "artist": "Dion",
         "genres": [],
-        "key": 328,
+        "key": 329,
         "musicians": [],
         "producers": [],
         "release_date": 1975,
@@ -5463,7 +8463,7 @@
         "arrangers": [],
         "artist": "Bruce Springsteen",
         "genres": [],
-        "key": 329,
+        "key": 330,
         "musicians": [],
         "producers": [],
         "release_date": 1975,
@@ -5476,7 +8476,7 @@
         "arrangers": [],
         "artist": "Peter Frampton",
         "genres": [],
-        "key": 330,
+        "key": 331,
         "musicians": [],
         "producers": [],
         "release_date": 1975,
@@ -5488,19 +8488,6 @@
         "album_title": "Go Girl Crazy",
         "arrangers": [],
         "artist": "The Dictators",
-        "genres": [],
-        "key": 331,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1975,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Greetings from LA",
-        "arrangers": [],
-        "artist": "Tim Buckley",
         "genres": [],
         "key": 332,
         "musicians": [],
@@ -5524,9 +8511,9 @@
         "writers": []
     },
     {
-        "album_title": "Inspiration Information",
+        "album_title": "Natty Dread",
         "arrangers": [],
-        "artist": "Shuggie Otis",
+        "artist": "Bob Marley & The Wailers",
         "genres": [],
         "key": 334,
         "musicians": [],
@@ -5537,9 +8524,9 @@
         "writers": []
     },
     {
-        "album_title": "Natty Dread",
+        "album_title": "Inspiration Information",
         "arrangers": [],
-        "artist": "Bob Marley & The Wailers",
+        "artist": "Shuggie Otis",
         "genres": [],
         "key": 335,
         "musicians": [],
@@ -5576,28 +8563,28 @@
         "writers": []
     },
     {
-        "album_title": "Physical Graffiti",
+        "album_title": "Pieces Of The Sky",
         "arrangers": [],
-        "artist": "Led Zeppelin",
+        "artist": "Emmylou Harris",
         "genres": [],
         "key": 338,
         "musicians": [],
         "producers": [],
         "release_date": 1975,
-        "total_time_s": 4920,
+        "total_time_s": 0,
         "tracks": 1,
         "writers": []
     },
     {
-        "album_title": "Pieces Of The Sky",
+        "album_title": "Physical Graffiti",
         "arrangers": [],
-        "artist": "Emmylou Harris",
+        "artist": "Led Zeppelin",
         "genres": [],
         "key": 339,
         "musicians": [],
         "producers": [],
         "release_date": 1975,
-        "total_time_s": 0,
+        "total_time_s": 4920,
         "tracks": 1,
         "writers": []
     },
