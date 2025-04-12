@@ -1,11 +1,61 @@
 from collections import defaultdict
+from dataclasses import dataclass, field
+from itertools import groupby
 import pandas as pd
 import streamlit as st
 import networkx as nx
-import plotly.graph_objects as go
 
 from cfg.cfg import Config
 from src.album import Album
+
+
+@dataclass
+class Person:
+
+    name: str
+    _albums: list[Album] = field(default_factory=list)
+
+    @property
+    def albums(self) -> list[Album]:
+        self._albums.sort(key=lambda x: x.album_title)
+        return self._albums
+
+    @albums.setter
+    def albums(self, album: Album) -> None:
+        self._albums.append(album)
+
+    def album_role(self, album_title: str) -> str:
+        album = [album for album in self.albums if album.album_title == album_title][0]
+        return album.personnel_role(self.name)
+
+    @property
+    def album_key(self) -> int:
+        albums = [
+            (album.album_title, self.album_role(album.album_title))
+            for album in self.albums
+        ]
+        key = "".join([item for sublist in albums for item in sublist])
+        return hash(key)
+
+
+@dataclass
+class Group:
+
+    people: list[Person]
+    key: int | None = None
+
+    @property
+    def name(self) -> str:
+        if len(self.people) == 1:
+            return self.people[0].name
+        return f"Group {self.key}"
+
+    @property
+    def albums(self) -> list[Album]:
+        return self.people[0].albums
+
+    def album_role(self, album_title: str) -> str:
+        return self.people[0].album_role(album_title)
 
 
 class NetworkGraph:
@@ -15,29 +65,43 @@ class NetworkGraph:
         self.albums: list[Album] = [
             album for album in st.session_state.albums if album.personnel()
         ]
-        self._all_personnel: dict[str, list[Album]] = {}
-        self._linking_people: list[str] | None = None
+        self._all_personnel: list[Person] = []
+        self._linking_groups: list[Group] | None = None
 
     @property
-    def all_personnel(self) -> dict[str, list[Album]]:
+    def all_personnel(self) -> list[Person]:
         if self._all_personnel:
             return self._all_personnel
-        all_personnel = defaultdict(list)
+        person_dict = defaultdict(list)
         for album in self.albums:
             for person in album.personnel():
-                all_personnel[person].append(album)
-        return all_personnel
+                person_dict[person].append(album)
+        self._all_personnel = [Person(name, person_dict[name]) for name in person_dict]
+        return self._all_personnel
 
     @property
-    def linking_people(self) -> list[str]:
-        if self._linking_people is not None:
-            return self._linking_people
-        self._linking_people = [
-            person
-            for person in self.all_personnel
-            if len(self.all_personnel[person]) > 1
+    def linking_groups(self) -> list[Group]:
+        if self._linking_groups is not None:
+            return self._linking_groups
+        self.all_personnel.sort(key=lambda x: x.album_key)
+
+        self._linking_groups = []
+        i = 1
+        for _, group in groupby(self.all_personnel, key=lambda x: x.album_key):
+            people = list(group)
+            if len(people) == 1:
+                self._linking_groups.append(Group(people))
+                continue
+            self._linking_groups.append(Group(people, i))
+            i += 1
+
+        self._linking_groups = [
+            group for group in self._linking_groups if len(group.albums) > 1
         ]
-        return self._linking_people
+        return self._linking_groups
+
+    def group_from_name(self, name: str) -> Group:
+        return [group for group in self.linking_groups if group.name == name][0]
 
     @property
     def album_connections(self) -> pd.DataFrame:
@@ -61,29 +125,20 @@ class NetworkGraph:
     def graph(self) -> nx.Graph:
         G = nx.Graph()
 
-        all_personnel: dict[str, list[Album]] = defaultdict(list)
-        for album in self.albums:
-            for person in album.personnel():
-                all_personnel[person].append(album)
-
-        linking_people = [
-            person for person in all_personnel if len(all_personnel[person]) > 1
-        ]
-
         nodes = [album.album_title for album in self.albums]
-        nodes.extend(linking_people)
+        nodes.extend([group.name for group in self.linking_groups])
         for i in nodes:
             G.add_node(i)
 
         connections = []
-        for person in linking_people:
-            for album in all_personnel[person]:
-                connections.append((person, album.album_title))
+        for group in self.linking_groups:
+            for album in group.albums:
+                connections.append((group.name, album.album_title))
 
         for i, j in connections:
             G.add_edges_from([(i, j)])
 
-        pos = nx.spring_layout(G, k=0.9, iterations=250)
+        pos = nx.spring_layout(G, k=3, iterations=1000)
 
         for n, p in pos.items():
             G.nodes[n]["pos"] = p
