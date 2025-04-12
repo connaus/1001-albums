@@ -157,18 +157,12 @@ def album_averages() -> None:
 def network_graph() -> None:
     """plotting the network graph, showing all the connections between people who have worked on albums"""
     config: Config = st.session_state.config
-    network_graph = NetworkGraph()
+    if "network_graph" not in st.session_state:
+        st.session_state.network_graph = NetworkGraph()
+    network_graph: NetworkGraph = st.session_state.network_graph
     G = network_graph.graph
 
     edge_traces = []
-
-    # def role_from_title(person: str, album_title: str) -> str:
-    #     album = [
-    #         album
-    #         for album in network_graph.all_personnel[person]
-    #         if album.album_title == album_title
-    #     ][0]
-    #     return album.personnel_role(person)
 
     for _, edge in enumerate(G.edges()):
         album_title, group_name = edge
@@ -298,6 +292,7 @@ def network_graph() -> None:
         ),
     )
 
+    st.button("Refresh Graph", on_click=lambda: network_graph.create_graph())
     st.plotly_chart(fig)
 
     data = pd.DataFrame(

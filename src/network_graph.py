@@ -126,9 +126,10 @@ class NetworkGraph:
     def graph(self) -> nx.Graph:
         if self._graph is not None:
             return self._graph
-        return self.create_graph()
+        self.create_graph()
+        return self.graph
 
-    def create_graph(self) -> nx.Graph:
+    def create_graph(self) -> None:
         """creates a networkx graph of the albums and linking groups"""
         G = nx.Graph()
 
@@ -150,4 +151,3 @@ class NetworkGraph:
         for n, p in pos.items():
             G.nodes[n]["pos"] = p
         self._graph = G
-        return G
