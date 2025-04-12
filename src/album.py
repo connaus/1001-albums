@@ -93,7 +93,7 @@ class Album:
             sch.Album.artist: self.artist,
             sch.Album.release_date: self.release_date,
             sch.Album.total_time_s: self.total_time_s,
-            sch.Album.tracks: self.tracks,
+            sch.Album.tracks: int(self.tracks),
             sch.Album.genres: self.genres,
             sch.Album.musicians: list(set(self.musicians)),
             sch.Album.producers: list(set(self.producers)),
