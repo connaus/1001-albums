@@ -1,12 +1,11 @@
 from enum import StrEnum
-from cfg.cfg import Config
 import src.album_calcs as ac
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 
-from src.network_graph import NetworkGraph, Group, NetworkPlots
+from src.network_graph import NetworkPlots
 
 
 class Graphs(StrEnum):
@@ -156,7 +155,6 @@ def album_averages() -> None:
 
 def network_graph() -> None:
     """plotting the network graph, showing all the connections between people who have worked on albums"""
-    config: Config = st.session_state.config
     if "network_plots" not in st.session_state:
         st.session_state.network_plots = NetworkPlots()
     network_plots: NetworkPlots = st.session_state.network_plots
