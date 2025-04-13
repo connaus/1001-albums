@@ -103,6 +103,7 @@ class NetworkGraph:
         return self._linking_groups
 
     def group_from_name(self, name: str) -> Group:
+        """given the name of a group, returns the Group object"""
         return [group for group in self.linking_groups if group.name == name][0]
 
     @property
@@ -167,40 +168,13 @@ class NetworkPlots:
     def person_info(self) -> list[list[str]]:
         if self._person_info:
             return self._person_info
-        self.scatter_plot()
+        self.network_plot()
         return self._person_info
 
-    def scatter_plot(self) -> go.Figure:
-        """creates a scatter plot of the albums and linking groups"""
-        edge_traces = []
-
-        for _, edge in enumerate(self.graph.edges()):
-            album_title, group_name = edge
-            x0, y0 = self.graph.nodes[album_title]["pos"]
-            x1, y1 = self.graph.nodes[group_name]["pos"]
-
-            group = [
-                group
-                for group in self.network_graph.linking_groups
-                if group.name == group_name
-            ][0]
-            role = group.album_role(album_title)
-            edge_traces.append(
-                go.Scatter(
-                    x=[x0, x1],
-                    y=[y0, y1],
-                    line=dict(
-                        width=1,
-                        color=self.config.network_graph.connection_colourmap[role],
-                    ),
-                    hoverinfo="none",
-                    showlegend=False,
-                    mode="lines",
-                )
-            )
-
-        # add album nodes
-        album_trace = go.Scatter(
+    def _albums_points(self) -> go.Scatter:
+        """creates a scattter plot of the albums"""
+        # define base graph
+        plt = go.Scatter(
             x=[],
             y=[],
             text=[],
@@ -225,17 +199,32 @@ class NetworkPlots:
             ),
         )
 
-        colors = []
-        for album in self.network_graph.albums:
-            node = album.album_title
-            x, y = self.graph.nodes[node]["pos"]
-            album_trace["x"] += tuple([x])  # type: ignore
-            album_trace["y"] += tuple([y])  # type: ignore
-            colors.append(album.release_date)
-        album_trace.marker.color = colors  # type: ignore
+        # add album info for hover text
+        album_info = {
+            album.album_title: (album.release_date, album.artist)
+            for album in self.network_graph.albums
+        }
 
+        for _, adjacencies in enumerate(self.graph.adjacency()):
+            album_name, adj = adjacencies
+            # check if the node is an album
+            if album_name in album_info:
+                x, y = self.graph.nodes[album_name]["pos"]
+                plt["x"] += tuple([x])  # type: ignore
+                plt["y"] += tuple([y])  # type: ignore
+                node_info = (
+                    album_name
+                    + f" ({album_info[album_name][0]})<br><i>{album_info[album_name][1]}<i><br># of connections: "
+                    + str(len(adj))
+                )
+                plt["text"] += tuple([node_info])  # type: ignore
+
+        return plt
+
+    def _personel_points(self) -> go.Scatter:
+        """creates a node for each person or group that links albums"""
         # add people nodes
-        person_trace = go.Scatter(
+        plt = go.Scatter(
             x=[],
             y=[],
             text=[],
@@ -253,29 +242,15 @@ class NetworkPlots:
             ),
         )
 
-        for group in self.network_graph.linking_groups:
-            x, y = self.graph.nodes[group.name]["pos"]
-            person_trace["x"] += tuple([x])  # type: ignore
-            person_trace["y"] += tuple([y])  # type: ignore
-
-        album_info = {
-            album.album_title: (album.release_date, album.artist)
-            for album in self.network_graph.albums
-        }
-
+        linking_groups = [group.name for group in self.network_graph.linking_groups]
         for _, adjacencies in enumerate(self.graph.adjacency()):
-            node, adj = adjacencies
-            # check if the node is an album
-            if node in album_info:
-                node_info = (
-                    node
-                    + f" ({album_info[node][0]})<br><i>{album_info[node][1]}<i><br># of connections: "
-                    + str(len(adj))
-                )
-                album_trace["text"] += tuple([node_info])  # type: ignore
-            elif node in [group.name for group in self.network_graph.linking_groups]:
-                group = self.network_graph.group_from_name(node)
-                node_info = node
+            group_name, adj = adjacencies
+            if group_name in linking_groups:
+                x, y = self.graph.nodes[group_name]["pos"]
+                plt["x"] += tuple([x])  # type: ignore
+                plt["y"] += tuple([y])  # type: ignore
+                group = self.network_graph.group_from_name(group_name)
+                node_info = group_name
                 if len(group.people) > 1:
                     node_info += f" ({len(group.people)} people)"
                     if len(group.people) < 6:
@@ -285,11 +260,58 @@ class NetworkPlots:
                     role = group.album_role(album_title)
                     colour = self.config.network_graph.connection_colourmap[role]
                     node_info += f"<br>{album_title}: <span style='color:{colour}'>{role}</span>."
-                    self._person_info.append([node, album_title, role])
-                person_trace["text"] += tuple([node_info])  # type: ignore
+                    self._person_info.append([group_name, album_title, role])
+                plt["text"] += tuple([node_info])  # type: ignore
+
+        return plt
+
+    def _network_lines(self) -> list[go.Scatter]:
+        edge_traces = []
+        for _, edge in enumerate(self.graph.edges()):
+            album_title, group_name = edge
+            x0, y0 = self.graph.nodes[album_title]["pos"]
+            x1, y1 = self.graph.nodes[group_name]["pos"]
+
+            group = [
+                group
+                for group in self.network_graph.linking_groups
+                if group.name == group_name
+            ][0]
+            role = group.album_role(album_title)
+            edge_traces.append(
+                go.Scatter(
+                    x=[x0, x1],
+                    y=[y0, y1],
+                    line=dict(
+                        width=1,
+                        color=self.config.network_graph.connection_colourmap[role],
+                    ),
+                    hoverinfo="none",
+                    showlegend=False,
+                    mode="lines",
+                )
+            )
+        return edge_traces
+
+    def network_plot(self) -> go.Figure:
+        """creates a scatter plot of the albums and linking groups"""
+        # the graph is created from overlaying three base graphs
+        # a scatter plot of the albums:
+        albums = self._albums_points()
+
+        # a scatter plot of the linking people::
+        people = self._personel_points()
+
+        # and a set of lines linking the albums and people
+        lines = self._network_lines()
+
+        colors = []
+        for album in self.network_graph.albums:
+            colors.append(album.release_date)
+        albums.marker.color = colors  # type: ignore
 
         return go.Figure(
-            data=[*edge_traces, album_trace, person_trace],
+            data=[*lines, albums, people],
             layout=go.Layout(
                 title="<br>Network Graph",
                 titlefont=dict(size=16),
