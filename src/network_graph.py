@@ -69,6 +69,7 @@ class NetworkGraph:
         self._all_personnel: list[Person] = []
         self._linking_groups: list[Group] | None = None
         self._graph: nx.Graph | None = None
+        self._album_connections: pd.DataFrame | None = None
 
     @property
     def all_personnel(self) -> list[Person]:
@@ -112,6 +113,8 @@ class NetworkGraph:
         Album: This is an album that is connected to al least one other album
         Connected Album: an album with at least one person connecting the two albums
         Count: This is 1"""
+        if self._album_connections is not None:
+            return self._album_connections
         connections = nx.to_dict_of_lists(self.graph)
         conns: list[list[str | int]] = []
         for album in self.albums:
@@ -121,8 +124,10 @@ class NetworkGraph:
                 joined_albums.update(albums)
             for connecting_album in joined_albums:
                 conns.append([album.album_title, connecting_album, 1])
-        df = pd.DataFrame(conns, columns=["Album", "Connecting Album", "Count"])
-        return df
+        self._album_connections = pd.DataFrame(
+            conns, columns=["Album", "Connecting Album", "Count"]
+        )
+        return self._album_connections
 
     @property
     def graph(self) -> nx.Graph:
@@ -166,6 +171,18 @@ class NetworkNodeColors:
     def release_year(self) -> list[int]:
         """colours the nodes by the release date of the album"""
         return [album.release_date for album in self.network_graph.albums]
+
+    def highlight_album(self, album_title: str) -> list[int]:
+        """colours only the selected album and the albums connected to it"""
+        base_colour = self.release_year
+        albums = self.network_graph.album_connections[
+            self.network_graph.album_connections["Album"] == album_title
+        ]["Connecting Album"].tolist()
+        albums.append(album_title)
+        return [
+            base_colour[i] if album.album_title in albums else 1955
+            for i, album in enumerate(self.network_graph.albums)
+        ]
 
 
 class NetworkPlots:
@@ -307,7 +324,7 @@ class NetworkPlots:
             )
         return edge_traces
 
-    def network_plot(self, color: str = "default") -> go.Figure:
+    def network_plot(self, highlight_album: str = "") -> go.Figure:
         """creates a scatter plot of the albums and linking groups"""
         # the graph is created from overlaying three base graphs
         # a scatter plot of the albums:
@@ -319,7 +336,9 @@ class NetworkPlots:
         # and a set of lines linking the albums and people
         lines = self._network_lines()
 
-        if color == "default":
+        if highlight_album:
+            colors = self.network_graph_colors.highlight_album(highlight_album)
+        else:
             colors = self.network_graph_colors.release_year
         albums.marker.color = colors  # type: ignore
 
