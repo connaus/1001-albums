@@ -172,15 +172,12 @@ class NetworkNodeColors:
         """colours the nodes by the release date of the album"""
         return [album.release_date for album in self.network_graph.albums]
 
-    def highlight_album(self, album_title: str) -> list[int]:
+    def highlight_album(self, highlight_albums: list[str]) -> list[int]:
         """colours only the selected album and the albums connected to it"""
         base_colour = self.release_year
-        albums = self.network_graph.album_connections[
-            self.network_graph.album_connections["Album"] == album_title
-        ]["Connecting Album"].tolist()
-        albums.append(album_title)
+
         return [
-            base_colour[i] if album.album_title in albums else 1955
+            base_colour[i] if album.album_title in highlight_albums else 1955
             for i, album in enumerate(self.network_graph.albums)
         ]
 
@@ -296,26 +293,30 @@ class NetworkPlots:
 
         return plt
 
-    def _network_lines(self) -> list[go.Scatter]:
+    def _network_lines(self, highlight_albums: list[str] = []) -> list[go.Scatter]:
         edge_traces = []
         for _, edge in enumerate(self.graph.edges()):
             album_title, group_name = edge
             x0, y0 = self.graph.nodes[album_title]["pos"]
             x1, y1 = self.graph.nodes[group_name]["pos"]
 
-            group = [
-                group
-                for group in self.network_graph.linking_groups
-                if group.name == group_name
-            ][0]
+            group = self.network_graph.group_from_name(group_name)
             role = group.album_role(album_title)
+            if not highlight_albums:
+                color = self.config.network_graph.connection_colourmap[role]
+            elif (album_title in highlight_albums) & (
+                highlight_albums[0] in [album.album_title for album in group.albums]
+            ):  # the first album is the one being highlighted
+                color = self.config.network_graph.connection_colourmap[role]
+            else:
+                color = "grey"
             edge_traces.append(
                 go.Scatter(
                     x=[x0, x1],
                     y=[y0, y1],
                     line=dict(
                         width=1,
-                        color=self.config.network_graph.connection_colourmap[role],
+                        color=color,
                     ),
                     hoverinfo="none",
                     showlegend=False,
@@ -326,6 +327,13 @@ class NetworkPlots:
 
     def network_plot(self, highlight_album: str = "") -> go.Figure:
         """creates a scatter plot of the albums and linking groups"""
+        if highlight_album:
+            highlight_albums = [highlight_album]
+            connections = self.network_graph.album_connections[
+                self.network_graph.album_connections["Album"] == highlight_album
+            ]["Connecting Album"].tolist()
+            highlight_albums += connections
+
         # the graph is created from overlaying three base graphs
         # a scatter plot of the albums:
         albums = self._albums_points()
@@ -334,10 +342,10 @@ class NetworkPlots:
         people = self._personel_points()
 
         # and a set of lines linking the albums and people
-        lines = self._network_lines()
+        lines = self._network_lines(highlight_albums)
 
         if highlight_album:
-            colors = self.network_graph_colors.highlight_album(highlight_album)
+            colors = self.network_graph_colors.highlight_album(highlight_albums)
         else:
             colors = self.network_graph_colors.release_year
         albums.marker.color = colors  # type: ignore

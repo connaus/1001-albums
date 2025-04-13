@@ -158,7 +158,7 @@ def network_graph() -> None:
     if "network_plots" not in st.session_state:
         st.session_state.network_plots = NetworkPlots()
     network_plots: NetworkPlots = st.session_state.network_plots
-    fig = network_plots.network_plot()
+    fig = network_plots.network_plot("All Things Must Pass")
 
     st.button(
         "Refresh Graph", on_click=lambda: network_plots.network_graph.create_graph()
