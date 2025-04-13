@@ -155,11 +155,25 @@ class NetworkGraph:
         self._graph = G
 
 
+@dataclass
+class NetworkNodeColors:
+    """A class to store the different methods of colouring the nodes of the network graph"""
+
+    def __init__(self, network_graph: NetworkGraph) -> None:
+        self.network_graph = network_graph
+
+    @property
+    def release_year(self) -> list[int]:
+        """colours the nodes by the release date of the album"""
+        return [album.release_date for album in self.network_graph.albums]
+
+
 class NetworkPlots:
 
     def __init__(self) -> None:
         self.config: Config = st.session_state.config
         self.network_graph = NetworkGraph()
+        self.network_graph_colors = NetworkNodeColors(self.network_graph)
         self.graph = self.network_graph.graph
         self.album_connections = self.network_graph.album_connections
         self._person_info: list[list[str]] = []
@@ -293,7 +307,7 @@ class NetworkPlots:
             )
         return edge_traces
 
-    def network_plot(self) -> go.Figure:
+    def network_plot(self, color: str = "default") -> go.Figure:
         """creates a scatter plot of the albums and linking groups"""
         # the graph is created from overlaying three base graphs
         # a scatter plot of the albums:
@@ -305,9 +319,8 @@ class NetworkPlots:
         # and a set of lines linking the albums and people
         lines = self._network_lines()
 
-        colors = []
-        for album in self.network_graph.albums:
-            colors.append(album.release_date)
+        if color == "default":
+            colors = self.network_graph_colors.release_year
         albums.marker.color = colors  # type: ignore
 
         return go.Figure(
