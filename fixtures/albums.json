@@ -4017,39 +4017,80 @@
         "album_title": "The Call of the Valley",
         "arrangers": [],
         "artist": "Shivkumar Sharma/Brijbushan Kabra/Hariprasad Chaurasia",
-        "genres": [],
+        "genres": [
+            "Hindustani Classical Music"
+        ],
         "key": 102,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Brijbushan Kabra",
+            "Hariprasad Chaurasia",
+            "Shivkumar Sharma"
+        ],
+        "producers": [
+            "G. N. Joshi"
+        ],
         "release_date": 1967,
         "total_time_s": 2386,
-        "tracks": 1,
+        "tracks": 5,
         "writers": []
     },
     {
         "album_title": "White Light/White Heat",
         "arrangers": [],
         "artist": "The Velvet Underground",
-        "genres": [],
+        "genres": [
+            "Noise Rock",
+            "Proto-punk",
+            "Art Rock",
+            "Experimental Rock",
+            "Acid Rrock"
+        ],
         "key": 103,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "John Cale",
+            "Lou Reed",
+            "Maureen Tucker",
+            "Sterling Morrison"
+        ],
+        "producers": [
+            "Bob Ludwig",
+            "Gary Kellgren",
+            "Tom Wilson"
+        ],
         "release_date": 1967,
         "total_time_s": 2418,
-        "tracks": 1,
+        "tracks": 6,
         "writers": []
     },
     {
         "album_title": "Axis: Bold As Love",
         "arrangers": [],
         "artist": "The Jimi Hendrix Experience",
-        "genres": [],
+        "genres": [
+            "Psychedelia",
+            "Pop Rock",
+            "Funk Rock"
+        ],
         "key": 104,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Gary Leeds",
+            "Graham Nash",
+            "Jimi Hendrix",
+            "Mitch Mitchell",
+            "Noel Redding",
+            "Roy Wood",
+            "Trevor Burton"
+        ],
+        "producers": [
+            "Andy Johns",
+            "Chas Chandler",
+            "Eddie Kramer",
+            "George Chkiantz",
+            "Terry Brown"
+        ],
         "release_date": 1967,
         "total_time_s": 2357,
-        "tracks": 1,
+        "tracks": 13,
         "writers": []
     },
     {
@@ -7235,14 +7276,80 @@
         "album_title": "Will The Circle Be Unbroken",
         "arrangers": [],
         "artist": "Nitty Gritty Dirt Band",
-        "genres": [],
+        "genres": [
+            "Noise Rock",
+            "Proto-punk",
+            "Art Rock",
+            "Experimental Rock",
+            "Acid Rrock"
+        ],
         "key": 254,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 42,
-        "writers": []
+        "musicians": [
+            "Earl Scruggs",
+            "Ellis Padget",
+            "Fred Cross",
+            "Gary Scruggs",
+            "Gloria Belle",
+            "Jeff Hanna",
+            "Jim Ibbotson",
+            "Jimmie Fadden",
+            "Jimmy Martin",
+            "John Cale",
+            "John McEuen",
+            "Larry Murray",
+            "Les Thompson",
+            "Lou Reed",
+            "Louise Scruggs",
+            "Martha Flippo",
+            "Maureen Tucker",
+            "Merle Travis",
+            "Mike Carr",
+            "Mother Maybelle Carter",
+            "Norman Blake",
+            "Pete \"Oswald\" Kirby",
+            "Randy Scruggs",
+            "Ray Martin",
+            "Roy \"Junior\" Huskey",
+            "Roy Acuff",
+            "Sterling Morrison",
+            "Steve Scruggs",
+            "Timmy Martin",
+            "Vassar Clements"
+        ],
+        "producers": [
+            "William McEuen"
+        ],
+        "release_date": 1967,
+        "total_time_s": 7158,
+        "tracks": 6,
+        "writers": [
+            "A.P. Carter",
+            "Beecher Kirby",
+            "Byron Gregory",
+            "Doc Watson",
+            "Dorsey Dixon",
+            "Earl Scruggs",
+            "Edria A. Humphrey",
+            "Ervin T. Rouse",
+            "Floyd Jenkins",
+            "Fred Rose",
+            "Gary Garett",
+            "Hank Williams",
+            "Harry McAuliffe",
+            "Hylo Brown",
+            "Jimmie Driftwood",
+            "Jimmie Skinner",
+            "Jimmy Martin",
+            "John McEuen",
+            "Joni Mitchell",
+            "Leon Payne",
+            "Merle Travis",
+            "Millie Clements",
+            "Paul Williams",
+            "Roy Acuff",
+            "Vassar Clements",
+            "Walter McEuen"
+        ]
     },
     {
         "album_title": "Talking Book",
