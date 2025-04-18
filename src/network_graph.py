@@ -263,6 +263,7 @@ class NetworkPlots:
         )
 
         linking_groups = [group.name for group in self.network_graph.linking_groups]
+        self._person_info = []
         for _, adjacencies in enumerate(self.graph.adjacency()):
             group_name, adj = adjacencies
             if group_name in linking_groups:
@@ -317,9 +318,9 @@ class NetworkPlots:
             )
         return edge_traces
 
-    def network_plot(self, highlight_album: str = "") -> go.Figure:
+    def network_plot(self, highlight_album: str | None = None) -> go.Figure:
         """creates a scatter plot of the albums and linking groups"""
-        if highlight_album:
+        if highlight_album is not None:
             highlight_albums = [highlight_album]
             connections = self.network_graph.album_connections[
                 self.network_graph.album_connections["Album"] == highlight_album
@@ -334,12 +335,12 @@ class NetworkPlots:
         people = self._personel_points()
 
         # and a set of lines linking the albums and people
-        if highlight_album:
+        if highlight_album is not None:
             lines = self._network_lines(highlight_albums)
         else:
             lines = self._network_lines()
 
-        if highlight_album:
+        if highlight_album is not None:
             colors = []
             symbols = []
             sizes = []
@@ -365,7 +366,7 @@ class NetworkPlots:
             albums.marker.color = colors  # type: ignore
 
         return go.Figure(
-            data=[*lines, albums, people],
+            data=[*lines, people, albums],
             layout=go.Layout(
                 title="<br>Network Graph",
                 titlefont=dict(size=16),

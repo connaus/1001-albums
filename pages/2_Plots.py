@@ -158,11 +158,20 @@ def network_graph() -> None:
     if "network_plots" not in st.session_state:
         st.session_state.network_plots = NetworkPlots()
     network_plots: NetworkPlots = st.session_state.network_plots
-    fig = network_plots.network_plot("All Things Must Pass")
 
-    st.button(
+    left, right = st.columns([1, 3])
+    left.markdown("")
+    left.markdown("")
+    left.button(
         "Refresh Graph", on_click=lambda: network_plots.network_graph.create_graph()
     )
+    highlight_album = right.selectbox(
+        "Highlight album",
+        [album.album_title for album in network_plots.network_graph.albums],
+        index=None,
+        placeholder="Select album...",
+    )
+    fig = network_plots.network_plot(highlight_album)
     st.plotly_chart(fig)
 
     people = network_plots.top_people()
