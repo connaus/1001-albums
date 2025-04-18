@@ -22,6 +22,12 @@ class NetworkGraphSettings:
 
     album_symbol: str = "square"
     album_colour: str = "deepskyblue"
+    album_size: int = 10
+    album_highlight_color: str = "#EF553B"
+    album_highlight_size: int = 15
+    album_highlight_connection_color: str = "#00CC96"
+    album_highlight_symbol: str = "circle"
+    album_lowlight_color: str = "dimgrey"
     connection_colourmap: dict[str, str] = field(
         default_factory=lambda: {
             "musician": "#636EFA",

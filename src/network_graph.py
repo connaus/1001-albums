@@ -208,7 +208,6 @@ class NetworkPlots:
             text=[],
             mode="markers",
             marker_symbol=self.config.network_graph.album_symbol,
-            marker_color=self.config.network_graph.album_colour,
             showlegend=True,
             hoverinfo="text",
             marker=dict(
@@ -216,7 +215,7 @@ class NetworkPlots:
                 colorscale="RdBu",
                 reversescale=True,
                 color=[],
-                size=10,
+                size=self.config.network_graph.album_size,
                 colorbar=dict(
                     thickness=10,
                     title="Year of Release",
@@ -261,13 +260,6 @@ class NetworkPlots:
             marker_color=self.config.network_graph.person_colour,
             hoverinfo="text",
             showlegend=False,
-            marker=dict(
-                colorscale="RdBu",
-                reversescale=True,
-                color=[],
-                size=5,
-                line=dict(width=0),
-            ),
         )
 
         linking_groups = [group.name for group in self.network_graph.linking_groups]
@@ -342,13 +334,35 @@ class NetworkPlots:
         people = self._personel_points()
 
         # and a set of lines linking the albums and people
-        lines = self._network_lines(highlight_albums)
+        if highlight_album:
+            lines = self._network_lines(highlight_albums)
+        else:
+            lines = self._network_lines()
 
         if highlight_album:
-            colors = self.network_graph_colors.highlight_album(highlight_albums)
+            colors = []
+            symbols = []
+            sizes = []
+            for album in self.network_graph.albums:
+                if album.album_title == highlight_album:
+                    colors.append(self.config.network_graph.album_highlight_color)
+                    symbols.append(self.config.network_graph.album_symbol)
+                    sizes.append(self.config.network_graph.album_highlight_size)
+                elif album.album_title in highlight_albums:
+                    colors.append(
+                        self.config.network_graph.album_highlight_connection_color
+                    )
+                    symbols.append(self.config.network_graph.album_symbol)
+                    sizes.append(self.config.network_graph.album_size)
+                else:
+                    colors.append(self.config.network_graph.album_lowlight_color)
+                    symbols.append(self.config.network_graph.album_symbol)
+                    sizes.append(self.config.network_graph.album_size)
+            # colors = self.network_graph_colors.highlight_album(highlight_albums)
+            albums.marker = dict(color=colors, size=sizes, symbol=symbols, opacity=1.0)  # type: ignore
         else:
             colors = self.network_graph_colors.release_year
-        albums.marker.color = colors  # type: ignore
+            albums.marker.color = colors  # type: ignore
 
         return go.Figure(
             data=[*lines, albums, people],
