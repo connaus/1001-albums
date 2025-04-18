@@ -23,6 +23,7 @@ class NetworkGraphSettings:
     album_symbol: str = "square"
     album_colour: str = "deepskyblue"
     album_size: int = 10
+    album_lowlight_size: int = 5
     album_highlight_color: str = "#EF553B"
     album_highlight_size: int = 15
     album_highlight_connection_color: str = "#00CC96"
@@ -39,6 +40,9 @@ class NetworkGraphSettings:
     )
     person_symbol: str = "circle"
     person_colour: str = "grey"
+    person_highlight_color: str = "#AB63FA"
+    person_size: int = 5
+    person_highlight_size: int = 10
 
 
 @dataclass

@@ -358,9 +358,23 @@ class NetworkPlots:
                 else:
                     colors.append(self.config.network_graph.album_lowlight_color)
                     symbols.append(self.config.network_graph.album_symbol)
-                    sizes.append(self.config.network_graph.album_size)
+                    sizes.append(self.config.network_graph.album_lowlight_size)
             # colors = self.network_graph_colors.highlight_album(highlight_albums)
             albums.marker = dict(color=colors, size=sizes, symbol=symbols, opacity=1.0)  # type: ignore
+            linking_groups = [group for group in self.network_graph.linking_groups]
+            people_colors = []
+            people_size = []
+            for group in linking_groups:
+                album_names = [album.album_title for album in group.albums]
+                if highlight_album in album_names:
+                    people_colors.append(
+                        self.config.network_graph.person_highlight_color
+                    )
+                    people_size.append(self.config.network_graph.person_highlight_size)
+                else:
+                    people_colors.append(self.config.network_graph.person_colour)
+                    people_size.append(self.config.network_graph.person_size)
+            people.marker = dict(color=people_colors, size=people_size, opacity=1.0)
         else:
             colors = self.network_graph_colors.release_year
             albums.marker.color = colors  # type: ignore
