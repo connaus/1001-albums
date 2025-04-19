@@ -182,6 +182,88 @@ class NetworkNodeColors:
         ]
 
 
+class NetworkLines:
+    """A class that stores the data for the lines in the network graph"""
+
+    def __init__(self, config: Config, network_graph: NetworkGraph) -> None:
+        self.config = config
+        self.network_graph = network_graph
+        self._edge_details: list[dict[str, str]] = []
+        self._scatter_plots: list[go.Scatter] | None = None
+
+    @property
+    def edge_details(self) -> list[dict[str, str]]:
+        if self._edge_details:
+            return self._edge_details
+        for _, edge in enumerate(self.network_graph.graph.edges()):
+            album_title, group_name = edge
+            role = self.network_graph.group_from_name(group_name).album_role(
+                album_title
+            )
+            self._edge_details.append(
+                {
+                    "album_title": album_title,
+                    "group_name": group_name,
+                    "role": role,
+                }
+            )
+        return self._edge_details
+
+    @property
+    def scatter_plots(self) -> list[go.Scatter]:
+        if self._scatter_plots is not None:
+            return self._scatter_plots
+        self._scatter_plots = []
+        for details in self.edge_details:
+            album_title = details["album_title"]
+            group_name = details["group_name"]
+            role = details["role"]
+            x0, y0 = self.network_graph.graph.nodes[album_title]["pos"]
+            x1, y1 = self.network_graph.graph.nodes[group_name]["pos"]
+
+            self._scatter_plots.append(
+                go.Scatter(
+                    x=[x0, x1],
+                    y=[y0, y1],
+                    line=dict(
+                        width=1,
+                        color=self.config.network_graph.connection_colourmap[role],
+                    ),
+                    hoverinfo="none",
+                    showlegend=False,
+                    mode="lines",
+                )
+            )
+        return self._scatter_plots
+
+    def highlight_album(self, highlight_albums: list[str]) -> None:
+        """colours only the lines connected to the selected album and the albums connected to it"""
+        for plt, details in zip(self.scatter_plots, self.edge_details):
+            album_title = details["album_title"]
+            group = self.network_graph.group_from_name(details["group_name"])
+            group_albums = [album.album_title for album in group.albums]
+            role = details["role"]
+            if highlight_albums[0] in group_albums:
+                plt.line = dict(
+                    width=2,
+                    color=self.config.network_graph.connection_colourmap[role],
+                )
+            else:
+                plt.line = dict(
+                    width=1,
+                    color="grey",
+                )
+
+    def default_colours(self) -> None:
+        """sets the default colours for the lines"""
+        for plt, details in zip(self.scatter_plots, self.edge_details):
+            role = details["role"]
+            plt.line = dict(
+                width=1,
+                color=self.config.network_graph.connection_colourmap[role],
+            )
+
+
 class NetworkPlots:
 
     def __init__(self) -> None:
@@ -190,6 +272,7 @@ class NetworkPlots:
         self.network_graph_colors = NetworkNodeColors(self.network_graph)
         self.graph = self.network_graph.graph
         self.album_connections = self.network_graph.album_connections
+        self.network_lines = NetworkLines(self.config, self.network_graph)
         self._album_points: go.Scatter | None = None
         self._personel_points: go.Scatter | None = None
         self._person_info: list[list[str]] = []
@@ -294,37 +377,9 @@ class NetworkPlots:
 
         return self._personel_points
 
-    def _network_lines(self, highlight_albums: list[str] = []) -> list[go.Scatter]:
-        edge_traces = []
-        for _, edge in enumerate(self.graph.edges()):
-            album_title, group_name = edge
-            x0, y0 = self.graph.nodes[album_title]["pos"]
-            x1, y1 = self.graph.nodes[group_name]["pos"]
-
-            group = self.network_graph.group_from_name(group_name)
-            role = group.album_role(album_title)
-            if not highlight_albums:
-                color = self.config.network_graph.connection_colourmap[role]
-            elif (album_title in highlight_albums) & (
-                highlight_albums[0] in [album.album_title for album in group.albums]
-            ):  # the first album is the one being highlighted
-                color = self.config.network_graph.connection_colourmap[role]
-            else:
-                color = "grey"
-            edge_traces.append(
-                go.Scatter(
-                    x=[x0, x1],
-                    y=[y0, y1],
-                    line=dict(
-                        width=1,
-                        color=color,
-                    ),
-                    hoverinfo="none",
-                    showlegend=False,
-                    mode="lines",
-                )
-            )
-        return edge_traces
+    @property
+    def lines(self) -> list[go.Scatter]:
+        return self.network_lines.scatter_plots
 
     def network_plot(self, highlight_album: str | None = None) -> go.Figure:
         """creates a scatter plot of the albums and linking groups"""
@@ -334,12 +389,6 @@ class NetworkPlots:
                 self.network_graph.album_connections["Album"] == highlight_album
             ]["Connecting Album"].tolist()
             highlight_albums += connections
-
-        # and a set of lines linking the albums and people
-        if highlight_album is not None:
-            lines = self._network_lines(highlight_albums)
-        else:
-            lines = self._network_lines()
 
         if highlight_album is not None:
             colors = []
@@ -383,6 +432,7 @@ class NetworkPlots:
             self.personel_points.marker = dict(
                 color=people_colors, size=people_size, opacity=1.0
             )
+            self.network_lines.highlight_album(highlight_albums)
         else:
             self.album_points.marker = dict(
                 showscale=True,
@@ -399,9 +449,10 @@ class NetworkPlots:
                 ),
                 line=dict(width=0),
             )
+            self.network_lines.default_colours()
 
         return go.Figure(
-            data=[*lines, self.personel_points, self.album_points],
+            data=[*self.lines, self.personel_points, self.album_points],
             layout=go.Layout(
                 title="<br>Network Graph",
                 titlefont=dict(size=16),
