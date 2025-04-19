@@ -4095,16 +4095,56 @@
     },
     {
         "album_title": "I Never Loved a Man the Way That I Love You",
-        "arrangers": [],
+        "arrangers": [
+            "Tom Dowd"
+        ],
         "artist": "Aretha Franklin",
-        "genres": [],
+        "genres": [
+            "Southern soul"
+        ],
         "key": 105,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Aretha Franklin",
+            "Spooner Oldham",
+            "Jimmy Johnson",
+            "Chips Moman",
+            "Tommy Cogbill",
+            "Gene Chrisman",
+            "Roger Hawkins",
+            "Melvin Lastie",
+            "Charles Chalmers",
+            "King Curtis",
+            "Willie Bridges",
+            "Carolyn Franklin",
+            "Erma Franklin",
+            "Cissy Houston"
+        ],
+        "producers": [
+            "Arif Mardin",
+            "Jerry Wexler"
+        ],
         "release_date": 1967,
         "total_time_s": 1971,
-        "tracks": 1,
-        "writers": []
+        "tracks": 11,
+        "writers": [
+            "Otis Redding",
+            "Henry Glover",
+            "Ronnie Shannon",
+            "Curtis Ousley",
+            "Luther Dixon",
+            "Aretha Franklin",
+            "Ted White",
+            "Aretha Franklin",
+            "Carolyn Franklin",
+            "Aretha Franklin",
+            "Ted White",
+            "Sam Cooke",
+            "Dan Penn",
+            "Chips Moman",
+            "Aretha Franklin",
+            "Carolyn Franklin",
+            "Curtis Ousley"
+        ]
     },
     {
         "album_title": "Beggars Banquet",
@@ -7355,13 +7395,36 @@
         "album_title": "Talking Book",
         "arrangers": [],
         "artist": "Stevie Wonder",
-        "genres": [],
+        "genres": [
+            "Progressive Soul",
+            "Funk",
+            "Soul",
+            "Rock",
+            "Jazz"
+        ],
         "key": 255,
-        "musicians": [],
+        "musicians": [
+            "Buzz Feiten ",
+            "Daniel Ben Zebulon",
+            "David Sanborn",
+            "Debra Wilson",
+            "Deniece Williams",
+            "Gloria Barley",
+            "Jeff Beck",
+            "Jim Gilstrap",
+            "Lani Groves",
+            "Loris Harvin ",
+            "Ray Parker Jr.",
+            "Scott Edwards",
+            "Shirley Brewer",
+            "Steve Madaio",
+            "Stevie Wonder",
+            "Trevor Lawrence"
+        ],
         "producers": [],
         "release_date": 1972,
         "total_time_s": 2608,
-        "tracks": 1,
+        "tracks": 10,
         "writers": []
     },
     {
