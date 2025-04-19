@@ -368,7 +368,10 @@ class NetworkPlots:
                 album_names = [album.album_title for album in group.albums]
                 if highlight_album in album_names:
                     people_colors.append(
-                        self.config.network_graph.person_highlight_color
+                        self.config.network_graph.connection_colourmap[
+                            group.album_role(highlight_album)
+                        ]
+                        # self.config.network_graph.person_highlight_color
                     )
                     people_size.append(self.config.network_graph.person_highlight_size)
                 else:
