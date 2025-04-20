@@ -4105,19 +4105,19 @@
         "key": 105,
         "musicians": [
             "Aretha Franklin",
-            "Spooner Oldham",
-            "Jimmy Johnson",
-            "Chips Moman",
-            "Tommy Cogbill",
-            "Gene Chrisman",
-            "Roger Hawkins",
-            "Melvin Lastie",
-            "Charles Chalmers",
-            "King Curtis",
-            "Willie Bridges",
             "Carolyn Franklin",
+            "Charles Chalmers",
+            "Chips Moman",
+            "Cissy Houston",
             "Erma Franklin",
-            "Cissy Houston"
+            "Gene Chrisman",
+            "Jimmy Johnson",
+            "King Curtis",
+            "Melvin Lastie",
+            "Roger Hawkins",
+            "Spooner Oldham",
+            "Tommy Cogbill",
+            "Willie Bridges"
         ],
         "producers": [
             "Arif Mardin",
@@ -4127,37 +4127,53 @@
         "total_time_s": 1971,
         "tracks": 11,
         "writers": [
-            "Otis Redding",
-            "Henry Glover",
-            "Ronnie Shannon",
-            "Curtis Ousley",
-            "Luther Dixon",
-            "Aretha Franklin",
-            "Ted White",
             "Aretha Franklin",
             "Carolyn Franklin",
-            "Aretha Franklin",
-            "Ted White",
-            "Sam Cooke",
-            "Dan Penn",
             "Chips Moman",
-            "Aretha Franklin",
-            "Carolyn Franklin",
-            "Curtis Ousley"
+            "Curtis Ousley",
+            "Dan Penn",
+            "Henry Glover",
+            "Luther Dixon",
+            "Otis Redding",
+            "Ronnie Shannon",
+            "Sam Cooke",
+            "Ted White"
         ]
     },
     {
         "album_title": "Beggars Banquet",
         "arrangers": [],
         "artist": "The Rolling Stones",
-        "genres": [],
+        "genres": [
+            "Roots rock",
+            "Country Blues",
+            "Hard Rock"
+        ],
         "key": 106,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Anita Pallenberg",
+            "Bill Wyman",
+            "Brian Jones",
+            "Charlie Watts",
+            "Dave Mason",
+            "Keith Richards",
+            "Marianne Faithfull",
+            "Michael Cooper",
+            "Mick Jagger",
+            "Nicky Hopkins",
+            "Ric Grech",
+            "Rocky Dzidzornu",
+            "Watts Street Gospel Choir"
+        ],
+        "producers": [
+            "Jimmy Miller"
+        ],
         "release_date": 1968,
         "total_time_s": 2388,
         "tracks": 1,
-        "writers": []
+        "writers": [
+            "Robert Wilkins"
+        ]
     },
     {
         "album_title": "Traffic",
@@ -7317,11 +7333,10 @@
         "arrangers": [],
         "artist": "Nitty Gritty Dirt Band",
         "genres": [
-            "Noise Rock",
-            "Proto-punk",
-            "Art Rock",
-            "Experimental Rock",
-            "Acid Rrock"
+            "Bluegrass",
+            "Traditional country",
+            "Appalachian Folk Music",
+            "Gospel"
         ],
         "key": 254,
         "musicians": [
@@ -7359,9 +7374,9 @@
         "producers": [
             "William McEuen"
         ],
-        "release_date": 1967,
+        "release_date": 1972,
         "total_time_s": 7158,
-        "tracks": 6,
+        "tracks": 21,
         "writers": [
             "A.P. Carter",
             "Beecher Kirby",
