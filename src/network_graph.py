@@ -58,8 +58,24 @@ class Group:
     def albums(self) -> list[Album]:
         return self.people[0].albums
 
+    @property
+    def num_connections(self) -> int:
+        return len(self.albums)
+
     def album_role(self, album_title: str) -> str:
         return self.people[0].album_role(album_title)
+
+    @property
+    def group_info(self) -> pd.DataFrame:
+        """returns a dataframe with info about the group for the bar cahrts"""
+
+        return pd.DataFrame(
+            [
+                [self.name, album.album_title, self.album_role(album.album_title), 1]
+                for album in self.albums
+            ],
+            columns=["Person", "Album", "Role", "Count"],
+        )
 
 
 @dataclass
@@ -69,11 +85,9 @@ class NetworkAlbum(Album):
     adjacencies: list[str] | None = None
     x: float | None = None
     y: float | None = None
-    connecting_groups: list[Group] = field(default_factory=list)
-    connecting_albums: list[Group] = field(default_factory=list)
 
     @property
-    def num_adjacencies(self) -> int | None:
+    def num_connections(self) -> int | None:
         """returns the number of adjacencies for this album"""
         if self.adjacencies is None:
             return None
@@ -132,6 +146,7 @@ class NetworkGraph:
 
     @property
     def all_personnel(self) -> list[Person]:
+        """returns a list of all of the people attached to any album"""
         if self._all_personnel:
             return self._all_personnel
         person_dict = defaultdict(list)
@@ -143,23 +158,36 @@ class NetworkGraph:
 
     @property
     def linking_groups(self) -> list[Group]:
+        """returns a list of the gruops that are connected to at least two albums"""
+        # return the saved list, if there is one
         if self._linking_groups is not None:
             return self._linking_groups
+
+        # if not, calculate the list of linking groups
         self.all_personnel.sort(key=lambda x: x.album_key)
 
-        self._linking_groups = []
+        linking_groups = []
         i = 1
         for _, group in groupby(self.all_personnel, key=lambda x: x.album_key):
             people = list(group)
             if len(people) == 1:
-                self._linking_groups.append(Group(people))
+                linking_groups.append(Group(people))
                 continue
-            self._linking_groups.append(Group(people, i))
+            linking_groups.append(Group(people, i))
             i += 1
 
-        self._linking_groups = [
-            group for group in self._linking_groups if len(group.albums) > 1
-        ]
+        linking_groups = [group for group in linking_groups if len(group.albums) > 1]
+        # if the graph is not yet created, return this list without saving it
+        if self._graph is None:
+            return linking_groups
+
+        # if the graph is created, add the x and y positions and save the list
+        self._linking_groups = []
+        for group in linking_groups:
+            x, y = self.graph.nodes[group.name]["pos"]
+            group.x = x
+            group.y = y
+            self._linking_groups.append(group)
         return self._linking_groups
 
     def group_from_name(self, name: str) -> Group:
@@ -311,41 +339,6 @@ class AlbumPoints:
         self._album_info: list[dict[str, int | str]] = []
         self._scatter_plot: go.Scatter | None = None
 
-    # @property
-    # def album_info(self) -> list[dict[str, int | str]]:
-    #     if self._album_info:
-    #         return self._album_info
-
-    #     network_albums = {
-    #         album.album_title: {
-    #             "release_date": album.release_date,
-    #             "artist": album.artist,
-    #             "release_date": album.release_date,
-    #         }
-    #         for album in self.network_graph.albums
-    #     }
-
-    #     for _, adjacencies in enumerate(self.network_graph.graph.adjacency()):
-    #         album_name, adj = adjacencies
-    #         if album_name in network_albums:
-    #             x, y = self.network_graph.graph.nodes[album_name]["pos"]
-    #             self._album_info.append(
-    #                 {
-    #                     "album_name": album_name,
-    #                     "release_date": network_albums[album_name]["release_date"],
-    #                     "artist": network_albums[album_name]["artist"],
-    #                     "release_date": network_albums[album_name]["release_date"],
-    #                     "adj": len(adj),
-    #                     "x": x,
-    #                     "y": y,
-    #                 }
-    #             )
-    #     return self._album_info
-
-    # @property
-    # def album_years(self) -> list[int]:
-    #     return [album.release_date for album in self.network_graph.albums]
-
     @property
     def scatter_plot(self) -> go.Scatter:
         """creates a scattter plot of the albums"""
@@ -380,7 +373,7 @@ class AlbumPoints:
             # check if the node is an album
             self._scatter_plot["x"] += tuple([album.x])  # type: ignore
             self._scatter_plot["y"] += tuple([album.y])  # type: ignore
-            node_info = f"{album.album_title} ({album.artist})<br><i>{album.release_date}<i><br># of connections: {album.num_adjacencies}"
+            node_info = f"{album.album_title} ({album.artist})<br><i>{album.release_date}<i><br># of connections: {album.num_connections}"
             self._scatter_plot["text"] += tuple([node_info])  # type: ignore
 
         self._scatter_plot.marker = self.default_marker
@@ -470,52 +463,56 @@ class PersonelPoints:
             showlegend=False,
         )
 
-        linking_groups = [group.name for group in self.network_graph.linking_groups]
-        self._person_info = []
-        for _, adjacencies in enumerate(self.network_graph.graph.adjacency()):
-            group_name, adj = adjacencies
-            if group_name in linking_groups:
-                x, y = self.network_graph.graph.nodes[group_name]["pos"]
-                self._scatter_plot["x"] += tuple([x])  # type: ignore
-                self._scatter_plot["y"] += tuple([y])  # type: ignore
-                group = self.network_graph.group_from_name(group_name)
-                node_info = group_name
-                if len(group.people) > 1:
-                    node_info += f" ({len(group.people)} people)"
-                    if len(group.people) < 6:
-                        for person in group.people:
-                            node_info += f"<br>{person.name}"
-                for album_title in adj:
-                    role = group.album_role(album_title)
-                    colour = self.config.network_graph.connection_colourmap[role]
-                    node_info += f"<br>{album_title}: <span style='color:{colour}'>{role}</span>."
-                    self._person_info.append([group_name, album_title, role])
-                self._scatter_plot["text"] += tuple([node_info])  # type: ignore
+        for group in self.network_graph.linking_groups:
+            self._scatter_plot["x"] += tuple([group.x])  # type: ignore
+            self._scatter_plot["y"] += tuple([group.y])  # type: ignore
+            node_info = group.name
+            if len(group.people) > 1:
+                node_info += f" ({len(group.people)} people)"
+                if len(group.people) < 6:
+                    for person in group.people:
+                        node_info += f"<br>{person.name}"
+            for album in group.albums:
+                role = group.album_role(album.album_title)
+                colour = self.config.network_graph.connection_colourmap[role]
+                node_info += f"<br>{album.album_title}: <span style='color:{colour}'>{role}</span>."
+            self._scatter_plot["text"] += tuple([node_info])  # type: ignore
 
         return self._scatter_plot
 
-    def highlight_album(self, highlight_albums: list[str]) -> None: ...
+    def highlight_album(self, highlight_albums: list[str]) -> None:
+        """highlight the people connected to the highlighted album"""
+        highlight_album = highlight_albums[0]
+        people_colors = []
+        people_size = []
+        for group in self.network_graph.linking_groups:
+            album_names = [album.album_title for album in group.albums]
+            if highlight_album in album_names:
+                people_colors.append(
+                    self.config.network_graph.connection_colourmap[
+                        group.album_role(highlight_album)
+                    ]
+                    # self.config.network_graph.person_highlight_color
+                )
+                people_size.append(self.config.network_graph.person_highlight_size)
+            else:
+                people_colors.append(self.config.network_graph.person_colour)
+                people_size.append(self.config.network_graph.person_size)
+        self.scatter_plot.marker = dict(
+            color=people_colors, size=people_size, opacity=1.0
+        )
 
     @property
     def default_marker(self) -> dict[str, Any]:
-        ...
-        """return ... dict(
-            showscale=True,
-            colorscale="RdBu",
-            reversescale=True,
-            color=self.album_years,
-            size=self.config.network_graph.album_size,
-            symbol=self.config.network_graph.album_symbol,
-            colorbar=dict(
-                thickness=10,
-                title="Year of Release",
-                xanchor="left",
-                titleside="right",
-            ),
-            line=dict(width=0),
-        )"""
+        return dict(
+            symbol=self.config.network_graph.person_symbol,
+            color=self.config.network_graph.person_colour,
+            size=self.config.network_graph.person_size,
+            opacity=1.0,
+        )
 
-    def default_colours(self) -> None: ...
+    def default_colours(self) -> None:
+        self.scatter_plot.marker = self.default_marker
 
 
 class NetworkPlots:
@@ -527,8 +524,7 @@ class NetworkPlots:
         self.album_connections = self.network_graph.album_connections
         self.network_lines = NetworkLines(self.config, self.network_graph)
         self.album_scatter = AlbumPoints(self.config, self.network_graph)
-        # self.personel_points = PersonelPoints()
-        self._personel_points: go.Scatter | None = None
+        self.personel_points = PersonelPoints(self.config, self.network_graph)
         self._person_info: list[list[str]] = []
 
     @property
@@ -537,47 +533,6 @@ class NetworkPlots:
             return self._person_info
         self.network_plot()
         return self._person_info
-
-    @property
-    def personel_points(self) -> go.Scatter:
-        """creates a node for each person or group that links albums"""
-        if self._personel_points is not None:
-            return self._personel_points
-        # add people nodes
-        self._personel_points = go.Scatter(
-            x=[],
-            y=[],
-            text=[],
-            mode="markers",
-            marker_symbol=self.config.network_graph.person_symbol,
-            marker_color=self.config.network_graph.person_colour,
-            hoverinfo="text",
-            showlegend=False,
-        )
-
-        linking_groups = [group.name for group in self.network_graph.linking_groups]
-        self._person_info = []
-        for _, adjacencies in enumerate(self.graph.adjacency()):
-            group_name, adj = adjacencies
-            if group_name in linking_groups:
-                x, y = self.graph.nodes[group_name]["pos"]
-                self._personel_points["x"] += tuple([x])  # type: ignore
-                self._personel_points["y"] += tuple([y])  # type: ignore
-                group = self.network_graph.group_from_name(group_name)
-                node_info = group_name
-                if len(group.people) > 1:
-                    node_info += f" ({len(group.people)} people)"
-                    if len(group.people) < 6:
-                        for person in group.people:
-                            node_info += f"<br>{person.name}"
-                for album_title in adj:
-                    role = group.album_role(album_title)
-                    colour = self.config.network_graph.connection_colourmap[role]
-                    node_info += f"<br>{album_title}: <span style='color:{colour}'>{role}</span>."
-                    self._person_info.append([group_name, album_title, role])
-                self._personel_points["text"] += tuple([node_info])  # type: ignore
-
-        return self._personel_points
 
     def network_plot(self, highlight_album: str | None = None) -> go.Figure:
         """creates a scatter plot of the albums and linking groups"""
@@ -589,35 +544,18 @@ class NetworkPlots:
             highlight_albums += connections
 
         if highlight_album is not None:
-            linking_groups = [group for group in self.network_graph.linking_groups]
-            people_colors = []
-            people_size = []
-            for group in linking_groups:
-                album_names = [album.album_title for album in group.albums]
-                if highlight_album in album_names:
-                    people_colors.append(
-                        self.config.network_graph.connection_colourmap[
-                            group.album_role(highlight_album)
-                        ]
-                        # self.config.network_graph.person_highlight_color
-                    )
-                    people_size.append(self.config.network_graph.person_highlight_size)
-                else:
-                    people_colors.append(self.config.network_graph.person_colour)
-                    people_size.append(self.config.network_graph.person_size)
-            self.personel_points.marker = dict(
-                color=people_colors, size=people_size, opacity=1.0
-            )
             self.album_scatter.highlight_album(highlight_albums)
             self.network_lines.highlight_album(highlight_albums)
+            self.personel_points.highlight_album(highlight_albums)
         else:
             self.album_scatter.default_colours()
             self.network_lines.default_colours()
+            self.personel_points.default_colours()
 
         return go.Figure(
             data=[
                 *self.network_lines.scatter_plots,
-                self.personel_points,
+                self.personel_points.scatter_plot,
                 self.album_scatter.scatter_plot,
             ],
             layout=go.Layout(
@@ -634,14 +572,10 @@ class NetworkPlots:
 
     def top_people(self) -> go.Figure:
         """creates a bar plot of the top 30 people with the most connections"""
-        data = pd.DataFrame(
-            [[p, a, r, 1] for p, a, r in self.person_info],
-            columns=["Person", "Album", "Role", "Count"],
-        )
-        df = data[["Person", "Count"]].groupby("Person").count()
-        df = df.sort_values(["Count"], ascending=False)
-        person_order = df.index.tolist()[:30]
-        data = data[data["Person"].isin(person_order)]
+        people = self.network_graph.linking_groups.copy()
+        people.sort(key=lambda x: x.num_connections, reverse=True)
+        people = people[:30]
+        data = pd.concat([group.group_info for group in people])
         return px.bar(
             data,
             x="Count",
@@ -652,7 +586,7 @@ class NetworkPlots:
             orientation="h",
             hover_data=["Person", "Album", "Role"],
             category_orders={
-                "Person": person_order,
+                "Person": [group.name for group in people],
                 "Role": ["musician", "producer", "arranger", "writer", "unknown"],
             },
             height=800,
