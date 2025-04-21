@@ -4176,16 +4176,25 @@
         ]
     },
     {
-        "album_title": "Traffic",
+        "album_title": "Traffic (album)",
         "arrangers": [],
         "artist": "Traffic",
-        "genres": [],
+        "genres": [
+            "Folk Rock"
+        ],
         "key": 107,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Chris Wood",
+            "Dave Mason",
+            "Jim Capaldi",
+            "Steve Winwood"
+        ],
+        "producers": [
+            "Jimmy Miller"
+        ],
         "release_date": 1968,
         "total_time_s": 2424,
-        "tracks": 1,
+        "tracks": 10,
         "writers": []
     },
     {
@@ -7443,17 +7452,43 @@
         "writers": []
     },
     {
-        "album_title": "Stephen Stills",
+        "album_title": "Manassas",
         "arrangers": [],
-        "artist": "Manassas",
-        "genres": [],
+        "artist": "Stephen Stills",
+        "genres": [
+            "Country Rock",
+            "Folk Rock",
+            "Roots Rock"
+        ],
         "key": 256,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Dallas Taylor",
+            "Stephen Stills",
+            "Chris Hillman",
+            "Al Perkins",
+            "Paul Harris",
+            "Dallas Taylor",
+            "Calvin \"Fuzzy\" Samuels",
+            "Joe Lala",
+            "Sydney George",
+            "Jerry Aiello",
+            "Bill Wyman",
+            "Roger Bush",
+            "Byron Berline",
+            "Malcolm Cecil"
+        ],
+        "producers": [
+            "Howard Albert",
+            "Ron Albert"
+        ],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
+        "total_time_s": 4317,
+        "tracks": 21,
+        "writers": [
+            "Mike Brewer",
+            "Rick Roberts",
+            "Tom Mastin"
+        ]
     },
     {
         "album_title": "The Slider",
