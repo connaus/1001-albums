@@ -4095,13 +4095,25 @@
         "album_title": "The Hangman's Beautiful Daughter",
         "arrangers": [],
         "artist": "The Incredible String Band",
-        "genres": [],
+        "genres": [
+            "Acid Folk"
+        ],
         "key": 108,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Robin Williamson",
+            "Mike Heron",
+            "Dolly Collins",
+            "David Snell",
+            "Licorice McKechnie",
+            "Richard Thompson",
+            "Judy Dyble"
+        ],
+        "producers": [
+            "Joe Boyd"
+        ],
         "release_date": 1968,
         "total_time_s": 2950,
-        "tracks": 1,
+        "tracks": 14,
         "writers": []
     },
     {
@@ -7262,13 +7274,26 @@
         "album_title": "The Slider",
         "arrangers": [],
         "artist": "T Rex",
-        "genres": [],
+        "genres": [
+            "Glam Rock",
+            "Power Pop"
+        ],
         "key": 257,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Bill Legend",
+            "Howard Kaylan",
+            "Marc Bolan",
+            "Mark Volman",
+            "Mickey Finn",
+            "Steve Currie"
+        ],
+        "producers": [
+            "Dominique Freddy Hansson",
+            "Tony Visconti"
+        ],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2585,
+        "tracks": 13,
         "writers": []
     },
     {
