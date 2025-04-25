@@ -4206,13 +4206,13 @@
         ],
         "key": 108,
         "musicians": [
-            "Robin Williamson",
-            "Mike Heron",
-            "Dolly Collins",
             "David Snell",
+            "Dolly Collins",
+            "Judy Dyble",
             "Licorice McKechnie",
+            "Mike Heron",
             "Richard Thompson",
-            "Judy Dyble"
+            "Robin Williamson"
         ],
         "producers": [
             "Joe Boyd"
@@ -4224,15 +4224,32 @@
     },
     {
         "album_title": "Village Green Preservation Society",
-        "arrangers": [],
+        "arrangers": [
+            "David Whitaker"
+        ],
         "artist": "The Kinks",
-        "genres": [],
+        "genres": [
+            "Pop",
+            "Rock",
+            "Baroque Pop",
+            "Folk-Pop"
+        ],
         "key": 109,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Dave Davies",
+            "Mick Avory",
+            "Nicky Hopkins",
+            "Pete Quaife",
+            "Rasa Davies",
+            "Ray Davies"
+        ],
+        "producers": [
+            "Alan MacKenzie",
+            "Brian Humphries"
+        ],
         "release_date": 1968,
         "total_time_s": 2326,
-        "tracks": 1,
+        "tracks": 12,
         "writers": []
     },
     {
@@ -7462,20 +7479,19 @@
         ],
         "key": 256,
         "musicians": [
-            "Dallas Taylor",
-            "Stephen Stills",
-            "Chris Hillman",
             "Al Perkins",
-            "Paul Harris",
-            "Dallas Taylor",
-            "Calvin \"Fuzzy\" Samuels",
-            "Joe Lala",
-            "Sydney George",
-            "Jerry Aiello",
             "Bill Wyman",
-            "Roger Bush",
             "Byron Berline",
-            "Malcolm Cecil"
+            "Calvin \"Fuzzy\" Samuels",
+            "Chris Hillman",
+            "Dallas Taylor",
+            "Jerry Aiello",
+            "Joe Lala",
+            "Malcolm Cecil",
+            "Paul Harris",
+            "Roger Bush",
+            "Stephen Stills",
+            "Sydney George"
         ],
         "producers": [
             "Howard Albert",
@@ -7520,13 +7536,22 @@
         "album_title": "American Gothic",
         "arrangers": [],
         "artist": "David Ackles",
-        "genres": [],
+        "genres": [
+            "Singer-Songwriter",
+            "Americana"
+        ],
         "key": 258,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "David Ackles"
+        ],
+        "producers": [
+            "Bernie Taupin",
+            "Damon Lyon-Shaw",
+            "Hugh Jones"
+        ],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
+        "total_time_s": 2638,
+        "tracks": 11,
         "writers": []
     },
     {
@@ -7556,9 +7581,9 @@
         "writers": []
     },
     {
-        "album_title": "Pink Moon",
+        "album_title": "Roxy Music",
         "arrangers": [],
-        "artist": "Nick Drake",
+        "artist": "Roxy Music",
         "genres": [],
         "key": 261,
         "musicians": [],
@@ -7569,24 +7594,11 @@
         "writers": []
     },
     {
-        "album_title": "Paul Simon",
+        "album_title": "Pink Moon",
         "arrangers": [],
-        "artist": "Paul Simon",
+        "artist": "Nick Drake",
         "genres": [],
         "key": 262,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Roxy Music",
-        "arrangers": [],
-        "artist": "Roxy Music",
-        "genres": [],
-        "key": 263,
         "musicians": [],
         "producers": [],
         "release_date": 1972,
@@ -7598,6 +7610,19 @@
         "album_title": "School's Out",
         "arrangers": [],
         "artist": "Alice Cooper",
+        "genres": [],
+        "key": 263,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1972,
+        "total_time_s": 0,
+        "tracks": 1,
+        "writers": []
+    },
+    {
+        "album_title": "Paul Simon",
+        "arrangers": [],
+        "artist": "Paul Simon",
         "genres": [],
         "key": 264,
         "musicians": [],
@@ -7621,11 +7646,24 @@
         "writers": []
     },
     {
+        "album_title": "Let's Stay Together",
+        "arrangers": [],
+        "artist": "Al Green",
+        "genres": [],
+        "key": 266,
+        "musicians": [],
+        "producers": [],
+        "release_date": 1972,
+        "total_time_s": 0,
+        "tracks": 1,
+        "writers": []
+    },
+    {
         "album_title": "Ziggy Stardust and the Spiders from Mars",
         "arrangers": [],
         "artist": "David Bowie",
         "genres": [],
-        "key": 266,
+        "key": 267,
         "musicians": [],
         "producers": [],
         "release_date": 1972,
@@ -7637,19 +7675,6 @@
         "album_title": "The World Is A Ghetto",
         "arrangers": [],
         "artist": "War",
-        "genres": [],
-        "key": 267,
-        "musicians": [],
-        "producers": [],
-        "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
-    },
-    {
-        "album_title": "Let's Stay Together",
-        "arrangers": [],
-        "artist": "Al Green",
         "genres": [],
         "key": 268,
         "musicians": [],
