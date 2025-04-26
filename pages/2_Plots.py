@@ -5,7 +5,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 
-from src.network_graph import NetworkPlots
+from src.network_graph import (
+    GenreNetowrkGraph,
+    GenreNetworkLines,
+    NetworkPlots,
+    PersonelNetowrkGraph,
+    PersonelNetworkLines,
+)
 
 
 class Graphs(StrEnum):
@@ -155,9 +161,24 @@ def album_averages() -> None:
 
 def network_graph() -> None:
     """plotting the network graph, showing all the connections between people who have worked on albums"""
-    if "network_plots" not in st.session_state:
-        st.session_state.network_plots = NetworkPlots()
-    network_plots: NetworkPlots = st.session_state.network_plots
+    GRAPH_TYPE = "personel"
+    if GRAPH_TYPE == "personel":
+        if "personel_network" not in st.session_state:
+            network_plot = PersonelNetowrkGraph()
+            personelnetworklines = PersonelNetworkLines(network_plot)
+            st.session_state.personel_network = NetworkPlots(
+                network_lines=personelnetworklines,
+            )
+        network_plots: NetworkPlots = st.session_state.personel_network
+
+    if GRAPH_TYPE == "genre":
+        if "genre_network" not in st.session_state:
+            network_plot = GenreNetowrkGraph()
+            personelnetworklines = GenreNetworkLines(network_plot)
+            st.session_state.genre_network = NetworkPlots(
+                network_lines=personelnetworklines,
+            )
+        network_plots: NetworkPlots = st.session_state.genre_network
 
     left, right = st.columns([1, 3])
     left.markdown("")
@@ -174,7 +195,7 @@ def network_graph() -> None:
     fig = network_plots.network_plot(highlight_album)
     st.plotly_chart(fig)
 
-    people = network_plots.top_people()
+    people = network_plots.top_nodes()
 
     st.plotly_chart(people)
 
