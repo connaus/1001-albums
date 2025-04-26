@@ -513,7 +513,7 @@
         "artist": "Little Richard",
         "genres": [
             "Rock and Roll",
-            "Rhythm and Blues"
+            "R&B"
         ],
         "key": 9,
         "musicians": [
@@ -1092,7 +1092,7 @@
         "genres": [
             "Swingin' Pop",
             "Traditional Pop",
-            "Rhythm and Blues"
+            "R&B"
         ],
         "key": 21,
         "musicians": [
@@ -1466,7 +1466,7 @@
         "artist": "Ray Charles",
         "genres": [
             "Country",
-            "Rhythm and Blues",
+            "R&B",
             "Countrypolitan",
             "Pop",
             "Soul",
@@ -4256,13 +4256,21 @@
         "album_title": "The Sounds of India",
         "arrangers": [],
         "artist": "Ravi Shankar",
-        "genres": [],
+        "genres": [
+            "Hindustani Classical Music"
+        ],
         "key": 110,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Chatur Lal",
+            "N.C. Mullick",
+            "Ravi Shankar"
+        ],
+        "producers": [
+            "George Avakian"
+        ],
         "release_date": 1968,
         "total_time_s": 3202,
-        "tracks": 1,
+        "tracks": 5,
         "writers": []
     },
     {
@@ -7558,14 +7566,29 @@
         "album_title": "The Eagles",
         "arrangers": [],
         "artist": "The Eagles",
-        "genres": [],
+        "genres": [
+            "Country Rock",
+            "Folk Rock",
+            "Rock and Roll"
+        ],
         "key": 259,
-        "musicians": [],
-        "producers": [],
+        "musicians": [
+            "Bernie Leadon",
+            "Don Henley",
+            "Glenn Frey",
+            "Randy Meisner"
+        ],
+        "producers": [
+            "Glyn Johns"
+        ],
         "release_date": 1972,
-        "total_time_s": 0,
-        "tracks": 1,
-        "writers": []
+        "total_time_s": 2223,
+        "tracks": 10,
+        "writers": [
+            "Gene Clark",
+            "Jack Tempchin",
+            "Jackson Browne"
+        ]
     },
     {
         "album_title": "Greetings from LA",
