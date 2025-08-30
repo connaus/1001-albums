@@ -1,20 +1,32 @@
-from enum import StrEnum
+from enum import Enum, StrEnum, auto
+from functools import partial
 import src.album_calcs as ac
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 
-from src.network_graph import NetworkPlots
+from src.network_graph import (
+    GenreNetowrkGraph,
+    GenreNetworkLines,
+    NetworkPlots,
+    PersonelNetowrkGraph,
+    PersonelNetworkLines,
+)
 
 
 class Graphs(StrEnum):
     ALBUMS_LISTENED = "Albums Listened"
     TIME_LISTENED_BY_YEAR = "Time Listened by Year"
     ARTISTS_HEARD = "Artists Heard"
-    GENRES = "Genres"
+    GENRES = "Genre Network Graph"
     ALBUM_AVERAGES = "Album Averages"
-    NETWORK_GRAPH = "Network Graph"
+    NETWORK_GRAPH = "Personel Network Graph"
+
+
+class NetworkTypes(Enum):
+    PERSONEL = auto()
+    GENRE = auto()
 
 
 def drop_down():
@@ -100,26 +112,6 @@ def artists_heard():
     st.plotly_chart(fig)
 
 
-def genres() -> None:
-    data = ac.genres_by_year()
-    fig = px.area(
-        data,
-        x="Year",
-        y="Count",
-        color="Genre",
-        title="Genre Popularity by Year (Count)",
-    )
-    st.plotly_chart(fig)
-    perc_fig = px.area(
-        data,
-        x="Year",
-        y="Percentage",
-        color="Genre",
-        title="Genre Popularity by Year (%)",
-    )
-    st.plotly_chart(perc_fig)
-
-
 def album_averages() -> None:
     """plotting the average length of album by year
     averages are in terms of length / album, tracks / album and length / track"""
@@ -153,11 +145,26 @@ def album_averages() -> None:
     st.plotly_chart(avg_track_length_fig)
 
 
-def network_graph() -> None:
+def network_graph(netowrk_type: NetworkTypes) -> None:
     """plotting the network graph, showing all the connections between people who have worked on albums"""
-    if "network_plots" not in st.session_state:
-        st.session_state.network_plots = NetworkPlots()
-    network_plots: NetworkPlots = st.session_state.network_plots
+    if netowrk_type == NetworkTypes.PERSONEL:
+        if "personel_network" not in st.session_state:
+            network_plot = PersonelNetowrkGraph()
+            personelnetworklines = PersonelNetworkLines(network_plot)
+            st.session_state.personel_network = NetworkPlots(
+                network_lines=personelnetworklines,
+            )
+        network_plots: NetworkPlots = st.session_state.personel_network
+
+    if netowrk_type == NetworkTypes.GENRE:
+        if "genre_network" not in st.session_state:
+            network_plot = GenreNetowrkGraph()
+            personelnetworklines = GenreNetworkLines(network_plot)
+            st.session_state.genre_network = NetworkPlots(
+                network_lines=personelnetworklines,
+            )
+        network_plots: NetworkPlots = st.session_state.genre_network
+
 
     left, right = st.columns([1, 3])
     left.markdown("")
@@ -174,7 +181,8 @@ def network_graph() -> None:
     fig = network_plots.network_plot(highlight_album)
     st.plotly_chart(fig)
 
-    people = network_plots.top_people()
+    people = network_plots.top_nodes()
+
 
     st.plotly_chart(people)
 
@@ -190,9 +198,9 @@ def plot_selector():
         Graphs.ALBUMS_LISTENED: albums_listened,
         Graphs.TIME_LISTENED_BY_YEAR: time_listened_by_year,
         Graphs.ARTISTS_HEARD: artists_heard,
-        Graphs.GENRES: genres,
+        Graphs.GENRES: partial(network_graph, NetworkTypes.GENRE),
         Graphs.ALBUM_AVERAGES: album_averages,
-        Graphs.NETWORK_GRAPH: network_graph,
+        Graphs.NETWORK_GRAPH: partial(network_graph, NetworkTypes.PERSONEL),
     }
     plot_funcs[plot_type]()
 

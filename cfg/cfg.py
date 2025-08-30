@@ -38,6 +38,7 @@ class NetworkGraphSettings:
             "unknown": "brown",
         }
     )
+    connection_default_colour: str = "deepskyblue"
     person_symbol: str = "circle"
     person_colour: str = "grey"
     person_highlight_color: str = "#AB63FA"
