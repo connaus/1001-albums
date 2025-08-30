@@ -165,7 +165,6 @@ def network_graph(netowrk_type: NetworkTypes) -> None:
             )
         network_plots: NetworkPlots = st.session_state.genre_network
 
-
     left, right = st.columns([1, 3])
     left.markdown("")
     left.markdown("")
@@ -183,8 +182,8 @@ def network_graph(netowrk_type: NetworkTypes) -> None:
 
     people = network_plots.top_nodes()
 
-
     st.plotly_chart(people)
+
 
     album_bar = network_plots.top_albums()
 

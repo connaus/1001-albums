@@ -131,34 +131,6 @@ class NetworkAlbum(Album):
             return None
         return len(self.adjacencies)
 
-    @property
-    def group_info(self) -> pd.DataFrame:
-        """returns a dataframe with info about the group for the bar cahrts"""
-
-        return pd.DataFrame(
-            [
-                [self.name, album.album_title, self.album_role(album.album_title), 1]
-                for album in self.albums
-            ],
-            columns=["Person", "Album", "Role", "Count"],
-        )
-
-
-@dataclass
-class NetworkAlbum(Album):
-    """A class that stores all of the album info, as well as info specific to the network graph"""
-
-    adjacencies: list[str] | None = None
-    x: float | None = None
-    y: float | None = None
-
-    @property
-    def num_connections(self) -> int | None:
-        """returns the number of adjacencies for this album"""
-        if self.adjacencies is None:
-            return None
-        return len(self.adjacencies)
-
 
 class NetworkGraph:
 
@@ -229,7 +201,6 @@ class NetworkGraph:
 
         # if not, calculate the list of linking groups
         self.non_album_nodes.sort(key=lambda x: x.album_key)
-
 
         linking_groups = []
         i = 1
@@ -628,7 +599,6 @@ class NonAlbumPoints:
 
     def __init__(self, network_graph: NetworkGraph) -> None:
         self.config = network_graph.config
-
         self.network_graph = network_graph
         self._scatter_plot: go.Scatter | None = None
 
@@ -689,7 +659,6 @@ class NonAlbumPoints:
                     people_colors.append(
                         self.config.network_graph.album_highlight_color
                     )
-
                 people_size.append(self.config.network_graph.person_highlight_size)
             else:
                 people_colors.append(self.config.network_graph.person_colour)
@@ -701,7 +670,6 @@ class NonAlbumPoints:
     def default_colours(self) -> None:
         """sets the default colours for the lines"""
         self.scatter_plot.marker = dict(
-
             color=self.config.network_graph.person_colour,
             size=self.config.network_graph.person_size,
             opacity=1.0,
@@ -745,12 +713,10 @@ class NetworkPlots:
             self.network_lines.default_colours()
             self.non_album_scatter.default_colours()
 
-
         return go.Figure(
             data=[
                 *self.network_lines.scatter_plots,
                 self.non_album_scatter.scatter_plot,
-
                 self.album_scatter.scatter_plot,
             ],
             layout=go.Layout(
@@ -773,7 +739,6 @@ class NetworkPlots:
         data = pd.concat([group.group_info for group in nodes])
         if "Role" not in data.columns:
             data["Role"] = "unknown"
-
         return px.bar(
             data,
             x="Count",
@@ -786,7 +751,6 @@ class NetworkPlots:
             category_orders={
                 "Person": [group.name for group in nodes],
                 # "Role": ["musician", "producer", "arranger", "writer", "unknown"],
-
             },
             height=800,
         )
