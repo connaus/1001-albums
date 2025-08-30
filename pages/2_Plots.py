@@ -184,6 +184,7 @@ def network_graph(netowrk_type: NetworkTypes) -> None:
 
     st.plotly_chart(people)
 
+
     album_bar = network_plots.top_albums()
 
     st.plotly_chart(album_bar)
